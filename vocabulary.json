@@ -975,13 +975,13 @@
         "english": "scared",
         "chinese": "害怕的",
         "category": "adjective",
-        "weight": 3,
+        "weight": 5,
         "correct": 0,
-        "wrong": 0,
+        "wrong": 1,
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 1
     },
     {
         "english": "nervous",
