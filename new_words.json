@@ -6,6 +6,12 @@
             "chinese": "放弃",
             "category": "noun",
             "learning_weight": 3
+        },
+        {
+            "english": "abadon",
+            "chinese": "放",
+            "category": "noun",
+            "learning_weight": 3
         }
     ]
 }
