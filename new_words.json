@@ -5,13 +5,15 @@
             "english": "abadon",
             "chinese": "放弃",
             "category": "noun",
-            "learning_weight": 13
+            "learning_weight": 13,
+            "weight": 3
         },
         {
             "english": "abadon",
             "chinese": "放",
             "category": "noun",
-            "learning_weight": 5
+            "learning_weight": 5,
+            "weight": 3
         }
     ]
 }
