@@ -30,6 +30,7 @@ GITHUB_REPO = "english-vocabulary"
 
 VOCABULARY_PATH = "vocabulary.json"
 DAILY_STATS_PATH = "daily_stats.json"
+NEW_WORDS_PATH = "new_words.json"
 
 try:
     GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
@@ -69,20 +70,11 @@ st.markdown(
     """
 <style>
 
-/* ==========================================================
-   Streamlit 基础
-   ========================================================== */
-
 .block-container {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
     max-width: 1150px;
 }
-
-
-/* ==========================================================
-   标题
-   ========================================================== */
 
 h1 {
     font-size: 26px !important;
@@ -97,11 +89,6 @@ h3 {
     font-size: 18px !important;
 }
 
-
-/* ==========================================================
-   Sidebar
-   ========================================================== */
-
 section[data-testid="stSidebar"] div[role="radiogroup"] label {
     font-size: 19px !important;
     font-weight: 600 !important;
@@ -113,11 +100,6 @@ section[data-testid="stSidebar"] p {
     font-size: 18px !important;
     font-weight: 600 !important;
 }
-
-
-/* ==========================================================
-   题目
-   ========================================================== */
 
 .question {
     font-size: 30px;
@@ -157,41 +139,21 @@ section[data-testid="stSidebar"] p {
     word-break: break-word;
 }
 
-
-/* ==========================================================
-   输入框
-   ========================================================== */
-
 div[data-testid="stTextInput"] input {
     font-size: 18px;
     height: 42px;
 }
-
-
-/* ==========================================================
-   按钮
-   ========================================================== */
 
 div.stButton > button {
     min-height: 38px;
     font-size: 15px;
 }
 
-
-/* ==========================================================
-   手机提示
-   ========================================================== */
-
 .mobile-hint {
     font-size: 13px;
     opacity: 0.65;
     margin-bottom: 8px;
 }
-
-
-/* ==========================================================
-   手机
-   ========================================================== */
 
 @media (max-width: 700px) {
 
@@ -364,7 +326,6 @@ def github_save_file(
         )
 
         if response.status_code in [200, 201]:
-
             return True
 
         st.error(
@@ -409,6 +370,18 @@ def default_daily_stats():
 
         "en_to_cn_answered": 0,
         "en_to_cn_correct": 0
+    }
+
+
+# ============================================================
+# 默认新词数据
+# ============================================================
+
+def default_new_words():
+
+    return {
+        "date": get_today(),
+        "words": []
     }
 
 
@@ -613,12 +586,161 @@ def load_daily_stats():
 
 
 # ============================================================
+# 新词模式数据
+#
+# 结构：
+#
+# {
+#     "date": "2026-09-12",
+#     "words": [
+#         {
+#             "english": "abandon",
+#             "chinese": "放弃",
+#             "category": "verb",
+#             "learning_weight": 3
+#         }
+#     ]
+# }
+#
+# ============================================================
+
+def load_new_words():
+
+    content, sha = github_get_file(
+        NEW_WORDS_PATH
+    )
+
+    if content is None:
+
+        data = default_new_words()
+
+        if github_save_file(
+            NEW_WORDS_PATH,
+            data,
+            None,
+            "Create new words"
+        ):
+
+            _, sha = github_get_file(
+                NEW_WORDS_PATH
+            )
+
+        return data, sha
+
+    try:
+
+        data = json.loads(content)
+
+    except Exception:
+
+        data = default_new_words()
+
+    changed = False
+
+    today = get_today()
+
+    # --------------------------------------------------------
+    # 日期变化
+    # --------------------------------------------------------
+
+    if data.get("date") != today:
+
+        data = default_new_words()
+        changed = True
+
+    # --------------------------------------------------------
+    # 检查 words
+    # --------------------------------------------------------
+
+    if not isinstance(
+        data.get("words"),
+        list
+    ):
+
+        data["words"] = []
+        changed = True
+
+    # --------------------------------------------------------
+    # 修复旧数据
+    # --------------------------------------------------------
+
+    for word in data["words"]:
+
+        if "english" not in word:
+
+            word["english"] = ""
+            changed = True
+
+        if "chinese" not in word:
+
+            word["chinese"] = ""
+            changed = True
+
+        if "category" not in word:
+
+            word["category"] = "noun"
+            changed = True
+
+        if "learning_weight" not in word:
+
+            word["learning_weight"] = 3
+            changed = True
+
+        weight = int(
+            word.get(
+                "learning_weight",
+                3
+            )
+        )
+
+        fixed_weight = max(
+            1,
+            min(
+                20,
+                weight
+            )
+        )
+
+        if fixed_weight != weight:
+
+            word["learning_weight"] = fixed_weight
+            changed = True
+
+    # --------------------------------------------------------
+    # 如果日期变化或数据被修复，保存
+    # --------------------------------------------------------
+
+    if changed:
+
+        _, latest_sha = github_get_file(
+            NEW_WORDS_PATH
+        )
+
+        if latest_sha:
+
+            if github_save_file(
+                NEW_WORDS_PATH,
+                data,
+                latest_sha,
+                "Update new words"
+            ):
+
+                _, sha = github_get_file(
+                    NEW_WORDS_PATH
+                )
+
+    return data, sha
+
+
+# ============================================================
 # 加载数据
 # ============================================================
 
 words, vocabulary_sha = load_words()
 
 daily_stats, daily_stats_sha = load_daily_stats()
+
+new_words_data, new_words_sha = load_new_words()
 
 
 # ============================================================
@@ -684,7 +806,38 @@ def save_daily_stats():
 
 
 # ============================================================
-# 概率
+# 保存新词数据
+# ============================================================
+
+def save_new_words():
+
+    global new_words_sha
+
+    latest_content, latest_sha = github_get_file(
+        NEW_WORDS_PATH
+    )
+
+    if latest_sha is None:
+        return False
+
+    success = github_save_file(
+        NEW_WORDS_PATH,
+        new_words_data,
+        latest_sha,
+        "Update new words"
+    )
+
+    if success:
+
+        _, new_words_sha = github_get_file(
+            NEW_WORDS_PATH
+        )
+
+    return success
+
+
+# ============================================================
+# 普通练习模式概率
 # ============================================================
 
 def calculate_probability(word):
@@ -709,7 +862,7 @@ def calculate_probability(word):
 
 
 # ============================================================
-# 随机抽题
+# 普通练习模式随机抽题
 # ============================================================
 
 def get_random_word():
@@ -727,6 +880,86 @@ def get_random_word():
 
     return random.choices(
         words,
+        weights=weights,
+        k=1
+    )[0]
+
+
+# ============================================================
+# 新词模式概率
+# ============================================================
+
+def calculate_new_word_probability(word):
+
+    new_word_list = new_words_data.get(
+        "words",
+        []
+    )
+
+    if not new_word_list:
+        return 0
+
+    total_weight = sum(
+        max(
+            1,
+            int(
+                item.get(
+                    "learning_weight",
+                    3
+                )
+            )
+        )
+        for item in new_word_list
+    )
+
+    current_weight = max(
+        1,
+        int(
+            word.get(
+                "learning_weight",
+                3
+            )
+        )
+    )
+
+    return (
+        current_weight
+        /
+        total_weight
+        *
+        100
+    )
+
+
+# ============================================================
+# 新词模式随机抽题
+# ============================================================
+
+def get_random_new_word():
+
+    new_word_list = new_words_data.get(
+        "words",
+        []
+    )
+
+    if not new_word_list:
+        return None
+
+    weights = [
+        max(
+            1,
+            int(
+                word.get(
+                    "learning_weight",
+                    3
+                )
+            )
+        )
+        for word in new_word_list
+    ]
+
+    return random.choices(
+        new_word_list,
         weights=weights,
         k=1
     )[0]
@@ -834,6 +1067,26 @@ if "last_correct" not in st.session_state:
 
 
 # ============================================================
+# 新词模式 Session State
+# ============================================================
+
+if "new_current_word_index" not in st.session_state:
+    st.session_state.new_current_word_index = None
+
+if "new_question_type" not in st.session_state:
+    st.session_state.new_question_type = "中译英"
+
+if "new_last_word_index" not in st.session_state:
+    st.session_state.new_last_word_index = None
+
+if "new_last_answer" not in st.session_state:
+    st.session_state.new_last_answer = ""
+
+if "new_last_correct" not in st.session_state:
+    st.session_state.new_last_correct = None
+
+
+# ============================================================
 # 查看词库排序状态
 # ============================================================
 
@@ -875,6 +1128,7 @@ with st.sidebar:
         "功能",
         [
             "🎯 练习模式",
+            "🆕 新词模式",
             "📚 词库管理",
             "📖 查看词库"
         ]
@@ -882,10 +1136,713 @@ with st.sidebar:
 
 
 # ============================================================
+# 新词模式
+# ============================================================
+
+if page == "🆕 新词模式":
+
+    st.header("🆕 新词模式")
+
+    st.caption(
+        f"📅 今日：{get_today()}"
+    )
+
+    new_word_list = new_words_data.get(
+        "words",
+        []
+    )
+
+    st.info(
+        f"今日学习池：{len(new_word_list)} 个新词"
+    )
+
+    # ========================================================
+    # 添加新词
+    # ========================================================
+
+    st.subheader("➕ 添加新词")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+
+        new_english_text = st.text_area(
+            "英文",
+            height=100,
+            placeholder="abandon\naccurate\nbenefit"
+        )
+
+    with col2:
+
+        new_chinese_text = st.text_area(
+            "中文",
+            height=100,
+            placeholder="放弃\n准确的\n好处"
+        )
+
+    new_category = st.selectbox(
+        "词性",
+        CATEGORIES,
+        index=0,
+        key="new_word_category"
+    )
+
+    if st.button(
+        "➕ 添加新词",
+        use_container_width=True,
+        key="add_new_words"
+    ):
+
+        english_list = [
+            x.strip()
+            for x in new_english_text.splitlines()
+            if x.strip()
+        ]
+
+        chinese_list = [
+            x.strip()
+            for x in new_chinese_text.splitlines()
+            if x.strip()
+        ]
+
+        if not english_list:
+
+            st.warning("请输入英文单词。")
+
+        elif len(english_list) != len(chinese_list):
+
+            st.error(
+                "英文和中文的数量必须相同。"
+            )
+
+        else:
+
+            added_vocab = 0
+            duplicate_vocab = 0
+
+            added_learning = 0
+
+            for english, chinese in zip(
+                english_list,
+                chinese_list
+            ):
+
+                # ------------------------------------------------
+                # 1. 加入正式 vocabulary.json
+                # ------------------------------------------------
+
+                exists_vocab = any(
+                    item.get(
+                        "english",
+                        ""
+                    ).strip().lower()
+                    ==
+                    english.strip().lower()
+
+                    and
+
+                    item.get(
+                        "chinese",
+                        ""
+                    ).strip()
+                    ==
+                    chinese.strip()
+
+                    and
+
+                    item.get(
+                        "category",
+                        "noun"
+                    )
+                    ==
+                    new_category
+
+                    for item in words
+                )
+
+                if not exists_vocab:
+
+                    words.append(
+                        {
+                            "english": english,
+                            "chinese": chinese,
+                            "category": new_category,
+
+                            "weight": 3,
+
+                            "cn_to_en_correct": 0,
+                            "cn_to_en_wrong": 0,
+
+                            "en_to_cn_correct": 0,
+                            "en_to_cn_wrong": 0,
+
+                            "correct": 0,
+                            "wrong": 0
+                        }
+                    )
+
+                    added_vocab += 1
+
+                else:
+
+                    duplicate_vocab += 1
+
+
+                # ------------------------------------------------
+                # 2. 加入今日新词学习池
+                # ------------------------------------------------
+
+                exists_learning = any(
+                    item.get(
+                        "english",
+                        ""
+                    ).strip().lower()
+                    ==
+                    english.strip().lower()
+
+                    and
+
+                    item.get(
+                        "chinese",
+                        ""
+                    ).strip()
+                    ==
+                    chinese.strip()
+
+                    and
+
+                    item.get(
+                        "category",
+                        "noun"
+                    )
+                    ==
+                    new_category
+
+                    for item in new_word_list
+                )
+
+                if not exists_learning:
+
+                    new_word_list.append(
+                        {
+                            "english": english,
+                            "chinese": chinese,
+                            "category": new_category,
+
+                            "learning_weight": 3
+                        }
+                    )
+
+                    added_learning += 1
+
+
+            # ----------------------------------------------------
+            # 保存正式词库
+            # ----------------------------------------------------
+
+            vocabulary_saved = True
+
+            if added_vocab > 0:
+
+                vocabulary_saved = save_words()
+
+
+            # ----------------------------------------------------
+            # 保存今日学习池
+            # ----------------------------------------------------
+
+            learning_saved = save_new_words()
+
+
+            if vocabulary_saved and learning_saved:
+
+                st.success(
+                    f"成功添加 {added_learning} 个新词到今日学习池。"
+                )
+
+                if added_vocab > 0:
+
+                    st.caption(
+                        f"其中 {added_vocab} 个词已加入正式词库。"
+                    )
+
+                if duplicate_vocab > 0:
+
+                    st.caption(
+                        f"{duplicate_vocab} 个词原本已经存在于正式词库。"
+                    )
+
+                st.rerun()
+
+            else:
+
+                st.error(
+                    "保存失败，请检查 GitHub Token 权限。"
+                )
+
+
+    # ========================================================
+    # 今日学习池
+    # ========================================================
+
+    st.divider()
+
+    st.subheader("📚 今日新词")
+
+    if not new_word_list:
+
+        st.info(
+            "今天还没有新词。"
+        )
+
+    else:
+
+        # ----------------------------------------------------
+        # 新词表
+        # ----------------------------------------------------
+
+        for index, new_word in enumerate(
+            new_word_list
+        ):
+
+            probability = (
+                calculate_new_word_probability(
+                    new_word
+                )
+            )
+
+            col1, col2, col3, col4 = st.columns(
+                [2, 2, 1.2, 1]
+            )
+
+            col1.write(
+                new_word["english"]
+            )
+
+            col2.write(
+                new_word["chinese"]
+            )
+
+            col3.write(
+                new_word.get(
+                    "category",
+                    "noun"
+                )
+            )
+
+            col4.caption(
+                f"{probability:.1f}%"
+            )
+
+
+    # ========================================================
+    # 新词学习
+    # ========================================================
+
+    if new_word_list:
+
+        st.divider()
+
+        st.subheader("📖 开始学习")
+
+        new_question_type = st.radio(
+            "题型",
+            [
+                "中译英",
+                "英译中"
+            ],
+            horizontal=True,
+            key="new_question_type_radio"
+        )
+
+        if (
+            new_question_type
+            != st.session_state.new_question_type
+        ):
+
+            st.session_state.new_question_type = (
+                new_question_type
+            )
+
+            st.session_state.new_current_word_index = None
+            st.session_state.new_last_word_index = None
+            st.session_state.new_last_answer = ""
+            st.session_state.new_last_correct = None
+
+
+        # ----------------------------------------------------
+        # 自动选择第一题
+        # ----------------------------------------------------
+
+        if (
+            st.session_state.new_current_word_index is None
+            or
+            st.session_state.new_current_word_index
+            >= len(new_word_list)
+        ):
+
+            selected_new_word = get_random_new_word()
+
+            if selected_new_word is not None:
+
+                st.session_state.new_current_word_index = (
+                    new_word_list.index(
+                        selected_new_word
+                    )
+                )
+
+
+        new_current_index = (
+            st.session_state.new_current_word_index
+        )
+
+        new_word = new_word_list[
+            new_current_index
+        ]
+
+        new_category_display = new_word.get(
+            "category",
+            "noun"
+        )
+
+
+        left, right = st.columns(
+            [1, 1],
+            gap="large"
+        )
+
+
+        # ====================================================
+        # 新词上一题
+        # ====================================================
+
+        with left:
+
+            st.markdown("### 上一题")
+
+            last_index = (
+                st.session_state.new_last_word_index
+            )
+
+            if last_index is None:
+
+                st.caption(
+                    "开始答题后显示上一题"
+                )
+
+            elif last_index >= len(new_word_list):
+
+                st.caption(
+                    "上一题不存在"
+                )
+
+            else:
+
+                last_word = new_word_list[
+                    last_index
+                ]
+
+                last_category = last_word.get(
+                    "category",
+                    "noun"
+                )
+
+                if new_question_type == "中译英":
+
+                    st.markdown(
+                        f"""
+                        <div class="previous-question">
+                            {html.escape(last_word["chinese"])}
+                        </div>
+
+                        <div class="previous-category">
+                            {html.escape(last_category)}
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
+
+                    st.markdown(
+                        f"""
+                        <div class="answer-text">
+                            你的答案：
+                            <b>
+                            {html.escape(
+                                st.session_state.new_last_answer
+                            )}
+                            </b>
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
+
+                    st.markdown(
+                        f"""
+                        <div class="answer-text">
+                            正确答案：
+                            <b>
+                            {html.escape(last_word["english"])}
+                            </b>
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
+
+                    pronunciation_button(
+                        last_word["english"],
+                        "new_last_cn_en"
+                    )
+
+                else:
+
+                    st.markdown(
+                        f"""
+                        <div class="previous-question">
+                            {html.escape(last_word["english"])}
+                        </div>
+
+                        <div class="previous-category">
+                            {html.escape(last_category)}
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
+
+                    pronunciation_button(
+                        last_word["english"],
+                        "new_last_en_cn"
+                    )
+
+                    st.markdown(
+                        f"""
+                        <div class="answer-text">
+                            你的答案：
+                            <b>
+                            {html.escape(
+                                st.session_state.new_last_answer
+                            )}
+                            </b>
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
+
+                    st.markdown(
+                        f"""
+                        <div class="answer-text">
+                            正确答案：
+                            <b>
+                            {html.escape(last_word["chinese"])}
+                            </b>
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
+
+
+                if st.session_state.new_last_correct:
+
+                    st.success(
+                        "正确",
+                        icon="✅"
+                    )
+
+                else:
+
+                    st.error(
+                        "错误",
+                        icon="❌"
+                    )
+
+
+        # ====================================================
+        # 新词下一题
+        # ====================================================
+
+        with right:
+
+            st.markdown("### 下一题")
+
+            if new_question_type == "中译英":
+
+                st.markdown(
+                    f"""
+                    <div class="question">
+                        {html.escape(new_word["chinese"])}
+                    </div>
+
+                    <div class="question-category">
+                        {html.escape(new_category_display)}
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
+
+            else:
+
+                st.markdown(
+                    f"""
+                    <div class="question">
+                        {html.escape(new_word["english"])}
+                    </div>
+
+                    <div class="question-category">
+                        {html.escape(new_category_display)}
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
+
+                pronunciation_button(
+                    new_word["english"],
+                    "new_current_sound"
+                )
+
+
+            with st.form(
+                key="new_answer_form",
+                clear_on_submit=True
+            ):
+
+                new_answer = st.text_input(
+                    "答案",
+                    label_visibility="collapsed",
+                    placeholder="输入答案后按 Enter",
+                    autocomplete="off"
+                )
+
+                new_submitted = st.form_submit_button(
+                    "提交",
+                    use_container_width=True
+                )
+
+
+            if new_submitted:
+
+                new_answer = new_answer.strip()
+
+                if not new_answer:
+
+                    st.warning(
+                        "请输入答案后再提交。"
+                    )
+
+                    st.stop()
+
+
+                if new_question_type == "中译英":
+
+                    correct_answer = (
+                        new_word["english"]
+                        .strip()
+                        .lower()
+                    )
+
+                    user_answer = (
+                        new_answer
+                        .strip()
+                        .lower()
+                    )
+
+                else:
+
+                    correct_answer = (
+                        new_word["chinese"]
+                        .strip()
+                    )
+
+                    user_answer = (
+                        new_answer
+                        .strip()
+                    )
+
+
+                # ------------------------------------------------
+                # 判断答案
+                # ------------------------------------------------
+
+                if user_answer == correct_answer:
+
+                    new_word["learning_weight"] = max(
+                        1,
+                        int(
+                            new_word.get(
+                                "learning_weight",
+                                3
+                            )
+                        ) - 1
+                    )
+
+                    is_correct = True
+
+                else:
+
+                    new_word["learning_weight"] = min(
+                        20,
+                        int(
+                            new_word.get(
+                                "learning_weight",
+                                3
+                            )
+                        ) + 2
+                    )
+
+                    is_correct = False
+
+
+                # ------------------------------------------------
+                # 保存新词学习数据
+                # ------------------------------------------------
+
+                save_success = save_new_words()
+
+
+                # ------------------------------------------------
+                # 上一题
+                # ------------------------------------------------
+
+                st.session_state.new_last_word_index = (
+                    new_current_index
+                )
+
+                st.session_state.new_last_answer = (
+                    new_answer
+                )
+
+                st.session_state.new_last_correct = (
+                    is_correct
+                )
+
+
+                # ------------------------------------------------
+                # 下一题
+                # ------------------------------------------------
+
+                next_new_word = get_random_new_word()
+
+                if next_new_word is not None:
+
+                    st.session_state.new_current_word_index = (
+                        new_word_list.index(
+                            next_new_word
+                        )
+                    )
+
+
+                if not save_success:
+
+                    st.error(
+                        "⚠️ 新词学习数据保存失败，请检查 GitHub Token 权限。"
+                    )
+
+                st.rerun()
+
+
+# ============================================================
 # 词库管理
 # ============================================================
 
-if page == "📚 词库管理":
+elif page == "📚 词库管理":
 
     st.header("📚 词库管理")
 
@@ -1296,10 +2253,6 @@ elif page == "📖 查看词库":
             )
 
 
-        # ====================================================
-        # 排序按钮
-        # ====================================================
-
         st.markdown(
             '<div class="mobile-hint">'
             '📱 手机可以左右滑动查看完整词库；点击表头按钮排序'
@@ -1410,10 +2363,6 @@ elif page == "📖 查看词库":
                 st.rerun()
 
 
-        # ====================================================
-        # HTML 表格
-        # ====================================================
-
         rows = ""
 
         for word in filtered_words:
@@ -1513,28 +2462,6 @@ elif page == "📖 查看词库":
             """
 
 
-        # ====================================================
-        # ★★★ 修复后的表格 HTML ★★★
-        #
-        # 关键：
-        #
-        # 不再使用：
-        # color: inherit
-        #
-        # 也不再使用：
-        # var(--text-color)
-        #
-        # 因为 iframe 内部无法可靠读取 Streamlit
-        # 的主题变量。
-        #
-        # 改成：
-        #
-        # 浅色模式 → 白底黑字
-        # 深色模式 → 深色底白字
-        #
-        # 使用 prefers-color-scheme 自动判断电脑主题。
-        # ====================================================
-
         table_html = f"""
         <!DOCTYPE html>
 
@@ -1550,14 +2477,9 @@ elif page == "📖 查看词库":
 
         <style>
 
-        /* ==================================================
-           基础
-           ================================================== */
-
         * {{
             box-sizing: border-box;
         }}
-
 
         html,
         body {{
@@ -1565,7 +2487,6 @@ elif page == "📖 查看词库":
             padding: 0;
             width: 100%;
         }}
-
 
         body {{
 
@@ -1584,11 +2505,6 @@ elif page == "📖 查看词库":
 
         }}
 
-
-        /* ==================================================
-           表格外框
-           ================================================== */
-
         .table-wrapper {{
 
             width: 100%;
@@ -1605,11 +2521,6 @@ elif page == "📖 查看词库":
 
         }}
 
-
-        /* ==================================================
-           表格
-           ================================================== */
-
         table {{
 
             width: 100%;
@@ -1624,11 +2535,6 @@ elif page == "📖 查看词库":
 
         }}
 
-
-        /* ==================================================
-           表头
-           ================================================== */
-
         th {{
 
             padding: 10px 8px;
@@ -1641,18 +2547,11 @@ elif page == "📖 查看词库":
 
             background-color: #f3f4f6;
 
-            border-bottom:
-                2px solid
-                #cfcfcf;
+            border-bottom: 2px solid #cfcfcf;
 
             white-space: nowrap;
 
         }}
-
-
-        /* ==================================================
-           内容
-           ================================================== */
 
         td {{
 
@@ -1662,154 +2561,79 @@ elif page == "📖 查看词库":
 
             background-color: #ffffff;
 
-            border-bottom:
-                1px solid
-                #e5e5e5;
+            border-bottom: 1px solid #e5e5e5;
 
             white-space: nowrap;
 
         }}
 
-
-        /* ==================================================
-           最后一行
-           ================================================== */
-
         tr:last-child td {{
-
             border-bottom: none;
-
         }}
-
-
-        /* ==================================================
-           鼠标经过
-           ================================================== */
 
         tbody tr:hover td {{
-
             background-color: #f5f5f5;
-
         }}
-
-
-        /* ==================================================
-           英文
-           ================================================== */
 
         .english {{
-
             font-weight: 600;
-
             color: #111111;
-
         }}
-
-
-        /* ==================================================
-           概率
-           ================================================== */
 
         .probability {{
-
             font-size: 13px;
-
             color: #444444;
-
         }}
-
-
-        /* ==================================================
-           ★ 深色模式
-           ================================================== */
 
         @media (prefers-color-scheme: dark) {{
 
             body {{
-
                 background-color: #0e1117;
-
                 color: #f1f1f1;
-
             }}
-
 
             .table-wrapper {{
-
                 background-color: #0e1117;
-
                 border-color: #3a3f47;
-
             }}
-
 
             table {{
-
                 background-color: #0e1117;
-
                 color: #f1f1f1;
-
             }}
-
 
             th {{
-
                 color: #ffffff;
-
                 background-color: #262b33;
-
                 border-bottom-color: #4a5059;
-
             }}
-
 
             td {{
-
                 color: #f1f1f1;
-
                 background-color: #0e1117;
-
                 border-bottom-color: #30353d;
-
             }}
-
 
             tbody tr:hover td {{
-
                 background-color: #1c2128;
-
             }}
-
 
             .english {{
-
                 color: #ffffff;
-
             }}
 
-
             .probability {{
-
                 color: #d0d0d0;
-
             }}
 
         }}
-
-
-        /* ==================================================
-           手机
-           ================================================== */
 
         @media (max-width: 700px) {{
 
             th,
             td {{
-
                 padding: 8px 7px;
-
                 font-size: 13px;
-
             }}
 
         }}
@@ -1829,17 +2653,11 @@ elif page == "📖 查看词库":
                 <tr>
 
                     <th>英文</th>
-
                     <th>中文</th>
-
                     <th>词性</th>
-
                     <th>权重</th>
-
                     <th>概率</th>
-
                     <th>✓</th>
-
                     <th>✗</th>
 
                 </tr>
@@ -1861,10 +2679,6 @@ elif page == "📖 查看词库":
         </html>
         """
 
-
-        # ====================================================
-        # 显示表格
-        # ====================================================
 
         st.components.v1.html(
             table_html,
