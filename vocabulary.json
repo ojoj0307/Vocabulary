@@ -759,10 +759,10 @@
         "english": "return",
         "chinese": "还",
         "category": "verb",
-        "weight": 6,
-        "correct": 1,
+        "weight": 5,
+        "correct": 2,
         "wrong": 2,
-        "cn_to_en_correct": 1,
+        "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 1
