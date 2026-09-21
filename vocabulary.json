@@ -1468,9 +1468,9 @@
         "chinese": "只是",
         "category": "adverb",
         "weight": 1,
-        "correct": 2,
+        "correct": 3,
         "wrong": 0,
-        "cn_to_en_correct": 2,
+        "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0
