@@ -1287,12 +1287,12 @@
         "english": "fairly",
         "chinese": "相当",
         "category": "adverb",
-        "weight": 3,
-        "correct": 2,
+        "weight": 2,
+        "correct": 3,
         "wrong": 1,
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
-        "en_to_cn_correct": 1,
+        "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0
     },
     {
