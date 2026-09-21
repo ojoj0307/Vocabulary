@@ -1479,10 +1479,10 @@
         "english": "probably",
         "chinese": "大概",
         "category": "adverb",
-        "weight": 3,
-        "correct": 0,
+        "weight": 2,
+        "correct": 1,
         "wrong": 0,
-        "cn_to_en_correct": 0,
+        "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0
