@@ -759,13 +759,13 @@
         "english": "return",
         "chinese": "还",
         "category": "verb",
-        "weight": 2,
+        "weight": 4,
         "correct": 1,
-        "wrong": 0,
+        "wrong": 1,
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 1
     },
     {
         "english": "interview",
