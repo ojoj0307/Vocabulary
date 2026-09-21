@@ -675,12 +675,12 @@
         "english": "practice",
         "chinese": "练习",
         "category": "verb",
-        "weight": 4,
-        "correct": 1,
+        "weight": 3,
+        "correct": 2,
         "wrong": 1,
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
-        "en_to_cn_correct": 0,
+        "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0
     },
     {
