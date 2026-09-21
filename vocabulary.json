@@ -591,10 +591,10 @@
         "english": "carry",
         "chinese": "携带/搬运",
         "category": "verb",
-        "weight": 4,
-        "correct": 1,
+        "weight": 3,
+        "correct": 2,
         "wrong": 1,
-        "cn_to_en_correct": 1,
+        "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 1
