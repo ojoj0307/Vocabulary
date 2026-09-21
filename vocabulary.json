@@ -170,12 +170,12 @@
     {
         "english": "choice",
         "chinese": "选择",
-        "weight": 1,
+        "weight": 3,
         "correct": 2,
-        "wrong": 0,
+        "wrong": 1,
         "category": "noun",
         "cn_to_en_correct": 1,
-        "cn_to_en_wrong": 0,
+        "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0
     },
