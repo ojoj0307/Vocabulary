@@ -1167,10 +1167,10 @@
         "english": "healthy",
         "chinese": "健康的",
         "category": "adjective",
-        "weight": 5,
-        "correct": 0,
+        "weight": 4,
+        "correct": 1,
         "wrong": 1,
-        "cn_to_en_correct": 0,
+        "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0
