@@ -60,6 +60,24 @@
             "chinese": "粗心的",
             "category": "adjective",
             "weight": 3
+        },
+        {
+            "english": "really",
+            "chinese": "真的",
+            "category": "adverb",
+            "weight": 3
+        },
+        {
+            "english": "finally",
+            "chinese": "最后",
+            "category": "adverb",
+            "weight": 3
+        },
+        {
+            "english": "suddenly",
+            "chinese": "突然",
+            "category": "adverb",
+            "weight": 3
         }
     ]
 }
