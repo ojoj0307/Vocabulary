@@ -12,6 +12,30 @@
             "chinese": "通知",
             "category": "noun",
             "weight": 3
+        },
+        {
+            "english": "invite",
+            "chinese": "邀请",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "compare",
+            "chinese": "比较",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "describe",
+            "chinese": "描述",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "explain",
+            "chinese": "解释",
+            "category": "verb",
+            "weight": 3
         }
     ]
 }
