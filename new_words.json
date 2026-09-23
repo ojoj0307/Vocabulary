@@ -1,4 +1,17 @@
 {
     "date": "2026-09-23",
-    "words": []
+    "words": [
+        {
+            "english": "screenshot",
+            "chinese": "截图",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "notification",
+            "chinese": "通知",
+            "category": "noun",
+            "weight": 3
+        }
+    ]
 }
