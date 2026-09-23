@@ -1606,5 +1606,41 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0
+    },
+    {
+        "english": "really",
+        "chinese": "真的",
+        "category": "adverb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "finally",
+        "chinese": "最后",
+        "category": "adverb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "suddenly",
+        "chinese": "突然",
+        "category": "adverb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
     }
 ]
