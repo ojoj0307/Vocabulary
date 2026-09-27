@@ -242,11 +242,11 @@
     {
         "english": "saturday",
         "chinese": "星期六",
-        "weight": 4,
-        "correct": 3,
+        "weight": 3,
+        "correct": 4,
         "wrong": 2,
         "category": "noun",
-        "cn_to_en_correct": 2,
+        "cn_to_en_correct": 3,
         "cn_to_en_wrong": 2,
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0
