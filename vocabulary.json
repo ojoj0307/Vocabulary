@@ -1767,12 +1767,12 @@
         "english": "brave",
         "chinese": "勇敢的",
         "category": "adjective",
-        "weight": 2,
+        "weight": 1,
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
-        "en_to_cn_correct": 0,
+        "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
-        "correct": 1,
+        "correct": 2,
         "wrong": 0
     },
     {
