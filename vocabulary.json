@@ -1623,12 +1623,12 @@
         "english": "finally",
         "chinese": "最后",
         "category": "adverb",
-        "weight": 5,
-        "cn_to_en_correct": 0,
+        "weight": 4,
+        "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
-        "correct": 0,
+        "correct": 1,
         "wrong": 1
     },
     {
