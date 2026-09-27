@@ -1,4 +1,29 @@
 {
     "date": "2026-09-27",
-    "words": []
+    "words": [
+        {
+            "english": "circle",
+            "chinese": "圆形",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "square",
+            "chinese": "正方形",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "triangle",
+            "chinese": "三角形",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "rectangle",
+            "chinese": "长方形",
+            "category": "noun",
+            "weight": 3
+        }
+    ]
 }
