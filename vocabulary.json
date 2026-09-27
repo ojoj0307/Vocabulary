@@ -1371,12 +1371,12 @@
         "english": "quite",
         "chinese": "相当",
         "category": "adverb",
-        "weight": 7,
-        "correct": 2,
+        "weight": 6,
+        "correct": 3,
         "wrong": 3,
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 3,
-        "en_to_cn_correct": 2,
+        "en_to_cn_correct": 3,
         "en_to_cn_wrong": 0
     },
     {
