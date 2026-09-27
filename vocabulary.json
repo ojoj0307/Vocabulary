@@ -86,11 +86,11 @@
     {
         "english": "belly",
         "chinese": "肚子",
-        "weight": 6,
-        "correct": 1,
+        "weight": 5,
+        "correct": 2,
         "wrong": 2,
         "category": "noun",
-        "cn_to_en_correct": 0,
+        "cn_to_en_correct": 1,
         "cn_to_en_wrong": 2,
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0
