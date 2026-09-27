@@ -72,6 +72,12 @@
             "chinese": "冷静的",
             "category": "adjective",
             "weight": 3
+        },
+        {
+            "english": "immediately",
+            "chinese": "马上",
+            "category": "adverb",
+            "weight": 3
         }
     ]
 }
