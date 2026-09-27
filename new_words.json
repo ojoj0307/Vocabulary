@@ -24,6 +24,30 @@
             "chinese": "长方形",
             "category": "noun",
             "weight": 3
+        },
+        {
+            "english": "translate",
+            "chinese": "翻译",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "repeat",
+            "chinese": "重复",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "mention",
+            "chinese": "提到",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "imagine",
+            "chinese": "想象",
+            "category": "verb",
+            "weight": 3
         }
     ]
 }
