@@ -1587,13 +1587,13 @@
         "english": "careful",
         "chinese": "小心的",
         "category": "adjective",
-        "weight": 2,
+        "weight": 4,
         "cn_to_en_correct": 1,
-        "cn_to_en_wrong": 0,
+        "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 1
     },
     {
         "english": "careless",
