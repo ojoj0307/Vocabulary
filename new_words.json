@@ -60,6 +60,36 @@
             "chinese": "发展",
             "category": "verb",
             "weight": 3
+        },
+        {
+            "english": "busy",
+            "chinese": "忙碌的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "ready",
+            "chinese": "准备好的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "certain",
+            "chinese": "确定的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "possible",
+            "chinese": "可能的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "impossible",
+            "chinese": "不可能的",
+            "category": "adjective",
+            "weight": 3
         }
     ]
 }
