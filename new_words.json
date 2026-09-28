@@ -1,4 +1,35 @@
 {
     "date": "2026-09-28",
-    "words": []
+    "words": [
+        {
+            "english": "oval",
+            "chinese": "椭圆形",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "diamond",
+            "chinese": "菱形",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "flower",
+            "chinese": "花",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "plant",
+            "chinese": "植物",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "leaf",
+            "chinese": "叶子",
+            "category": "noun",
+            "weight": 3
+        }
+    ]
 }
