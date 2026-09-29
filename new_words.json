@@ -78,6 +78,18 @@
             "chinese": "传统的",
             "category": "adjective",
             "weight": 3
+        },
+        {
+            "english": "seed",
+            "chinese": "种子",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "decision",
+            "chinese": "决定",
+            "category": "noun",
+            "weight": 3
         }
     ]
 }
