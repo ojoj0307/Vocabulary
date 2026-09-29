@@ -796,11 +796,11 @@
         "chinese": "下载",
         "category": "verb",
         "weight": 1,
-        "correct": 4,
+        "correct": 5,
         "wrong": 0,
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
-        "en_to_cn_correct": 1,
+        "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0
     },
     {
