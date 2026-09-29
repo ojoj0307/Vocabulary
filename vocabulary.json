@@ -1515,12 +1515,12 @@
         "english": "invite",
         "chinese": "邀请",
         "category": "verb",
-        "weight": 3,
+        "weight": 2,
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
-        "en_to_cn_correct": 0,
+        "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
-        "correct": 0,
+        "correct": 1,
         "wrong": 0
     },
     {
