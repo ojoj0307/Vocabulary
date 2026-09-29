@@ -1,4 +1,53 @@
 {
     "date": "2026-09-29",
-    "words": []
+    "words": [
+        {
+            "english": "produce",
+            "chinese": "生产",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "provide",
+            "chinese": "提供",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "support",
+            "chinese": "支持",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "succeed",
+            "chinese": "成功",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "communicate",
+            "chinese": "沟通",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "introduce",
+            "chinese": "介绍",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "encourage",
+            "chinese": "鼓励",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "respect",
+            "chinese": "尊重",
+            "category": "verb",
+            "weight": 3
+        }
+    ]
 }
