@@ -891,10 +891,10 @@
         "english": "dirty",
         "chinese": "脏的",
         "category": "adjective",
-        "weight": 4,
-        "correct": 3,
+        "weight": 3,
+        "correct": 4,
         "wrong": 2,
-        "cn_to_en_correct": 1,
+        "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
         "en_to_cn_wrong": 1
