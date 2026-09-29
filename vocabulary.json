@@ -1978,5 +1978,101 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0
+    },
+    {
+        "english": "produce",
+        "chinese": "生产",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "provide",
+        "chinese": "提供",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "support",
+        "chinese": "支持",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "succeed",
+        "chinese": "成功",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "communicate",
+        "chinese": "沟通",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "introduce",
+        "chinese": "介绍",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "encourage",
+        "chinese": "鼓励",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "respect",
+        "chinese": "尊重",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
     }
 ]
