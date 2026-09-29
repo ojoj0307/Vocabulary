@@ -2,13 +2,13 @@
     {
         "english": "application",
         "chinese": "申请",
-        "weight": 3,
-        "correct": 4,
+        "weight": 2,
+        "correct": 5,
         "wrong": 1,
         "category": "noun",
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 1,
-        "en_to_cn_correct": 1,
+        "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0
     },
     {
