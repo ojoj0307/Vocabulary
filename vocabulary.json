@@ -2067,12 +2067,12 @@
         "english": "respect",
         "chinese": "尊重",
         "category": "verb",
-        "weight": 3,
-        "cn_to_en_correct": 0,
+        "weight": 2,
+        "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
-        "correct": 0,
+        "correct": 1,
         "wrong": 0
     },
     {
