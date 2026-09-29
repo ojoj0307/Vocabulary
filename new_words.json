@@ -48,6 +48,36 @@
             "chinese": "尊重",
             "category": "verb",
             "weight": 3
+        },
+        {
+            "english": "useful",
+            "chinese": "有用的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "useless",
+            "chinese": "没用的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "important",
+            "chinese": "重要的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "modern",
+            "chinese": "现代的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "traditional",
+            "chinese": "传统的",
+            "category": "adjective",
+            "weight": 3
         }
     ]
 }
