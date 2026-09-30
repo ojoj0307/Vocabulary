@@ -53,7 +53,7 @@
             "english": "recommend",
             "chinese": "推荐",
             "category": "verb",
-            "weight": 2
+            "weight": 4
         },
         {
             "english": "remind",
