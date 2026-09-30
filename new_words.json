@@ -1,4 +1,35 @@
 {
     "date": "2026-09-30",
-    "words": []
+    "words": [
+        {
+            "english": "way",
+            "chinese": "方法",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "customer",
+            "chinese": "顾客",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "factory",
+            "chinese": "工厂",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "technology",
+            "chinese": "科技",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "custom",
+            "chinese": "海关",
+            "category": "noun",
+            "weight": 3
+        }
+    ]
 }
