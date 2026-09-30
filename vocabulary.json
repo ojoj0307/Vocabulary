@@ -2158,5 +2158,65 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0
+    },
+    {
+        "english": "way",
+        "chinese": "方法",
+        "category": "noun",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "customer",
+        "chinese": "顾客",
+        "category": "noun",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "factory",
+        "chinese": "工厂",
+        "category": "noun",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "technology",
+        "chinese": "科技",
+        "category": "noun",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "custom",
+        "chinese": "海关",
+        "category": "noun",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
     }
 ]
