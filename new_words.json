@@ -60,6 +60,36 @@
             "chinese": "提醒",
             "category": "verb",
             "weight": 3
+        },
+        {
+            "english": "popular",
+            "chinese": "受欢迎的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "common",
+            "chinese": "常见的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "local",
+            "chinese": "当地的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "international",
+            "chinese": "国际的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "public",
+            "chinese": "公共的",
+            "category": "adjective",
+            "weight": 3
         }
     ]
 }
