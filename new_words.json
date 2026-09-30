@@ -30,6 +30,36 @@
             "chinese": "海关",
             "category": "noun",
             "weight": 3
+        },
+        {
+            "english": "trust",
+            "chinese": "信任",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "forgive",
+            "chinese": "原谅",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "celebrate",
+            "chinese": "庆祝",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "recommend",
+            "chinese": "推荐",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "remind",
+            "chinese": "提醒",
+            "category": "verb",
+            "weight": 3
         }
     ]
 }
