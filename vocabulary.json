@@ -2007,13 +2007,13 @@
         "english": "support",
         "chinese": "支持",
         "category": "verb",
-        "weight": 3,
+        "weight": 5,
         "cn_to_en_correct": 0,
-        "cn_to_en_wrong": 0,
+        "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 1
     },
     {
         "english": "succeed",
