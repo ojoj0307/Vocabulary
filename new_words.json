@@ -1,4 +1,41 @@
 {
     "date": "2026-10-01",
-    "words": []
+    "words": [
+        {
+            "english": "service",
+            "chinese": "服务",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "address",
+            "chinese": "地址",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "reason",
+            "chinese": "原因",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "situation",
+            "chinese": "情况",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "message",
+            "chinese": "消息",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "colleague",
+            "chinese": "同事",
+            "category": "noun",
+            "weight": 3
+        }
+    ]
 }
