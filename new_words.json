@@ -36,6 +36,42 @@
             "chinese": "同事",
             "category": "noun",
             "weight": 3
+        },
+        {
+            "english": "forget",
+            "chinese": "忘记",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "remember",
+            "chinese": "记得",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "grow",
+            "chinese": "生长",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "plant",
+            "chinese": "种",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "serve",
+            "chinese": "服务",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "opinion",
+            "chinese": "看法",
+            "category": "verb",
+            "weight": 3
         }
     ]
 }
