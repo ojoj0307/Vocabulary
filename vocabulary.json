@@ -2474,7 +2474,7 @@
     {
         "english": "opinion",
         "chinese": "看法",
-        "category": "verb",
+        "category": "noun",
         "weight": 3,
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
