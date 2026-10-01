@@ -2410,5 +2410,77 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0
+    },
+    {
+        "english": "forget",
+        "chinese": "忘记",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "remember",
+        "chinese": "记得",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "grow",
+        "chinese": "生长",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "plant",
+        "chinese": "种",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "serve",
+        "chinese": "服务",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "opinion",
+        "chinese": "看法",
+        "category": "verb",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
     }
 ]
