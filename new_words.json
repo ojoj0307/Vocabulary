@@ -72,6 +72,24 @@
             "chinese": "看法",
             "category": "verb",
             "weight": 3
+        },
+        {
+            "english": "private",
+            "chinese": "私人的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "simple",
+            "chinese": "简单的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "complex",
+            "chinese": "复杂的",
+            "category": "adjective",
+            "weight": 3
         }
     ]
 }
