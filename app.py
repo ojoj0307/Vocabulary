@@ -873,7 +873,116 @@ def save_daily_stats():
 
 
 # ============================================================
-# 正式词库概率（区分中译英和英译中）
+# 抽题权重
+#
+# 最终抽题权重 =
+# 基础学习权重 + 未出现补偿
+#
+# 基础学习权重：
+#   答错 → weight 增加
+#   答对 → weight 减少
+#
+# 未出现补偿：
+#   连续很多题没有出现 → 增加额外权重
+#
+# 中译英 / 英译中完全独立
+# ============================================================
+
+def calculate_sampling_weight(word, q_type="中译英"):
+
+    # --------------------------------------------------------
+    # 1. 根据题型选择对应的 weight 和 not_seen
+    # --------------------------------------------------------
+
+    if q_type == "中译英":
+
+        weight_key = "cn_to_en_weight"
+        not_seen_key = "cn_to_en_not_seen"
+
+    else:
+
+        weight_key = "en_to_cn_weight"
+        not_seen_key = "en_to_cn_not_seen"
+
+    # --------------------------------------------------------
+    # 2. 获取基础学习权重
+    # --------------------------------------------------------
+
+    try:
+
+        base_weight = max(
+            1,
+            int(word.get(weight_key, 3))
+        )
+
+    except (ValueError, TypeError):
+
+        base_weight = 3
+
+    # --------------------------------------------------------
+    # 3. 获取连续未出现次数
+    # --------------------------------------------------------
+
+    try:
+
+        not_seen = max(
+            0,
+            int(word.get(not_seen_key, 0))
+        )
+
+    except (ValueError, TypeError):
+
+        not_seen = 0
+
+    # --------------------------------------------------------
+    # 4. 根据连续未出现次数计算补偿
+    #
+    # 0～2题      +0
+    # 3～5题      +0.5
+    # 6～10题     +1
+    # 11～20题    +2
+    # 21～30题    +3
+    # 31题以上    +4
+    #
+    # 最高只增加 +4，避免冷门词突然霸榜
+    # --------------------------------------------------------
+
+    if not_seen < 3:
+
+        forget_bonus = 0
+
+    elif not_seen < 6:
+
+        forget_bonus = 0.5
+
+    elif not_seen < 11:
+
+        forget_bonus = 1
+
+    elif not_seen < 21:
+
+        forget_bonus = 2
+
+    elif not_seen < 31:
+
+        forget_bonus = 3
+
+    else:
+
+        forget_bonus = 4
+
+    # --------------------------------------------------------
+    # 5. 最终抽题权重
+    # --------------------------------------------------------
+
+    return base_weight + forget_bonus
+
+
+# ============================================================
+# 正式词库概率
+# 区分：
+#   中译英
+#   英译中
 # ============================================================
 
 def calculate_probability(word, q_type="中译英"):
@@ -881,20 +990,41 @@ def calculate_probability(word, q_type="中译英"):
     if not words:
         return 0
 
-    weight_key = "cn_to_en_weight" if q_type == "中译英" else "en_to_cn_weight"
+    # --------------------------------------------------------
+    # 所有正式词汇的最终抽题权重
+    # --------------------------------------------------------
 
     total_weight = sum(
-        max(1, int(item.get(weight_key, 3)))
+        calculate_sampling_weight(
+            item,
+            q_type
+        )
         for item in words
     )
 
-    current_weight = max(1, int(word.get(weight_key, 3)))
+    # --------------------------------------------------------
+    # 当前单词的最终抽题权重
+    # --------------------------------------------------------
 
-    return (current_weight / total_weight * 100) if total_weight > 0 else 0
+    current_weight = calculate_sampling_weight(
+        word,
+        q_type
+    )
+
+    # --------------------------------------------------------
+    # 概率 = 当前权重 / 总权重
+    # --------------------------------------------------------
+
+    return (
+        current_weight / total_weight * 100
+        if total_weight > 0
+        else 0
+    )
 
 
 # ============================================================
-# 新词概率（区分中译英和英译中）
+# 新词概率
+# 使用完全相同的概率机制
 # ============================================================
 
 def calculate_new_probability(word, q_type="中译英"):
@@ -902,16 +1032,36 @@ def calculate_new_probability(word, q_type="中译英"):
     if not new_words:
         return 0
 
-    weight_key = "cn_to_en_weight" if q_type == "中译英" else "en_to_cn_weight"
+    # --------------------------------------------------------
+    # 所有新词的最终抽题权重
+    # --------------------------------------------------------
 
     total_weight = sum(
-        max(1, int(item.get(weight_key, 3)))
+        calculate_sampling_weight(
+            item,
+            q_type
+        )
         for item in new_words
     )
 
-    current_weight = max(1, int(word.get(weight_key, 3)))
+    # --------------------------------------------------------
+    # 当前新词的最终抽题权重
+    # --------------------------------------------------------
 
-    return (current_weight / total_weight * 100) if total_weight > 0 else 0
+    current_weight = calculate_sampling_weight(
+        word,
+        q_type
+    )
+
+    # --------------------------------------------------------
+    # 概率 = 当前权重 / 总权重
+    # --------------------------------------------------------
+
+    return (
+        current_weight / total_weight * 100
+        if total_weight > 0
+        else 0
+    )
 
 
 # ============================================================
@@ -923,18 +1073,83 @@ def get_random_word(q_type="中译英"):
     if not words:
         return None
 
-    weight_key = "cn_to_en_weight" if q_type == "中译英" else "en_to_cn_weight"
+    # --------------------------------------------------------
+    # 计算所有单词的最终抽题权重
+    # --------------------------------------------------------
 
     weights = [
-        max(1, int(word.get(weight_key, 3)))
+        calculate_sampling_weight(
+            word,
+            q_type
+        )
         for word in words
     ]
 
-    return random.choices(
+    # --------------------------------------------------------
+    # 按权重随机抽取一个单词
+    # --------------------------------------------------------
+
+    selected_word = random.choices(
         words,
         weights=weights,
         k=1
     )[0]
+
+    # --------------------------------------------------------
+    # 被抽到：
+    #
+    # 该方向的 not_seen 归零
+    # --------------------------------------------------------
+
+    if q_type == "中译英":
+
+        selected_word[
+            "cn_to_en_not_seen"
+        ] = 0
+
+    else:
+
+        selected_word[
+            "en_to_cn_not_seen"
+        ] = 0
+
+    # --------------------------------------------------------
+    # 其他没有被抽到的词：
+    #
+    # 该方向的 not_seen +1
+    #
+    # 注意：
+    # 这里只增加同一题型的 not_seen
+    # --------------------------------------------------------
+
+    not_seen_key = (
+        "cn_to_en_not_seen"
+        if q_type == "中译英"
+        else "en_to_cn_not_seen"
+    )
+
+    for word in words:
+
+        if word is not selected_word:
+
+            try:
+
+                current_not_seen = int(
+                    word.get(
+                        not_seen_key,
+                        0
+                    )
+                )
+
+            except (ValueError, TypeError):
+
+                current_not_seen = 0
+
+            word[not_seen_key] = (
+                current_not_seen + 1
+            )
+
+    return selected_word
 
 
 # ============================================================
@@ -946,18 +1161,80 @@ def get_random_new_word(q_type="中译英"):
     if not new_words:
         return None
 
-    weight_key = "cn_to_en_weight" if q_type == "中译英" else "en_to_cn_weight"
+    # --------------------------------------------------------
+    # 计算所有新词的最终抽题权重
+    # --------------------------------------------------------
 
     weights = [
-        max(1, int(word.get(weight_key, 3)))
+        calculate_sampling_weight(
+            word,
+            q_type
+        )
         for word in new_words
     ]
 
-    return random.choices(
+    # --------------------------------------------------------
+    # 按权重随机抽取一个新词
+    # --------------------------------------------------------
+
+    selected_word = random.choices(
         new_words,
         weights=weights,
         k=1
     )[0]
+
+    # --------------------------------------------------------
+    # 被抽到：
+    #
+    # 该方向的 not_seen 归零
+    # --------------------------------------------------------
+
+    if q_type == "中译英":
+
+        selected_word[
+            "cn_to_en_not_seen"
+        ] = 0
+
+    else:
+
+        selected_word[
+            "en_to_cn_not_seen"
+        ] = 0
+
+    # --------------------------------------------------------
+    # 其他没有被抽到的新词：
+    #
+    # 该方向的 not_seen +1
+    # --------------------------------------------------------
+
+    not_seen_key = (
+        "cn_to_en_not_seen"
+        if q_type == "中译英"
+        else "en_to_cn_not_seen"
+    )
+
+    for word in new_words:
+
+        if word is not selected_word:
+
+            try:
+
+                current_not_seen = int(
+                    word.get(
+                        not_seen_key,
+                        0
+                    )
+                )
+
+            except (ValueError, TypeError):
+
+                current_not_seen = 0
+
+            word[not_seen_key] = (
+                current_not_seen + 1
+            )
+
+    return selected_word
 
 
 # ============================================================
