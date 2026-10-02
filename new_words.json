@@ -1,4 +1,41 @@
 {
     "date": "2026-10-02",
-    "words": []
+    "words": [
+        {
+            "english": "partner",
+            "chinese": "伙伴",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "guest",
+            "chinese": "客人",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "lesson",
+            "chinese": "课程",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "employee",
+            "chinese": "员工",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "employer",
+            "chinese": "雇主",
+            "category": "noun",
+            "weight": 3
+        },
+        {
+            "english": "goal",
+            "chinese": "目标",
+            "category": "noun",
+            "weight": 3
+        }
+    ]
 }
