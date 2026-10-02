@@ -18,7 +18,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "career",
@@ -39,7 +45,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "experience",
@@ -60,7 +72,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "information",
@@ -81,7 +99,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "receipt",
@@ -102,7 +126,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 6,
+        "en_to_cn_weight": 6,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "salary",
@@ -123,7 +153,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "salt",
@@ -144,7 +180,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "belly",
@@ -165,7 +207,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 5,
+        "en_to_cn_weight": 5,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "adult",
@@ -186,7 +234,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "hundred",
@@ -207,7 +261,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "thousand",
@@ -228,7 +288,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "million",
@@ -249,7 +315,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "minute",
@@ -270,7 +342,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "second",
@@ -291,7 +369,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "choice",
@@ -312,7 +396,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "monday",
@@ -333,7 +423,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "tuesday",
@@ -354,7 +450,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "wednesday",
@@ -375,7 +477,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 4,
+        "en_to_cn_weight": 4,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "thursday",
@@ -396,7 +504,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "friday",
@@ -417,7 +531,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "saturday",
@@ -438,7 +558,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "sunday",
@@ -459,7 +585,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "january",
@@ -480,7 +612,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "february",
@@ -501,7 +639,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "march",
@@ -522,7 +666,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "april",
@@ -543,7 +693,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "may",
@@ -564,7 +720,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "june",
@@ -585,7 +747,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "july",
@@ -606,7 +774,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "august",
@@ -627,7 +801,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "september",
@@ -648,7 +828,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "october",
@@ -669,7 +855,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "november",
@@ -690,7 +882,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "december",
@@ -711,7 +909,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "research",
@@ -732,7 +936,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "interview",
@@ -753,7 +963,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "deadline",
@@ -774,7 +990,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "opportunity",
@@ -795,7 +1017,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "account",
@@ -816,7 +1044,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "profile",
@@ -837,7 +1071,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "website",
@@ -858,7 +1098,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "discount",
@@ -879,7 +1125,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "travel",
@@ -900,7 +1152,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "train",
@@ -921,7 +1179,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "change",
@@ -942,7 +1206,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "choose",
@@ -963,7 +1233,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "challenge",
@@ -984,7 +1260,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "arrive",
@@ -1005,7 +1287,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "exit",
@@ -1026,7 +1314,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "carry",
@@ -1047,7 +1341,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "bring",
@@ -1068,7 +1368,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "receive",
@@ -1089,7 +1395,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "lend",
@@ -1110,7 +1422,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "borrow",
@@ -1131,7 +1449,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "decide",
@@ -1152,7 +1476,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "improve",
@@ -1173,7 +1503,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "practice",
@@ -1194,7 +1530,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "discuss",
@@ -1215,7 +1557,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "solve",
@@ -1236,7 +1584,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "prepare",
@@ -1257,7 +1611,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "complete",
@@ -1278,7 +1638,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "continue",
@@ -1299,7 +1665,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "manage",
@@ -1320,7 +1692,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "return",
@@ -1341,7 +1719,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 4,
+        "en_to_cn_weight": 4,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "interview",
@@ -1362,7 +1746,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "search",
@@ -1383,7 +1773,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "download",
@@ -1404,7 +1800,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "upload",
@@ -1425,7 +1827,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "allow",
@@ -1446,7 +1854,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "accept",
@@ -1467,7 +1881,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "refuse",
@@ -1488,7 +1908,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "avoid",
@@ -1509,7 +1935,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "reach",
@@ -1530,7 +1962,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "difficult",
@@ -1551,7 +1989,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "dirty",
@@ -1572,7 +2016,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "necessary",
@@ -1593,7 +2043,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "ugly",
@@ -1614,7 +2070,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "excited",
@@ -1635,7 +2097,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "tired",
@@ -1656,7 +2124,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "bored",
@@ -1677,7 +2151,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "stressed",
@@ -1698,7 +2178,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "scared",
@@ -1719,7 +2205,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "nervous",
@@ -1740,7 +2232,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "surprised",
@@ -1761,7 +2259,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "confused",
@@ -1782,7 +2286,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 4,
+        "en_to_cn_weight": 4,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "weak",
@@ -1803,7 +2313,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "serious",
@@ -1824,7 +2340,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "honest",
@@ -1845,7 +2367,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "lazy",
@@ -1866,7 +2394,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "polite",
@@ -1887,7 +2421,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "first",
@@ -1908,7 +2448,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "second",
@@ -1929,7 +2475,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "third",
@@ -1950,7 +2502,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "hungry",
@@ -1971,7 +2529,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "thirsty",
@@ -1992,7 +2556,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "sleepy",
@@ -2013,7 +2583,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "sick",
@@ -2034,7 +2610,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "healthy",
@@ -2055,7 +2637,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "dizzy",
@@ -2076,7 +2664,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "painful",
@@ -2097,7 +2691,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "comfortable",
@@ -2118,7 +2718,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "actually",
@@ -2139,7 +2745,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "almost",
@@ -2160,7 +2772,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "currently",
@@ -2181,7 +2799,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "definitely",
@@ -2202,7 +2826,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "especially",
@@ -2223,7 +2853,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "eventually",
@@ -2244,7 +2880,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "fairly",
@@ -2265,7 +2907,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "hardly",
@@ -2286,7 +2934,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "hopefully",
@@ -2307,7 +2961,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "normally",
@@ -2328,7 +2988,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "obviously",
@@ -2349,7 +3015,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "personally",
@@ -2370,7 +3042,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "pretty",
@@ -2391,7 +3069,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "quite",
@@ -2412,7 +3096,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 5,
+        "en_to_cn_weight": 5,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "usually",
@@ -2433,7 +3123,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "always",
@@ -2454,7 +3150,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "often",
@@ -2475,7 +3177,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "never",
@@ -2496,7 +3204,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "already",
@@ -2517,7 +3231,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "yet",
@@ -2538,7 +3258,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "still",
@@ -2559,7 +3285,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "just",
@@ -2580,7 +3312,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "probably",
@@ -2601,7 +3339,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "screenshot",
@@ -2622,7 +3366,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "notification",
@@ -2643,7 +3393,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "invite",
@@ -2664,7 +3420,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "compare",
@@ -2685,7 +3447,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "describe",
@@ -2706,7 +3474,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "explain",
@@ -2727,7 +3501,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "uncomfortable",
@@ -2748,7 +3528,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "active",
@@ -2769,7 +3555,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "careful",
@@ -2790,7 +3582,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "careless",
@@ -2811,7 +3609,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "really",
@@ -2832,7 +3636,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "finally",
@@ -2853,7 +3663,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "suddenly",
@@ -2874,7 +3690,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "circle",
@@ -2895,7 +3717,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "square",
@@ -2916,7 +3744,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "triangle",
@@ -2937,7 +3771,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "rectangle",
@@ -2958,7 +3798,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "translate",
@@ -2979,7 +3825,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "repeat",
@@ -3000,7 +3852,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "mention",
@@ -3021,7 +3879,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "imagine",
@@ -3042,7 +3906,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "smart",
@@ -3063,7 +3933,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "patient",
@@ -3084,7 +3960,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "brave",
@@ -3105,7 +3987,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "calm",
@@ -3126,7 +4014,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "immediately",
@@ -3147,7 +4041,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "oval",
@@ -3168,7 +4068,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "diamond",
@@ -3189,7 +4095,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "flower",
@@ -3210,7 +4122,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "plant",
@@ -3231,7 +4149,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "leaf",
@@ -3252,7 +4176,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "expect",
@@ -3273,7 +4203,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "apply",
@@ -3294,7 +4230,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "attend",
@@ -3315,7 +4257,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "create",
@@ -3336,7 +4284,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "develop",
@@ -3357,7 +4311,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "busy",
@@ -3378,7 +4338,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "ready",
@@ -3399,7 +4365,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "certain",
@@ -3420,7 +4392,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "possible",
@@ -3441,7 +4419,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "impossible",
@@ -3462,7 +4446,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "produce",
@@ -3483,7 +4473,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "provide",
@@ -3504,7 +4500,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "support",
@@ -3525,7 +4527,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 5,
+        "en_to_cn_weight": 5,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "succeed",
@@ -3546,7 +4554,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "communicate",
@@ -3567,7 +4581,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 4,
+        "en_to_cn_weight": 4,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "introduce",
@@ -3588,7 +4608,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "encourage",
@@ -3609,7 +4635,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "respect",
@@ -3630,7 +4662,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "useful",
@@ -3651,7 +4689,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "useless",
@@ -3672,7 +4716,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "important",
@@ -3693,7 +4743,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "modern",
@@ -3714,7 +4770,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "traditional",
@@ -3735,7 +4797,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "seed",
@@ -3756,7 +4824,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "decision",
@@ -3777,7 +4851,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "way",
@@ -3798,7 +4878,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "customer",
@@ -3819,7 +4905,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "factory",
@@ -3840,7 +4932,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "technology",
@@ -3861,7 +4959,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "customs",
@@ -3882,7 +4986,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "trust",
@@ -3903,7 +5013,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "forgive",
@@ -3924,7 +5040,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "celebrate",
@@ -3945,7 +5067,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "recommend",
@@ -3966,7 +5094,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "remind",
@@ -3987,7 +5121,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "popular",
@@ -4008,7 +5148,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "common",
@@ -4029,7 +5175,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "local",
@@ -4050,7 +5202,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "international",
@@ -4071,7 +5229,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "public",
@@ -4092,7 +5256,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "service",
@@ -4113,7 +5283,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "address",
@@ -4134,7 +5310,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "reason",
@@ -4155,7 +5337,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "situation",
@@ -4176,7 +5364,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "message",
@@ -4197,7 +5391,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "colleague",
@@ -4218,7 +5418,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "forget",
@@ -4239,7 +5445,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "remember",
@@ -4260,7 +5472,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "grow",
@@ -4281,7 +5499,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "plant",
@@ -4302,7 +5526,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 5,
+        "en_to_cn_weight": 5,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "serve",
@@ -4323,7 +5553,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "opinion",
@@ -4344,7 +5580,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "private",
@@ -4365,7 +5607,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "simple",
@@ -4386,7 +5634,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "complex",
@@ -4407,7 +5661,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "partner",
@@ -4428,7 +5688,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "guest",
@@ -4449,7 +5715,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "lesson",
@@ -4470,7 +5742,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "employee",
@@ -4491,7 +5769,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "employer",
@@ -4512,7 +5796,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "goal",
@@ -4533,7 +5823,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "apply",
@@ -4554,7 +5850,13 @@
         "comparative": "",
         "superlative": "",
         "english_note": "",
-        "chinese_note": ""
+        "chinese_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "past_tense": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "remain",
@@ -4566,7 +5868,18 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "fail",
@@ -4578,7 +5891,18 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "believe",
@@ -4590,7 +5914,18 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "realize",
@@ -4602,7 +5937,18 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "recognize",
@@ -4614,7 +5960,18 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "wonder",
@@ -4626,7 +5983,18 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "handsome",
@@ -4638,7 +6006,18 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "wide",
@@ -4650,7 +6029,18 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "narrow",
@@ -4662,7 +6052,18 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "thick",
@@ -4674,7 +6075,18 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "heavy",
@@ -4686,7 +6098,18 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "light",
@@ -4698,6 +6121,17 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     }
 ]
