@@ -11,7 +11,14 @@
         "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
         "countable": true,
-        "plural": "applications"
+        "plural": "applications",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "information",
@@ -25,7 +32,14 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "countable": false,
-        "plural": null
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "experience",
@@ -39,7 +53,14 @@
         "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
         "countable": "both",
-        "plural": "experiences"
+        "plural": "experiences",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "career",
@@ -53,7 +74,14 @@
         "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
         "countable": true,
-        "plural": "careers"
+        "plural": "careers",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "choose",
@@ -68,7 +96,13 @@
         "en_to_cn_wrong": 0,
         "third_person": "chooses",
         "past": "chose",
-        "past_participle": "chosen"
+        "past_participle": "chosen",
+        "countable": "",
+        "plural": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "bring",
@@ -83,7 +117,13 @@
         "en_to_cn_wrong": 0,
         "third_person": "brings",
         "past": "brought",
-        "past_participle": "brought"
+        "past_participle": "brought",
+        "countable": "",
+        "plural": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "carry",
@@ -98,7 +138,13 @@
         "en_to_cn_wrong": 1,
         "third_person": "carries",
         "past": "carried",
-        "past_participle": "carried"
+        "past_participle": "carried",
+        "countable": "",
+        "plural": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "improve",
@@ -113,7 +159,13 @@
         "en_to_cn_wrong": 0,
         "third_person": "improves",
         "past": "improved",
-        "past_participle": "improved"
+        "past_participle": "improved",
+        "countable": "",
+        "plural": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "good",
@@ -127,7 +179,14 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "comparative": "better",
-        "superlative": "best"
+        "superlative": "best",
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "happy",
@@ -141,6 +200,13 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "comparative": "happier",
-        "superlative": "happiest"
+        "superlative": "happiest",
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "english_note": "",
+        "chinese_note": ""
     }
 ]
