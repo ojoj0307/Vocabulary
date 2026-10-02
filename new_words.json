@@ -126,6 +126,42 @@
             "chinese_note": "",
             "correct": 0,
             "wrong": 0
+        },
+        {
+            "english": "remain",
+            "chinese": "保持",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "fail",
+            "chinese": "失败",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "believe",
+            "chinese": "相信",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "realize",
+            "chinese": "意识到",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "recognize",
+            "chinese": "识别",
+            "category": "verb",
+            "weight": 3
+        },
+        {
+            "english": "wonder",
+            "chinese": "好奇",
+            "category": "verb",
+            "weight": 3
         }
     ]
 }
