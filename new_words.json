@@ -130,7 +130,7 @@
             "correct": 0,
             "wrong": 0,
             "cn_to_en_weight": 2,
-            "en_to_cn_weight": 4,
+            "en_to_cn_weight": 3,
             "is_countable": true,
             "past_tense": "",
             "cn_note": "",
