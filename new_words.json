@@ -162,6 +162,42 @@
             "chinese": "好奇",
             "category": "verb",
             "weight": 3
+        },
+        {
+            "english": "handsome",
+            "chinese": "帅的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "wide",
+            "chinese": "宽的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "narrow",
+            "chinese": "窄的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "thick",
+            "chinese": "厚的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "heavy",
+            "chinese": "重的",
+            "category": "adjective",
+            "weight": 3
+        },
+        {
+            "english": "light",
+            "chinese": "轻的",
+            "category": "adjective",
+            "weight": 3
         }
     ]
 }
