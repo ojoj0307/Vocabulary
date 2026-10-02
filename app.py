@@ -4,6 +4,7 @@ import random
 import base64
 import html
 import requests
+import pandas as pd
 
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -376,15 +377,6 @@ def default_daily_stats():
 
 # ============================================================
 # 默认新词数据
-#
-# new_words.json 使用：
-#
-# {
-#     "date": "2026-09-12",
-#     "words": [...]
-# }
-#
-# 这样可以判断是不是新的一天。
 # ============================================================
 
 def default_new_words():
@@ -396,7 +388,7 @@ def default_new_words():
 
 
 # ============================================================
-# 标准化正式词库
+# 标准化正式词库 (适配独立概率与备注)
 # ============================================================
 
 def normalize_vocabulary(data):
@@ -421,8 +413,23 @@ def normalize_vocabulary(data):
             word["category"] = "noun"
             changed = True
 
-        if "weight" not in word:
-            word["weight"] = 3
+        # 备注属性
+        if "cn_note" not in word:
+            word["cn_note"] = ""
+            changed = True
+
+        if "en_note" not in word:
+            word["en_note"] = ""
+            changed = True
+
+        # 拆分为中译英和英译中独立权重
+        default_w = word.get("weight", 3)
+        if "cn_to_en_weight" not in word:
+            word["cn_to_en_weight"] = int(default_w)
+            changed = True
+
+        if "en_to_cn_weight" not in word:
+            word["en_to_cn_weight"] = int(default_w)
             changed = True
 
         if "cn_to_en_correct" not in word:
@@ -447,37 +454,15 @@ def normalize_vocabulary(data):
 
         if "correct" not in word:
             word["correct"] = (
-                int(
-                    word.get(
-                        "cn_to_en_correct",
-                        0
-                    )
-                )
-                +
-                int(
-                    word.get(
-                        "en_to_cn_correct",
-                        0
-                    )
-                )
+                int(word.get("cn_to_en_correct", 0)) +
+                int(word.get("en_to_cn_correct", 0))
             )
             changed = True
 
         if "wrong" not in word:
             word["wrong"] = (
-                int(
-                    word.get(
-                        "cn_to_en_wrong",
-                        0
-                    )
-                )
-                +
-                int(
-                    word.get(
-                        "en_to_cn_wrong",
-                        0
-                    )
-                )
+                int(word.get("cn_to_en_wrong", 0)) +
+                int(word.get("en_to_cn_wrong", 0))
             )
             changed = True
 
@@ -547,7 +532,7 @@ def load_words():
 
 
 # ============================================================
-# 标准化新词
+# 标准化新词 (适配独立概率与备注)
 # ============================================================
 
 def normalize_new_word(word):
@@ -570,9 +555,21 @@ def normalize_new_word(word):
         word["category"] = "noun"
         changed = True
 
-    # 新词拥有完全独立的权重
-    if "weight" not in word:
-        word["weight"] = 3
+    if "cn_note" not in word:
+        word["cn_note"] = ""
+        changed = True
+
+    if "en_note" not in word:
+        word["en_note"] = ""
+        changed = True
+
+    default_w = word.get("weight", 3)
+    if "cn_to_en_weight" not in word:
+        word["cn_to_en_weight"] = int(default_w)
+        changed = True
+
+    if "en_to_cn_weight" not in word:
+        word["en_to_cn_weight"] = int(default_w)
         changed = True
 
     return changed
@@ -588,8 +585,6 @@ def load_new_words():
         NEW_WORDS_PATH
     )
 
-    # 如果 GitHub 没有 new_words.json
-    # 自动创建
     if content is None:
 
         data = default_new_words()
@@ -617,10 +612,6 @@ def load_new_words():
 
         raw_data = default_new_words()
 
-    # ========================================================
-    # 兼容你如果之前创建的是 []
-    # ========================================================
-
     if isinstance(raw_data, list):
 
         data = {
@@ -640,10 +631,6 @@ def load_new_words():
         data = default_new_words()
         changed = True
 
-    # ========================================================
-    # 确保结构正确
-    # ========================================================
-
     if "date" not in data:
 
         data["date"] = get_today()
@@ -659,14 +646,6 @@ def load_new_words():
         data["words"] = []
         changed = True
 
-    # ========================================================
-    # ★ 每天第一次访问时清空新词
-    #
-    # 不是退出 App 就清空
-    #
-    # 只比较 GitHub 保存的日期
-    # ========================================================
-
     today = get_today()
 
     if data["date"] != today:
@@ -676,19 +655,11 @@ def load_new_words():
 
         changed = True
 
-    # ========================================================
-    # 标准化新词
-    # ========================================================
-
     for word in data["words"]:
 
         if normalize_new_word(word):
 
             changed = True
-
-    # ========================================================
-    # 保存变化
-    # ========================================================
 
     if changed:
 
@@ -802,11 +773,6 @@ new_words_data, new_words_sha = load_new_words()
 
 daily_stats, daily_stats_sha = load_daily_stats()
 
-
-# ============================================================
-# 新词列表
-# ============================================================
-
 new_words = new_words_data["words"]
 
 
@@ -907,83 +873,60 @@ def save_daily_stats():
 
 
 # ============================================================
-# 正式词库概率
+# 正式词库概率（区分中译英和英译中）
 # ============================================================
 
-def calculate_probability(word):
+def calculate_probability(word, q_type="中译英"):
 
     if not words:
         return 0
 
+    weight_key = "cn_to_en_weight" if q_type == "中译英" else "en_to_cn_weight"
+
     total_weight = sum(
-        max(
-            1,
-            int(item.get("weight", 3))
-        )
+        max(1, int(item.get(weight_key, 3)))
         for item in words
     )
 
-    current_weight = max(
-        1,
-        int(word.get("weight", 3))
-    )
+    current_weight = max(1, int(word.get(weight_key, 3)))
 
-    return (
-        current_weight
-        /
-        total_weight
-        *
-        100
-    )
+    return (current_weight / total_weight * 100) if total_weight > 0 else 0
 
 
 # ============================================================
-# 新词概率
-#
-# ★ 与正式词库完全独立
+# 新词概率（区分中译英和英译中）
 # ============================================================
 
-def calculate_new_probability(word):
+def calculate_new_probability(word, q_type="中译英"):
 
     if not new_words:
         return 0
 
+    weight_key = "cn_to_en_weight" if q_type == "中译英" else "en_to_cn_weight"
+
     total_weight = sum(
-        max(
-            1,
-            int(item.get("weight", 3))
-        )
+        max(1, int(item.get(weight_key, 3)))
         for item in new_words
     )
 
-    current_weight = max(
-        1,
-        int(word.get("weight", 3))
-    )
+    current_weight = max(1, int(word.get(weight_key, 3)))
 
-    return (
-        current_weight
-        /
-        total_weight
-        *
-        100
-    )
+    return (current_weight / total_weight * 100) if total_weight > 0 else 0
 
 
 # ============================================================
 # 正式词库随机抽题
 # ============================================================
 
-def get_random_word():
+def get_random_word(q_type="中译英"):
 
     if not words:
         return None
 
+    weight_key = "cn_to_en_weight" if q_type == "中译英" else "en_to_cn_weight"
+
     weights = [
-        max(
-            1,
-            int(word.get("weight", 3))
-        )
+        max(1, int(word.get(weight_key, 3)))
         for word in words
     ]
 
@@ -998,16 +941,15 @@ def get_random_word():
 # 新词随机抽题
 # ============================================================
 
-def get_random_new_word():
+def get_random_new_word(q_type="中译英"):
 
     if not new_words:
         return None
 
+    weight_key = "cn_to_en_weight" if q_type == "中译英" else "en_to_cn_weight"
+
     weights = [
-        max(
-            1,
-            int(word.get("weight", 3))
-        )
+        max(1, int(word.get(weight_key, 3)))
         for word in new_words
     ]
 
@@ -1199,201 +1141,125 @@ if page == "🎓 学习模式":
     st.header("🎓 学习模式")
 
     # ========================================================
-    # 添加新词
+    # 添加新词 (表格模式)
     # ========================================================
 
     st.subheader("➕ 添加新词")
+    st.caption("💡 可直接从 Excel 框选复制，并在此表格中粘贴批量添加：")
 
-    col1, col2 = st.columns(2)
-
-    with col1:
-
-        learning_english_text = st.text_area(
-            "英文",
-            height=100,
-            placeholder="abandon\ncareer\nimprove"
-        )
-
-    with col2:
-
-        learning_chinese_text = st.text_area(
-            "中文",
-            height=100,
-            placeholder="放弃\n职业\n改善"
-        )
-
-    learning_category = st.selectbox(
-        "词性",
-        CATEGORIES,
-        index=0,
-        key="learning_add_category"
+    init_learning_df = pd.DataFrame(
+        [{"english": "", "chinese": "", "category": "noun", "cn_note": "", "en_note": ""}]
     )
 
-    if st.button(
-        "➕ 添加新词",
-        use_container_width=True
-    ):
+    edited_learning_df = st.data_editor(
+        init_learning_df,
+        num_rows="dynamic",
+        use_container_width=True,
+        column_config={
+            "english": st.column_config.TextColumn("英文", required=True),
+            "chinese": st.column_config.TextColumn("中文", required=True),
+            "category": st.column_config.SelectboxColumn("词性", options=CATEGORIES, default="noun", required=True),
+            "cn_note": st.column_config.TextColumn("中文备注 (中译英显示)"),
+            "en_note": st.column_config.TextColumn("英文备注 (英译中显示)"),
+        },
+        key="learning_batch_editor"
+    )
 
-        english_list = [
-            x.strip()
-            for x in learning_english_text.splitlines()
-            if x.strip()
-        ]
+    if st.button("➕ 批量添加新词", use_container_width=True):
 
-        chinese_list = [
-            x.strip()
-            for x in learning_chinese_text.splitlines()
-            if x.strip()
-        ]
+        rows_to_add = []
+        for idx, row in edited_learning_df.iterrows():
+            en = str(row.get("english") or "").strip()
+            cn = str(row.get("chinese") or "").strip()
+            cat = str(row.get("category") or "noun").strip()
+            cn_n = str(row.get("cn_note") or "").strip()
+            en_n = str(row.get("en_note") or "").strip()
 
-        if not english_list:
+            if cat not in CATEGORIES:
+                cat = "noun"
 
-            st.warning("请输入英文单词。")
+            if en and cn:
+                rows_to_add.append({
+                    "english": en,
+                    "chinese": cn,
+                    "category": cat,
+                    "cn_note": cn_n,
+                    "en_note": en_n
+                })
 
-        elif len(english_list) != len(chinese_list):
-
-            st.error(
-                "英文和中文的数量必须相同。"
-            )
-
+        if not rows_to_add:
+            st.warning("表格中没有有效的单词输入，请确保英文和中文非空。")
         else:
-
             added = 0
             duplicate = 0
 
-            for english, chinese in zip(
-                english_list,
-                chinese_list
-            ):
-
-                # ------------------------------------------------
-                # 检查今天新词是否已经存在
-                # ------------------------------------------------
+            for item in rows_to_add:
+                english = item["english"]
+                chinese = item["chinese"]
+                category = item["category"]
+                cn_note = item["cn_note"]
+                en_note = item["en_note"]
 
                 exists_new = any(
-                    item.get(
-                        "english",
-                        ""
-                    ).strip().lower()
-                    == english.lower()
-
-                    and
-
-                    item.get(
-                        "chinese",
-                        ""
-                    ).strip()
-                    == chinese
-
-                    and
-
-                    item.get(
-                        "category",
-                        "noun"
-                    )
-                    == learning_category
-
-                    for item in new_words
+                    it.get("english", "").strip().lower() == english.lower() and
+                    it.get("chinese", "").strip() == chinese and
+                    it.get("category", "noun") == category
+                    for it in new_words
                 )
 
                 if exists_new:
-
                     duplicate += 1
                     continue
-
-                # ------------------------------------------------
-                # 加入新词模式
-                # ------------------------------------------------
 
                 new_word = {
                     "english": english,
                     "chinese": chinese,
-                    "category": learning_category,
-
-                    # ★ 新词独立权重
-                    "weight": 3
+                    "category": category,
+                    "cn_note": cn_note,
+                    "en_note": en_note,
+                    "cn_to_en_weight": 3,
+                    "en_to_cn_weight": 3
                 }
-
                 new_words.append(new_word)
 
-                # ------------------------------------------------
-                # 同时加入正式词库
-                # ------------------------------------------------
-
                 exists_vocabulary = any(
-                    item.get(
-                        "english",
-                        ""
-                    ).strip().lower()
-                    == english.lower()
-
-                    and
-
-                    item.get(
-                        "chinese",
-                        ""
-                    ).strip()
-                    == chinese
-
-                    and
-
-                    item.get(
-                        "category",
-                        "noun"
-                    )
-                    == learning_category
-
-                    for item in words
+                    it.get("english", "").strip().lower() == english.lower() and
+                    it.get("chinese", "").strip() == chinese and
+                    it.get("category", "noun") == category
+                    for it in words
                 )
 
                 if not exists_vocabulary:
-
-                    words.append(
-                        {
-                            "english": english,
-                            "chinese": chinese,
-                            "category": learning_category,
-
-                            "weight": 3,
-
-                            "cn_to_en_correct": 0,
-                            "cn_to_en_wrong": 0,
-
-                            "en_to_cn_correct": 0,
-                            "en_to_cn_wrong": 0,
-
-                            "correct": 0,
-                            "wrong": 0
-                        }
-                    )
+                    words.append({
+                        "english": english,
+                        "chinese": chinese,
+                        "category": category,
+                        "cn_note": cn_note,
+                        "en_note": en_note,
+                        "cn_to_en_weight": 3,
+                        "en_to_cn_weight": 3,
+                        "cn_to_en_correct": 0,
+                        "cn_to_en_wrong": 0,
+                        "en_to_cn_correct": 0,
+                        "en_to_cn_wrong": 0,
+                        "correct": 0,
+                        "wrong": 0
+                    })
 
                 added += 1
 
             if added > 0:
-
                 new_success = save_new_words()
                 vocab_success = save_words()
 
                 if new_success and vocab_success:
-
-                    st.success(
-                        f"成功添加 {added} 个新词，"
-                        f"并已同步到正式词库。"
-                    )
-
+                    st.success(f"成功添加 {added} 个新词，并已同步到正式词库。")
                     st.rerun()
-
                 else:
-
-                    st.error(
-                        "保存失败，请检查 GitHub Token。"
-                    )
+                    st.error("保存失败，请检查 GitHub Token。")
 
             if duplicate:
-
-                st.info(
-                    f"{duplicate} 个今天已经存在的新词没有重复添加。"
-                )
+                st.info(f"{duplicate} 个今天已经存在的新词没有重复添加。")
 
 
     # ========================================================
@@ -1453,7 +1319,7 @@ if page == "🎓 学习模式":
             st.session_state.learning_word_index >= len(new_words)
         ):
 
-            selected_new_word = get_random_new_word()
+            selected_new_word = get_random_new_word(learning_question_type)
 
             if selected_new_word is not None:
 
@@ -1525,10 +1391,13 @@ if page == "🎓 学习模式":
 
                     if learning_question_type == "中译英":
 
+                        note_display = f"<br/><small style='opacity:0.8;'>📝 备注：{html.escape(last_word.get('cn_note', ''))}</small>" if last_word.get('cn_note') else ""
+
                         st.markdown(
                             f"""
                             <div class="previous-question">
                                 {html.escape(last_word["chinese"])}
+                                {note_display}
                             </div>
 
                             <div class="previous-category">
@@ -1571,10 +1440,13 @@ if page == "🎓 学习模式":
 
                     else:
 
+                        note_display = f"<br/><small style='opacity:0.8;'>📝 备注：{html.escape(last_word.get('en_note', ''))}</small>" if last_word.get('en_note') else ""
+
                         st.markdown(
                             f"""
                             <div class="previous-question">
                                 {html.escape(last_word["english"])}
+                                {note_display}
                             </div>
 
                             <div class="previous-category">
@@ -1641,12 +1513,15 @@ if page == "🎓 学习模式":
 
                 if learning_question_type == "中译英":
 
+                    note_display = f"<br/><small style='opacity:0.8; font-size:16px;'>📝 备注：{html.escape(learning_word.get('cn_note', ''))}</small>" if learning_word.get('cn_note') else ""
+
                     st.markdown(
                         f"""
                         <div class="question">
                             {html.escape(
                                 learning_word["chinese"]
                             )}
+                            {note_display}
                         </div>
 
                         <div class="question-category">
@@ -1660,12 +1535,15 @@ if page == "🎓 学习模式":
 
                 else:
 
+                    note_display = f"<br/><small style='opacity:0.8; font-size:16px;'>📝 备注：{html.escape(learning_word.get('en_note', ''))}</small>" if learning_word.get('en_note') else ""
+
                     st.markdown(
                         f"""
                         <div class="question">
                             {html.escape(
                                 learning_word["english"]
                             )}
+                            {note_display}
                         </div>
 
                         <div class="question-category">
@@ -1757,26 +1635,18 @@ if page == "🎓 学习模式":
 
 
                     # =========================================
-                    # ★ 新词独立概率机制
-                    #
-                    # 正确：
-                    # weight -1
-                    #
-                    # 错误：
-                    # weight +2
-                    #
-                    # 范围 1~20
-                    #
-                    # 不写 correct / wrong
+                    # ★ 新词独立概率机制（按题型区分）
                     # =========================================
+
+                    weight_key = "cn_to_en_weight" if learning_question_type == "中译英" else "en_to_cn_weight"
 
                     if is_correct:
 
-                        learning_word["weight"] = max(
+                        learning_word[weight_key] = max(
                             1,
                             int(
                                 learning_word.get(
-                                    "weight",
+                                    weight_key,
                                     3
                                 )
                             ) - 1
@@ -1784,11 +1654,11 @@ if page == "🎓 学习模式":
 
                     else:
 
-                        learning_word["weight"] = min(
+                        learning_word[weight_key] = min(
                             20,
                             int(
                                 learning_word.get(
-                                    "weight",
+                                    weight_key,
                                     3
                                 )
                             ) + 2
@@ -1823,7 +1693,7 @@ if page == "🎓 学习模式":
                     # 下一题
                     # =========================================
 
-                    next_new_word = get_random_new_word()
+                    next_new_word = get_random_new_word(learning_question_type)
 
                     if next_new_word is not None:
 
@@ -1904,6 +1774,22 @@ if page == "🎓 学习模式":
                         key=f"new_edit_cn_{index}"
                     )
 
+                col_n1, col_n2 = st.columns(2)
+
+                with col_n1:
+                    edit_new_cn_note = st.text_input(
+                        "中文备注 (中译英显示)",
+                        value=word.get("cn_note", ""),
+                        key=f"new_edit_cn_note_{index}"
+                    )
+
+                with col_n2:
+                    edit_new_en_note = st.text_input(
+                        "英文备注 (英译中显示)",
+                        value=word.get("en_note", ""),
+                        key=f"new_edit_en_note_{index}"
+                    )
+
                 current_category = word.get(
                     "category",
                     "noun"
@@ -1923,13 +1809,10 @@ if page == "🎓 学习模式":
                 )
 
                 st.caption(
-                    f"独立权重："
-                    f"{word.get('weight', 3)}"
+                    f"中译英权重：{word.get('cn_to_en_weight', 3)} | 概率：{calculate_new_probability(word, '中译英'):.2f}%"
                 )
-
                 st.caption(
-                    f"抽题概率："
-                    f"{calculate_new_probability(word):.2f}%"
+                    f"英译中权重：{word.get('en_to_cn_weight', 3)} | 概率：{calculate_new_probability(word, '英译中'):.2f}%"
                 )
 
                 col1, col2 = st.columns(2)
@@ -1964,32 +1847,15 @@ if page == "🎓 学习模式":
 
                         else:
 
-                            old_english = (
-                                word["english"]
-                            )
+                            old_english = word["english"]
+                            old_chinese = word["chinese"]
+                            old_category = word.get("category", "noun")
 
-                            old_chinese = (
-                                word["chinese"]
-                            )
-
-                            old_category = (
-                                word.get(
-                                    "category",
-                                    "noun"
-                                )
-                            )
-
-                            word["english"] = (
-                                edit_new_english
-                            )
-
-                            word["chinese"] = (
-                                edit_new_chinese
-                            )
-
-                            word["category"] = (
-                                edit_new_category
-                            )
+                            word["english"] = edit_new_english
+                            word["chinese"] = edit_new_chinese
+                            word["category"] = edit_new_category
+                            word["cn_note"] = edit_new_cn_note.strip()
+                            word["en_note"] = edit_new_en_note.strip()
 
                             # =================================
                             # 同步修改正式词库中对应词汇
@@ -1998,60 +1864,22 @@ if page == "🎓 学习模式":
                             for vocabulary_word in words:
 
                                 if (
-                                    vocabulary_word.get(
-                                        "english",
-                                        ""
-                                    ).strip().lower()
-                                    ==
-                                    old_english.strip().lower()
-
-                                    and
-
-                                    vocabulary_word.get(
-                                        "chinese",
-                                        ""
-                                    ).strip()
-                                    ==
-                                    old_chinese.strip()
-
-                                    and
-
-                                    vocabulary_word.get(
-                                        "category",
-                                        "noun"
-                                    )
-                                    ==
-                                    old_category
+                                    vocabulary_word.get("english", "").strip().lower() == old_english.strip().lower() and
+                                    vocabulary_word.get("chinese", "").strip() == old_chinese.strip() and
+                                    vocabulary_word.get("category", "noun") == old_category
                                 ):
 
-                                    vocabulary_word[
-                                        "english"
-                                    ] = edit_new_english
-
-                                    vocabulary_word[
-                                        "chinese"
-                                    ] = edit_new_chinese
-
-                                    vocabulary_word[
-                                        "category"
-                                    ] = edit_new_category
-
+                                    vocabulary_word["english"] = edit_new_english
+                                    vocabulary_word["chinese"] = edit_new_chinese
+                                    vocabulary_word["category"] = edit_new_category
+                                    vocabulary_word["cn_note"] = edit_new_cn_note.strip()
+                                    vocabulary_word["en_note"] = edit_new_en_note.strip()
                                     break
 
+                            new_success = save_new_words()
+                            vocab_success = save_words()
 
-                            new_success = (
-                                save_new_words()
-                            )
-
-                            vocab_success = (
-                                save_words()
-                            )
-
-                            if (
-                                new_success
-                                and
-                                vocab_success
-                            ):
+                            if new_success and vocab_success:
 
                                 st.success(
                                     "修改成功，并已同步到正式词库。"
@@ -2067,17 +1895,7 @@ if page == "🎓 学习模式":
                         use_container_width=True
                     ):
 
-                        deleted_word = new_words.pop(
-                            index
-                        )
-
-                        # =================================
-                        # 注意：
-                        #
-                        # 删除新词列表不会删除正式词库
-                        #
-                        # 因为这个词已经正式加入词库。
-                        # =================================
+                        deleted_word = new_words.pop(index)
 
                         if save_new_words():
 
@@ -2095,8 +1913,6 @@ if page == "🎓 学习模式":
 # ============================================================
 
 elif page == "🎯 练习模式":
-
-    # ★ 恢复页面标题
 
     st.header("🎯 练习模式")
 
@@ -2138,7 +1954,7 @@ elif page == "🎯 练习模式":
             st.session_state.current_word_index >= len(words)
         ):
 
-            selected_word = get_random_word()
+            selected_word = get_random_word(question_type)
 
             if selected_word is not None:
 
@@ -2201,10 +2017,13 @@ elif page == "🎯 练习模式":
 
                 if question_type == "中译英":
 
+                    note_display = f"<br/><small style='opacity:0.8;'>📝 备注：{html.escape(last_word.get('cn_note', ''))}</small>" if last_word.get('cn_note') else ""
+
                     st.markdown(
                         f"""
                         <div class="previous-question">
                             {html.escape(last_word["chinese"])}
+                            {note_display}
                         </div>
 
                         <div class="previous-category">
@@ -2247,10 +2066,13 @@ elif page == "🎯 练习模式":
 
                 else:
 
+                    note_display = f"<br/><small style='opacity:0.8;'>📝 备注：{html.escape(last_word.get('en_note', ''))}</small>" if last_word.get('en_note') else ""
+
                     st.markdown(
                         f"""
                         <div class="previous-question">
                             {html.escape(last_word["english"])}
+                            {note_display}
                         </div>
 
                         <div class="previous-category">
@@ -2333,6 +2155,11 @@ elif page == "🎯 练习模式":
                                 ) + 1
                             )
 
+                            last_word["cn_to_en_weight"] = max(
+                                1,
+                                int(last_word.get("cn_to_en_weight", 3)) - 2
+                            )
+
                         else:
 
                             last_word["en_to_cn_wrong"] = max(
@@ -2354,6 +2181,11 @@ elif page == "🎯 练习模式":
                                 ) + 1
                             )
 
+                            last_word["en_to_cn_weight"] = max(
+                                1,
+                                int(last_word.get("en_to_cn_weight", 3)) - 2
+                            )
+
 
                         last_word["correct"] = (
                             int(
@@ -2372,16 +2204,6 @@ elif page == "🎯 练习模式":
                                     0
                                 )
                             ) - 1
-                        )
-
-                        last_word["weight"] = max(
-                            1,
-                            int(
-                                last_word.get(
-                                    "weight",
-                                    3
-                                )
-                            ) - 2
                         )
 
 
@@ -2418,10 +2240,13 @@ elif page == "🎯 练习模式":
 
             if question_type == "中译英":
 
+                note_display = f"<br/><small style='opacity:0.8; font-size:16px;'>📝 备注：{html.escape(word.get('cn_note', ''))}</small>" if word.get('cn_note') else ""
+
                 st.markdown(
                     f"""
                     <div class="question">
                         {html.escape(word["chinese"])}
+                        {note_display}
                     </div>
 
                     <div class="question-category">
@@ -2433,10 +2258,13 @@ elif page == "🎯 练习模式":
 
             else:
 
+                note_display = f"<br/><small style='opacity:0.8; font-size:16px;'>📝 备注：{html.escape(word.get('en_note', ''))}</small>" if word.get('en_note') else ""
+
                 st.markdown(
                     f"""
                     <div class="question">
                         {html.escape(word["english"])}
+                        {note_display}
                     </div>
 
                     <div class="question-category">
@@ -2515,10 +2343,18 @@ elif page == "🎯 练习模式":
                     if question_type == "中译英":
 
                         word["cn_to_en_correct"] += 1
+                        word["cn_to_en_weight"] = max(
+                            1,
+                            int(word.get("cn_to_en_weight", 3)) - 1
+                        )
 
                     else:
 
                         word["en_to_cn_correct"] += 1
+                        word["en_to_cn_weight"] = max(
+                            1,
+                            int(word.get("en_to_cn_weight", 3)) - 1
+                        )
 
 
                     word["correct"] = (
@@ -2530,17 +2366,6 @@ elif page == "🎯 练习模式":
                         ) + 1
                     )
 
-
-                    word["weight"] = max(
-                        1,
-                        int(
-                            word.get(
-                                "weight",
-                                3
-                            )
-                        ) - 1
-                    )
-
                     is_correct = True
 
 
@@ -2549,10 +2374,18 @@ elif page == "🎯 练习模式":
                     if question_type == "中译英":
 
                         word["cn_to_en_wrong"] += 1
+                        word["cn_to_en_weight"] = min(
+                            20,
+                            int(word.get("cn_to_en_weight", 3)) + 2
+                        )
 
                     else:
 
                         word["en_to_cn_wrong"] += 1
+                        word["en_to_cn_weight"] = min(
+                            20,
+                            int(word.get("en_to_cn_weight", 3)) + 2
+                        )
 
 
                     word["wrong"] = (
@@ -2562,17 +2395,6 @@ elif page == "🎯 练习模式":
                                 0
                             )
                         ) + 1
-                    )
-
-
-                    word["weight"] = min(
-                        20,
-                        int(
-                            word.get(
-                                "weight",
-                                3
-                            )
-                        ) + 2
                     )
 
                     is_correct = False
@@ -2625,7 +2447,7 @@ elif page == "🎯 练习模式":
                 st.session_state.last_correct = is_correct
 
 
-                next_word = get_random_word()
+                next_word = get_random_word(question_type)
 
                 if next_word is not None:
 
@@ -2734,127 +2556,96 @@ elif page == "📚 词库管理":
 
     st.header("📚 词库管理")
 
-    st.subheader("➕ 添加单词")
+    st.subheader("➕ 添加单词 (表格模式)")
+    st.caption("💡 可直接从 Excel 框选复制，并在此表格中粘贴批量添加：")
 
-    col1, col2 = st.columns(2)
-
-    with col1:
-
-        english_text = st.text_area(
-            "英文",
-            height=100,
-            placeholder="second\ncareer\nrun"
-        )
-
-    with col2:
-
-        chinese_text = st.text_area(
-            "中文",
-            height=100,
-            placeholder="秒\n职业\n跑"
-        )
-
-    category = st.selectbox(
-        "词性",
-        CATEGORIES,
-        index=0,
-        key="vocab_add_category"
+    init_df = pd.DataFrame(
+        [{"english": "", "chinese": "", "category": "noun", "cn_note": "", "en_note": ""}]
     )
 
-    if st.button(
-        "➕ 添加",
-        use_container_width=True
-    ):
+    edited_df = st.data_editor(
+        init_df,
+        num_rows="dynamic",
+        use_container_width=True,
+        column_config={
+            "english": st.column_config.TextColumn("英文", required=True),
+            "chinese": st.column_config.TextColumn("中文", required=True),
+            "category": st.column_config.SelectboxColumn("词性", options=CATEGORIES, default="noun", required=True),
+            "cn_note": st.column_config.TextColumn("中文备注 (中译英显示)"),
+            "en_note": st.column_config.TextColumn("英文备注 (英译中显示)"),
+        },
+        key="vocab_batch_editor"
+    )
 
-        english_list = [
-            x.strip()
-            for x in english_text.splitlines()
-            if x.strip()
-        ]
+    if st.button("➕ 批量添加单词", use_container_width=True):
 
-        chinese_list = [
-            x.strip()
-            for x in chinese_text.splitlines()
-            if x.strip()
-        ]
+        rows_to_add = []
+        for idx, row in edited_df.iterrows():
+            en = str(row.get("english") or "").strip()
+            cn = str(row.get("chinese") or "").strip()
+            cat = str(row.get("category") or "noun").strip()
+            cn_n = str(row.get("cn_note") or "").strip()
+            en_n = str(row.get("en_note") or "").strip()
 
-        if not english_list:
+            if cat not in CATEGORIES:
+                cat = "noun"
 
-            st.warning("请输入英文单词。")
+            if en and cn:
+                rows_to_add.append({
+                    "english": en,
+                    "chinese": cn,
+                    "category": cat,
+                    "cn_note": cn_n,
+                    "en_note": en_n
+                })
 
-        elif len(english_list) != len(chinese_list):
-
-            st.error(
-                "英文和中文的数量必须相同。"
-            )
-
+        if not rows_to_add:
+            st.warning("表格中没有有效的单词输入，请确保英文和中文非空。")
         else:
-
             added = 0
             duplicate = 0
 
-            for english, chinese in zip(
-                english_list,
-                chinese_list
-            ):
+            for item in rows_to_add:
+                english = item["english"]
+                chinese = item["chinese"]
+                category = item["category"]
+                cn_note = item["cn_note"]
+                en_note = item["en_note"]
 
                 exists = any(
-                    item.get("english", "").strip().lower()
-                    == english.strip().lower()
-
-                    and
-
-                    item.get("chinese", "").strip()
-                    == chinese.strip()
-
-                    and
-
-                    item.get("category", "noun")
-                    == category
-
-                    for item in words
+                    it.get("english", "").strip().lower() == english.lower() and
+                    it.get("chinese", "").strip() == chinese and
+                    it.get("category", "noun") == category
+                    for it in words
                 )
 
                 if exists:
-
                     duplicate += 1
-
                 else:
-
-                    words.append(
-                        {
-                            "english": english,
-                            "chinese": chinese,
-                            "category": category,
-
-                            "weight": 3,
-
-                            "cn_to_en_correct": 0,
-                            "cn_to_en_wrong": 0,
-
-                            "en_to_cn_correct": 0,
-                            "en_to_cn_wrong": 0,
-
-                            "correct": 0,
-                            "wrong": 0
-                        }
-                    )
-
+                    words.append({
+                        "english": english,
+                        "chinese": chinese,
+                        "category": category,
+                        "cn_note": cn_note,
+                        "en_note": en_note,
+                        "cn_to_en_weight": 3,
+                        "en_to_cn_weight": 3,
+                        "cn_to_en_correct": 0,
+                        "cn_to_en_wrong": 0,
+                        "en_to_cn_correct": 0,
+                        "en_to_cn_wrong": 0,
+                        "correct": 0,
+                        "wrong": 0
+                    })
                     added += 1
 
             if added > 0:
-
                 if save_words():
-
-                    st.success(
-                        f"成功添加 {added} 个单词，并已同步到 GitHub。"
-                    )
+                    st.success(f"成功添加 {added} 个单词，并已同步到 GitHub。")
+                    st.rerun()
 
             if duplicate:
-
-                st.info(
-                    f"{duplicate} 个完全相同的单词没有添加。"
-                )
+                st.info(f"{duplicate} 个完全相同的单词没有重复添加。")
 
     st.divider()
 
@@ -2906,6 +2697,22 @@ elif page == "📚 词库管理":
                     key=f"edit_cn_{index}"
                 )
 
+            col_n1, col_n2 = st.columns(2)
+
+            with col_n1:
+                new_cn_note = st.text_input(
+                    "中文备注 (中译英显示)",
+                    value=word.get("cn_note", ""),
+                    key=f"edit_cn_note_{index}"
+                )
+
+            with col_n2:
+                new_en_note = st.text_input(
+                    "英文备注 (英译中显示)",
+                    value=word.get("en_note", ""),
+                    key=f"edit_en_note_{index}"
+                )
+
             current_category = word.get(
                 "category",
                 "noun"
@@ -2923,26 +2730,15 @@ elif page == "📚 词库管理":
             )
 
             st.caption(
-                f"权重：{word.get('weight', 3)}"
+                f"中译英：权重 {word.get('cn_to_en_weight', 3)} | "
+                f"✓ {word.get('cn_to_en_correct', 0)} / ✗ {word.get('cn_to_en_wrong', 0)} | "
+                f"概率 {calculate_probability(word, '中译英'):.2f}%"
             )
 
             st.caption(
-                f"中译英："
-                f"✓ {word.get('cn_to_en_correct', 0)} "
-                f"/ "
-                f"✗ {word.get('cn_to_en_wrong', 0)}"
-            )
-
-            st.caption(
-                f"英译中："
-                f"✓ {word.get('en_to_cn_correct', 0)} "
-                f"/ "
-                f"✗ {word.get('en_to_cn_wrong', 0)}"
-            )
-
-            st.caption(
-                f"抽题概率："
-                f"{calculate_probability(word):.2f}%"
+                f"英译中：权重 {word.get('en_to_cn_weight', 3)} | "
+                f"✓ {word.get('en_to_cn_correct', 0)} / ✗ {word.get('en_to_cn_wrong', 0)} | "
+                f"概率 {calculate_probability(word, '英译中'):.2f}%"
             )
 
             col1, col2 = st.columns(2)
@@ -2971,6 +2767,8 @@ elif page == "📚 词库管理":
                         word["english"] = new_english
                         word["chinese"] = new_chinese
                         word["category"] = new_category
+                        word["cn_note"] = new_cn_note.strip()
+                        word["en_note"] = new_en_note.strip()
 
                         if save_words():
 
@@ -3107,22 +2905,31 @@ elif page == "📖 查看词库":
                 reverse=reverse
             )
 
-        elif sort_field == "weight":
+        elif sort_field == "cn_weight":
 
             filtered_words.sort(
-                key=lambda x: int(
-                    x.get(
-                        "weight",
-                        3
-                    )
-                ),
+                key=lambda x: int(x.get("cn_to_en_weight", 3)),
                 reverse=reverse
             )
 
-        elif sort_field == "probability":
+        elif sort_field == "en_weight":
 
             filtered_words.sort(
-                key=lambda x: calculate_probability(x),
+                key=lambda x: int(x.get("en_to_cn_weight", 3)),
+                reverse=reverse
+            )
+
+        elif sort_field == "cn_prob":
+
+            filtered_words.sort(
+                key=lambda x: calculate_probability(x, "中译英"),
+                reverse=reverse
+            )
+
+        elif sort_field == "en_prob":
+
+            filtered_words.sort(
+                key=lambda x: calculate_probability(x, "英译中"),
                 reverse=reverse
             )
 
@@ -3156,7 +2963,7 @@ elif page == "📖 查看词库":
 
 
         cols = st.columns(
-            [2, 2, 1.2, 0.9, 1.2, 0.8, 0.8]
+            [2, 2, 1.2, 1, 1, 1, 1, 0.8, 0.8]
         )
 
 
@@ -3212,28 +3019,52 @@ elif page == "📖 查看词库":
         with cols[3]:
 
             if st.button(
-                sort_label("weight", "权重"),
-                key="sort_weight",
+                sort_label("cn_weight", "中/英权重"),
+                key="sort_cn_weight",
                 use_container_width=True
             ):
 
-                set_sort("weight")
+                set_sort("cn_weight")
                 st.rerun()
 
 
         with cols[4]:
 
             if st.button(
-                sort_label("probability", "概率"),
-                key="sort_probability",
+                sort_label("en_weight", "英/中权重"),
+                key="sort_en_weight",
                 use_container_width=True
             ):
 
-                set_sort("probability")
+                set_sort("en_weight")
                 st.rerun()
 
 
         with cols[5]:
+
+            if st.button(
+                sort_label("cn_prob", "中/英概率"),
+                key="sort_cn_prob",
+                use_container_width=True
+            ):
+
+                set_sort("cn_prob")
+                st.rerun()
+
+
+        with cols[6]:
+
+            if st.button(
+                sort_label("en_prob", "英/中概率"),
+                key="sort_en_prob",
+                use_container_width=True
+            ):
+
+                set_sort("en_prob")
+                st.rerun()
+
+
+        with cols[7]:
 
             if st.button(
                 sort_label("correct", "✓"),
@@ -3245,7 +3076,7 @@ elif page == "📖 查看词库":
                 st.rerun()
 
 
-        with cols[6]:
+        with cols[8]:
 
             if st.button(
                 sort_label("wrong", "✗"),
@@ -3265,75 +3096,42 @@ elif page == "📖 查看词库":
 
         for word in filtered_words:
 
-            english = html.escape(
-                str(word.get("english", ""))
-            )
+            english = html.escape(str(word.get("english", "")))
+            chinese = html.escape(str(word.get("chinese", "")))
+            category = html.escape(str(word.get("category", "noun")))
+            cn_note = html.escape(str(word.get("cn_note", "")))
+            en_note = html.escape(str(word.get("en_note", "")))
 
-            chinese = html.escape(
-                str(word.get("chinese", ""))
-            )
+            cn_w = int(word.get("cn_to_en_weight", 3))
+            en_w = int(word.get("en_to_cn_weight", 3))
 
-            category = html.escape(
-                str(
-                    word.get(
-                        "category",
-                        "noun"
-                    )
-                )
-            )
-
-            weight = int(
-                word.get(
-                    "weight",
-                    3
-                )
-            )
-
-            probability = calculate_probability(
-                word
-            )
+            cn_prob = calculate_probability(word, "中译英")
+            en_prob = calculate_probability(word, "英译中")
 
             total_correct = (
-                int(
-                    word.get(
-                        "cn_to_en_correct",
-                        0
-                    )
-                )
-                +
-                int(
-                    word.get(
-                        "en_to_cn_correct",
-                        0
-                    )
-                )
+                int(word.get("cn_to_en_correct", 0)) +
+                int(word.get("en_to_cn_correct", 0))
             )
 
             total_wrong = (
-                int(
-                    word.get(
-                        "cn_to_en_wrong",
-                        0
-                    )
-                )
-                +
-                int(
-                    word.get(
-                        "en_to_cn_wrong",
-                        0
-                    )
-                )
+                int(word.get("cn_to_en_wrong", 0)) +
+                int(word.get("en_to_cn_wrong", 0))
             )
+
+            cn_note_html = f"<br/><small class='note-text'>中备注: {cn_note}</small>" if cn_note else ""
+            en_note_html = f"<br/><small class='note-text'>英备注: {en_note}</small>" if en_note else ""
 
             rows += f"""
             <tr>
 
                 <td class="english">
                     {english}
+                    {en_note_html}
                 </td>
 
                 <td>
                     {chinese}
+                    {cn_note_html}
                 </td>
 
                 <td>
@@ -3341,11 +3139,19 @@ elif page == "📖 查看词库":
                 </td>
 
                 <td>
-                    {weight}
+                    {cn_w}
+                </td>
+
+                <td>
+                    {en_w}
                 </td>
 
                 <td class="probability">
-                    {probability:.2f}%
+                    {cn_prob:.2f}%
+                </td>
+
+                <td class="probability">
+                    {en_prob:.2f}%
                 </td>
 
                 <td>
@@ -3423,7 +3229,7 @@ elif page == "📖 查看词库":
 
             width: 100%;
 
-            min-width: 720px;
+            min-width: 850px;
 
             border-collapse: collapse;
 
@@ -3494,6 +3300,16 @@ elif page == "📖 查看词库":
             font-size: 13px;
 
             color: #444444;
+
+        }}
+
+        .note-text {{
+
+            font-size: 11px;
+
+            opacity: 0.7;
+
+            font-weight: normal;
 
         }}
 
@@ -3596,9 +3412,13 @@ elif page == "📖 查看词库":
 
                     <th>词性</th>
 
-                    <th>权重</th>
+                    <th>中/英权重</th>
 
-                    <th>概率</th>
+                    <th>英/中权重</th>
+
+                    <th>中/英概率</th>
+
+                    <th>英/中概率</th>
 
                     <th>✓</th>
 
@@ -3630,7 +3450,7 @@ elif page == "📖 查看词库":
                 120,
                 min(
                     800,
-                    65 + len(filtered_words) * 44
+                    65 + len(filtered_words) * 50
                 )
             ),
             scrolling=True
