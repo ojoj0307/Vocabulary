@@ -20,7 +20,13 @@
             "english_note": "",
             "chinese_note": "",
             "correct": 0,
-            "wrong": 0
+            "wrong": 0,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "past_tense": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "guest",
@@ -41,7 +47,13 @@
             "english_note": "",
             "chinese_note": "",
             "correct": 0,
-            "wrong": 0
+            "wrong": 0,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "past_tense": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "lesson",
@@ -62,7 +74,13 @@
             "english_note": "",
             "chinese_note": "",
             "correct": 0,
-            "wrong": 0
+            "wrong": 0,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "past_tense": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "employee",
@@ -83,7 +101,13 @@
             "english_note": "",
             "chinese_note": "",
             "correct": 0,
-            "wrong": 0
+            "wrong": 0,
+            "cn_to_en_weight": 2,
+            "en_to_cn_weight": 2,
+            "is_countable": true,
+            "past_tense": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "employer",
@@ -104,7 +128,13 @@
             "english_note": "",
             "chinese_note": "",
             "correct": 0,
-            "wrong": 0
+            "wrong": 0,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "past_tense": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "goal",
@@ -125,79 +155,217 @@
             "english_note": "",
             "chinese_note": "",
             "correct": 0,
-            "wrong": 0
+            "wrong": 0,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "past_tense": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "remain",
             "chinese": "保持",
             "category": "verb",
-            "weight": 3
+            "weight": 3,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "plural": "",
+            "third_person": "",
+            "past_tense": "",
+            "past_participle": "",
+            "comparative": "",
+            "superlative": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "fail",
             "chinese": "失败",
             "category": "verb",
-            "weight": 3
+            "weight": 3,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "plural": "",
+            "third_person": "",
+            "past_tense": "",
+            "past_participle": "",
+            "comparative": "",
+            "superlative": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "believe",
             "chinese": "相信",
             "category": "verb",
-            "weight": 3
+            "weight": 3,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "plural": "",
+            "third_person": "",
+            "past_tense": "",
+            "past_participle": "",
+            "comparative": "",
+            "superlative": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "realize",
             "chinese": "意识到",
             "category": "verb",
-            "weight": 3
+            "weight": 3,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "plural": "",
+            "third_person": "",
+            "past_tense": "",
+            "past_participle": "",
+            "comparative": "",
+            "superlative": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "recognize",
             "chinese": "认出",
             "category": "verb",
-            "weight": 3
+            "weight": 3,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "plural": "",
+            "third_person": "",
+            "past_tense": "",
+            "past_participle": "",
+            "comparative": "",
+            "superlative": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "wonder",
             "chinese": "好奇",
             "category": "verb",
-            "weight": 3
+            "weight": 3,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "plural": "",
+            "third_person": "",
+            "past_tense": "",
+            "past_participle": "",
+            "comparative": "",
+            "superlative": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "handsome",
             "chinese": "帅的",
             "category": "adjective",
-            "weight": 3
+            "weight": 3,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "plural": "",
+            "third_person": "",
+            "past_tense": "",
+            "past_participle": "",
+            "comparative": "",
+            "superlative": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "wide",
             "chinese": "宽的",
             "category": "adjective",
-            "weight": 2
+            "weight": 2,
+            "cn_to_en_weight": 2,
+            "en_to_cn_weight": 2,
+            "is_countable": true,
+            "plural": "",
+            "third_person": "",
+            "past_tense": "",
+            "past_participle": "",
+            "comparative": "",
+            "superlative": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "narrow",
             "chinese": "窄的",
             "category": "adjective",
-            "weight": 3
+            "weight": 3,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "is_countable": true,
+            "plural": "",
+            "third_person": "",
+            "past_tense": "",
+            "past_participle": "",
+            "comparative": "",
+            "superlative": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "thick",
             "chinese": "厚的",
             "category": "adjective",
-            "weight": 2
+            "weight": 2,
+            "cn_to_en_weight": 2,
+            "en_to_cn_weight": 2,
+            "is_countable": true,
+            "plural": "",
+            "third_person": "",
+            "past_tense": "",
+            "past_participle": "",
+            "comparative": "",
+            "superlative": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "heavy",
             "chinese": "重的",
             "category": "adjective",
-            "weight": 2
+            "weight": 2,
+            "cn_to_en_weight": 2,
+            "en_to_cn_weight": 2,
+            "is_countable": true,
+            "plural": "",
+            "third_person": "",
+            "past_tense": "",
+            "past_participle": "",
+            "comparative": "",
+            "superlative": "",
+            "cn_note": "",
+            "en_note": ""
         },
         {
             "english": "light",
             "chinese": "轻的",
             "category": "adjective",
-            "weight": 2
+            "weight": 2,
+            "cn_to_en_weight": 2,
+            "en_to_cn_weight": 2,
+            "is_countable": true,
+            "plural": "",
+            "third_person": "",
+            "past_tense": "",
+            "past_participle": "",
+            "comparative": "",
+            "superlative": "",
+            "cn_note": "",
+            "en_note": ""
         }
     ]
 }
