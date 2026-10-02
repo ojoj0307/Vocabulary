@@ -2961,7 +2961,7 @@ elif page == "📖 查看词库":
 
 
         cols = st.columns(
-            [1.0, 1.0, 1.0, 1.6, 1.6, 1.6, 1.6, 0.7, 0.7]
+            [1.4, 1.4, 1.4, 1.4, 1.4, 1.4, 1.4]
         )
 
 
@@ -3017,30 +3017,6 @@ elif page == "📖 查看词库":
         with cols[3]:
 
             if st.button(
-                sort_label("cn_weight", "中译英权重"),
-                key="sort_cn_weight",
-                use_container_width=True
-            ):
-
-                set_sort("cn_weight")
-                st.rerun()
-
-
-        with cols[4]:
-
-            if st.button(
-                sort_label("en_weight", "英译中权重"),
-                key="sort_en_weight",
-                use_container_width=True
-            ):
-
-                set_sort("en_weight")
-                st.rerun()
-
-
-        with cols[5]:
-
-            if st.button(
                 sort_label("cn_prob", "中译英概率"),
                 key="sort_cn_prob",
                 use_container_width=True
@@ -3050,7 +3026,7 @@ elif page == "📖 查看词库":
                 st.rerun()
 
 
-        with cols[6]:
+        with cols[4]:
 
             if st.button(
                 sort_label("en_prob", "英译中概率"),
@@ -3062,10 +3038,10 @@ elif page == "📖 查看词库":
                 st.rerun()
 
 
-        with cols[7]:
+        with cols[5]:
 
             if st.button(
-                sort_label("correct", "✓"),
+                sort_label("correct", "正确"),
                 key="sort_correct",
                 use_container_width=True
             ):
@@ -3074,10 +3050,10 @@ elif page == "📖 查看词库":
                 st.rerun()
 
 
-        with cols[8]:
+        with cols[6]:
 
             if st.button(
-                sort_label("wrong", "✗"),
+                sort_label("wrong", "错误"),
                 key="sort_wrong",
                 use_container_width=True
             ):
