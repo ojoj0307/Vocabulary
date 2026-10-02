@@ -2518,5 +2518,77 @@
         "en_to_cn_wrong": 0,
         "correct": 1,
         "wrong": 0
+    },
+    {
+        "english": "partner",
+        "chinese": "伙伴",
+        "category": "noun",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "guest",
+        "chinese": "客人",
+        "category": "noun",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "lesson",
+        "chinese": "课程",
+        "category": "noun",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "employee",
+        "chinese": "员工",
+        "category": "noun",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "employer",
+        "chinese": "雇主",
+        "category": "noun",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "goal",
+        "chinese": "目标",
+        "category": "noun",
+        "weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
     }
 ]
