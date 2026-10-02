@@ -9,7 +9,16 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "career",
@@ -21,7 +30,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "experience",
@@ -33,7 +51,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "information",
@@ -45,7 +72,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "receipt",
@@ -57,7 +93,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 2
+        "en_to_cn_wrong": 2,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "salary",
@@ -69,7 +114,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "salt",
@@ -81,7 +135,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "belly",
@@ -93,7 +156,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 2,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "adult",
@@ -105,7 +177,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "hundred",
@@ -117,7 +198,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "thousand",
@@ -129,7 +219,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "million",
@@ -141,7 +240,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "minute",
@@ -153,7 +261,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "second",
@@ -165,7 +282,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "choice",
@@ -177,7 +303,16 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "monday",
@@ -189,7 +324,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "tuesday",
@@ -201,7 +345,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "wednesday",
@@ -213,7 +366,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "thursday",
@@ -225,7 +387,16 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "friday",
@@ -237,7 +408,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "saturday",
@@ -249,7 +429,16 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 2,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "sunday",
@@ -261,7 +450,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "january",
@@ -273,7 +471,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "february",
@@ -285,7 +492,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "march",
@@ -297,7 +513,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "april",
@@ -309,7 +534,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "may",
@@ -321,7 +555,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "june",
@@ -333,7 +576,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "july",
@@ -345,7 +597,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "august",
@@ -357,7 +618,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "september",
@@ -369,7 +639,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "october",
@@ -381,7 +660,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "november",
@@ -393,7 +681,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "december",
@@ -405,7 +702,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "research",
@@ -417,7 +723,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "interview",
@@ -429,7 +744,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "deadline",
@@ -441,7 +765,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "opportunity",
@@ -453,7 +786,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "account",
@@ -465,7 +807,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "profile",
@@ -477,7 +828,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "website",
@@ -489,7 +849,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "discount",
@@ -501,7 +870,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "travel",
@@ -513,7 +891,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "train",
@@ -525,7 +912,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "change",
@@ -537,7 +933,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "choose",
@@ -549,7 +954,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "challenge",
@@ -561,7 +975,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "arrive",
@@ -573,7 +996,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "exit",
@@ -585,7 +1017,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "carry",
@@ -597,7 +1038,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "bring",
@@ -609,7 +1059,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "receive",
@@ -621,7 +1080,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "lend",
@@ -633,7 +1101,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "borrow",
@@ -645,7 +1122,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "decide",
@@ -657,7 +1143,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "improve",
@@ -669,7 +1164,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "practice",
@@ -681,7 +1185,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "discuss",
@@ -693,7 +1206,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "solve",
@@ -705,7 +1227,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "prepare",
@@ -717,7 +1248,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "complete",
@@ -729,7 +1269,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "continue",
@@ -741,7 +1290,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "manage",
@@ -753,7 +1311,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "return",
@@ -765,7 +1332,16 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "interview",
@@ -777,7 +1353,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "search",
@@ -789,7 +1374,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "download",
@@ -801,7 +1395,16 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "upload",
@@ -813,7 +1416,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "allow",
@@ -825,7 +1437,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "accept",
@@ -837,7 +1458,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "refuse",
@@ -849,7 +1479,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "avoid",
@@ -861,7 +1500,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "reach",
@@ -873,7 +1521,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "difficult",
@@ -885,7 +1542,16 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "dirty",
@@ -897,7 +1563,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "necessary",
@@ -909,7 +1584,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "ugly",
@@ -921,7 +1605,16 @@
         "cn_to_en_correct": 4,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "excited",
@@ -933,7 +1626,16 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "tired",
@@ -945,7 +1647,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "bored",
@@ -957,7 +1668,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "stressed",
@@ -969,7 +1689,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "scared",
@@ -981,7 +1710,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "nervous",
@@ -993,7 +1731,16 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "surprised",
@@ -1005,7 +1752,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "confused",
@@ -1017,7 +1773,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "weak",
@@ -1029,7 +1794,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "serious",
@@ -1041,7 +1815,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "honest",
@@ -1053,7 +1836,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "lazy",
@@ -1065,7 +1857,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "polite",
@@ -1077,7 +1878,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "first",
@@ -1089,7 +1899,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "second",
@@ -1101,7 +1920,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "third",
@@ -1113,7 +1941,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "hungry",
@@ -1125,7 +1962,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "thirsty",
@@ -1137,7 +1983,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "sleepy",
@@ -1149,7 +2004,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "sick",
@@ -1161,7 +2025,16 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "healthy",
@@ -1173,7 +2046,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "dizzy",
@@ -1185,7 +2067,16 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "painful",
@@ -1197,7 +2088,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "comfortable",
@@ -1209,7 +2109,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "actually",
@@ -1221,7 +2130,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "almost",
@@ -1233,7 +2151,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "currently",
@@ -1245,7 +2172,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "definitely",
@@ -1257,7 +2193,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "especially",
@@ -1269,7 +2214,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "eventually",
@@ -1281,7 +2235,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "fairly",
@@ -1293,7 +2256,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "hardly",
@@ -1305,7 +2277,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "hopefully",
@@ -1317,7 +2298,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "normally",
@@ -1329,7 +2319,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "obviously",
@@ -1341,7 +2340,16 @@
         "cn_to_en_correct": 4,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "personally",
@@ -1353,7 +2361,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "pretty",
@@ -1365,7 +2382,16 @@
         "cn_to_en_correct": 4,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "quite",
@@ -1377,7 +2403,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 3,
         "en_to_cn_correct": 4,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "usually",
@@ -1389,7 +2424,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "always",
@@ -1401,7 +2445,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "often",
@@ -1413,7 +2466,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "never",
@@ -1425,7 +2487,16 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "already",
@@ -1437,7 +2508,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "yet",
@@ -1449,7 +2529,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "still",
@@ -1461,7 +2550,16 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "just",
@@ -1473,7 +2571,16 @@
         "cn_to_en_correct": 4,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "probably",
@@ -1485,7 +2592,16 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "screenshot",
@@ -1497,7 +2613,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "notification",
@@ -1509,7 +2634,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 1
+        "wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "invite",
@@ -1521,7 +2655,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "compare",
@@ -1533,7 +2676,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "describe",
@@ -1545,7 +2697,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 3,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "explain",
@@ -1557,7 +2718,16 @@
         "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "uncomfortable",
@@ -1569,7 +2739,16 @@
         "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "active",
@@ -1581,7 +2760,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "careful",
@@ -1593,7 +2781,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 1
+        "wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "careless",
@@ -1605,7 +2802,16 @@
         "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
         "correct": 3,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "really",
@@ -1617,7 +2823,16 @@
         "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
         "correct": 3,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "finally",
@@ -1629,7 +2844,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 3,
-        "wrong": 1
+        "wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "suddenly",
@@ -1641,7 +2865,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "circle",
@@ -1653,7 +2886,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "square",
@@ -1665,7 +2907,16 @@
         "en_to_cn_correct": 3,
         "en_to_cn_wrong": 0,
         "correct": 4,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "triangle",
@@ -1677,7 +2928,16 @@
         "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
         "correct": 3,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "rectangle",
@@ -1689,7 +2949,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 3,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "translate",
@@ -1701,7 +2970,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 3,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "repeat",
@@ -1713,7 +2991,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "mention",
@@ -1725,7 +3012,16 @@
         "en_to_cn_correct": 3,
         "en_to_cn_wrong": 0,
         "correct": 3,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "imagine",
@@ -1737,7 +3033,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "smart",
@@ -1749,7 +3054,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "patient",
@@ -1761,7 +3075,16 @@
         "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
         "correct": 3,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "brave",
@@ -1773,7 +3096,16 @@
         "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
         "correct": 4,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "calm",
@@ -1785,7 +3117,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "immediately",
@@ -1797,7 +3138,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "oval",
@@ -1809,7 +3159,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "diamond",
@@ -1821,7 +3180,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "flower",
@@ -1833,7 +3201,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "plant",
@@ -1845,7 +3222,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "leaf",
@@ -1857,7 +3243,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "expect",
@@ -1869,7 +3264,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "apply",
@@ -1881,7 +3285,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "attend",
@@ -1893,7 +3306,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "create",
@@ -1905,7 +3327,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "develop",
@@ -1917,7 +3348,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "busy",
@@ -1929,7 +3369,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "ready",
@@ -1941,7 +3390,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "certain",
@@ -1953,7 +3411,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "possible",
@@ -1965,7 +3432,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "impossible",
@@ -1977,7 +3453,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "produce",
@@ -1989,7 +3474,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "provide",
@@ -2001,7 +3495,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "support",
@@ -2013,7 +3516,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 1
+        "wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "succeed",
@@ -2025,7 +3537,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "communicate",
@@ -2037,7 +3558,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 1,
         "correct": 1,
-        "wrong": 1
+        "wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "introduce",
@@ -2049,7 +3579,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "encourage",
@@ -2061,7 +3600,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "respect",
@@ -2073,7 +3621,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "useful",
@@ -2085,7 +3642,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "useless",
@@ -2097,7 +3663,16 @@
         "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "important",
@@ -2109,7 +3684,16 @@
         "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "modern",
@@ -2121,7 +3705,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 2,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "traditional",
@@ -2133,7 +3726,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "seed",
@@ -2145,7 +3747,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "decision",
@@ -2157,7 +3768,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "way",
@@ -2169,7 +3789,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "customer",
@@ -2181,7 +3810,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "factory",
@@ -2193,7 +3831,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "technology",
@@ -2205,7 +3852,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "customs",
@@ -2217,7 +3873,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "trust",
@@ -2229,7 +3894,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "forgive",
@@ -2241,7 +3915,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "celebrate",
@@ -2253,7 +3936,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "recommend",
@@ -2265,7 +3957,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "remind",
@@ -2277,7 +3978,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "popular",
@@ -2289,7 +3999,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "common",
@@ -2301,7 +4020,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "local",
@@ -2313,7 +4041,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "international",
@@ -2325,7 +4062,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "public",
@@ -2337,7 +4083,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "service",
@@ -2349,7 +4104,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "address",
@@ -2361,7 +4125,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "reason",
@@ -2373,7 +4146,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "situation",
@@ -2385,7 +4167,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "message",
@@ -2397,7 +4188,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "colleague",
@@ -2409,7 +4209,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "forget",
@@ -2421,7 +4230,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "remember",
@@ -2433,7 +4251,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "grow",
@@ -2445,7 +4272,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "plant",
@@ -2457,7 +4293,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 1
+        "wrong": 1,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "serve",
@@ -2469,7 +4314,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "opinion",
@@ -2481,7 +4335,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "private",
@@ -2493,7 +4356,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "simple",
@@ -2505,7 +4377,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "complex",
@@ -2517,7 +4398,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 1,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "partner",
@@ -2529,7 +4419,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "guest",
@@ -2541,7 +4440,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "lesson",
@@ -2553,7 +4461,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "employee",
@@ -2565,7 +4482,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "employer",
@@ -2577,7 +4503,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "goal",
@@ -2589,7 +4524,16 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     },
     {
         "english": "apply",
@@ -2601,6 +4545,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "countable": "",
+        "plural": "",
+        "third_person": "",
+        "past": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "english_note": "",
+        "chinese_note": ""
     }
 ]
