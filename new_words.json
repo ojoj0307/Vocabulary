@@ -169,7 +169,7 @@
             "category": "verb",
             "weight": 3,
             "cn_to_en_weight": 1,
-            "en_to_cn_weight": 3,
+            "en_to_cn_weight": 2,
             "is_countable": true,
             "plural": "",
             "third_person": "",
