@@ -304,7 +304,7 @@
             "chinese": "窄的",
             "category": "adjective",
             "weight": 3,
-            "cn_to_en_weight": 3,
+            "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "is_countable": true,
             "plural": "",
