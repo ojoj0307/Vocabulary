@@ -338,7 +338,7 @@
             "chinese": "重的",
             "category": "adjective",
             "weight": 2,
-            "cn_to_en_weight": 2,
+            "cn_to_en_weight": 1,
             "en_to_cn_weight": 2,
             "is_countable": true,
             "plural": "",
