@@ -1873,7 +1873,7 @@
     },
     {
         "english": "apply",
-        "chinese": "申请/应用",
+        "chinese": "申请",
         "category": "verb",
         "weight": 2,
         "cn_to_en_correct": 0,
