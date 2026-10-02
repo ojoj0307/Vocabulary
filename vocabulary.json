@@ -4606,7 +4606,7 @@
     },
     {
         "english": "recognize",
-        "chinese": "识别",
+        "chinese": "认出",
         "category": "verb",
         "weight": 3,
         "cn_to_en_correct": 0,
