@@ -452,6 +452,14 @@ def normalize_vocabulary(data):
             word["en_to_cn_wrong"] = 0
             changed = True
 
+        if "cn_to_en_not_seen" not in word:
+            word["cn_to_en_not_seen"] = 0
+            changed = True
+
+        if "en_to_cn_not_seen" not in word:
+            word["en_to_cn_not_seen"] = 0
+            changed = True
+
         if "correct" not in word:
             word["correct"] = (
                 int(word.get("cn_to_en_correct", 0)) +
@@ -570,6 +578,14 @@ def normalize_new_word(word):
 
     if "en_to_cn_weight" not in word:
         word["en_to_cn_weight"] = int(default_w)
+        changed = True
+
+    if "cn_to_en_not_seen" not in word:
+        word["cn_to_en_not_seen"] = 0
+        changed = True
+
+    if "en_to_cn_not_seen" not in word:
+        word["en_to_cn_not_seen"] = 0
         changed = True
 
     return changed
