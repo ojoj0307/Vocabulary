@@ -156,7 +156,7 @@
             "chinese_note": "",
             "correct": 0,
             "wrong": 0,
-            "cn_to_en_weight": 2,
+            "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "is_countable": true,
             "past_tense": "",
