@@ -15,7 +15,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "career",
@@ -33,7 +35,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "experience",
@@ -51,7 +55,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "information",
@@ -69,7 +75,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "receipt",
@@ -87,7 +95,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 6,
-        "en_to_cn_weight": 6
+        "en_to_cn_weight": 6,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "salary",
@@ -105,7 +115,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "salt",
@@ -123,7 +135,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "belly",
@@ -141,7 +155,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 5,
-        "en_to_cn_weight": 5
+        "en_to_cn_weight": 5,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "adult",
@@ -159,7 +175,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "hundred",
@@ -177,7 +195,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "thousand",
@@ -195,7 +215,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "million",
@@ -213,7 +235,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "minute",
@@ -231,7 +255,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "second",
@@ -249,7 +275,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "choice",
@@ -267,7 +295,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "monday",
@@ -285,7 +315,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "tuesday",
@@ -303,7 +335,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "wednesday",
@@ -321,7 +355,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 4,
-        "en_to_cn_weight": 4
+        "en_to_cn_weight": 4,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "thursday",
@@ -339,7 +375,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "friday",
@@ -357,7 +395,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "saturday",
@@ -375,7 +415,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "sunday",
@@ -393,7 +435,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "january",
@@ -411,7 +455,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "february",
@@ -429,7 +475,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "march",
@@ -447,7 +495,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "april",
@@ -465,7 +515,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "may",
@@ -483,7 +535,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "june",
@@ -501,7 +555,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "july",
@@ -519,7 +575,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "august",
@@ -537,7 +595,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "september",
@@ -555,7 +615,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "october",
@@ -573,7 +635,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "november",
@@ -591,7 +655,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "december",
@@ -609,7 +675,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "research",
@@ -627,7 +695,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "interview",
@@ -645,7 +715,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "deadline",
@@ -663,7 +735,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "opportunity",
@@ -681,7 +755,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "account",
@@ -699,7 +775,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "profile",
@@ -717,7 +795,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "website",
@@ -735,7 +815,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "discount",
@@ -753,7 +835,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "travel",
@@ -771,7 +855,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "train",
@@ -789,7 +875,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "change",
@@ -807,7 +895,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "choose",
@@ -825,7 +915,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "challenge",
@@ -843,7 +935,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "arrive",
@@ -861,7 +955,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "exit",
@@ -879,7 +975,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "carry",
@@ -897,7 +995,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "bring",
@@ -915,7 +1015,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "receive",
@@ -933,7 +1035,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "lend",
@@ -951,7 +1055,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "borrow",
@@ -969,7 +1075,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "decide",
@@ -987,7 +1095,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "improve",
@@ -1005,7 +1115,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "practice",
@@ -1023,7 +1135,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "discuss",
@@ -1041,7 +1155,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "solve",
@@ -1059,7 +1175,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "prepare",
@@ -1077,7 +1195,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "complete",
@@ -1095,7 +1215,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "continue",
@@ -1113,7 +1235,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "manage",
@@ -1131,7 +1255,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "return",
@@ -1149,7 +1275,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 4,
-        "en_to_cn_weight": 4
+        "en_to_cn_weight": 4,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "interview",
@@ -1167,7 +1295,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "search",
@@ -1185,7 +1315,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "download",
@@ -1203,7 +1335,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "upload",
@@ -1221,7 +1355,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "allow",
@@ -1239,7 +1375,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "accept",
@@ -1257,7 +1395,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "refuse",
@@ -1275,7 +1415,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "avoid",
@@ -1293,7 +1435,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "reach",
@@ -1311,7 +1455,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "difficult",
@@ -1329,7 +1475,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "dirty",
@@ -1347,7 +1495,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "necessary",
@@ -1365,7 +1515,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "ugly",
@@ -1383,7 +1535,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "excited",
@@ -1401,7 +1555,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "tired",
@@ -1419,7 +1575,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "bored",
@@ -1437,7 +1595,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "stressed",
@@ -1455,7 +1615,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "scared",
@@ -1473,7 +1635,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "nervous",
@@ -1491,7 +1655,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "surprised",
@@ -1509,7 +1675,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "confused",
@@ -1527,7 +1695,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 4,
-        "en_to_cn_weight": 4
+        "en_to_cn_weight": 4,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "weak",
@@ -1545,7 +1715,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "serious",
@@ -1563,7 +1735,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "honest",
@@ -1581,7 +1755,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "lazy",
@@ -1599,7 +1775,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "polite",
@@ -1617,7 +1795,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "first",
@@ -1635,7 +1815,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "second",
@@ -1653,7 +1835,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "third",
@@ -1671,7 +1855,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "hungry",
@@ -1689,7 +1875,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "thirsty",
@@ -1707,7 +1895,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "sleepy",
@@ -1725,7 +1915,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "sick",
@@ -1743,7 +1935,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "healthy",
@@ -1761,7 +1955,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "dizzy",
@@ -1779,7 +1975,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "painful",
@@ -1797,7 +1995,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "comfortable",
@@ -1815,7 +2015,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "actually",
@@ -1833,7 +2035,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "almost",
@@ -1851,7 +2055,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "currently",
@@ -1869,7 +2075,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "definitely",
@@ -1887,7 +2095,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "especially",
@@ -1905,7 +2115,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "eventually",
@@ -1923,7 +2135,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "fairly",
@@ -1941,7 +2155,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "hardly",
@@ -1959,7 +2175,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "hopefully",
@@ -1977,7 +2195,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "normally",
@@ -1995,7 +2215,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "obviously",
@@ -2013,7 +2235,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "personally",
@@ -2031,7 +2255,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "pretty",
@@ -2049,7 +2275,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "quite",
@@ -2067,7 +2295,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 5,
-        "en_to_cn_weight": 5
+        "en_to_cn_weight": 5,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "usually",
@@ -2085,7 +2315,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "always",
@@ -2103,7 +2335,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "often",
@@ -2121,7 +2355,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "never",
@@ -2139,7 +2375,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "already",
@@ -2157,7 +2395,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "yet",
@@ -2175,7 +2415,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "still",
@@ -2193,7 +2435,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "just",
@@ -2211,7 +2455,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "probably",
@@ -2229,7 +2475,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "screenshot",
@@ -2247,7 +2495,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "notification",
@@ -2265,7 +2515,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "invite",
@@ -2283,7 +2535,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "compare",
@@ -2301,7 +2555,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "describe",
@@ -2319,7 +2575,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "explain",
@@ -2337,7 +2595,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "uncomfortable",
@@ -2355,7 +2615,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "active",
@@ -2373,7 +2635,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "careful",
@@ -2391,7 +2655,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "careless",
@@ -2409,7 +2675,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "really",
@@ -2427,7 +2695,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "finally",
@@ -2445,7 +2715,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "suddenly",
@@ -2463,7 +2735,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "circle",
@@ -2481,7 +2755,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "square",
@@ -2499,7 +2775,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "triangle",
@@ -2517,7 +2795,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "rectangle",
@@ -2535,7 +2815,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "translate",
@@ -2553,7 +2835,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "repeat",
@@ -2571,7 +2855,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "mention",
@@ -2589,7 +2875,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "imagine",
@@ -2607,7 +2895,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "smart",
@@ -2625,7 +2915,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "patient",
@@ -2643,7 +2935,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "brave",
@@ -2661,7 +2955,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "calm",
@@ -2679,7 +2975,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "immediately",
@@ -2697,7 +2995,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "oval",
@@ -2715,7 +3015,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "diamond",
@@ -2733,7 +3035,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "flower",
@@ -2751,7 +3055,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "plant",
@@ -2769,7 +3075,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "leaf",
@@ -2787,7 +3095,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "expect",
@@ -2805,7 +3115,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "apply",
@@ -2823,7 +3135,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "attend",
@@ -2841,7 +3155,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "create",
@@ -2859,7 +3175,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "develop",
@@ -2877,7 +3195,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "busy",
@@ -2895,7 +3215,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "ready",
@@ -2913,7 +3235,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "certain",
@@ -2931,7 +3255,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "possible",
@@ -2949,7 +3275,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "impossible",
@@ -2967,7 +3295,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "produce",
@@ -2985,7 +3315,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "provide",
@@ -3003,7 +3335,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "support",
@@ -3021,7 +3355,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 5,
-        "en_to_cn_weight": 5
+        "en_to_cn_weight": 5,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "succeed",
@@ -3039,7 +3375,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "communicate",
@@ -3057,7 +3395,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 4,
-        "en_to_cn_weight": 4
+        "en_to_cn_weight": 4,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "introduce",
@@ -3075,7 +3415,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "encourage",
@@ -3093,7 +3435,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "respect",
@@ -3111,7 +3455,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "useful",
@@ -3129,7 +3475,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "useless",
@@ -3147,7 +3495,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "important",
@@ -3165,7 +3515,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "modern",
@@ -3183,7 +3535,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 1,
-        "en_to_cn_weight": 1
+        "en_to_cn_weight": 1,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "traditional",
@@ -3201,7 +3555,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "seed",
@@ -3219,7 +3575,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "decision",
@@ -3237,7 +3595,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "way",
@@ -3255,7 +3615,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "customer",
@@ -3273,7 +3635,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "factory",
@@ -3291,7 +3655,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "technology",
@@ -3309,7 +3675,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "customs",
@@ -3327,7 +3695,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "trust",
@@ -3345,7 +3715,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "forgive",
@@ -3363,7 +3735,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "celebrate",
@@ -3381,7 +3755,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "recommend",
@@ -3399,7 +3775,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "remind",
@@ -3417,7 +3795,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "popular",
@@ -3435,7 +3815,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "common",
@@ -3453,7 +3835,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "local",
@@ -3471,7 +3855,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "international",
@@ -3489,7 +3875,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "public",
@@ -3507,7 +3895,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "service",
@@ -3525,7 +3915,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "address",
@@ -3543,7 +3935,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "reason",
@@ -3561,7 +3955,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "situation",
@@ -3579,7 +3975,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "message",
@@ -3597,7 +3995,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "colleague",
@@ -3615,7 +4015,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "forget",
@@ -3633,7 +4035,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "remember",
@@ -3651,7 +4055,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "grow",
@@ -3669,7 +4075,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "plant",
@@ -3687,7 +4095,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 5,
-        "en_to_cn_weight": 5
+        "en_to_cn_weight": 5,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "serve",
@@ -3705,7 +4115,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "opinion",
@@ -3723,7 +4135,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "private",
@@ -3741,7 +4155,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "simple",
@@ -3759,7 +4175,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "complex",
@@ -3777,7 +4195,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
-        "en_to_cn_weight": 2
+        "en_to_cn_weight": 2,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "partner",
@@ -3795,7 +4215,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "guest",
@@ -3813,7 +4235,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "lesson",
@@ -3831,7 +4255,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "employee",
@@ -3849,7 +4275,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "employer",
@@ -3867,7 +4295,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "goal",
@@ -3885,7 +4315,9 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "apply",
@@ -3903,6 +4335,8 @@
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 3,
-        "en_to_cn_weight": 3
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     }
 ]
