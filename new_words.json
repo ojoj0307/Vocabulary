@@ -68,7 +68,7 @@
             "english": "employee",
             "chinese": "员工",
             "category": "noun",
-            "weight": 3,
+            "weight": 2,
             "cn_to_en_correct": 0,
             "cn_to_en_wrong": 0,
             "en_to_cn_correct": 0,
