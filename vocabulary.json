@@ -9,7 +9,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "career",
@@ -21,7 +32,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "experience",
@@ -33,7 +55,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "information",
@@ -45,7 +78,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "receipt",
@@ -57,7 +101,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 2
+        "en_to_cn_wrong": 2,
+        "cn_to_en_weight": 6,
+        "en_to_cn_weight": 6,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "salary",
@@ -69,7 +124,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "salt",
@@ -81,7 +147,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "belly",
@@ -93,7 +170,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 2,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 5,
+        "en_to_cn_weight": 5,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "adult",
@@ -105,7 +193,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "hundred",
@@ -117,7 +216,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "thousand",
@@ -129,7 +239,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "million",
@@ -141,7 +262,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "minute",
@@ -153,7 +285,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "second",
@@ -165,7 +308,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "choice",
@@ -177,7 +331,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "monday",
@@ -189,7 +354,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "tuesday",
@@ -201,7 +377,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "wednesday",
@@ -213,7 +400,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 4,
+        "en_to_cn_weight": 4,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "thursday",
@@ -225,7 +423,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "friday",
@@ -237,7 +446,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "saturday",
@@ -249,7 +469,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 2,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "sunday",
@@ -261,7 +492,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "january",
@@ -273,7 +515,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "february",
@@ -285,7 +538,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "march",
@@ -297,7 +561,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "april",
@@ -309,7 +584,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "may",
@@ -321,7 +607,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "june",
@@ -333,7 +630,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "july",
@@ -345,7 +653,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "august",
@@ -357,7 +676,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "september",
@@ -369,7 +699,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "october",
@@ -381,7 +722,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "november",
@@ -393,7 +745,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "december",
@@ -405,7 +768,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "research",
@@ -417,7 +791,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "interview",
@@ -429,7 +814,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "deadline",
@@ -441,7 +837,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "opportunity",
@@ -453,7 +860,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "account",
@@ -465,7 +883,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "profile",
@@ -477,7 +906,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "website",
@@ -489,7 +929,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "discount",
@@ -501,7 +952,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "travel",
@@ -513,7 +975,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "train",
@@ -525,7 +998,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "change",
@@ -537,7 +1021,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "choose",
@@ -549,7 +1044,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "challenge",
@@ -561,7 +1067,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "arrive",
@@ -573,7 +1090,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "exit",
@@ -585,7 +1113,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "carry",
@@ -597,7 +1136,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "bring",
@@ -609,7 +1159,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "receive",
@@ -621,7 +1182,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "lend",
@@ -633,7 +1205,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "borrow",
@@ -645,7 +1228,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "decide",
@@ -657,7 +1251,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "improve",
@@ -669,7 +1274,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "practice",
@@ -681,7 +1297,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "discuss",
@@ -693,7 +1320,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "solve",
@@ -705,7 +1343,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "prepare",
@@ -717,7 +1366,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "complete",
@@ -729,7 +1389,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "continue",
@@ -741,7 +1412,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "manage",
@@ -753,7 +1435,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "return",
@@ -765,7 +1458,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "cn_to_en_weight": 4,
+        "en_to_cn_weight": 4,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "interview",
@@ -777,7 +1481,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "search",
@@ -789,7 +1504,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "download",
@@ -801,7 +1527,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "upload",
@@ -813,7 +1550,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "allow",
@@ -825,7 +1573,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "accept",
@@ -837,7 +1596,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "refuse",
@@ -849,7 +1619,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "avoid",
@@ -861,7 +1642,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "reach",
@@ -873,7 +1665,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "difficult",
@@ -885,7 +1688,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "dirty",
@@ -897,7 +1711,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "necessary",
@@ -909,7 +1734,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "ugly",
@@ -921,7 +1757,18 @@
         "cn_to_en_correct": 4,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "excited",
@@ -933,7 +1780,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "tired",
@@ -945,7 +1803,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "bored",
@@ -957,7 +1826,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "stressed",
@@ -969,7 +1849,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "scared",
@@ -981,7 +1872,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "nervous",
@@ -993,7 +1895,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "surprised",
@@ -1005,7 +1918,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "confused",
@@ -1017,7 +1941,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 4,
+        "en_to_cn_weight": 4,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "weak",
@@ -1029,7 +1964,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "serious",
@@ -1041,7 +1987,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "honest",
@@ -1053,7 +2010,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "lazy",
@@ -1065,7 +2033,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "polite",
@@ -1077,7 +2056,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "first",
@@ -1089,7 +2079,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "second",
@@ -1101,7 +2102,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "third",
@@ -1113,7 +2125,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "hungry",
@@ -1125,7 +2148,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "thirsty",
@@ -1137,7 +2171,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "sleepy",
@@ -1149,7 +2194,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "sick",
@@ -1161,7 +2217,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "healthy",
@@ -1173,7 +2240,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "dizzy",
@@ -1185,7 +2263,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "painful",
@@ -1197,7 +2286,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "comfortable",
@@ -1209,7 +2309,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "actually",
@@ -1221,7 +2332,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "almost",
@@ -1233,7 +2355,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "currently",
@@ -1245,7 +2378,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "definitely",
@@ -1257,7 +2401,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "especially",
@@ -1269,7 +2424,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "eventually",
@@ -1281,7 +2447,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "fairly",
@@ -1293,7 +2470,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "hardly",
@@ -1305,7 +2493,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "hopefully",
@@ -1317,7 +2516,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "normally",
@@ -1329,7 +2539,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "obviously",
@@ -1341,7 +2562,18 @@
         "cn_to_en_correct": 4,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "personally",
@@ -1353,7 +2585,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "pretty",
@@ -1365,7 +2608,18 @@
         "cn_to_en_correct": 4,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "quite",
@@ -1377,7 +2631,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 3,
         "en_to_cn_correct": 4,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 5,
+        "en_to_cn_weight": 5,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "usually",
@@ -1389,7 +2654,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "always",
@@ -1401,7 +2677,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "often",
@@ -1413,7 +2700,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "never",
@@ -1425,7 +2723,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "already",
@@ -1437,7 +2746,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "yet",
@@ -1449,7 +2769,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "still",
@@ -1461,7 +2792,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "just",
@@ -1473,7 +2815,18 @@
         "cn_to_en_correct": 4,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "probably",
@@ -1485,7 +2838,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "screenshot",
@@ -1497,7 +2861,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "notification",
@@ -1509,7 +2884,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "invite",
@@ -1521,7 +2907,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "compare",
@@ -1533,7 +2930,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "describe",
@@ -1545,7 +2953,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "explain",
@@ -1557,7 +2976,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "uncomfortable",
@@ -1569,7 +2999,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "active",
@@ -1581,7 +3022,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "careful",
@@ -1593,7 +3045,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "careless",
@@ -1605,7 +3068,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "really",
@@ -1617,7 +3091,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "finally",
@@ -1629,7 +3114,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "suddenly",
@@ -1641,7 +3137,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "circle",
@@ -1653,7 +3160,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "square",
@@ -1665,7 +3183,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "triangle",
@@ -1677,7 +3206,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "rectangle",
@@ -1689,7 +3229,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "translate",
@@ -1701,7 +3252,18 @@
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "repeat",
@@ -1713,7 +3275,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "mention",
@@ -1725,7 +3298,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 3,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "imagine",
@@ -1737,7 +3321,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "smart",
@@ -1749,7 +3344,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "patient",
@@ -1761,7 +3367,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "brave",
@@ -1773,7 +3390,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "calm",
@@ -1785,7 +3413,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "immediately",
@@ -1797,7 +3436,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "oval",
@@ -1809,7 +3459,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "diamond",
@@ -1821,7 +3482,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "flower",
@@ -1833,7 +3505,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "plant",
@@ -1845,7 +3528,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "leaf",
@@ -1857,7 +3551,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "expect",
@@ -1869,7 +3574,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "apply",
@@ -1881,7 +3597,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "attend",
@@ -1893,7 +3620,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "create",
@@ -1905,7 +3643,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "develop",
@@ -1917,7 +3666,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "busy",
@@ -1929,7 +3689,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "ready",
@@ -1941,7 +3712,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "certain",
@@ -1953,7 +3735,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "possible",
@@ -1965,7 +3758,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "impossible",
@@ -1977,7 +3781,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "produce",
@@ -1989,7 +3804,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "provide",
@@ -2001,7 +3827,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "support",
@@ -2013,7 +3850,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 5,
+        "en_to_cn_weight": 5,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "succeed",
@@ -2025,7 +3873,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "communicate",
@@ -2037,7 +3896,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 1
+        "en_to_cn_wrong": 1,
+        "cn_to_en_weight": 4,
+        "en_to_cn_weight": 4,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "introduce",
@@ -2049,7 +3919,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "encourage",
@@ -2061,7 +3942,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "respect",
@@ -2073,7 +3965,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "useful",
@@ -2085,7 +3988,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "useless",
@@ -2097,7 +4011,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 1,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "important",
@@ -2109,7 +4034,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "modern",
@@ -2121,7 +4057,18 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 1,
+        "en_to_cn_weight": 1,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "traditional",
@@ -2133,7 +4080,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "seed",
@@ -2145,7 +4103,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "decision",
@@ -2157,7 +4126,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "way",
@@ -2169,7 +4149,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "customer",
@@ -2181,7 +4172,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "factory",
@@ -2193,7 +4195,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "technology",
@@ -2205,7 +4218,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "customs",
@@ -2217,7 +4241,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "trust",
@@ -2229,7 +4264,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "forgive",
@@ -2241,7 +4287,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "celebrate",
@@ -2253,7 +4310,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "recommend",
@@ -2265,7 +4333,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "remind",
@@ -2277,7 +4356,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "popular",
@@ -2289,7 +4379,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "common",
@@ -2301,7 +4402,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "local",
@@ -2313,7 +4425,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "international",
@@ -2325,7 +4448,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "public",
@@ -2337,7 +4471,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "service",
@@ -2349,7 +4494,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "address",
@@ -2361,7 +4517,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "reason",
@@ -2373,7 +4540,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "situation",
@@ -2385,7 +4563,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "message",
@@ -2397,7 +4586,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "colleague",
@@ -2409,7 +4609,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "forget",
@@ -2421,7 +4632,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "remember",
@@ -2433,7 +4655,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "grow",
@@ -2445,7 +4678,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "plant",
@@ -2457,7 +4701,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 5,
+        "en_to_cn_weight": 5,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "serve",
@@ -2469,7 +4724,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "opinion",
@@ -2481,7 +4747,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "private",
@@ -2493,7 +4770,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "simple",
@@ -2505,7 +4793,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "complex",
@@ -2517,7 +4816,18 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 2,
+        "en_to_cn_weight": 2,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "partner",
@@ -2529,7 +4839,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "guest",
@@ -2541,7 +4862,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "lesson",
@@ -2553,7 +4885,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "employee",
@@ -2565,7 +4908,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "employer",
@@ -2577,7 +4931,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "goal",
@@ -2589,7 +4954,18 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     },
     {
         "english": "apply",
@@ -2601,6 +4977,17 @@
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0
+        "en_to_cn_wrong": 0,
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "is_countable": true,
+        "plural": "",
+        "third_person": "",
+        "past_tense": "",
+        "past_participle": "",
+        "comparative": "",
+        "superlative": "",
+        "cn_note": "",
+        "en_note": ""
     }
 ]
