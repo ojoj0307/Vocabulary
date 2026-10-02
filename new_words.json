@@ -202,7 +202,7 @@
             "chinese": "相信",
             "category": "verb",
             "weight": 3,
-            "cn_to_en_weight": 4,
+            "cn_to_en_weight": 3,
             "en_to_cn_weight": 3,
             "is_countable": true,
             "plural": "",
