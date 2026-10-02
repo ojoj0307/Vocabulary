@@ -1145,7 +1145,6 @@ if page == "🎓 学习模式":
     # ========================================================
 
     st.subheader("➕ 添加新词")
-    st.caption("💡 可直接从 Excel 框选复制，并在此表格中粘贴批量添加：")
 
     init_learning_df = pd.DataFrame(
         [{"english": "", "chinese": "", "category": "noun", "cn_note": "", "en_note": ""}]
@@ -1159,8 +1158,8 @@ if page == "🎓 学习模式":
             "english": st.column_config.TextColumn("英文", required=True),
             "chinese": st.column_config.TextColumn("中文", required=True),
             "category": st.column_config.SelectboxColumn("词性", options=CATEGORIES, default="noun", required=True),
-            "cn_note": st.column_config.TextColumn("中文备注 (中译英显示)"),
-            "en_note": st.column_config.TextColumn("英文备注 (英译中显示)"),
+            "cn_note": st.column_config.TextColumn("中文备注"),
+            "en_note": st.column_config.TextColumn("英文备注"),
         },
         key="learning_batch_editor"
     )
@@ -1778,14 +1777,14 @@ if page == "🎓 学习模式":
 
                 with col_n1:
                     edit_new_cn_note = st.text_input(
-                        "中文备注 (中译英显示)",
+                        "中文备注",
                         value=word.get("cn_note", ""),
                         key=f"new_edit_cn_note_{index}"
                     )
 
                 with col_n2:
                     edit_new_en_note = st.text_input(
-                        "英文备注 (英译中显示)",
+                        "英文备注",
                         value=word.get("en_note", ""),
                         key=f"new_edit_en_note_{index}"
                     )
@@ -2556,8 +2555,7 @@ elif page == "📚 词库管理":
 
     st.header("📚 词库管理")
 
-    st.subheader("➕ 添加单词 (表格模式)")
-    st.caption("💡 可直接从 Excel 框选复制，并在此表格中粘贴批量添加：")
+    st.subheader("➕ 添加单词")
 
     init_df = pd.DataFrame(
         [{"english": "", "chinese": "", "category": "noun", "cn_note": "", "en_note": ""}]
@@ -2571,8 +2569,8 @@ elif page == "📚 词库管理":
             "english": st.column_config.TextColumn("英文", required=True),
             "chinese": st.column_config.TextColumn("中文", required=True),
             "category": st.column_config.SelectboxColumn("词性", options=CATEGORIES, default="noun", required=True),
-            "cn_note": st.column_config.TextColumn("中文备注 (中译英显示)"),
-            "en_note": st.column_config.TextColumn("英文备注 (英译中显示)"),
+            "cn_note": st.column_config.TextColumn("中文备注"),
+            "en_note": st.column_config.TextColumn("英文备注"),
         },
         key="vocab_batch_editor"
     )
@@ -2701,14 +2699,14 @@ elif page == "📚 词库管理":
 
             with col_n1:
                 new_cn_note = st.text_input(
-                    "中文备注 (中译英显示)",
+                    "中文备注",
                     value=word.get("cn_note", ""),
                     key=f"edit_cn_note_{index}"
                 )
 
             with col_n2:
                 new_en_note = st.text_input(
-                    "英文备注 (英译中显示)",
+                    "英文备注",
                     value=word.get("en_note", ""),
                     key=f"edit_en_note_{index}"
                 )
@@ -3019,7 +3017,7 @@ elif page == "📖 查看词库":
         with cols[3]:
 
             if st.button(
-                sort_label("cn_weight", "中/英权重"),
+                sort_label("cn_weight", "中译英权重"),
                 key="sort_cn_weight",
                 use_container_width=True
             ):
@@ -3031,7 +3029,7 @@ elif page == "📖 查看词库":
         with cols[4]:
 
             if st.button(
-                sort_label("en_weight", "英/中权重"),
+                sort_label("en_weight", "英译中权重"),
                 key="sort_en_weight",
                 use_container_width=True
             ):
@@ -3043,7 +3041,7 @@ elif page == "📖 查看词库":
         with cols[5]:
 
             if st.button(
-                sort_label("cn_prob", "中/英概率"),
+                sort_label("cn_prob", "中译英概率"),
                 key="sort_cn_prob",
                 use_container_width=True
             ):
@@ -3055,7 +3053,7 @@ elif page == "📖 查看词库":
         with cols[6]:
 
             if st.button(
-                sort_label("en_prob", "英/中概率"),
+                sort_label("en_prob", "英译中概率"),
                 key="sort_en_prob",
                 use_container_width=True
             ):
@@ -3412,17 +3410,17 @@ elif page == "📖 查看词库":
 
                     <th>词性</th>
 
-                    <th>中/英权重</th>
+                    <th>中译英权重</th>
 
-                    <th>英/中权重</th>
+                    <th>英译中权重</th>
 
-                    <th>中/英概率</th>
+                    <th>中译英概率</th>
 
-                    <th>英/中概率</th>
+                    <th>英译中概率</th>
 
-                    <th>✓</th>
+                    <th>正确</th>
 
-                    <th>✗</th>
+                    <th>错误</th>
 
                 </tr>
 
