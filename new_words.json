@@ -132,6 +132,60 @@
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
+        },
+        {
+            "english": "round",
+            "chinese": "圆的",
+            "category": "adjective",
+            "cn_note": "nan",
+            "en_note": "nan",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "flat",
+            "chinese": "平的",
+            "category": "adjective",
+            "cn_note": "nan",
+            "en_note": "nan",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "straight",
+            "chinese": "直的",
+            "category": "adjective",
+            "cn_note": "nan",
+            "en_note": "nan",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "curved",
+            "chinese": "弯的",
+            "category": "adjective",
+            "cn_note": "nan",
+            "en_note": "nan",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "shallow",
+            "chinese": "浅的",
+            "category": "adjective",
+            "cn_note": "nan",
+            "en_note": "nan",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "soft",
+            "chinese": "软的",
+            "category": "adjective",
+            "cn_note": "nan",
+            "en_note": "nan",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
         }
     ]
 }
