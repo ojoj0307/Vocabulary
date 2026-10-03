@@ -1,4 +1,59 @@
 {
     "date": "2026-10-03",
-    "words": []
+    "words": [
+        {
+            "english": "position",
+            "chinese": "职位",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "purpose",
+            "chinese": "目的",
+            "category": "noun",
+            "cn_note": "nan",
+            "en_note": "nan",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "kitchen",
+            "chinese": "厨房",
+            "category": "noun",
+            "cn_note": "nan",
+            "en_note": "nan",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "ceiling",
+            "chinese": "天花板",
+            "category": "noun",
+            "cn_note": "nan",
+            "en_note": "nan",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "medicine",
+            "chinese": "药物",
+            "category": "noun",
+            "cn_note": "nan",
+            "en_note": "nan",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "chair",
+            "chinese": "椅子",
+            "category": "noun",
+            "cn_note": "nan",
+            "en_note": "nan",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        }
+    ]
 }
