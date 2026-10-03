@@ -10,7 +10,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 1,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "purpose",
@@ -21,7 +21,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 0,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "kitchen",
@@ -32,7 +32,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 4,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "ceiling",
@@ -43,7 +43,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 26,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "medicine",
@@ -54,7 +54,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 6,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "chair",
@@ -65,7 +65,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 13,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "offer",
@@ -76,7 +76,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 37,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "spend",
@@ -87,7 +87,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 20,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "deliver",
@@ -96,9 +96,9 @@
             "cn_note": "",
             "en_note": "",
             "cn_to_en_weight": 2,
-            "en_to_cn_weight": 3,
+            "en_to_cn_weight": 2,
             "cn_to_en_not_seen": 25,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "collect",
@@ -109,7 +109,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 2,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "complain",
@@ -120,7 +120,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 12,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "advise",
@@ -131,7 +131,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 11,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "round",
@@ -142,7 +142,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 3,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "flat",
@@ -153,7 +153,7 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 5,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "straight",
@@ -164,7 +164,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 18,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "curved",
@@ -175,7 +175,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 14,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         },
         {
             "english": "shallow",
@@ -197,7 +197,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 15,
-            "en_to_cn_not_seen": 0
+            "en_to_cn_not_seen": 1
         }
     ]
 }
