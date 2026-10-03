@@ -4556,7 +4556,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "flat",
@@ -4571,7 +4573,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "straight",
@@ -4586,7 +4590,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "curved",
@@ -4601,7 +4607,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "shallow",
@@ -4616,7 +4624,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "soft",
@@ -4631,6 +4641,8 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     }
 ]
