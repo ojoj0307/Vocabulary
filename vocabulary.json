@@ -4658,7 +4658,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "fail",
@@ -4673,7 +4675,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "believe",
@@ -4688,7 +4692,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "realize",
@@ -4703,7 +4709,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "recognize",
@@ -4718,7 +4726,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "wonder",
@@ -4733,6 +4743,8 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     }
 ]
