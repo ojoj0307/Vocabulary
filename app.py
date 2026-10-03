@@ -1961,7 +1961,6 @@ if page == "🎓 学习模式":
                     # 保存新词
                     # =========================================
 
-                    save_success = save_new_words()
 
 
                     # =========================================
@@ -1994,7 +1993,7 @@ if page == "🎓 学习模式":
                                 next_new_word
                             )
                         )
-
+                    save_success = save_new_words()
                     if not save_success:
 
                         st.error(
@@ -2692,7 +2691,6 @@ elif page == "🎯 练习模式":
                     is_correct = False
 
 
-                save_success = save_words()
 
 
                 today = get_today()
@@ -2746,6 +2744,8 @@ elif page == "🎯 练习模式":
                     st.session_state.current_word_index = (
                         words.index(next_word)
                     )
+
+                save_success = save_words()
 
 
                 if not save_success:
