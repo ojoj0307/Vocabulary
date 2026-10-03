@@ -1464,8 +1464,8 @@ if page == "🎓 学习模式":
             en = str(row.get("english") or "").strip()
             cn = str(row.get("chinese") or "").strip()
             cat = str(row.get("category") or "noun").strip()
-            cn_n = str(row.get("cn_note") or "").strip()
-            en_n = str(row.get("en_note") or "").strip()
+            cn_n = "" if pd.isna(row.get("cn_note")) else str(row.get("cn_note")).strip()
+            en_n = "" if pd.isna(row.get("en_note")) else str(row.get("en_note")).strip()
 
             if cat not in CATEGORIES:
                 cat = "noun"
@@ -2875,8 +2875,8 @@ elif page == "📚 词库管理":
             en = str(row.get("english") or "").strip()
             cn = str(row.get("chinese") or "").strip()
             cat = str(row.get("category") or "noun").strip()
-            cn_n = str(row.get("cn_note") or "").strip()
-            en_n = str(row.get("en_note") or "").strip()
+            cn_n = "" if pd.isna(row.get("cn_note")) else str(row.get("cn_note")).strip()
+            en_n = "" if pd.isna(row.get("en_note")) else str(row.get("en_note")).strip()
 
             if cat not in CATEGORIES:
                 cat = "noun"
