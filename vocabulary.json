@@ -5086,5 +5086,35 @@
         "wrong": 0,
         "cn_to_en_not_seen": 0,
         "en_to_cn_not_seen": 0
+    },
+    {
+        "english": "tooth",
+        "chinese": "牙齿",
+        "category": "noun",
+        "cn_note": "",
+        "en_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
+    },
+    {
+        "english": "option",
+        "chinese": "选项",
+        "category": "noun",
+        "cn_note": "",
+        "en_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "cn_to_en_correct": 0,
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "correct": 0,
+        "wrong": 0
     }
 ]
