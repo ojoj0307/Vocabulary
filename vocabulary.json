@@ -16,7 +16,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -36,7 +36,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -56,7 +56,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -76,7 +76,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -96,7 +96,7 @@
         "en_note": "",
         "cn_to_en_weight": 5,
         "en_to_cn_weight": 6,
-        "cn_to_en_not_seen": 6,
+        "cn_to_en_not_seen": 7,
         "en_to_cn_not_seen": 13
     },
     {
@@ -116,7 +116,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -136,7 +136,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -156,7 +156,7 @@
         "en_note": "",
         "cn_to_en_weight": 4,
         "en_to_cn_weight": 5,
-        "cn_to_en_not_seen": 15,
+        "cn_to_en_not_seen": 16,
         "en_to_cn_not_seen": 13
     },
     {
@@ -176,7 +176,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -196,7 +196,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -216,7 +216,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -236,7 +236,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -256,7 +256,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -276,7 +276,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -296,7 +296,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -316,7 +316,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -336,7 +336,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -356,7 +356,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 9,
+        "cn_to_en_not_seen": 10,
         "en_to_cn_not_seen": 12
     },
     {
@@ -376,7 +376,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -396,7 +396,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -416,7 +416,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -436,7 +436,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -456,7 +456,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -476,7 +476,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 7
     },
     {
@@ -496,7 +496,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -516,7 +516,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -536,7 +536,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -556,7 +556,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -576,7 +576,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -596,7 +596,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -616,7 +616,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -636,7 +636,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -656,7 +656,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -676,7 +676,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -696,7 +696,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -716,7 +716,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -736,7 +736,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 10,
+        "cn_to_en_not_seen": 11,
         "en_to_cn_not_seen": 13
     },
     {
@@ -756,7 +756,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -776,7 +776,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -796,7 +796,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 10
     },
     {
@@ -816,7 +816,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -836,7 +836,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -856,7 +856,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 18,
+        "cn_to_en_not_seen": 19,
         "en_to_cn_not_seen": 13
     },
     {
@@ -876,7 +876,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -896,7 +896,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -916,7 +916,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 1,
+        "cn_to_en_not_seen": 2,
         "en_to_cn_not_seen": 13
     },
     {
@@ -936,7 +936,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -956,7 +956,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 5
     },
     {
@@ -976,7 +976,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -996,7 +996,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1016,7 +1016,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1036,7 +1036,7 @@
         "en_note": "",
         "cn_to_en_weight": 5,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 12,
+        "cn_to_en_not_seen": 13,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1056,7 +1056,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1076,7 +1076,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1096,7 +1096,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1116,7 +1116,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1136,7 +1136,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1156,7 +1156,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1176,7 +1176,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1196,7 +1196,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1216,7 +1216,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1236,7 +1236,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1256,7 +1256,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1276,7 +1276,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 4,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1296,7 +1296,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1316,7 +1316,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1336,7 +1336,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1356,7 +1356,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1376,7 +1376,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1396,7 +1396,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1416,7 +1416,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1436,7 +1436,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1456,7 +1456,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1476,7 +1476,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1496,7 +1496,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1516,7 +1516,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 14,
+        "cn_to_en_not_seen": 15,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1536,7 +1536,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1556,7 +1556,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1576,7 +1576,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1596,7 +1596,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1616,7 +1616,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1636,7 +1636,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1656,7 +1656,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1676,7 +1676,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 8
     },
     {
@@ -1696,7 +1696,7 @@
         "en_note": "",
         "cn_to_en_weight": 4,
         "en_to_cn_weight": 4,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1716,7 +1716,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1736,7 +1736,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1756,7 +1756,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1776,7 +1776,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1796,7 +1796,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1816,7 +1816,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 4,
+        "cn_to_en_not_seen": 5,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1836,7 +1836,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1856,7 +1856,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1876,7 +1876,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1896,7 +1896,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1916,7 +1916,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1936,7 +1936,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1956,7 +1956,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1976,7 +1976,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -1996,7 +1996,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2016,7 +2016,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 6
     },
     {
@@ -2036,7 +2036,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2056,7 +2056,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2076,7 +2076,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2096,7 +2096,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2116,7 +2116,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2136,7 +2136,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 0,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2156,7 +2156,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 5,
+        "cn_to_en_not_seen": 6,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2176,7 +2176,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2196,7 +2196,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2216,7 +2216,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2236,7 +2236,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2256,7 +2256,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2276,7 +2276,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 0
     },
     {
@@ -2296,7 +2296,7 @@
         "en_note": "",
         "cn_to_en_weight": 5,
         "en_to_cn_weight": 5,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2316,7 +2316,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2336,7 +2336,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2356,7 +2356,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2376,7 +2376,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2396,7 +2396,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2416,7 +2416,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2436,7 +2436,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2456,7 +2456,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2476,7 +2476,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2496,7 +2496,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2516,7 +2516,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2536,7 +2536,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2556,7 +2556,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2576,7 +2576,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2596,7 +2596,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2616,7 +2616,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2636,7 +2636,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2656,7 +2656,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2676,7 +2676,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2696,7 +2696,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2716,7 +2716,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2736,7 +2736,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2756,7 +2756,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2776,7 +2776,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2796,7 +2796,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2816,7 +2816,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2836,7 +2836,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2856,7 +2856,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2876,7 +2876,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2896,7 +2896,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2916,7 +2916,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2936,7 +2936,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2956,7 +2956,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2976,7 +2976,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -2996,7 +2996,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3016,7 +3016,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3036,7 +3036,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3056,7 +3056,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3076,7 +3076,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3096,7 +3096,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3116,7 +3116,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 4
     },
     {
@@ -3136,7 +3136,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3156,7 +3156,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3176,7 +3176,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3196,7 +3196,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3216,7 +3216,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3236,7 +3236,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 9
     },
     {
@@ -3256,7 +3256,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3276,7 +3276,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3296,7 +3296,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3316,7 +3316,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3336,7 +3336,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3356,7 +3356,7 @@
         "en_note": "",
         "cn_to_en_weight": 5,
         "en_to_cn_weight": 5,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3376,7 +3376,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3396,7 +3396,7 @@
         "en_note": "",
         "cn_to_en_weight": 4,
         "en_to_cn_weight": 4,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3416,7 +3416,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3436,7 +3436,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3456,7 +3456,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3476,7 +3476,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3496,7 +3496,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3516,7 +3516,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 2,
+        "cn_to_en_not_seen": 3,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3536,7 +3536,7 @@
         "en_note": "",
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3556,7 +3556,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3566,17 +3566,17 @@
         "note_cn": "",
         "category": "noun",
         "weight": 3,
-        "cn_to_en_correct": 0,
+        "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
-        "correct": 0,
+        "correct": 1,
         "wrong": 0,
         "cn_note": "",
         "en_note": "",
-        "cn_to_en_weight": 3,
+        "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 0,
+        "cn_to_en_not_seen": 1,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3596,7 +3596,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3616,7 +3616,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3636,7 +3636,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3656,7 +3656,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3676,7 +3676,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3696,7 +3696,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3716,7 +3716,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3736,7 +3736,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3756,7 +3756,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3776,7 +3776,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3796,7 +3796,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3816,7 +3816,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3836,7 +3836,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3856,7 +3856,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3876,7 +3876,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3896,7 +3896,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3916,7 +3916,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3936,7 +3936,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3956,7 +3956,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3976,7 +3976,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -3996,7 +3996,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4016,7 +4016,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4036,7 +4036,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 11,
+        "cn_to_en_not_seen": 12,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4056,7 +4056,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4076,7 +4076,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4096,7 +4096,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 5,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4116,7 +4116,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 8,
+        "cn_to_en_not_seen": 9,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4136,7 +4136,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4156,7 +4156,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4176,7 +4176,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4196,7 +4196,7 @@
         "en_note": "",
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4216,7 +4216,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4236,7 +4236,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4256,7 +4256,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4276,7 +4276,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4296,7 +4296,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4316,7 +4316,7 @@
         "en_note": "",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4336,7 +4336,7 @@
         "en_note": "to make use of something",
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4353,7 +4353,7 @@
         "en_to_cn_wrong": 0,
         "correct": 1,
         "wrong": 0,
-        "cn_to_en_not_seen": 16,
+        "cn_to_en_not_seen": 17,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4370,7 +4370,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4387,7 +4387,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4404,7 +4404,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4421,7 +4421,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4438,7 +4438,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4455,7 +4455,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4472,7 +4472,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4489,7 +4489,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4506,7 +4506,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4523,7 +4523,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4540,7 +4540,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4557,7 +4557,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 3,
+        "cn_to_en_not_seen": 4,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4574,7 +4574,7 @@
         "en_to_cn_wrong": 0,
         "correct": 1,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 3
     },
     {
@@ -4591,7 +4591,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4608,7 +4608,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4625,7 +4625,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4642,7 +4642,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4659,7 +4659,7 @@
         "en_to_cn_wrong": 0,
         "correct": 1,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 11
     },
     {
@@ -4676,7 +4676,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4693,7 +4693,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4710,7 +4710,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4727,7 +4727,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4744,7 +4744,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4761,7 +4761,7 @@
         "en_to_cn_wrong": 0,
         "correct": 1,
         "wrong": 0,
-        "cn_to_en_not_seen": 13,
+        "cn_to_en_not_seen": 14,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4778,7 +4778,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4795,7 +4795,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4812,7 +4812,7 @@
         "en_to_cn_wrong": 0,
         "correct": 1,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 1
     },
     {
@@ -4829,7 +4829,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4846,7 +4846,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4863,7 +4863,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4880,7 +4880,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4897,7 +4897,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4914,7 +4914,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4931,7 +4931,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4948,7 +4948,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4965,7 +4965,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4982,7 +4982,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -4999,7 +4999,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -5016,7 +5016,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -5033,7 +5033,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -5050,7 +5050,7 @@
         "en_to_cn_wrong": 0,
         "correct": 1,
         "wrong": 0,
-        "cn_to_en_not_seen": 17,
+        "cn_to_en_not_seen": 18,
         "en_to_cn_not_seen": 13
     },
     {
@@ -5067,7 +5067,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -5084,7 +5084,7 @@
         "en_to_cn_wrong": 0,
         "correct": 1,
         "wrong": 1,
-        "cn_to_en_not_seen": 7,
+        "cn_to_en_not_seen": 8,
         "en_to_cn_not_seen": 2
     },
     {
@@ -5101,7 +5101,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     },
     {
@@ -5118,7 +5118,7 @@
         "en_to_cn_wrong": 0,
         "correct": 0,
         "wrong": 0,
-        "cn_to_en_not_seen": 19,
+        "cn_to_en_not_seen": 20,
         "en_to_cn_not_seen": 13
     }
 ]
