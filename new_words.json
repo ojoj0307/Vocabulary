@@ -140,7 +140,9 @@
             "cn_note": "",
             "en_note": "",
             "cn_to_en_weight": 3,
-            "en_to_cn_weight": 3
+            "en_to_cn_weight": 3,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "opinion",
@@ -149,7 +151,9 @@
             "cn_note": "",
             "en_note": "",
             "cn_to_en_weight": 3,
-            "en_to_cn_weight": 3
+            "en_to_cn_weight": 3,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "option",
@@ -158,7 +162,9 @@
             "cn_note": "",
             "en_note": "",
             "cn_to_en_weight": 3,
-            "en_to_cn_weight": 3
+            "en_to_cn_weight": 3,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         }
     ]
 }
