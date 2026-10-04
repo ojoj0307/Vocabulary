@@ -1,4 +1,59 @@
 {
     "date": "2026-10-04",
-    "words": []
+    "words": [
+        {
+            "english": "record",
+            "chinese": "记录",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "arrange",
+            "chinese": "安排",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "organize",
+            "chinese": "整理",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "achieve",
+            "chinese": "实现",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "catch",
+            "chinese": "抓",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "board",
+            "chinese": "搭",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        }
+    ]
 }
