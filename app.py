@@ -3021,13 +3021,13 @@ elif page == "📚 词库管理":
             )
 
             st.caption(
-                f"中译英：权重 {word.get('cn_to_en_weight', 3)} | "
+                f"中译英：权重 {calculate_sampling_weight(word, '中译英')} | "
                 f"✓ {word.get('cn_to_en_correct', 0)} / ✗ {word.get('cn_to_en_wrong', 0)} | "
                 f"概率 {calculate_probability(word, '中译英'):.2f}%"
             )
 
             st.caption(
-                f"英译中：权重 {word.get('en_to_cn_weight', 3)} | "
+                f"英译中：权重 {calculate_sampling_weight(word, '英译中')} | "
                 f"✓ {word.get('en_to_cn_correct', 0)} / ✗ {word.get('en_to_cn_wrong', 0)} | "
                 f"概率 {calculate_probability(word, '英译中'):.2f}%"
             )
@@ -3369,9 +3369,8 @@ elif page == "📖 查看词库":
             cn_note = html.escape(str(word.get("cn_note", "")))
             en_note = html.escape(str(word.get("en_note", "")))
 
-            cn_w = int(word.get("cn_to_en_weight", 3))
-            en_w = int(word.get("en_to_cn_weight", 3))
-
+            cn_w = calculate_sampling_weight(word, "中译英")
+            en_w = calculate_sampling_weight(word, "英译中")
             cn_prob = calculate_probability(word, "中译英")
             en_prob = calculate_probability(word, "英译中")
 
