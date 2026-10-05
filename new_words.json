@@ -8,7 +8,9 @@
             "cn_note": "",
             "en_note": "",
             "cn_to_en_weight": 3,
-            "en_to_cn_weight": 3
+            "en_to_cn_weight": 3,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "bathroom",
@@ -17,7 +19,9 @@
             "cn_note": "",
             "en_note": "",
             "cn_to_en_weight": 3,
-            "en_to_cn_weight": 3
+            "en_to_cn_weight": 3,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "pharmacy",
@@ -26,7 +30,9 @@
             "cn_note": "",
             "en_note": "",
             "cn_to_en_weight": 3,
-            "en_to_cn_weight": 3
+            "en_to_cn_weight": 3,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "town",
@@ -35,7 +41,9 @@
             "cn_note": "",
             "en_note": "",
             "cn_to_en_weight": 3,
-            "en_to_cn_weight": 3
+            "en_to_cn_weight": 3,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "capital",
@@ -44,7 +52,9 @@
             "cn_note": "",
             "en_note": "",
             "cn_to_en_weight": 3,
-            "en_to_cn_weight": 3
+            "en_to_cn_weight": 3,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "journey",
@@ -53,7 +63,9 @@
             "cn_note": "",
             "en_note": "",
             "cn_to_en_weight": 3,
-            "en_to_cn_weight": 3
+            "en_to_cn_weight": 3,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         }
     ]
 }
