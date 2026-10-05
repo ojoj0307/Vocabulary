@@ -132,6 +132,60 @@
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
+        },
+        {
+            "english": "lonely",
+            "chinese": "孤独的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "selfish",
+            "chinese": "自私的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "confident",
+            "chinese": "自信的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "safe",
+            "chinese": "安全的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "thin",
+            "chinese": "薄的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "low",
+            "chinese": "低的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
         }
     ]
 }
