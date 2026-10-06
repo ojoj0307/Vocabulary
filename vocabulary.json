@@ -5440,7 +5440,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "dinner",
@@ -5455,7 +5457,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "lunch",
@@ -5470,7 +5474,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "business",
@@ -5485,7 +5491,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "cost",
@@ -5500,7 +5508,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "bill",
@@ -5515,6 +5525,8 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     }
 ]
