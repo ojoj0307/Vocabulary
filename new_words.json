@@ -1,4 +1,59 @@
 {
     "date": "2026-10-06",
-    "words": []
+    "words": [
+        {
+            "english": "breakfast",
+            "chinese": "早餐",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "dinner",
+            "chinese": "晚餐",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "lunch",
+            "chinese": "午餐",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "business",
+            "chinese": "商业",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "cost",
+            "chinese": "成本",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "bill",
+            "chinese": "账单",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        }
+    ]
 }
