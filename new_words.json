@@ -66,6 +66,60 @@
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
+        },
+        {
+            "english": "break",
+            "chinese": "弄坏",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "fix",
+            "chinese": "修理",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "worry",
+            "chinese": "担心",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "fear",
+            "chinese": "害怕",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "lie",
+            "chinese": "躺",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "to be in or move into a horizontal position on a surface",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "lie",
+            "chinese": "说谎",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "to say or write something that is not true",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
         }
     ]
 }
