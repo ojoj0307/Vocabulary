@@ -1,4 +1,59 @@
 {
     "date": "2026-10-07",
-    "words": []
+    "words": [
+        {
+            "english": "package",
+            "chinese": "包裹",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "brand",
+            "chinese": "品牌",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "battery",
+            "chinese": "电池",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "software",
+            "chinese": "软件",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "picture",
+            "chinese": "照片",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "clothes",
+            "chinese": "衣服",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        }
+    ]
 }
