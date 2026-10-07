@@ -66,6 +66,60 @@
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
+        },
+        {
+            "english": "disappoint",
+            "chinese": "使失望",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "wake",
+            "chinese": "醒",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "approach",
+            "chinese": "接近",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "contact",
+            "chinese": "联系",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "argue",
+            "chinese": "争吵",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "warn",
+            "chinese": "警告",
+            "category": "verb",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
         }
     ]
 }
