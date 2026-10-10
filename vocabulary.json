@@ -6137,7 +6137,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "alone",
@@ -6152,7 +6154,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "mature",
@@ -6167,7 +6171,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "expensive",
@@ -6182,7 +6188,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "rare",
@@ -6197,7 +6205,9 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "fair",
@@ -6212,6 +6222,8 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     }
 ]
