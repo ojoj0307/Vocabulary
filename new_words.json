@@ -132,6 +132,60 @@
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
+        },
+        {
+            "english": "convenient",
+            "chinese": "方便的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "alone",
+            "chinese": "独自的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "mature",
+            "chinese": "成熟的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "expensive",
+            "chinese": "贵的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "rare",
+            "chinese": "稀有的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "fair",
+            "chinese": "公平的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
         }
     ]
 }
