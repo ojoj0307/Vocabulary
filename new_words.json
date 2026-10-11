@@ -132,6 +132,60 @@
             "en_to_cn_weight": 3,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
+        },
+        {
+            "english": "willing",
+            "chinese": "愿意的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "successful",
+            "chinese": "成功的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "similar",
+            "chinese": "相似的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "modest",
+            "chinese": "谦虚的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "dangerous",
+            "chinese": "危险的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "humorous",
+            "chinese": "幽默的",
+            "category": "adjective",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
         }
     ]
 }
