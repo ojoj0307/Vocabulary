@@ -2346,11 +2346,11 @@
         "note_cn": "",
         "category": "adverb",
         "weight": 1,
-        "correct": 5,
+        "correct": 4,
         "wrong": 1,
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
-        "en_to_cn_correct": 3,
+        "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
         "cn_note": "",
         "en_note": "",
@@ -3349,15 +3349,15 @@
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 0,
-        "en_to_cn_wrong": 0,
+        "en_to_cn_wrong": 1,
         "correct": 1,
-        "wrong": 1,
+        "wrong": 2,
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 4,
-        "en_to_cn_weight": 5,
+        "en_to_cn_weight": 7,
         "cn_to_en_not_seen": 39,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 134
     },
     {
         "english": "succeed",
@@ -5289,7 +5289,7 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 125,
-        "en_to_cn_not_seen": 83
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "review",
