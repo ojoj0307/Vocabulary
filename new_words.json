@@ -1,4 +1,59 @@
 {
     "date": "2026-10-12",
-    "words": []
+    "words": [
+        {
+            "english": "weather",
+            "chinese": "天气",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "rain",
+            "chinese": "雨",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "mountain",
+            "chinese": "山",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "device",
+            "chinese": "设备",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "condition",
+            "chinese": "状态",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "process",
+            "chinese": "过程",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        }
+    ]
 }
