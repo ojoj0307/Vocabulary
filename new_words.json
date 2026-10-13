@@ -1,4 +1,59 @@
 {
     "date": "2026-10-13",
-    "words": []
+    "words": [
+        {
+            "english": "habit",
+            "chinese": "习惯",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "machine",
+            "chinese": "机器",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "quality",
+            "chinese": "品质",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "attitude",
+            "chinese": "态度",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "method",
+            "chinese": "方法",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "A planned or systematic process for doing something",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        },
+        {
+            "english": "success",
+            "chinese": "成功",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3
+        }
+    ]
 }
