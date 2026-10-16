@@ -147,7 +147,9 @@ div[data-testid="stTextInput"] input {
 
 div.stButton > button {
     min-height: 38px;
-    font-size: 15px;
+    font-size: 13px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
 }
 
 .mobile-hint {
@@ -1075,7 +1077,7 @@ def get_random_new_word(q_type="中译英"):
 
 
 # ============================================================
-# 练习模式 - 普通单词随机抽题（依优先级）
+# 练习模式 - 未掌握单词随机抽题（依优先级）
 # ============================================================
 
 def get_random_normal_word(q_type="中译英"):
@@ -1304,7 +1306,7 @@ if page == "🎓 学习模式":
     st.header("🎓 学习模式")
 
     # ========================================================
-    # 添加新词 (表格模式) - 无是否熟悉栏
+    # 添加新词 (表格模式)
     # ========================================================
 
     st.subheader("➕ 添加新词")
@@ -1916,9 +1918,7 @@ if page == "🎓 学习模式":
                     continue
 
             with st.expander(
-                f"{word['english']} → "
-                f"{word['chinese']} "
-                f"（{word.get('category', 'noun')}）"
+                f"{word['english']} → {word['chinese']} （{word.get('category', 'noun')}）"
             ):
                 
                 pronunciation_button(word["english"], f"new_word_pron_{index}")
@@ -2097,7 +2097,7 @@ elif page == "🎯 练习模式":
 
         practice_sub_mode = st.radio(
             "复习分类",
-            ["普通的", "已掌握的"],
+            ["未掌握", "已掌握"],
             horizontal=True,
             key="practice_sub_mode_radio"
         )
@@ -2132,13 +2132,13 @@ elif page == "🎯 练习模式":
             st.session_state.last_correct = None
 
 
-        if practice_sub_mode == "普通的":
+        if practice_sub_mode == "未掌握":
             if not any(not w.get("proficient", False) for w in words):
-                st.info("🎉 太棒了！所有单词都已进入已掌握状态！您可以切换到「已掌握的」子页面进行复习。")
+                st.info("🎉 太棒了！所有单词都已进入已掌握状态！您可以切换到「已掌握」子页面进行复习。")
                 st.stop()
         else:
             if not any(w.get("proficient", False) for w in words):
-                st.info("💡 还没有已掌握的单词，请在普通模式中练习答对 5 次或手动勾选已掌握。")
+                st.info("💡 还没有已掌握的单词，请在未掌握模式中练习答对 5 次或手动勾选已掌握。")
                 st.stop()
 
 
@@ -2148,7 +2148,7 @@ elif page == "🎯 练习模式":
             st.session_state.current_word_index >= len(words)
         ):
 
-            if practice_sub_mode == "普通的":
+            if practice_sub_mode == "未掌握":
                 selected_word = get_random_normal_word(question_type)
             else:
                 selected_word = get_random_proficient_word(question_type)
@@ -2167,7 +2167,7 @@ elif page == "🎯 练习模式":
         if current_index is not None and current_index < len(words):
             word = words[current_index]
         else:
-            if practice_sub_mode == "普通的":
+            if practice_sub_mode == "未掌握":
                 selected_word = get_random_normal_word(question_type)
             else:
                 selected_word = get_random_proficient_word(question_type)
@@ -2551,7 +2551,7 @@ elif page == "🎯 练习模式":
 
                     is_correct = True
 
-                    if practice_sub_mode == "普通的":
+                    if practice_sub_mode == "未掌握":
                         streak_key = "cn_to_en_streak" if question_type == "中译英" else "en_to_cn_streak"
                         priority_key = "cn_to_en_priority" if question_type == "中译英" else "en_to_cn_priority"
 
@@ -2597,7 +2597,7 @@ elif page == "🎯 练习模式":
 
                     is_correct = False
 
-                    if practice_sub_mode == "普通的":
+                    if practice_sub_mode == "未掌握":
                         streak_key = "cn_to_en_streak" if question_type == "中译英" else "en_to_cn_streak"
                         priority_key = "cn_to_en_priority" if question_type == "中译英" else "en_to_cn_priority"
 
@@ -2672,7 +2672,7 @@ elif page == "🎯 练习模式":
                 st.session_state.last_correct = is_correct
 
 
-                if practice_sub_mode == "普通的":
+                if practice_sub_mode == "未掌握":
                     next_word = get_random_normal_word(question_type)
                 else:
                     next_word = get_random_proficient_word(question_type)
@@ -2911,18 +2911,18 @@ elif page == "📚 词库管理":
 
                 continue
 
-        # 修改格式为 application → 申请 （noun）
+        # 折叠面板外部保持简洁干净，避免错位重叠
         with st.expander(
             f"{word['english']} → {word['chinese']} （{word.get('category', 'noun')}）"
         ):
 
-            # 顶部行：左侧发音，右侧放勾选栏（已掌握 / 还没掌握）
+            # 展开后顶部内部：左侧发音，右侧明确勾选
             top_col1, top_col2 = st.columns([1, 4])
             with top_col1:
                 pronunciation_button(word["english"], f"vocab_pron_{index}")
             with top_col2:
                 new_proficient = st.checkbox(
-                    "已掌握（勾选表示已掌握，不勾选表示还没掌握）",
+                    "已掌握",
                     value=word.get("proficient", False),
                     key=f"edit_prof_{index}"
                 )
@@ -3082,7 +3082,7 @@ elif page == "📖 查看词库":
             "状态筛选",
             [
                 "全部",
-                "普通",
+                "未掌握",
                 "已掌握"
             ],
             key="view_status_filter"
@@ -3117,7 +3117,7 @@ elif page == "📖 查看词库":
 
                 continue
 
-            if status_filter == "普通" and word.get("proficient", False):
+            if status_filter == "未掌握" and word.get("proficient", False):
                 continue
             if status_filter == "已掌握" and not word.get("proficient", False):
                 continue
@@ -3204,9 +3204,9 @@ elif page == "📖 查看词库":
         )
 
 
-        # 改为要求：英文、中文、词性、中译英优先级、英译中优先级、中译英概率、英译中概率 (共7列)
+        # 优化比例分配：缩小英文/中文/词性占比，给优先级和概率留出宽裕空间，避免出现省略号 ...
         cols = st.columns(
-            [1.5, 1.5, 1.0, 1.3, 1.3, 1.3, 1.3]
+            [0.8, 0.8, 0.6, 1.4, 1.4, 1.2, 1.2]
         )
 
 
@@ -3218,9 +3218,9 @@ elif page == "📖 查看词库":
 
             if st.session_state.vocab_sort_reverse:
 
-                return text + " ↓"
+                return text + "↓"
 
-            return text + " ↑"
+            return text + "↑"
 
 
         with cols[0]:
@@ -3614,19 +3614,19 @@ elif page == "📖 查看词库":
 
                 <tr>
 
-                    <th>英文</th>
+                    <th style="width: 15%;">英文</th>
 
-                    <th>中文</th>
+                    <th style="width: 15%;">中文</th>
 
-                    <th>词性</th>
+                    <th style="width: 10%;">词性</th>
 
-                    <th>中译英优先级</th>
+                    <th style="width: 15%;">中译英优先级</th>
 
-                    <th>英译中优先级</th>
+                    <th style="width: 15%;">英译中优先级</th>
 
-                    <th>中译英概率</th>
+                    <th style="width: 15%;">中译英概率</th>
 
-                    <th>英译中概率</th>
+                    <th style="width: 15%;">英译中概率</th>
 
                 </tr>
 
