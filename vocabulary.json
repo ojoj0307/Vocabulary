@@ -17,7 +17,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 211,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-0-8d67cbd86c4d"
     },
     {
         "english": "career",
@@ -37,7 +44,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 123,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-1-a76bf15789f0"
     },
     {
         "english": "experience",
@@ -57,7 +71,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 121
+        "en_to_cn_not_seen": 121,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-2-e391ec46f1e9"
     },
     {
         "english": "information",
@@ -77,7 +98,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-3-0940f97ee3da"
     },
     {
         "english": "receipt",
@@ -97,7 +125,14 @@
         "cn_to_en_weight": 5,
         "en_to_cn_weight": 6,
         "cn_to_en_not_seen": 239,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-4-f98684d880c1"
     },
     {
         "english": "salary",
@@ -117,7 +152,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 41
+        "en_to_cn_not_seen": 41,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-5-473494cb9be3"
     },
     {
         "english": "salt",
@@ -137,7 +179,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 227,
-        "en_to_cn_not_seen": 58
+        "en_to_cn_not_seen": 58,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-6-4489d1051eae"
     },
     {
         "english": "belly",
@@ -157,7 +206,14 @@
         "cn_to_en_weight": 4,
         "en_to_cn_weight": 4,
         "cn_to_en_not_seen": 248,
-        "en_to_cn_not_seen": 155
+        "en_to_cn_not_seen": 155,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-7-39b225a70e9d"
     },
     {
         "english": "adult",
@@ -177,7 +233,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-8-75b0754746c7"
     },
     {
         "english": "hundred",
@@ -197,7 +260,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-9-c05808fba1cd"
     },
     {
         "english": "thousand",
@@ -217,7 +287,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 188,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-10-73cb4a2cfd27"
     },
     {
         "english": "million",
@@ -237,7 +314,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 220,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-11-dc82463a5ec1"
     },
     {
         "english": "minute",
@@ -257,7 +341,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-12-02fa8e0622c9"
     },
     {
         "english": "second",
@@ -277,7 +368,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-13-617ba52fc624"
     },
     {
         "english": "choice",
@@ -297,7 +395,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 191
+        "en_to_cn_not_seen": 191,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-14-568f33a8a3c1"
     },
     {
         "english": "monday",
@@ -317,7 +422,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 135,
-        "en_to_cn_not_seen": 13
+        "en_to_cn_not_seen": 13,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-15-18ddb5e2f255"
     },
     {
         "english": "tuesday",
@@ -337,7 +449,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 140,
-        "en_to_cn_not_seen": 37
+        "en_to_cn_not_seen": 37,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-16-ba2798fd5dcc"
     },
     {
         "english": "wednesday",
@@ -357,7 +476,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 2,
-        "en_to_cn_not_seen": 73
+        "en_to_cn_not_seen": 73,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-17-0e40a4ceeeeb"
     },
     {
         "english": "thursday",
@@ -377,7 +503,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-18-a3102ba7d187"
     },
     {
         "english": "friday",
@@ -397,7 +530,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 119
+        "en_to_cn_not_seen": 119,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-19-37baac9084ee"
     },
     {
         "english": "saturday",
@@ -417,7 +557,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 24,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-20-30f1dbdb9363"
     },
     {
         "english": "sunday",
@@ -437,7 +584,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 55
+        "en_to_cn_not_seen": 55,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-21-1b7be1a522dd"
     },
     {
         "english": "january",
@@ -457,7 +611,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-22-1aa1ad4b103d"
     },
     {
         "english": "february",
@@ -477,7 +638,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 66,
-        "en_to_cn_not_seen": 207
+        "en_to_cn_not_seen": 207,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-23-3cb644dfaaa5"
     },
     {
         "english": "march",
@@ -497,7 +665,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-24-508f675bf21a"
     },
     {
         "english": "april",
@@ -517,7 +692,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 16,
-        "en_to_cn_not_seen": 4
+        "en_to_cn_not_seen": 4,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-25-718cb969e212"
     },
     {
         "english": "may",
@@ -537,7 +719,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 156,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-26-f3129958d26b"
     },
     {
         "english": "june",
@@ -557,7 +746,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 54,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-27-6422c3615265"
     },
     {
         "english": "july",
@@ -577,7 +773,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 190,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-28-04127982bc83"
     },
     {
         "english": "august",
@@ -597,7 +800,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 155,
-        "en_to_cn_not_seen": 89
+        "en_to_cn_not_seen": 89,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-29-52f17f693098"
     },
     {
         "english": "september",
@@ -617,7 +827,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 98,
-        "en_to_cn_not_seen": 190
+        "en_to_cn_not_seen": 190,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-30-edfb946f996a"
     },
     {
         "english": "october",
@@ -637,7 +854,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 126,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-31-f98c0a018334"
     },
     {
         "english": "november",
@@ -657,7 +881,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 129
+        "en_to_cn_not_seen": 129,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-32-993970fde957"
     },
     {
         "english": "december",
@@ -677,7 +908,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-33-6b03edb2d18a"
     },
     {
         "english": "research",
@@ -697,7 +935,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-34-12011fccc2af"
     },
     {
         "english": "interview",
@@ -717,7 +962,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 94,
-        "en_to_cn_not_seen": 130
+        "en_to_cn_not_seen": 130,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-35-28b83ecf15d8"
     },
     {
         "english": "deadline",
@@ -737,7 +989,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 50,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-36-5f52d0aa7c7c"
     },
     {
         "english": "opportunity",
@@ -757,7 +1016,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-37-5823a0f7b3fc"
     },
     {
         "english": "account",
@@ -777,7 +1043,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 86,
-        "en_to_cn_not_seen": 88
+        "en_to_cn_not_seen": 88,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-38-ffd0f216b976"
     },
     {
         "english": "profile",
@@ -797,7 +1070,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 133,
-        "en_to_cn_not_seen": 21
+        "en_to_cn_not_seen": 21,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-39-f024fa465345"
     },
     {
         "english": "website",
@@ -817,7 +1097,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 99,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-40-1b849ddf6c50"
     },
     {
         "english": "discount",
@@ -837,7 +1124,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-41-27bc28e9c1b3"
     },
     {
         "english": "travel",
@@ -857,7 +1151,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 251,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-42-dff31de8d4a1"
     },
     {
         "english": "train",
@@ -877,7 +1178,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 199,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-43-a45c15cd847b"
     },
     {
         "english": "change",
@@ -897,7 +1205,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-44-1555bbee2fb0"
     },
     {
         "english": "choose",
@@ -917,7 +1232,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 234,
-        "en_to_cn_not_seen": 153
+        "en_to_cn_not_seen": 153,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-45-e617c3e0a8a8"
     },
     {
         "english": "challenge",
@@ -937,7 +1259,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 123
+        "en_to_cn_not_seen": 123,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-46-b0153a350820"
     },
     {
         "english": "arrive",
@@ -957,7 +1286,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 36,
-        "en_to_cn_not_seen": 205
+        "en_to_cn_not_seen": 205,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-47-ec89bd906807"
     },
     {
         "english": "exit",
@@ -977,7 +1313,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 107
+        "en_to_cn_not_seen": 107,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-48-7633a302dc5e"
     },
     {
         "english": "carry",
@@ -997,7 +1340,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 156
+        "en_to_cn_not_seen": 156,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-49-ebea6e890660"
     },
     {
         "english": "bring",
@@ -1017,7 +1367,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 196
+        "en_to_cn_not_seen": 196,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-50-4da5b3ab66c8"
     },
     {
         "english": "receive",
@@ -1037,7 +1394,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 10,
-        "en_to_cn_not_seen": 18
+        "en_to_cn_not_seen": 18,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-51-258060352b32"
     },
     {
         "english": "lend",
@@ -1057,7 +1421,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 99
+        "en_to_cn_not_seen": 99,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-52-f378ec0145b8"
     },
     {
         "english": "borrow",
@@ -1077,7 +1448,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-53-e915e490f261"
     },
     {
         "english": "decide",
@@ -1097,7 +1475,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 64
+        "en_to_cn_not_seen": 64,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-54-b1a5a3381f12"
     },
     {
         "english": "improve",
@@ -1117,7 +1502,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 67,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-55-e52bb924bf66"
     },
     {
         "english": "practice",
@@ -1137,7 +1529,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 136
+        "en_to_cn_not_seen": 136,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-56-115ef1d81ee1"
     },
     {
         "english": "discuss",
@@ -1157,7 +1556,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-57-661d979166c9"
     },
     {
         "english": "solve",
@@ -1177,7 +1583,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 162,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-58-c7370ac084ba"
     },
     {
         "english": "prepare",
@@ -1197,7 +1610,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 1
+        "en_to_cn_not_seen": 1,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-59-940a80a62038"
     },
     {
         "english": "complete",
@@ -1217,7 +1637,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 136,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-60-97962308106e"
     },
     {
         "english": "continue",
@@ -1237,7 +1664,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 149
+        "en_to_cn_not_seen": 149,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-61-94407d898f6e"
     },
     {
         "english": "manage",
@@ -1257,7 +1691,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 89,
-        "en_to_cn_not_seen": 128
+        "en_to_cn_not_seen": 128,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-62-50f86edb4405"
     },
     {
         "english": "return",
@@ -1277,7 +1718,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-63-859f928bb77b"
     },
     {
         "english": "interview",
@@ -1297,7 +1745,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-64-28b83ecf15d8"
     },
     {
         "english": "search",
@@ -1317,7 +1772,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 108,
-        "en_to_cn_not_seen": 169
+        "en_to_cn_not_seen": 169,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-65-94ec5a7058c5"
     },
     {
         "english": "download",
@@ -1337,7 +1799,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 164,
-        "en_to_cn_not_seen": 29
+        "en_to_cn_not_seen": 29,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-66-7a6a9e7f51c7"
     },
     {
         "english": "upload",
@@ -1357,7 +1826,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 138,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-67-fa6c00451658"
     },
     {
         "english": "allow",
@@ -1377,7 +1853,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 120,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-68-ff3855564e0a"
     },
     {
         "english": "accept",
@@ -1397,7 +1880,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 158,
-        "en_to_cn_not_seen": 63
+        "en_to_cn_not_seen": 63,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-69-696d002e0825"
     },
     {
         "english": "refuse",
@@ -1417,7 +1907,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 157,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-70-f0eda27643a2"
     },
     {
         "english": "avoid",
@@ -1437,7 +1934,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-71-2f0d5eb4f28c"
     },
     {
         "english": "reach",
@@ -1457,7 +1961,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 203,
-        "en_to_cn_not_seen": 177
+        "en_to_cn_not_seen": 177,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-72-90c788a2ddf9"
     },
     {
         "english": "difficult",
@@ -1477,7 +1988,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-73-e27e9811c684"
     },
     {
         "english": "dirty",
@@ -1497,7 +2015,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 222,
-        "en_to_cn_not_seen": 72
+        "en_to_cn_not_seen": 72,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-74-87adbd070e7f"
     },
     {
         "english": "necessary",
@@ -1517,7 +2042,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 72,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-75-2d24dba81c8b"
     },
     {
         "english": "ugly",
@@ -1537,7 +2069,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-76-fd4e83fa8805"
     },
     {
         "english": "excited",
@@ -1557,7 +2096,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 20,
-        "en_to_cn_not_seen": 16
+        "en_to_cn_not_seen": 16,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-77-94daec0fc88b"
     },
     {
         "english": "tired",
@@ -1577,7 +2123,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 142,
-        "en_to_cn_not_seen": 78
+        "en_to_cn_not_seen": 78,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-78-1b75a60aabe6"
     },
     {
         "english": "bored",
@@ -1597,7 +2150,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-79-9c79edb9ed2d"
     },
     {
         "english": "stressed",
@@ -1617,7 +2177,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-80-1f85518c09b0"
     },
     {
         "english": "scared",
@@ -1637,7 +2204,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 94
+        "en_to_cn_not_seen": 94,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-81-e8167f429219"
     },
     {
         "english": "nervous",
@@ -1657,7 +2231,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 143,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-82-107ab534b404"
     },
     {
         "english": "surprised",
@@ -1677,7 +2258,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 215,
-        "en_to_cn_not_seen": 208
+        "en_to_cn_not_seen": 208,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-83-afee7f87597f"
     },
     {
         "english": "confused",
@@ -1697,7 +2285,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 193,
-        "en_to_cn_not_seen": 12
+        "en_to_cn_not_seen": 12,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-84-7688428dad88"
     },
     {
         "english": "weak",
@@ -1717,7 +2312,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 80,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-85-58ec163c0163"
     },
     {
         "english": "serious",
@@ -1737,7 +2339,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 43,
-        "en_to_cn_not_seen": 3
+        "en_to_cn_not_seen": 3,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-86-40459cff5cae"
     },
     {
         "english": "honest",
@@ -1757,7 +2366,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 47
+        "en_to_cn_not_seen": 47,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-87-fb7951d6894e"
     },
     {
         "english": "lazy",
@@ -1777,7 +2393,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-88-529d842601b5"
     },
     {
         "english": "polite",
@@ -1797,7 +2420,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-89-a32f02b91a1f"
     },
     {
         "english": "first",
@@ -1817,7 +2447,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 237,
-        "en_to_cn_not_seen": 100
+        "en_to_cn_not_seen": 100,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-90-d6f2563be12a"
     },
     {
         "english": "second",
@@ -1837,7 +2474,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 14
+        "en_to_cn_not_seen": 14,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-91-fd579d0b6c01"
     },
     {
         "english": "third",
@@ -1857,7 +2501,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 170,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-92-aa18f899b7a2"
     },
     {
         "english": "hungry",
@@ -1877,7 +2528,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-93-40971f02f8e2"
     },
     {
         "english": "thirsty",
@@ -1897,7 +2555,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 231,
-        "en_to_cn_not_seen": 86
+        "en_to_cn_not_seen": 86,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-94-566192f10eff"
     },
     {
         "english": "sleepy",
@@ -1917,7 +2582,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-95-4a2ab4192f05"
     },
     {
         "english": "sick",
@@ -1937,7 +2609,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-96-34934f966203"
     },
     {
         "english": "healthy",
@@ -1957,7 +2636,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 204,
-        "en_to_cn_not_seen": 93
+        "en_to_cn_not_seen": 93,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-97-b365d74252d0"
     },
     {
         "english": "dizzy",
@@ -1977,7 +2663,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-98-07e221b0ace3"
     },
     {
         "english": "painful",
@@ -1997,7 +2690,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 87,
-        "en_to_cn_not_seen": 17
+        "en_to_cn_not_seen": 17,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-99-43802cf471e2"
     },
     {
         "english": "comfortable",
@@ -2017,7 +2717,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 117,
-        "en_to_cn_not_seen": 68
+        "en_to_cn_not_seen": 68,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-100-c8ee6fea10c0"
     },
     {
         "english": "actually",
@@ -2037,7 +2744,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 7,
-        "en_to_cn_not_seen": 126
+        "en_to_cn_not_seen": 126,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-101-c87cf818bfe1"
     },
     {
         "english": "almost",
@@ -2057,7 +2771,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 88,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-102-e0e9aa875c0c"
     },
     {
         "english": "currently",
@@ -2077,7 +2798,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 166
+        "en_to_cn_not_seen": 166,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-103-4a44112a8b13"
     },
     {
         "english": "definitely",
@@ -2097,7 +2825,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 179,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-104-a553082569fe"
     },
     {
         "english": "especially",
@@ -2117,7 +2852,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-105-6fb5dc3d02b7"
     },
     {
         "english": "eventually",
@@ -2137,7 +2879,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 232,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-106-8b384ac30f04"
     },
     {
         "english": "fairly",
@@ -2157,7 +2906,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 238,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-107-71d21738776e"
     },
     {
         "english": "hardly",
@@ -2177,7 +2933,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 217,
-        "en_to_cn_not_seen": 194
+        "en_to_cn_not_seen": 194,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-108-43c9b4701d52"
     },
     {
         "english": "hopefully",
@@ -2197,7 +2960,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 64,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-109-dd941133f070"
     },
     {
         "english": "normally",
@@ -2217,7 +2987,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 97
+        "en_to_cn_not_seen": 97,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-110-b7886d01759a"
     },
     {
         "english": "obviously",
@@ -2237,7 +3014,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 154
+        "en_to_cn_not_seen": 154,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-111-9f0bff7e94b3"
     },
     {
         "english": "personally",
@@ -2257,7 +3041,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 46
+        "en_to_cn_not_seen": 46,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-112-60cc848ca50f"
     },
     {
         "english": "pretty",
@@ -2277,7 +3068,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 132,
-        "en_to_cn_not_seen": 160
+        "en_to_cn_not_seen": 160,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-113-015eb4f38883"
     },
     {
         "english": "quite",
@@ -2297,7 +3095,14 @@
         "cn_to_en_weight": 5,
         "en_to_cn_weight": 5,
         "cn_to_en_not_seen": 42,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-114-bb62a50beeec"
     },
     {
         "english": "usually",
@@ -2317,7 +3122,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-115-627f27f38649"
     },
     {
         "english": "always",
@@ -2337,7 +3149,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 192
+        "en_to_cn_not_seen": 192,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-116-ad586cd461c7"
     },
     {
         "english": "often",
@@ -2357,7 +3176,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 80
+        "en_to_cn_not_seen": 80,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-117-e17e32fd3a2d"
     },
     {
         "english": "never",
@@ -2377,7 +3203,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 30
+        "en_to_cn_not_seen": 30,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-118-ebd12e3b6d0d"
     },
     {
         "english": "already",
@@ -2397,7 +3230,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-119-c92ebb9d98b7"
     },
     {
         "english": "yet",
@@ -2417,7 +3257,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 109,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-120-b17c92fa546a"
     },
     {
         "english": "still",
@@ -2437,7 +3284,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-121-89f709b4e1e1"
     },
     {
         "english": "just",
@@ -2457,7 +3311,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 202,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-122-bbc95bfdcd65"
     },
     {
         "english": "probably",
@@ -2477,7 +3338,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 178,
-        "en_to_cn_not_seen": 186
+        "en_to_cn_not_seen": 186,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-123-4a354e8c7fc1"
     },
     {
         "english": "screenshot",
@@ -2497,7 +3365,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 164
+        "en_to_cn_not_seen": 164,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-124-cd3570adce75"
     },
     {
         "english": "notification",
@@ -2517,7 +3392,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-125-28586165eff4"
     },
     {
         "english": "invite",
@@ -2537,7 +3419,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-126-6cbe85fa65e8"
     },
     {
         "english": "compare",
@@ -2557,7 +3446,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 134,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-127-95438b4f8077"
     },
     {
         "english": "describe",
@@ -2577,7 +3473,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 170
+        "en_to_cn_not_seen": 170,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-128-5667c742ab41"
     },
     {
         "english": "explain",
@@ -2597,7 +3500,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 132
+        "en_to_cn_not_seen": 132,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-129-31177644bf28"
     },
     {
         "english": "uncomfortable",
@@ -2617,7 +3527,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 40,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-130-419928487547"
     },
     {
         "english": "active",
@@ -2637,7 +3554,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-131-4fbd945c9c13"
     },
     {
         "english": "careful",
@@ -2657,7 +3581,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 214,
-        "en_to_cn_not_seen": 115
+        "en_to_cn_not_seen": 115,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-132-3949b696fb81"
     },
     {
         "english": "careless",
@@ -2677,7 +3608,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 113,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-133-01b1de33809c"
     },
     {
         "english": "really",
@@ -2697,7 +3635,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 154,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-134-5ade078b529d"
     },
     {
         "english": "finally",
@@ -2717,7 +3662,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 191,
-        "en_to_cn_not_seen": 40
+        "en_to_cn_not_seen": 40,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-135-f4679675a5e6"
     },
     {
         "english": "suddenly",
@@ -2737,7 +3689,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 9
+        "en_to_cn_not_seen": 9,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-136-7bd870b7e514"
     },
     {
         "english": "circle",
@@ -2757,7 +3716,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-137-83b4393d83ee"
     },
     {
         "english": "square",
@@ -2777,7 +3743,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-138-2ac7e37ba146"
     },
     {
         "english": "triangle",
@@ -2797,7 +3770,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-139-ce692a1442b8"
     },
     {
         "english": "rectangle",
@@ -2817,7 +3797,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-140-86c6bda748d7"
     },
     {
         "english": "translate",
@@ -2837,7 +3824,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 183,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-141-7fcc7a0c8680"
     },
     {
         "english": "repeat",
@@ -2857,7 +3851,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 208,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-142-33290267c143"
     },
     {
         "english": "mention",
@@ -2877,7 +3878,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 104,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-143-af33c8fff3af"
     },
     {
         "english": "imagine",
@@ -2897,7 +3905,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 146
+        "en_to_cn_not_seen": 146,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-144-794b14df84b9"
     },
     {
         "english": "smart",
@@ -2917,7 +3932,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-145-da2aa1c47210"
     },
     {
         "english": "patient",
@@ -2937,7 +3959,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 181,
-        "en_to_cn_not_seen": 56
+        "en_to_cn_not_seen": 56,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-146-145db1360dc5"
     },
     {
         "english": "brave",
@@ -2957,7 +3986,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 47,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-147-62e0b55f0258"
     },
     {
         "english": "calm",
@@ -2977,7 +4013,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-148-dbfcabd4082e"
     },
     {
         "english": "immediately",
@@ -2997,7 +4040,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-149-5e36253ed42c"
     },
     {
         "english": "oval",
@@ -3017,7 +4067,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 140
+        "en_to_cn_not_seen": 140,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-150-420831af3d0e"
     },
     {
         "english": "diamond",
@@ -3037,7 +4094,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 18,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-151-bd818e3e4f71"
     },
     {
         "english": "flower",
@@ -3057,7 +4121,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 3,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-152-77b0a1952d6e"
     },
     {
         "english": "plant",
@@ -3077,7 +4148,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-153-d66e3df25183"
     },
     {
         "english": "leaf",
@@ -3097,7 +4175,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 65,
-        "en_to_cn_not_seen": 143
+        "en_to_cn_not_seen": 143,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-154-83d21cdefdab"
     },
     {
         "english": "expect",
@@ -3117,7 +4202,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 204
+        "en_to_cn_not_seen": 204,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-155-c02a29cd4c9c"
     },
     {
         "english": "apply",
@@ -3137,7 +4229,14 @@
         "cn_to_en_weight": 4,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 62,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-156-64c655604d4f"
     },
     {
         "english": "attend",
@@ -3157,7 +4256,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 131,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-157-beee4d91d83d"
     },
     {
         "english": "create",
@@ -3177,7 +4283,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 201,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-158-4a11174f37a2"
     },
     {
         "english": "develop",
@@ -3197,7 +4310,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-159-f29b2714c80e"
     },
     {
         "english": "busy",
@@ -3217,7 +4337,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 5,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-160-77b437376646"
     },
     {
         "english": "ready",
@@ -3237,7 +4364,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 209
+        "en_to_cn_not_seen": 209,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-161-f9b61a28ca22"
     },
     {
         "english": "certain",
@@ -3257,7 +4391,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 70,
-        "en_to_cn_not_seen": 35
+        "en_to_cn_not_seen": 35,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-162-b423dbbe3b14"
     },
     {
         "english": "possible",
@@ -3277,7 +4418,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-163-e3e215961ae8"
     },
     {
         "english": "impossible",
@@ -3297,7 +4445,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 10
+        "en_to_cn_not_seen": 10,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-164-0d252c5d5a4f"
     },
     {
         "english": "produce",
@@ -3317,7 +4472,14 @@
         "cn_to_en_weight": 4,
         "en_to_cn_weight": 4,
         "cn_to_en_not_seen": 182,
-        "en_to_cn_not_seen": 113
+        "en_to_cn_not_seen": 113,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-165-1926739a52b7"
     },
     {
         "english": "provide",
@@ -3337,7 +4499,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 149,
-        "en_to_cn_not_seen": 180
+        "en_to_cn_not_seen": 180,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-166-ebfe4985f8ca"
     },
     {
         "english": "support",
@@ -3357,7 +4526,14 @@
         "cn_to_en_weight": 4,
         "en_to_cn_weight": 5,
         "cn_to_en_not_seen": 112,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-167-fbd41d981702"
     },
     {
         "english": "succeed",
@@ -3377,7 +4553,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 134
+        "en_to_cn_not_seen": 134,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-168-f635a2cd3ae4"
     },
     {
         "english": "communicate",
@@ -3397,7 +4580,14 @@
         "cn_to_en_weight": 6,
         "en_to_cn_weight": 4,
         "cn_to_en_not_seen": 28,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-169-b97e265e3aa1"
     },
     {
         "english": "introduce",
@@ -3417,7 +4607,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-170-0cd8276546dc"
     },
     {
         "english": "encourage",
@@ -3437,7 +4634,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 19,
-        "en_to_cn_not_seen": 150
+        "en_to_cn_not_seen": 150,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-171-573b986846f1"
     },
     {
         "english": "respect",
@@ -3457,7 +4661,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 148,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-172-3400854a7492"
     },
     {
         "english": "useful",
@@ -3477,7 +4688,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 163
+        "en_to_cn_not_seen": 163,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-173-2b0ad48a9141"
     },
     {
         "english": "useless",
@@ -3497,7 +4715,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 195
+        "en_to_cn_not_seen": 195,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-174-2ed7d5c3eded"
     },
     {
         "english": "important",
@@ -3517,7 +4742,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 41,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-175-cae6fc3c743e"
     },
     {
         "english": "modern",
@@ -3537,7 +4769,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-176-3768fd0e4d88"
     },
     {
         "english": "traditional",
@@ -3557,7 +4796,14 @@
         "cn_to_en_weight": 4,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 101,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-177-122678931da2"
     },
     {
         "english": "seed",
@@ -3577,7 +4823,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 233,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-178-22470cdb0afb"
     },
     {
         "english": "decision",
@@ -3597,7 +4850,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 61,
-        "en_to_cn_not_seen": 65
+        "en_to_cn_not_seen": 65,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-179-15fdc88a54d1"
     },
     {
         "english": "way",
@@ -3617,7 +4877,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 60,
-        "en_to_cn_not_seen": 193
+        "en_to_cn_not_seen": 193,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-180-fdd8abe7ed56"
     },
     {
         "english": "customer",
@@ -3637,7 +4904,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 229,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-181-b7a41fc451b6"
     },
     {
         "english": "factory",
@@ -3657,7 +4931,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 166,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-182-de1a7c9332a7"
     },
     {
         "english": "technology",
@@ -3677,7 +4958,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-183-1e991de19974"
     },
     {
         "english": "customs",
@@ -3697,7 +4985,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 4,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 183
+        "en_to_cn_not_seen": 183,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-184-5b59d33e8673"
     },
     {
         "english": "trust",
@@ -3717,7 +5012,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 81,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-185-1abc8b28a26d"
     },
     {
         "english": "forgive",
@@ -3737,7 +5039,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 127,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-186-79a814e1078d"
     },
     {
         "english": "celebrate",
@@ -3757,7 +5066,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-187-612876ed1825"
     },
     {
         "english": "recommend",
@@ -3777,7 +5093,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-188-e0eee8a1e2e9"
     },
     {
         "english": "remind",
@@ -3797,7 +5120,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 212,
-        "en_to_cn_not_seen": 120
+        "en_to_cn_not_seen": 120,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-189-10d8e1cb3c1e"
     },
     {
         "english": "popular",
@@ -3817,7 +5147,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 223,
-        "en_to_cn_not_seen": 59
+        "en_to_cn_not_seen": 59,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-190-9067121b5899"
     },
     {
         "english": "common",
@@ -3837,7 +5174,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 111
+        "en_to_cn_not_seen": 111,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-191-3eb107f456ec"
     },
     {
         "english": "local",
@@ -3857,7 +5201,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 13,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-192-d1e8d258ea8f"
     },
     {
         "english": "international",
@@ -3877,7 +5228,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 34,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-193-4990686788a8"
     },
     {
         "english": "public",
@@ -3897,7 +5255,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 206,
-        "en_to_cn_not_seen": 139
+        "en_to_cn_not_seen": 139,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-194-562b7b5e9df1"
     },
     {
         "english": "service",
@@ -3917,7 +5282,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 106,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-195-3645057e032e"
     },
     {
         "english": "address",
@@ -3937,7 +5309,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 192,
-        "en_to_cn_not_seen": 188
+        "en_to_cn_not_seen": 188,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-196-b0b4613fce09"
     },
     {
         "english": "reason",
@@ -3957,7 +5336,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-197-1fd50eec06c8"
     },
     {
         "english": "situation",
@@ -3977,7 +5363,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 189
+        "en_to_cn_not_seen": 189,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-198-23010743e287"
     },
     {
         "english": "message",
@@ -3997,7 +5390,14 @@
         "cn_to_en_weight": 5,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 124,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-199-5c39a440d194"
     },
     {
         "english": "colleague",
@@ -4017,7 +5417,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 172,
-        "en_to_cn_not_seen": 175
+        "en_to_cn_not_seen": 175,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-200-faf9d64c904d"
     },
     {
         "english": "forget",
@@ -4037,7 +5444,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 244,
-        "en_to_cn_not_seen": 161
+        "en_to_cn_not_seen": 161,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-201-5ed2d51bcc9f"
     },
     {
         "english": "remember",
@@ -4057,7 +5471,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 137,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-202-d5db10e6207d"
     },
     {
         "english": "grow",
@@ -4077,7 +5498,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 55,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-203-6b04c39c5f53"
     },
     {
         "english": "plant",
@@ -4097,7 +5525,14 @@
         "cn_to_en_weight": 5,
         "en_to_cn_weight": 4,
         "cn_to_en_not_seen": 221,
-        "en_to_cn_not_seen": 178
+        "en_to_cn_not_seen": 178,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-204-28997d105415"
     },
     {
         "english": "serve",
@@ -4117,7 +5552,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 75,
-        "en_to_cn_not_seen": 48
+        "en_to_cn_not_seen": 48,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-205-f3074c196fc3"
     },
     {
         "english": "opinion",
@@ -4137,7 +5579,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 44,
-        "en_to_cn_not_seen": 77
+        "en_to_cn_not_seen": 77,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-206-c01abac6b517"
     },
     {
         "english": "private",
@@ -4157,7 +5606,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-207-00f008e5df37"
     },
     {
         "english": "simple",
@@ -4177,7 +5633,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 225,
-        "en_to_cn_not_seen": 144
+        "en_to_cn_not_seen": 144,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-208-d1a666539ff0"
     },
     {
         "english": "complex",
@@ -4197,7 +5660,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 100,
-        "en_to_cn_not_seen": 91
+        "en_to_cn_not_seen": 91,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-209-67906863e2b5"
     },
     {
         "english": "partner",
@@ -4217,7 +5687,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 185,
-        "en_to_cn_not_seen": 106
+        "en_to_cn_not_seen": 106,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-210-b761debfe2c4"
     },
     {
         "english": "guest",
@@ -4237,7 +5714,14 @@
         "cn_to_en_weight": 1,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 151,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-211-75d5bdbe1486"
     },
     {
         "english": "lesson",
@@ -4257,7 +5741,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 43
+        "en_to_cn_not_seen": 43,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-212-1be04f936494"
     },
     {
         "english": "employee",
@@ -4277,7 +5768,14 @@
         "cn_to_en_weight": 3,
         "en_to_cn_weight": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 114
+        "en_to_cn_not_seen": 114,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-213-1af189a5b5ef"
     },
     {
         "english": "employer",
@@ -4297,7 +5795,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 205,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-214-aa30bd9b1fda"
     },
     {
         "english": "goal",
@@ -4317,7 +5822,14 @@
         "cn_to_en_weight": 2,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 32,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-215-4f30010a55e9"
     },
     {
         "english": "apply",
@@ -4337,7 +5849,14 @@
         "cn_to_en_weight": 5,
         "en_to_cn_weight": 3,
         "cn_to_en_not_seen": 21,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-216-56c97f929ad1"
     },
     {
         "english": "position",
@@ -4354,7 +5873,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 249,
-        "en_to_cn_not_seen": 137
+        "en_to_cn_not_seen": 137,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-217-4b12bae1b016"
     },
     {
         "english": "purpose",
@@ -4371,7 +5897,14 @@
         "correct": 2,
         "wrong": 1,
         "cn_to_en_not_seen": 51,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-218-84e0e715277d"
     },
     {
         "english": "kitchen",
@@ -4388,7 +5921,14 @@
         "correct": 3,
         "wrong": 0,
         "cn_to_en_not_seen": 105,
-        "en_to_cn_not_seen": 198
+        "en_to_cn_not_seen": 198,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-219-67fcfba05003"
     },
     {
         "english": "ceiling",
@@ -4405,7 +5945,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 168
+        "en_to_cn_not_seen": 168,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-220-17ee2d0c3167"
     },
     {
         "english": "medicine",
@@ -4422,7 +5969,14 @@
         "correct": 1,
         "wrong": 1,
         "cn_to_en_not_seen": 35,
-        "en_to_cn_not_seen": 24
+        "en_to_cn_not_seen": 24,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-221-fb93f1b5cb0e"
     },
     {
         "english": "chair",
@@ -4439,7 +5993,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 87
+        "en_to_cn_not_seen": 87,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-222-f1faef5475c8"
     },
     {
         "english": "offer",
@@ -4456,7 +6017,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 130,
-        "en_to_cn_not_seen": 60
+        "en_to_cn_not_seen": 60,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-223-77f11365530f"
     },
     {
         "english": "spend",
@@ -4473,7 +6041,14 @@
         "correct": 1,
         "wrong": 1,
         "cn_to_en_not_seen": 85,
-        "en_to_cn_not_seen": 50
+        "en_to_cn_not_seen": 50,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-224-02aea8ed485e"
     },
     {
         "english": "deliver",
@@ -4490,7 +6065,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-225-bd3743a53499"
     },
     {
         "english": "collect",
@@ -4507,7 +6089,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-226-74aaa53ec229"
     },
     {
         "english": "complain",
@@ -4524,7 +6113,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 103
+        "en_to_cn_not_seen": 103,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-227-4eb17096f6da"
     },
     {
         "english": "advise",
@@ -4541,7 +6137,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 71
+        "en_to_cn_not_seen": 71,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-228-99a5ea0678af"
     },
     {
         "english": "round",
@@ -4558,7 +6161,14 @@
         "correct": 2,
         "wrong": 1,
         "cn_to_en_not_seen": 119,
-        "en_to_cn_not_seen": 117
+        "en_to_cn_not_seen": 117,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-229-426e69332817"
     },
     {
         "english": "flat",
@@ -4575,7 +6185,14 @@
         "correct": 1,
         "wrong": 1,
         "cn_to_en_not_seen": 26,
-        "en_to_cn_not_seen": 203
+        "en_to_cn_not_seen": 203,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-230-8ff1f037b97f"
     },
     {
         "english": "straight",
@@ -4592,7 +6209,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-231-05a2f795c18d"
     },
     {
         "english": "curved",
@@ -4609,7 +6233,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 52
+        "en_to_cn_not_seen": 52,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-232-b19924f4656a"
     },
     {
         "english": "shallow",
@@ -4626,7 +6257,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 146,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-233-00cab10390d6"
     },
     {
         "english": "soft",
@@ -4643,7 +6281,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-234-88b5d9e8cd6b"
     },
     {
         "english": "remain",
@@ -4660,7 +6305,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 211
+        "en_to_cn_not_seen": 211,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-235-e58b44d085fe"
     },
     {
         "english": "fail",
@@ -4677,7 +6329,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 38,
-        "en_to_cn_not_seen": 173
+        "en_to_cn_not_seen": 173,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-236-2d5aec9756a7"
     },
     {
         "english": "believe",
@@ -4694,7 +6353,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 91,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-237-fe63b13d915c"
     },
     {
         "english": "realise",
@@ -4711,7 +6377,14 @@
         "correct": 3,
         "wrong": 1,
         "cn_to_en_not_seen": 9,
-        "en_to_cn_not_seen": 32
+        "en_to_cn_not_seen": 32,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-238-8c8309b65e3c"
     },
     {
         "english": "recognise",
@@ -4728,7 +6401,14 @@
         "correct": 0,
         "wrong": 2,
         "cn_to_en_not_seen": 165,
-        "en_to_cn_not_seen": 62
+        "en_to_cn_not_seen": 62,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-239-3c913e58b274"
     },
     {
         "english": "wonder",
@@ -4745,7 +6425,14 @@
         "correct": 1,
         "wrong": 1,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 151
+        "en_to_cn_not_seen": 151,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-240-2f19ce9463ea"
     },
     {
         "english": "keep",
@@ -4762,7 +6449,14 @@
         "correct": 3,
         "wrong": 0,
         "cn_to_en_not_seen": 84,
-        "en_to_cn_not_seen": 179
+        "en_to_cn_not_seen": 179,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-241-a0aac07f5641"
     },
     {
         "english": "handsome",
@@ -4779,7 +6473,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 45,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-242-087865efe3e6"
     },
     {
         "english": "wide",
@@ -4796,7 +6497,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 19
+        "en_to_cn_not_seen": 19,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-243-c51f0b43f36b"
     },
     {
         "english": "narrow",
@@ -4813,7 +6521,14 @@
         "correct": 3,
         "wrong": 0,
         "cn_to_en_not_seen": 12,
-        "en_to_cn_not_seen": 201
+        "en_to_cn_not_seen": 201,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-244-0434b54b9038"
     },
     {
         "english": "thick",
@@ -4830,7 +6545,14 @@
         "correct": 3,
         "wrong": 0,
         "cn_to_en_not_seen": 39,
-        "en_to_cn_not_seen": 125
+        "en_to_cn_not_seen": 125,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-245-73878b272ba7"
     },
     {
         "english": "heavy",
@@ -4847,7 +6569,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 187,
-        "en_to_cn_not_seen": 20
+        "en_to_cn_not_seen": 20,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-246-c5f128e21ada"
     },
     {
         "english": "light",
@@ -4864,7 +6593,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-247-9c4ebaa4714d"
     },
     {
         "english": "creative",
@@ -4881,7 +6617,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 59,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-248-e1f026c4e97b"
     },
     {
         "english": "record",
@@ -4898,7 +6641,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 27,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-249-ea0d001a2120"
     },
     {
         "english": "arrange",
@@ -4915,7 +6665,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-250-1cf0df3d0da0"
     },
     {
         "english": "organise",
@@ -4932,7 +6689,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 108
+        "en_to_cn_not_seen": 108,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-251-5b9d71e29ffd"
     },
     {
         "english": "achieve",
@@ -4949,7 +6713,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-252-a5b33a250ae3"
     },
     {
         "english": "catch",
@@ -4966,7 +6737,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 109
+        "en_to_cn_not_seen": 109,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-253-3284ce0f1792"
     },
     {
         "english": "board",
@@ -4983,7 +6761,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 8,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-254-9937f8e40020"
     },
     {
         "english": "wet",
@@ -5000,7 +6785,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-255-f227732d2833"
     },
     {
         "english": "broken",
@@ -5017,7 +6809,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 167,
-        "en_to_cn_not_seen": 157
+        "en_to_cn_not_seen": 157,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-256-2c57481167db"
     },
     {
         "english": "disappointed",
@@ -5034,7 +6833,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 197,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-257-5ddfad33e370"
     },
     {
         "english": "satisfied",
@@ -5051,7 +6857,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 250,
-        "en_to_cn_not_seen": 185
+        "en_to_cn_not_seen": 185,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-258-75279d246093"
     },
     {
         "english": "embarrassed",
@@ -5068,7 +6881,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 152,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-259-06a4163f8c33"
     },
     {
         "english": "proud",
@@ -5085,7 +6905,14 @@
         "correct": 2,
         "wrong": 1,
         "cn_to_en_not_seen": 218,
-        "en_to_cn_not_seen": 202
+        "en_to_cn_not_seen": 202,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-260-19e27775661a"
     },
     {
         "english": "tooth",
@@ -5102,7 +6929,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 63,
-        "en_to_cn_not_seen": 172
+        "en_to_cn_not_seen": 172,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-261-047411cb56b5"
     },
     {
         "english": "option",
@@ -5119,7 +6953,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 252,
-        "en_to_cn_not_seen": 213
+        "en_to_cn_not_seen": 213,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-262-a067e0e09786"
     },
     {
         "english": "apartment",
@@ -5136,7 +6977,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-263-a203a7b311f4"
     },
     {
         "english": "bathroom",
@@ -5153,7 +7001,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-264-7f99a8a90647"
     },
     {
         "english": "pharmacy",
@@ -5170,7 +7025,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-265-500c27648741"
     },
     {
         "english": "town",
@@ -5187,7 +7049,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 22
+        "en_to_cn_not_seen": 22,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-266-43e87e0232f5"
     },
     {
         "english": "capital",
@@ -5204,7 +7073,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 15,
-        "en_to_cn_not_seen": 84
+        "en_to_cn_not_seen": 84,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-267-9e588a74593f"
     },
     {
         "english": "journey",
@@ -5221,7 +7097,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 76
+        "en_to_cn_not_seen": 76,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-268-3d9787c7c802"
     },
     {
         "english": "surprise",
@@ -5238,7 +7121,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 83,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-269-aa315d907be7"
     },
     {
         "english": "satisfy",
@@ -5255,7 +7145,14 @@
         "correct": 0,
         "wrong": 1,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 7
+        "en_to_cn_not_seen": 7,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-270-c28888e61480"
     },
     {
         "english": "apologise",
@@ -5272,7 +7169,14 @@
         "correct": 4,
         "wrong": 0,
         "cn_to_en_not_seen": 78,
-        "en_to_cn_not_seen": 85
+        "en_to_cn_not_seen": 85,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-271-a658390b093b"
     },
     {
         "english": "admit",
@@ -5289,7 +7193,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 79
+        "en_to_cn_not_seen": 79,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-272-a3ffd4fb74c6"
     },
     {
         "english": "review",
@@ -5306,7 +7217,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-273-dbd8e6d16b4d"
     },
     {
         "english": "shower",
@@ -5323,7 +7241,14 @@
         "correct": 3,
         "wrong": 0,
         "cn_to_en_not_seen": 174,
-        "en_to_cn_not_seen": 44
+        "en_to_cn_not_seen": 44,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-274-b8490d80f58c"
     },
     {
         "english": "lonely",
@@ -5340,7 +7265,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 11
+        "en_to_cn_not_seen": 11,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-275-4bf0bc4b045a"
     },
     {
         "english": "selfish",
@@ -5357,7 +7289,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 115,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-276-544051352518"
     },
     {
         "english": "confident",
@@ -5374,7 +7313,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-277-e9b778565236"
     },
     {
         "english": "safe",
@@ -5391,7 +7337,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-278-b55891e0836d"
     },
     {
         "english": "thin",
@@ -5408,7 +7361,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 121,
-        "en_to_cn_not_seen": 82
+        "en_to_cn_not_seen": 82,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-279-89353f96cc54"
     },
     {
         "english": "low",
@@ -5425,7 +7385,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-280-6af479a4c077"
     },
     {
         "english": "breakfast",
@@ -5442,7 +7409,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 48,
-        "en_to_cn_not_seen": 138
+        "en_to_cn_not_seen": 138,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-281-df29f986dd55"
     },
     {
         "english": "dinner",
@@ -5459,7 +7433,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 79,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-282-72fb0d944feb"
     },
     {
         "english": "lunch",
@@ -5476,7 +7457,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-283-05f852fb2ae2"
     },
     {
         "english": "business",
@@ -5493,7 +7481,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 45
+        "en_to_cn_not_seen": 45,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-284-d340f7bedd57"
     },
     {
         "english": "cost",
@@ -5510,7 +7505,14 @@
         "correct": 0,
         "wrong": 1,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 70
+        "en_to_cn_not_seen": 70,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-285-4e7d69467222"
     },
     {
         "english": "bill",
@@ -5527,7 +7529,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 36
+        "en_to_cn_not_seen": 36,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-286-bffebc54f267"
     },
     {
         "english": "break",
@@ -5544,7 +7553,14 @@
         "correct": 3,
         "wrong": 0,
         "cn_to_en_not_seen": 96,
-        "en_to_cn_not_seen": 26
+        "en_to_cn_not_seen": 26,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-287-0f461e7ecddc"
     },
     {
         "english": "fix",
@@ -5561,7 +7577,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 52,
-        "en_to_cn_not_seen": 74
+        "en_to_cn_not_seen": 74,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-288-6514d5d5626b"
     },
     {
         "english": "worry",
@@ -5578,7 +7601,14 @@
         "correct": 0,
         "wrong": 1,
         "cn_to_en_not_seen": 103,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-289-65d5ae9142ea"
     },
     {
         "english": "fear",
@@ -5595,7 +7625,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-290-dbcd286de57e"
     },
     {
         "english": "lie",
@@ -5612,7 +7649,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 125,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-291-c07c9a698b37"
     },
     {
         "english": "lie",
@@ -5629,7 +7673,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 189,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-292-11ce0ee92924"
     },
     {
         "english": "short",
@@ -5646,7 +7697,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 159,
-        "en_to_cn_not_seen": 25
+        "en_to_cn_not_seen": 25,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-293-7838346d8b8c"
     },
     {
         "english": "near",
@@ -5663,7 +7721,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 1,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-294-918a876ff1b7"
     },
     {
         "english": "far",
@@ -5680,7 +7745,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 49
+        "en_to_cn_not_seen": 49,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-295-bea2bbca5557"
     },
     {
         "english": "noisy",
@@ -5697,7 +7769,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 23,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-296-3e1a1e310b63"
     },
     {
         "english": "shy",
@@ -5714,7 +7793,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 152
+        "en_to_cn_not_seen": 152,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-297-b3b7639f18eb"
     },
     {
         "english": "rude",
@@ -5731,7 +7817,14 @@
         "correct": 4,
         "wrong": 0,
         "cn_to_en_not_seen": 46,
-        "en_to_cn_not_seen": 101
+        "en_to_cn_not_seen": 101,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-298-c2dc9d2135ee"
     },
     {
         "english": "package",
@@ -5748,7 +7841,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 95,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-299-d1c5ad2bf4b1"
     },
     {
         "english": "brand",
@@ -5765,7 +7865,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-300-17a084c94851"
     },
     {
         "english": "battery",
@@ -5782,7 +7889,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-301-8301d57dd4df"
     },
     {
         "english": "software",
@@ -5799,7 +7913,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-302-2e8734169485"
     },
     {
         "english": "picture",
@@ -5816,7 +7937,14 @@
         "correct": 3,
         "wrong": 0,
         "cn_to_en_not_seen": 76,
-        "en_to_cn_not_seen": 5
+        "en_to_cn_not_seen": 5,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-303-4c3f609c7920"
     },
     {
         "english": "clothes",
@@ -5833,7 +7961,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 66
+        "en_to_cn_not_seen": 66,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-304-2dec9da63c4b"
     },
     {
         "english": "disappoint",
@@ -5850,7 +7985,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-305-276de756b0e0"
     },
     {
         "english": "wake",
@@ -5867,7 +8009,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 161,
-        "en_to_cn_not_seen": 141
+        "en_to_cn_not_seen": 141,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-306-5f1ae00360cb"
     },
     {
         "english": "approach",
@@ -5884,7 +8033,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 15
+        "en_to_cn_not_seen": 15,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-307-d2d026479cd1"
     },
     {
         "english": "contact",
@@ -5901,7 +8057,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-308-7656e162eec4"
     },
     {
         "english": "argue",
@@ -5918,7 +8081,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 160,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-309-fbf7b8cc5e32"
     },
     {
         "english": "warn",
@@ -5935,7 +8105,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 67
+        "en_to_cn_not_seen": 67,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-310-1679ee51c112"
     },
     {
         "english": "hardworking",
@@ -5952,7 +8129,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-311-17f62a7815ac"
     },
     {
         "english": "valuable",
@@ -5969,7 +8153,14 @@
         "correct": 3,
         "wrong": 0,
         "cn_to_en_not_seen": 31,
-        "en_to_cn_not_seen": 98
+        "en_to_cn_not_seen": 98,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-312-a504001f73ef"
     },
     {
         "english": "effective",
@@ -5986,7 +8177,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-313-55c421300351"
     },
     {
         "english": "terrible",
@@ -6003,7 +8201,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 25,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-314-7473c4fb588b"
     },
     {
         "english": "poor",
@@ -6020,7 +8225,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
-        "en_to_cn_not_seen": 162
+        "en_to_cn_not_seen": 162,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-315-d205bb71fbd8"
     },
     {
         "english": "shirt",
@@ -6037,7 +8249,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 138,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-316-ece028a45130"
     },
     {
         "english": "pants",
@@ -6054,7 +8273,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 138,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-317-e8e43d597df7"
     },
     {
         "english": "shorts",
@@ -6071,7 +8297,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 138,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-318-c6c8eecbdd4e"
     },
     {
         "english": "socks",
@@ -6088,7 +8321,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 138,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-319-cb0646ad5047"
     },
     {
         "english": "jacket",
@@ -6105,7 +8345,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 49,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-320-dada625e2430"
     },
     {
         "english": "pocket",
@@ -6122,7 +8369,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 68,
-        "en_to_cn_not_seen": 28
+        "en_to_cn_not_seen": 28,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-321-f9037bd96e43"
     },
     {
         "english": "convenient",
@@ -6139,7 +8393,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 138,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-322-a0b21071f83a"
     },
     {
         "english": "alone",
@@ -6156,7 +8417,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 138,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-323-e3c430ce801a"
     },
     {
         "english": "mature",
@@ -6173,7 +8441,14 @@
         "correct": 1,
         "wrong": 1,
         "cn_to_en_not_seen": 102,
-        "en_to_cn_not_seen": 61
+        "en_to_cn_not_seen": 61,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-324-d948aec7480d"
     },
     {
         "english": "expensive",
@@ -6190,7 +8465,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 138,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-325-a118cdc141a4"
     },
     {
         "english": "rare",
@@ -6207,7 +8489,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 30,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-326-6ccd65e4a3ce"
     },
     {
         "english": "fair",
@@ -6224,7 +8513,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 138,
-        "en_to_cn_not_seen": 95
+        "en_to_cn_not_seen": 95,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-327-13d4eb9716d1"
     },
     {
         "english": "towel",
@@ -6241,7 +8537,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 4,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-328-afdd386ab499"
     },
     {
         "english": "pillow",
@@ -6258,7 +8561,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-329-d9f3e9c0e407"
     },
     {
         "english": "plate",
@@ -6275,7 +8585,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-330-b9cc91053bd8"
     },
     {
         "english": "spoon",
@@ -6292,7 +8609,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-331-9662ddca3684"
     },
     {
         "english": "fork",
@@ -6309,7 +8633,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 110
+        "en_to_cn_not_seen": 110,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-332-bc469776add5"
     },
     {
         "english": "fridge",
@@ -6326,7 +8657,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 27
+        "en_to_cn_not_seen": 27,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-333-98b0e249c76c"
     },
     {
         "english": "earn",
@@ -6343,7 +8681,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 17,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-334-58c69462affb"
     },
     {
         "english": "suggest",
@@ -6360,7 +8705,14 @@
         "correct": 2,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 8
+        "en_to_cn_not_seen": 8,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-335-6770432d284a"
     },
     {
         "english": "repair",
@@ -6377,7 +8729,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-336-febe66b390c0"
     },
     {
         "english": "envy",
@@ -6394,7 +8753,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-337-bb9d497f615c"
     },
     {
         "english": "treat",
@@ -6411,7 +8777,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-338-4fe2a840d0a8"
     },
     {
         "english": "belong",
@@ -6428,7 +8801,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 74,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-339-aa1a1d4cc8ff"
     },
     {
         "english": "willing",
@@ -6445,7 +8825,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 57,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-340-320485a2ea8b"
     },
     {
         "english": "successful",
@@ -6462,7 +8849,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 97,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-341-60bb880d1b34"
     },
     {
         "english": "similar",
@@ -6479,7 +8873,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 83
+        "en_to_cn_not_seen": 83,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-342-b9f2def5e26a"
     },
     {
         "english": "modest",
@@ -6496,7 +8897,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 128,
-        "en_to_cn_not_seen": 104
+        "en_to_cn_not_seen": 104,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-343-3eab0f5e41f3"
     },
     {
         "english": "dangerous",
@@ -6513,7 +8921,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 118
+        "en_to_cn_not_seen": 118,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-344-98ab09772b27"
     },
     {
         "english": "humorous",
@@ -6530,7 +8945,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
-        "en_to_cn_not_seen": 102
+        "en_to_cn_not_seen": 102,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-345-a3c486a13ab3"
     },
     {
         "english": "weather",
@@ -6547,7 +8969,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 58,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-346-1447ae2edd0b"
     },
     {
         "english": "rain",
@@ -6564,7 +8993,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 37,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-347-d17add80b858"
     },
     {
         "english": "mountain",
@@ -6581,7 +9017,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 14,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-348-a195f3f41a50"
     },
     {
         "english": "device",
@@ -6598,7 +9041,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 22,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-349-98beec192ea5"
     },
     {
         "english": "condition",
@@ -6615,7 +9065,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-350-45a99453876c"
     },
     {
         "english": "process",
@@ -6632,7 +9089,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 51
+        "en_to_cn_not_seen": 51,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-351-18e9471f977e"
     },
     {
         "english": "include",
@@ -6649,7 +9113,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-352-d4932b53a4cf"
     },
     {
         "english": "observe",
@@ -6666,7 +9137,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 29,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-353-8894bb7f6036"
     },
     {
         "english": "observe",
@@ -6683,7 +9161,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-354-5f04050f2423"
     },
     {
         "english": "judge",
@@ -6700,7 +9185,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 2
+        "en_to_cn_not_seen": 2,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-355-68e2a0d34cb8"
     },
     {
         "english": "predict",
@@ -6717,7 +9209,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 53
+        "en_to_cn_not_seen": 53,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-356-0b38e7142ca8"
     },
     {
         "english": "estimate",
@@ -6734,7 +9233,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-357-24cbf54dad33"
     },
     {
         "english": "afraid",
@@ -6751,7 +9257,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 6
+        "en_to_cn_not_seen": 6,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-358-771e4f58973d"
     },
     {
         "english": "typical",
@@ -6768,7 +9281,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-359-4af58c6bdea8"
     },
     {
         "english": "clear",
@@ -6785,7 +9305,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 34
+        "en_to_cn_not_seen": 34,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-360-6bdc5ec34769"
     },
     {
         "english": "beneficial",
@@ -6802,7 +9329,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-361-49f9617dab38"
     },
     {
         "english": "harmful",
@@ -6819,7 +9353,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-362-07067e972022"
     },
     {
         "english": "reasonable",
@@ -6836,7 +9377,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 23
+        "en_to_cn_not_seen": 23,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-363-8431f7c55ac6"
     },
     {
         "english": "habit",
@@ -6853,7 +9401,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-364-cb9b3c582ca5"
     },
     {
         "english": "machine",
@@ -6870,7 +9425,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-365-8f247690d70e"
     },
     {
         "english": "quality",
@@ -6887,7 +9449,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-366-fe8342b9fecc"
     },
     {
         "english": "attitude",
@@ -6904,7 +9473,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 42
+        "en_to_cn_not_seen": 42,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-367-b6db67bfd4ea"
     },
     {
         "english": "method",
@@ -6921,7 +9497,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 31
+        "en_to_cn_not_seen": 31,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-368-bb9542697b66"
     },
     {
         "english": "success",
@@ -6938,7 +9521,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 53,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-369-4752b81d87ec"
     },
     {
         "english": "deny",
@@ -6955,7 +9545,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-370-5ded5f787c52"
     },
     {
         "english": "claim",
@@ -6972,7 +9569,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-371-be523852b636"
     },
     {
         "english": "emphasise",
@@ -6989,7 +9593,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-372-b2ba6e2d1798"
     },
     {
         "english": "reduce",
@@ -7006,7 +9617,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-373-529ddbe38a34"
     },
     {
         "english": "expand",
@@ -7023,7 +9641,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 6,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-374-4eddd8910157"
     },
     {
         "english": "prevent",
@@ -7040,7 +9665,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 39
+        "en_to_cn_not_seen": 39,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-375-c831b208c9f3"
     },
     {
         "english": "tight",
@@ -7057,7 +9689,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-376-b76924d9b514"
     },
     {
         "english": "loose",
@@ -7074,7 +9713,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-377-9ff95f03e7ed"
     },
     {
         "english": "generous",
@@ -7091,7 +9737,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-378-7f5672f4548f"
     },
     {
         "english": "stubborn",
@@ -7108,7 +9761,14 @@
         "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 33,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-379-4630e0876a3b"
     },
     {
         "english": "gentle",
@@ -7125,7 +9785,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-380-45fcd39002d1"
     },
     {
         "english": "cruel",
@@ -7142,7 +9809,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 73,
-        "en_to_cn_not_seen": 69
+        "en_to_cn_not_seen": 69,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-381-a671b8dbbaef"
     },
     {
         "english": "risk",
@@ -7159,7 +9833,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-382-ef28dea46acf"
     },
     {
         "english": "benefit",
@@ -7176,7 +9857,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-383-a94923abc6b1"
     },
     {
         "english": "drawback",
@@ -7193,7 +9881,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-384-23d396601c29"
     },
     {
         "english": "knowledge",
@@ -7210,7 +9905,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-385-635a86d732cd"
     },
     {
         "english": "ability",
@@ -7227,7 +9929,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-386-ec38ee9ccef3"
     },
     {
         "english": "talent",
@@ -7244,7 +9953,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-387-e3ec0db954c5"
     },
     {
         "english": "handle",
@@ -7261,7 +9977,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-388-2d0199562d16"
     },
     {
         "english": "analyze",
@@ -7278,7 +10001,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-389-0b6933885a6e"
     },
     {
         "english": "blame",
@@ -7295,7 +10025,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-390-3eb7866c3a9e"
     },
     {
         "english": "persuade",
@@ -7312,7 +10049,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-391-220e64f5ad9c"
     },
     {
         "english": "praise",
@@ -7329,7 +10073,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-392-3fb7e1c37624"
     },
     {
         "english": "debate",
@@ -7346,7 +10097,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-393-270913b7d049"
     },
     {
         "english": "immature",
@@ -7363,7 +10121,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-394-a57b7120da86"
     },
     {
         "english": "talented",
@@ -7380,7 +10145,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-395-86de499db503"
     },
     {
         "english": "capable",
@@ -7397,7 +10169,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-396-2de4c6ff16bc"
     },
     {
         "english": "unwilling",
@@ -7414,7 +10193,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-397-a7e2d3fce093"
     },
     {
         "english": "logical",
@@ -7431,7 +10217,14 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-398-138c8fe97105"
     },
     {
         "english": "temporary",
@@ -7448,6 +10241,13 @@
         "correct": 0,
         "wrong": 0,
         "cn_to_en_not_seen": 0,
-        "en_to_cn_not_seen": 0
+        "en_to_cn_not_seen": 0,
+        "proficient": false,
+        "initial_priority": 12,
+        "priority": 12,
+        "correct_streak": 0,
+        "wrong_streak": 0,
+        "last_review_order": 0,
+        "id": "word-399-7a83ba4e09e7"
     }
 ]
