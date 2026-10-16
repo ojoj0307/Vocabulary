@@ -29,7 +29,9 @@
             "is_proficient": false,
             "review_priority": 12,
             "review_correct_streak": 0,
-            "review_wrong_streak": 0
+            "review_wrong_streak": 0,
+            "cn_to_en_proficient": false,
+            "en_to_cn_proficient": false
         },
         {
             "english": "oval",
@@ -62,7 +64,9 @@
             "is_proficient": false,
             "review_priority": 12,
             "review_correct_streak": 0,
-            "review_wrong_streak": 0
+            "review_wrong_streak": 0,
+            "cn_to_en_proficient": false,
+            "en_to_cn_proficient": false
         },
         {
             "english": "embarrassed",
@@ -92,7 +96,9 @@
             "is_proficient": false,
             "review_priority": 12,
             "review_correct_streak": 0,
-            "review_wrong_streak": 0
+            "review_wrong_streak": 0,
+            "cn_to_en_proficient": false,
+            "en_to_cn_proficient": false
         },
         {
             "english": "profile",
@@ -125,7 +131,9 @@
             "is_proficient": false,
             "review_priority": 12,
             "review_correct_streak": 0,
-            "review_wrong_streak": 0
+            "review_wrong_streak": 0,
+            "cn_to_en_proficient": false,
+            "en_to_cn_proficient": false
         },
         {
             "english": "spend",
@@ -155,7 +163,9 @@
             "is_proficient": false,
             "review_priority": 12,
             "review_correct_streak": 0,
-            "review_wrong_streak": 0
+            "review_wrong_streak": 0,
+            "cn_to_en_proficient": false,
+            "en_to_cn_proficient": false
         },
         {
             "english": "september",
@@ -188,7 +198,9 @@
             "is_proficient": false,
             "review_priority": 12,
             "review_correct_streak": 0,
-            "review_wrong_streak": 0
+            "review_wrong_streak": 0,
+            "cn_to_en_proficient": false,
+            "en_to_cn_proficient": false
         },
         {
             "english": "typical",
@@ -218,7 +230,9 @@
             "is_proficient": false,
             "review_priority": 12,
             "review_correct_streak": 0,
-            "review_wrong_streak": 0
+            "review_wrong_streak": 0,
+            "cn_to_en_proficient": false,
+            "en_to_cn_proficient": false
         },
         {
             "english": "impossible",
@@ -251,7 +265,9 @@
             "is_proficient": false,
             "review_priority": 12,
             "review_correct_streak": 0,
-            "review_wrong_streak": 0
+            "review_wrong_streak": 0,
+            "cn_to_en_proficient": false,
+            "en_to_cn_proficient": false
         },
         {
             "english": "refuse",
@@ -284,7 +300,9 @@
             "is_proficient": false,
             "review_priority": 12,
             "review_correct_streak": 0,
-            "review_wrong_streak": 0
+            "review_wrong_streak": 0,
+            "cn_to_en_proficient": false,
+            "en_to_cn_proficient": false
         },
         {
             "english": "million",
@@ -317,7 +335,9 @@
             "is_proficient": false,
             "review_priority": 12,
             "review_correct_streak": 0,
-            "review_wrong_streak": 0
+            "review_wrong_streak": 0,
+            "cn_to_en_proficient": false,
+            "en_to_cn_proficient": false
         }
     ],
     "rounds": {
