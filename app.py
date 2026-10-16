@@ -1,30 +1,25 @@
-import streamlit as st
-import json
-import random
+把原来的 `app.py` 全部覆盖为以下代码即可：
+
+```python
 import base64
 import html
-import requests
-import pandas as pd
-
+import json
+import random
+import uuid
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+import pandas as pd
+import requests
+import streamlit as st
 
-# ============================================================
-# 页面设置
-# ============================================================
 
 st.set_page_config(
     page_title="English Vocabulary",
     page_icon="📚",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
 )
-
-
-# ============================================================
-# GitHub 设置
-# ============================================================
 
 GITHUB_OWNER = "ojoj0307"
 GITHUB_REPO = "english-vocabulary"
@@ -32,6 +27,10 @@ GITHUB_REPO = "english-vocabulary"
 VOCABULARY_PATH = "vocabulary.json"
 NEW_WORDS_PATH = "new_words.json"
 DAILY_STATS_PATH = "daily_stats.json"
+
+MALAYSIA_TZ = ZoneInfo("Asia/Kuala_Lumpur")
+CATEGORIES = ["noun", "verb", "adjective", "adverb"]
+PRIORITY_BY_STREAK = [12, 11, 9, 6, 2, 0]
 
 try:
     GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
@@ -43,766 +42,347 @@ GITHUB_API_BASE = (
     f"{GITHUB_OWNER}/{GITHUB_REPO}/contents/"
 )
 
-
-# ============================================================
-# 马来西亚时间
-# ============================================================
-
-MALAYSIA_TZ = ZoneInfo("Asia/Kuala_Lumpur")
-
-
-# ============================================================
-# 词性
-# ============================================================
-
-CATEGORIES = [
-    "noun",
-    "verb",
-    "adjective",
-    "adverb"
-]
-
-
-# ============================================================
-# CSS
-# ============================================================
-
 st.markdown(
     """
-<style>
-
-.block-container {
-    padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
-    max-width: 1150px;
-}
-
-h1 {
-    font-size: 26px !important;
-    margin-bottom: 5px !important;
-}
-
-h2 {
-    font-size: 21px !important;
-}
-
-h3 {
-    font-size: 18px !important;
-}
-
-section[data-testid="stSidebar"] div[role="radiogroup"] label {
-    font-size: 19px !important;
-    font-weight: 600 !important;
-    padding-top: 8px !important;
-    padding-bottom: 8px !important;
-}
-
-section[data-testid="stSidebar"] p {
-    font-size: 18px !important;
-    font-weight: 600 !important;
-}
-
-.question {
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-    margin: 8px 0 6px 0;
-    word-break: break-word;
-}
-
-.question-category {
-    font-size: 17px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 12px;
-    opacity: 0.75;
-}
-
-.previous-question {
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    margin: 8px 0 6px 0;
-    word-break: break-word;
-}
-
-.previous-category {
-    font-size: 16px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 12px;
-    opacity: 0.75;
-}
-
-.answer-text {
-    font-size: 16px;
-    margin: 5px 0;
-    word-break: break-word;
-}
-
-div[data-testid="stTextInput"] input {
-    font-size: 18px;
-    height: 42px;
-}
-
-div.stButton > button {
-    min-height: 38px;
-    font-size: 15px;
-}
-
-.mobile-hint {
-    font-size: 13px;
-    opacity: 0.65;
-    margin-bottom: 8px;
-}
-
-@media (max-width: 700px) {
-
+    <style>
     .block-container {
         padding-top: 2.5rem;
-        padding-left: 0.7rem;
-        padding-right: 0.7rem;
+        padding-bottom: 0.5rem;
+        max-width: 1150px;
     }
 
-    .question {
-        font-size: 25px;
+    h1 {
+        font-size: 26px !important;
+        margin-bottom: 5px !important;
     }
 
-    .question-category {
-        font-size: 16px;
+    h2 {
+        font-size: 21px !important;
     }
 
-    .previous-question {
-        font-size: 21px;
-    }
-
-    .previous-category {
-        font-size: 15px;
-    }
-
-    section[data-testid="stSidebar"]
-    div[role="radiogroup"] label {
+    h3 {
         font-size: 18px !important;
     }
 
-}
+    section[data-testid="stSidebar"] div[role="radiogroup"] label {
+        font-size: 19px !important;
+        font-weight: 600 !important;
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+    }
 
-</style>
-""",
-    unsafe_allow_html=True
+    section[data-testid="stSidebar"] p {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+    }
+
+    .question {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin: 8px 0 6px 0;
+        word-break: break-word;
+    }
+
+    .question-category {
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 12px;
+        opacity: 0.75;
+    }
+
+    .previous-question {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        margin: 8px 0 6px 0;
+        word-break: break-word;
+    }
+
+    .answer-text {
+        font-size: 16px;
+        margin: 5px 0;
+        word-break: break-word;
+    }
+
+    div[data-testid="stTextInput"] input {
+        font-size: 18px;
+        height: 42px;
+    }
+
+    div.stButton > button {
+        min-height: 38px;
+        font-size: 15px;
+    }
+
+    @media (max-width: 700px) {
+        .block-container {
+            padding-top: 2.5rem;
+            padding-left: 0.7rem;
+            padding-right: 0.7rem;
+        }
+
+        .question {
+            font-size: 25px;
+        }
+
+        .previous-question {
+            font-size: 21px;
+        }
+
+        section[data-testid="stSidebar"] div[role="radiogroup"] label {
+            font-size: 18px !important;
+        }
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
 )
 
 
-# ============================================================
-# GitHub Header
-# ============================================================
+def get_today():
+    return datetime.now(MALAYSIA_TZ).strftime("%Y-%m-%d")
+
 
 def github_headers():
-
     return {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
         "Accept": "application/vnd.github+json",
-        "X-GitHub-Api-Version": "2022-11-28"
+        "X-GitHub-Api-Version": "2022-11-28",
     }
 
 
-# ============================================================
-# 检查 Token
-# ============================================================
-
 def check_github_token():
-
     if not GITHUB_TOKEN:
-
         st.error("没有找到 GITHUB_TOKEN。")
-
-        st.info(
-            "请在 Streamlit Cloud → Settings → Secrets "
-            "添加 GITHUB_TOKEN。"
-        )
-
+        st.info("请在 Streamlit Cloud → Settings → Secrets 添加 GITHUB_TOKEN。")
         return False
-
     return True
 
 
-# ============================================================
-# GitHub 读取
-# ============================================================
-
 def github_get_file(path):
-
     if not check_github_token():
         return None, None
 
-    url = GITHUB_API_BASE + path
-
     try:
-
         response = requests.get(
-            url,
+            GITHUB_API_BASE + path,
             headers=github_headers(),
-            timeout=15
+            timeout=15,
         )
 
-        if response.status_code == 200:
-
-            result = response.json()
-
-            content = result.get("content", "")
-            sha = result.get("sha")
-
-            content = content.replace("\n", "")
-
-            decoded = base64.b64decode(
-                content
-            ).decode("utf-8")
-
-            return decoded, sha
-
-        elif response.status_code == 404:
-
+        if response.status_code == 404:
             return None, None
 
-        else:
-
-            st.error(
-                f"GitHub API 错误："
-                f"{response.status_code} "
-                f"{response.text}"
-            )
-
+        if response.status_code != 200:
+            st.error(f"GitHub API 错误：{response.status_code} {response.text}")
             return None, None
 
-    except Exception as e:
+        result = response.json()
+        content = result.get("content", "").replace("\n", "")
+        return base64.b64decode(content).decode("utf-8"), result.get("sha")
 
-        st.error(
-            f"无法连接 GitHub：{e}"
-        )
-
+    except Exception as error:
+        st.error(f"无法连接 GitHub：{error}")
         return None, None
 
 
-# ============================================================
-# GitHub 保存
-# ============================================================
-
-def github_save_file(
-    path,
-    data,
-    sha=None,
-    message="Update file"
-):
-
+def github_save_file(path, data, sha=None, message="Update file"):
     if not check_github_token():
         return False
 
-    url = GITHUB_API_BASE + path
-
     try:
-
-        json_text = json.dumps(
-            data,
-            ensure_ascii=False,
-            indent=4
-        )
-
-        encoded = base64.b64encode(
-            json_text.encode("utf-8")
-        ).decode("utf-8")
-
+        content = json.dumps(data, ensure_ascii=False, indent=4)
         payload = {
             "message": message,
-            "content": encoded
+            "content": base64.b64encode(content.encode("utf-8")).decode("utf-8"),
         }
 
         if sha:
             payload["sha"] = sha
 
         response = requests.put(
-            url,
+            GITHUB_API_BASE + path,
             headers=github_headers(),
             json=payload,
-            timeout=15
+            timeout=15,
         )
 
-        if response.status_code in [200, 201]:
-
+        if response.status_code in (200, 201):
             return True
 
-        st.error(
-            f"GitHub API 错误："
-            f"{response.status_code} "
-            f"{response.text}"
-        )
-
+        st.error(f"GitHub API 错误：{response.status_code} {response.text}")
         return False
 
-    except Exception as e:
-
-        st.error(
-            f"保存到 GitHub 失败：{e}"
-        )
-
+    except Exception as error:
+        st.error(f"保存到 GitHub 失败：{error}")
         return False
 
 
-# ============================================================
-# 今日日期
-# ============================================================
-
-def get_today():
-
-    return datetime.now(
-        MALAYSIA_TZ
-    ).strftime("%Y-%m-%d")
-
-
-# ============================================================
-# 默认每日统计
-# ============================================================
-
-def default_daily_stats():
+def direction_keys(question_type):
+    if question_type == "中译英":
+        return {
+            "weight": "cn_to_en_weight",
+            "not_seen": "cn_to_en_not_seen",
+            "correct": "cn_to_en_correct",
+            "wrong": "cn_to_en_wrong",
+            "round_done": "cn_to_en_round_done",
+        }
 
     return {
-        "date": get_today(),
+        "weight": "en_to_cn_weight",
+        "not_seen": "en_to_cn_not_seen",
+        "correct": "en_to_cn_correct",
+        "wrong": "en_to_cn_wrong",
+        "round_done": "en_to_cn_round_done",
+    }
 
-        "cn_to_en_answered": 0,
+
+def normalize_word(word):
+    changed = False
+
+    defaults = {
+        "id": str(uuid.uuid4()),
+        "english": "",
+        "chinese": "",
+        "category": "noun",
+        "cn_note": "",
+        "en_note": "",
+        "cn_to_en_weight": 3,
+        "en_to_cn_weight": 3,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0,
         "cn_to_en_correct": 0,
-
-        "en_to_cn_answered": 0,
-        "en_to_cn_correct": 0
+        "cn_to_en_wrong": 0,
+        "en_to_cn_correct": 0,
+        "en_to_cn_wrong": 0,
+        "cn_to_en_round_done": False,
+        "en_to_cn_round_done": False,
+        "is_proficient": False,
+        "review_priority": 12,
+        "review_correct_streak": 0,
+        "review_wrong_streak": 0,
     }
 
-
-# ============================================================
-# 默认新词数据
-# ============================================================
-
-def default_new_words():
-
-    return {
-        "date": get_today(),
-        "words": []
-    }
-
-
-# ============================================================
-# 标准化正式词库 (适配独立概率与备注)
-# ============================================================
-
-def normalize_vocabulary(data):
-
-    changed = False
-
-    for word in data:
-
-        if "english" not in word:
-            word["english"] = ""
+    for key, value in defaults.items():
+        if key not in word:
+            word[key] = value
             changed = True
-
-        if "chinese" not in word:
-            word["chinese"] = ""
-            changed = True
-
-        if "category" not in word:
-            word["category"] = "noun"
-            changed = True
-
-        if word.get("category") not in CATEGORIES:
-            word["category"] = "noun"
-            changed = True
-
-        # 备注属性
-        if "cn_note" not in word:
-            word["cn_note"] = ""
-            changed = True
-
-        if "en_note" not in word:
-            word["en_note"] = ""
-            changed = True
-
-        # 拆分为中译英和英译中独立权重
-        default_w = word.get("weight", 3)
-        if "cn_to_en_weight" not in word:
-            word["cn_to_en_weight"] = int(default_w)
-            changed = True
-
-        if "en_to_cn_weight" not in word:
-            word["en_to_cn_weight"] = int(default_w)
-            changed = True
-
-        if "cn_to_en_correct" not in word:
-            word["cn_to_en_correct"] = int(
-                word.get("correct", 0)
-            )
-            changed = True
-
-        if "cn_to_en_wrong" not in word:
-            word["cn_to_en_wrong"] = int(
-                word.get("wrong", 0)
-            )
-            changed = True
-
-        if "en_to_cn_correct" not in word:
-            word["en_to_cn_correct"] = 0
-            changed = True
-
-        if "en_to_cn_wrong" not in word:
-            word["en_to_cn_wrong"] = 0
-            changed = True
-
-        if "cn_to_en_not_seen" not in word:
-            word["cn_to_en_not_seen"] = 0
-            changed = True
-
-        if "en_to_cn_not_seen" not in word:
-            word["en_to_cn_not_seen"] = 0
-            changed = True
-
-        if "correct" not in word:
-            word["correct"] = (
-                int(word.get("cn_to_en_correct", 0)) +
-                int(word.get("en_to_cn_correct", 0))
-            )
-            changed = True
-
-        if "wrong" not in word:
-            word["wrong"] = (
-                int(word.get("cn_to_en_wrong", 0)) +
-                int(word.get("en_to_cn_wrong", 0))
-            )
-            changed = True
-
-    return changed
-
-
-# ============================================================
-# 加载正式词库
-# ============================================================
-
-def load_words():
-
-    content, sha = github_get_file(
-        VOCABULARY_PATH
-    )
-
-    if content is None:
-
-        st.error(
-            "无法读取 GitHub 上的 vocabulary.json"
-        )
-
-        return [], None
-
-    try:
-
-        data = json.loads(content)
-
-    except Exception as e:
-
-        st.error(
-            f"vocabulary.json 格式错误：{e}"
-        )
-
-        return [], sha
-
-    if not isinstance(data, list):
-
-        st.error(
-            "vocabulary.json 必须是数组。"
-        )
-
-        return [], sha
-
-    changed = normalize_vocabulary(data)
-
-    if changed:
-
-        latest_content, latest_sha = github_get_file(
-            VOCABULARY_PATH
-        )
-
-        if latest_sha:
-
-            if github_save_file(
-                VOCABULARY_PATH,
-                data,
-                latest_sha,
-                "Update vocabulary data structure"
-            ):
-
-                _, sha = github_get_file(
-                    VOCABULARY_PATH
-                )
-
-    return data, sha
-
-
-# ============================================================
-# 标准化新词 (适配独立概率与备注)
-# ============================================================
-
-def normalize_new_word(word):
-
-    changed = False
-
-    if "english" not in word:
-        word["english"] = ""
-        changed = True
-
-    if "chinese" not in word:
-        word["chinese"] = ""
-        changed = True
-
-    if "category" not in word:
-        word["category"] = "noun"
-        changed = True
 
     if word.get("category") not in CATEGORIES:
         word["category"] = "noun"
         changed = True
 
-    if "cn_note" not in word:
-        word["cn_note"] = ""
-        changed = True
+    for key in (
+        "cn_to_en_weight",
+        "en_to_cn_weight",
+        "cn_to_en_not_seen",
+        "en_to_cn_not_seen",
+        "cn_to_en_correct",
+        "cn_to_en_wrong",
+        "en_to_cn_correct",
+        "en_to_cn_wrong",
+        "review_priority",
+        "review_correct_streak",
+        "review_wrong_streak",
+    ):
+        try:
+            word[key] = int(word.get(key, defaults[key]))
+        except (TypeError, ValueError):
+            word[key] = defaults[key]
+            changed = True
 
-    if "en_note" not in word:
-        word["en_note"] = ""
-        changed = True
-
-    default_w = word.get("weight", 3)
-    if "cn_to_en_weight" not in word:
-        word["cn_to_en_weight"] = int(default_w)
-        changed = True
-
-    if "en_to_cn_weight" not in word:
-        word["en_to_cn_weight"] = int(default_w)
-        changed = True
-
-    if "cn_to_en_not_seen" not in word:
-        word["cn_to_en_not_seen"] = 0
-        changed = True
-
-    if "en_to_cn_not_seen" not in word:
-        word["en_to_cn_not_seen"] = 0
-        changed = True
+    word["is_proficient"] = bool(word.get("is_proficient", False))
+    word["cn_to_en_round_done"] = bool(word.get("cn_to_en_round_done", False))
+    word["en_to_cn_round_done"] = bool(word.get("en_to_cn_round_done", False))
 
     return changed
 
 
-# ============================================================
-# 加载新词
-# ============================================================
-
-def load_new_words():
-
-    content, sha = github_get_file(
-        NEW_WORDS_PATH
-    )
+def load_words():
+    content, sha = github_get_file(VOCABULARY_PATH)
 
     if content is None:
-
-        data = default_new_words()
-
-        success = github_save_file(
-            NEW_WORDS_PATH,
-            data,
-            None,
-            "Create new words"
-        )
-
-        if success:
-
-            _, sha = github_get_file(
-                NEW_WORDS_PATH
-            )
-
-        return data, sha
+        return [], None
 
     try:
-
-        raw_data = json.loads(content)
-
-    except Exception:
-
-        raw_data = default_new_words()
-
-    if isinstance(raw_data, list):
-
-        data = {
-            "date": get_today(),
-            "words": raw_data
-        }
-
-        changed = True
-
-    elif isinstance(raw_data, dict):
-
-        data = raw_data
-        changed = False
-
-    else:
-
-        data = default_new_words()
-        changed = True
-
-    if "date" not in data:
-
-        data["date"] = get_today()
-        changed = True
-
-    if "words" not in data:
-
-        data["words"] = []
-        changed = True
-
-    if not isinstance(data["words"], list):
-
-        data["words"] = []
-        changed = True
-
-    today = get_today()
-
-    if data["date"] != today:
-
-        data["date"] = today
-        data["words"] = []
-
-        changed = True
-
-    for word in data["words"]:
-
-        if normalize_new_word(word):
-
-            changed = True
-
-    if changed:
-
-        latest_content, latest_sha = github_get_file(
-            NEW_WORDS_PATH
-        )
-
-        if latest_sha:
-
-            if github_save_file(
-                NEW_WORDS_PATH,
-                data,
-                latest_sha,
-                "Update daily new words"
-            ):
-
-                _, sha = github_get_file(
-                    NEW_WORDS_PATH
-                )
-
-    return data, sha
-
-
-# ============================================================
-# 每日统计
-# ============================================================
-
-def load_daily_stats():
-
-    content, sha = github_get_file(
-        DAILY_STATS_PATH
-    )
-
-    if content is None:
-
-        data = default_daily_stats()
-
-        if github_save_file(
-            DAILY_STATS_PATH,
-            data,
-            None,
-            "Create daily statistics"
-        ):
-
-            _, sha = github_get_file(
-                DAILY_STATS_PATH
-            )
-
-        return data, sha
-
-    try:
-
         data = json.loads(content)
-
     except Exception:
+        st.error("vocabulary.json 格式错误。")
+        return [], sha
 
-        data = default_daily_stats()
+    if not isinstance(data, list):
+        st.error("vocabulary.json 必须是数组。")
+        return [], sha
 
     changed = False
-
-    today = get_today()
-
-    if data.get("date") != today:
-
-        data = default_daily_stats()
-        changed = True
-
-    required_fields = [
-        "cn_to_en_answered",
-        "cn_to_en_correct",
-        "en_to_cn_answered",
-        "en_to_cn_correct"
-    ]
-
-    for field in required_fields:
-
-        if field not in data:
-
-            data[field] = 0
+    for item in data:
+        if normalize_word(item):
             changed = True
 
     if changed:
-
-        _, new_sha = github_get_file(
-            DAILY_STATS_PATH
+        github_save_file(
+            VOCABULARY_PATH,
+            data,
+            sha,
+            "Upgrade vocabulary review fields",
         )
-
-        if new_sha:
-
-            if github_save_file(
-                DAILY_STATS_PATH,
-                data,
-                new_sha,
-                "Update daily statistics"
-            ):
-
-                _, sha = github_get_file(
-                    DAILY_STATS_PATH
-                )
+        _, sha = github_get_file(VOCABULARY_PATH)
 
     return data, sha
 
 
-# ============================================================
-# 加载全部数据
-# ============================================================
+def default_new_words():
+    return {"date": get_today(), "words": []}
+
+
+def load_new_words():
+    content, sha = github_get_file(NEW_WORDS_PATH)
+
+    if content is None:
+        data = default_new_words()
+        github_save_file(NEW_WORDS_PATH, data, None, "Create new words")
+        _, sha = github_get_file(NEW_WORDS_PATH)
+        return data, sha
+
+    try:
+        data = json.loads(content)
+    except Exception:
+        data = default_new_words()
+
+    if isinstance(data, list):
+        data = {"date": get_today(), "words": data}
+
+    if not isinstance(data, dict):
+        data = default_new_words()
+
+    if data.get("date") != get_today():
+        data = default_new_words()
+
+    if not isinstance(data.get("words"), list):
+        data["words"] = []
+
+    changed = False
+    for item in data["words"]:
+        if normalize_word(item):
+            changed = True
+
+    if changed:
+        github_save_file(NEW_WORDS_PATH, data, sha, "Upgrade new words fields")
+        _, sha = github_get_file(NEW_WORDS_PATH)
+
+    return data, sha
+
 
 words, vocabulary_sha = load_words()
-
 new_words_data, new_words_sha = load_new_words()
-
-daily_stats, daily_stats_sha = load_daily_stats()
-
 new_words = new_words_data["words"]
 
 
-# ============================================================
-# 保存正式词库
-# ============================================================
-
 def save_words():
-
     global vocabulary_sha
-
-    latest_content, latest_sha = github_get_file(
-        VOCABULARY_PATH
-    )
+    _, latest_sha = github_get_file(VOCABULARY_PATH)
 
     if latest_sha is None:
         return False
@@ -811,32 +391,22 @@ def save_words():
         VOCABULARY_PATH,
         words,
         latest_sha,
-        "Update vocabulary"
+        "Update vocabulary",
     )
 
     if success:
-
-        _, vocabulary_sha = github_get_file(
-            VOCABULARY_PATH
-        )
+        _, vocabulary_sha = github_get_file(VOCABULARY_PATH)
 
     return success
 
 
-# ============================================================
-# 保存新词
-# ============================================================
-
 def save_new_words():
-
     global new_words_sha
 
     new_words_data["date"] = get_today()
     new_words_data["words"] = new_words
 
-    latest_content, latest_sha = github_get_file(
-        NEW_WORDS_PATH
-    )
+    _, latest_sha = github_get_file(NEW_WORDS_PATH)
 
     if latest_sha is None:
         return False
@@ -845,2879 +415,735 @@ def save_new_words():
         NEW_WORDS_PATH,
         new_words_data,
         latest_sha,
-        "Update daily new words"
+        "Update daily new words",
     )
 
     if success:
-
-        _, new_words_sha = github_get_file(
-            NEW_WORDS_PATH
-        )
+        _, new_words_sha = github_get_file(NEW_WORDS_PATH)
 
     return success
 
 
-# ============================================================
-# 保存每日统计
-# ============================================================
-
-def save_daily_stats():
-
-    global daily_stats_sha
-
-    latest_content, latest_sha = github_get_file(
-        DAILY_STATS_PATH
-    )
-
-    if latest_sha is None:
-        return False
-
-    success = github_save_file(
-        DAILY_STATS_PATH,
-        daily_stats,
-        latest_sha,
-        "Update daily statistics"
-    )
-
-    if success:
-
-        _, daily_stats_sha = github_get_file(
-            DAILY_STATS_PATH
-        )
-
-    return success
-
-
-# ============================================================
-# 抽题权重
-#
-# 最终抽题权重 =
-# 基础学习权重 + 未出现补偿
-#
-# 基础学习权重：
-#   答错 → weight 增加
-#   答对 → weight 减少
-#
-# 未出现补偿：
-#   连续很多题没有出现 → 增加额外权重
-#
-# 中译英 / 英译中完全独立
-# ============================================================
-
-def calculate_sampling_weight(word, q_type="中译英"):
-
-    # --------------------------------------------------------
-    # 1. 根据题型选择对应的 weight 和 not_seen
-    # --------------------------------------------------------
-
-    if q_type == "中译英":
-
-        weight_key = "cn_to_en_weight"
-        not_seen_key = "cn_to_en_not_seen"
-
-    else:
-
-        weight_key = "en_to_cn_weight"
-        not_seen_key = "en_to_cn_not_seen"
-
-    # --------------------------------------------------------
-    # 2. 获取基础学习权重
-    # --------------------------------------------------------
+def calculate_sampling_weight(word, question_type):
+    keys = direction_keys(question_type)
 
     try:
-
-        base_weight = max(
-            1,
-            int(word.get(weight_key, 3))
-        )
-
-    except (ValueError, TypeError):
-
+        base_weight = max(1, int(word.get(keys["weight"], 3)))
+    except (TypeError, ValueError):
         base_weight = 3
 
-    # --------------------------------------------------------
-    # 3. 获取连续未出现次数
-    # --------------------------------------------------------
-
     try:
-
-        not_seen = max(
-            0,
-            int(word.get(not_seen_key, 0))
-        )
-
-    except (ValueError, TypeError):
-
+        not_seen = max(0, int(word.get(keys["not_seen"], 0)))
+    except (TypeError, ValueError):
         not_seen = 0
 
-    # --------------------------------------------------------
-    # 4. 根据连续未出现次数计算补偿
-    #
-    # 0～2题      +0
-    # 3～5题      +0.5
-    # 6～10题     +1
-    # 11～20题    +2
-    # 21～30题    +3
-    # 31题以上    +4
-    #
-    # 最高只增加 +4，避免冷门词突然霸榜
-    # --------------------------------------------------------
-
     if not_seen < 3:
-
-        forget_bonus = 0
-
+        bonus = 0
     elif not_seen < 6:
-
-        forget_bonus = 0.5
-
+        bonus = 0.5
     elif not_seen < 11:
-
-        forget_bonus = 1
-
+        bonus = 1
     elif not_seen < 21:
-
-        forget_bonus = 2
-
+        bonus = 2
     elif not_seen < 31:
-
-        forget_bonus = 3
-
+        bonus = 3
     else:
+        bonus = 4
 
-        forget_bonus = 4
-
-    # --------------------------------------------------------
-    # 5. 最终抽题权重
-    # --------------------------------------------------------
-
-    return base_weight + forget_bonus
+    return base_weight + bonus
 
 
-# ============================================================
-# 正式词库概率
-# 区分：
-#   中译英
-#   英译中
-# ============================================================
+def probability(word, pool, question_type):
+    total = sum(calculate_sampling_weight(item, question_type) for item in pool)
 
-def calculate_probability(word, q_type="中译英"):
-
-    if not words:
+    if total <= 0:
         return 0
 
-    # --------------------------------------------------------
-    # 所有正式词汇的最终抽题权重
-    # --------------------------------------------------------
-
-    total_weight = sum(
-        calculate_sampling_weight(
-            item,
-            q_type
-        )
-        for item in words
-    )
-
-    # --------------------------------------------------------
-    # 当前单词的最终抽题权重
-    # --------------------------------------------------------
-
-    current_weight = calculate_sampling_weight(
-        word,
-        q_type
-    )
-
-    # --------------------------------------------------------
-    # 概率 = 当前权重 / 总权重
-    # --------------------------------------------------------
-
-    return (
-        current_weight / total_weight * 100
-        if total_weight > 0
-        else 0
-    )
+    return calculate_sampling_weight(word, question_type) / total * 100
 
 
-# ============================================================
-# 新词概率
-# 使用完全相同的概率机制
-# ============================================================
-
-def calculate_new_probability(word, q_type="中译英"):
-
-    if not new_words:
-        return 0
-
-    # --------------------------------------------------------
-    # 所有新词的最终抽题权重
-    # --------------------------------------------------------
-
-    total_weight = sum(
-        calculate_sampling_weight(
-            item,
-            q_type
-        )
-        for item in new_words
-    )
-
-    # --------------------------------------------------------
-    # 当前新词的最终抽题权重
-    # --------------------------------------------------------
-
-    current_weight = calculate_sampling_weight(
-        word,
-        q_type
-    )
-
-    # --------------------------------------------------------
-    # 概率 = 当前权重 / 总权重
-    # --------------------------------------------------------
-
-    return (
-        current_weight / total_weight * 100
-        if total_weight > 0
-        else 0
-    )
-
-
-# ============================================================
-# 正式词库随机抽题
-# ============================================================
-
-def get_random_word(q_type="中译英"):
-
-    if not words:
+def weighted_pick(pool, question_type):
+    if not pool:
         return None
 
-    # --------------------------------------------------------
-    # 计算所有单词的最终抽题权重
-    # --------------------------------------------------------
-
-    weights = [
-        calculate_sampling_weight(
-            word,
-            q_type
-        )
-        for word in words
-    ]
-
-    # --------------------------------------------------------
-    # 按权重随机抽取一个单词
-    # --------------------------------------------------------
-
-    selected_word = random.choices(
-        words,
-        weights=weights,
-        k=1
+    selected = random.choices(
+        pool,
+        weights=[calculate_sampling_weight(item, question_type) for item in pool],
+        k=1,
     )[0]
 
-    # --------------------------------------------------------
-    # 被抽到：
-    #
-    # 该方向的 not_seen 归零
-    # --------------------------------------------------------
+    not_seen_key = direction_keys(question_type)["not_seen"]
 
-    if q_type == "中译英":
+    for item in pool:
+        if item is selected:
+            item[not_seen_key] = 0
+        else:
+            item[not_seen_key] = int(item.get(not_seen_key, 0)) + 1
 
-        selected_word[
-            "cn_to_en_not_seen"
-        ] = 0
-
-    else:
-
-        selected_word[
-            "en_to_cn_not_seen"
-        ] = 0
-
-    # --------------------------------------------------------
-    # 其他没有被抽到的词：
-    #
-    # 该方向的 not_seen +1
-    #
-    # 注意：
-    # 这里只增加同一题型的 not_seen
-    # --------------------------------------------------------
-
-    not_seen_key = (
-        "cn_to_en_not_seen"
-        if q_type == "中译英"
-        else "en_to_cn_not_seen"
-    )
-
-    for word in words:
-
-        if word is not selected_word:
-
-            try:
-
-                current_not_seen = int(
-                    word.get(
-                        not_seen_key,
-                        0
-                    )
-                )
-
-            except (ValueError, TypeError):
-
-                current_not_seen = 0
-
-            word[not_seen_key] = (
-                current_not_seen + 1
-            )
-
-    return selected_word
+    return selected
 
 
-# ============================================================
-# 新词随机抽题
-# ============================================================
-
-def get_random_new_word(q_type="中译英"):
-
+def get_random_new_word(question_type):
+    """
+    新词：答对的词在本轮中不再出现。
+    当全部新词都答对后，自动重置为下一轮。
+    中译英和英译中各自独立记录。
+    """
     if not new_words:
         return None
 
-    # --------------------------------------------------------
-    # 计算所有新词的最终抽题权重
-    # --------------------------------------------------------
+    done_key = direction_keys(question_type)["round_done"]
+    candidates = [item for item in new_words if not item.get(done_key, False)]
 
-    weights = [
-        calculate_sampling_weight(
-            word,
-            q_type
-        )
-        for word in new_words
+    if not candidates:
+        for item in new_words:
+            item[done_key] = False
+        candidates = list(new_words)
+
+    return weighted_pick(candidates, question_type)
+
+
+def get_normal_review_word():
+    normal_words = [
+        item for item in words
+        if not item.get("is_proficient", False)
     ]
 
-    # --------------------------------------------------------
-    # 按权重随机抽取一个新词
-    # --------------------------------------------------------
+    if not normal_words:
+        return None
 
-    selected_word = random.choices(
-        new_words,
-        weights=weights,
-        k=1
-    )[0]
+    priorities = [
+        max(1, int(item.get("review_priority", 12)))
+        for item in normal_words
+    ]
 
-    # --------------------------------------------------------
-    # 被抽到：
-    #
-    # 该方向的 not_seen 归零
-    # --------------------------------------------------------
+    return random.choices(normal_words, weights=priorities, k=1)[0]
 
-    if q_type == "中译英":
 
-        selected_word[
-            "cn_to_en_not_seen"
-        ] = 0
+def get_proficient_review_word(question_type):
+    proficient_words = [
+        item for item in words
+        if item.get("is_proficient", False)
+    ]
+
+    return weighted_pick(proficient_words, question_type)
+
+
+def adjust_probability(word, question_type, correct):
+    weight_key = direction_keys(question_type)["weight"]
+    current = int(word.get(weight_key, 3))
+
+    if correct:
+        word[weight_key] = max(1, current - 1)
+    else:
+        word[weight_key] = min(20, current + 2)
+
+
+def record_new_word_result(word, question_type, correct):
+    keys = direction_keys(question_type)
+
+    adjust_probability(word, question_type, correct)
+
+    if correct:
+        word[keys["correct"]] = int(word.get(keys["correct"], 0)) + 1
+        word[keys["round_done"]] = True
+    else:
+        word[keys["wrong"]] = int(word.get(keys["wrong"], 0)) + 1
+
+
+def record_normal_review_result(word, correct):
+    """
+    普通复习规则：
+    初始 12
+    连续答对：12 → 11 → 9 → 6 → 2 → 0
+    第五次连续答对自动转为熟练。
+    连续答错时，优先级分别额外增加 +2、+4、+6……
+    """
+    if correct:
+        streak = int(word.get("review_correct_streak", 0)) + 1
+        word["review_correct_streak"] = streak
+        word["review_wrong_streak"] = 0
+
+        if streak >= 5:
+            word["review_priority"] = 0
+            word["is_proficient"] = True
+        else:
+            word["review_priority"] = PRIORITY_BY_STREAK[streak]
 
     else:
+        wrong_streak = int(word.get("review_wrong_streak", 0)) + 1
+        current_priority = int(word.get("review_priority", 12))
 
-        selected_word[
-            "en_to_cn_not_seen"
-        ] = 0
+        word["review_correct_streak"] = 0
+        word["review_wrong_streak"] = wrong_streak
+        word["review_priority"] = min(
+            50,
+            current_priority + wrong_streak * 2,
+        )
 
-    # --------------------------------------------------------
-    # 其他没有被抽到的新词：
-    #
-    # 该方向的 not_seen +1
-    # --------------------------------------------------------
-
-    not_seen_key = (
-        "cn_to_en_not_seen"
-        if q_type == "中译英"
-        else "en_to_cn_not_seen"
-    )
-
-    for word in new_words:
-
-        if word is not selected_word:
-
-            try:
-
-                current_not_seen = int(
-                    word.get(
-                        not_seen_key,
-                        0
-                    )
-                )
-
-            except (ValueError, TypeError):
-
-                current_not_seen = 0
-
-            word[not_seen_key] = (
-                current_not_seen + 1
-            )
-
-    return selected_word
-
-
-# ============================================================
-# 发音
-# ============================================================
 
 def pronunciation_button(text, key):
-
-    encoded = base64.b64encode(
-        str(text).encode("utf-8")
-    ).decode("ascii")
-
-    html_code = f"""
-    <html>
-
-    <head>
-
-    <meta charset="UTF-8">
-
-    <style>
-
-    body {{
-        margin: 0;
-        background: transparent;
-    }}
-
-    button {{
-        border: none;
-        background: transparent;
-        cursor: pointer;
-        font-size: 21px;
-        padding: 2px 6px;
-    }}
-
-    </style>
-
-    </head>
-
-    <body>
-
-    <button onclick="speak()" title="British English">
-        🔊
-    </button>
-
-    <script>
-
-    function speak() {{
-
-        const encoded = "{encoded}";
-
-        const text =
-            decodeURIComponent(
-                escape(
-                    atob(encoded)
-                )
-            );
-
-        window.speechSynthesis.cancel();
-
-        const speech =
-            new SpeechSynthesisUtterance(text);
-
-        speech.lang = "en-GB";
-        speech.rate = 0.85;
-
-        window.speechSynthesis.speak(speech);
-    }}
-
-    </script>
-
-    </body>
-
-    </html>
-    """
+    encoded = base64.b64encode(str(text).encode("utf-8")).decode("ascii")
 
     st.components.v1.html(
-        html_code,
+        f"""
+        <button
+            style="
+                border:none;
+                background:transparent;
+                cursor:pointer;
+                font-size:21px;
+                padding:2px 6px;
+            "
+            onclick="
+                const text = decodeURIComponent(escape(atob('{encoded}')));
+                window.speechSynthesis.cancel();
+                const speech = new SpeechSynthesisUtterance(text);
+                speech.lang = 'en-GB';
+                speech.rate = 0.85;
+                window.speechSynthesis.speak(speech);
+            "
+            title="British English"
+        >🔊</button>
+        """,
         height=35,
         width=50,
-        scrolling=False
+        scrolling=False,
+        key=key,
     )
 
 
-# ============================================================
-# Session State
-# ============================================================
+def answer_is_correct(word, question_type, answer):
+    if question_type == "中译英":
+        return answer.strip().lower() == word["english"].strip().lower()
 
-if "current_word_index" not in st.session_state:
-    st.session_state.current_word_index = None
-
-if "question_type" not in st.session_state:
-    st.session_state.question_type = "中译英"
-
-if "last_word_index" not in st.session_state:
-    st.session_state.last_word_index = None
-
-if "last_answer" not in st.session_state:
-    st.session_state.last_answer = ""
-
-if "last_correct" not in st.session_state:
-    st.session_state.last_correct = None
+    return answer.strip() == word["chinese"].strip()
 
 
-# ============================================================
-# 学习模式 Session State
-# ============================================================
+def render_quiz(title, session_prefix, picker, result_handler, saver):
+    question_type_key = f"{session_prefix}_question_type"
+    current_key = f"{session_prefix}_current"
+    last_key = f"{session_prefix}_last"
 
-if "learning_word_index" not in st.session_state:
-    st.session_state.learning_word_index = None
+    if question_type_key not in st.session_state:
+        st.session_state[question_type_key] = "中译英"
 
-if "learning_question_type" not in st.session_state:
-    st.session_state.learning_question_type = "中译英"
+    question_type = st.radio(
+        "题型",
+        ["中译英", "英译中"],
+        horizontal=True,
+        key=f"{session_prefix}_question_type_radio",
+    )
 
-if "learning_last_word_index" not in st.session_state:
-    st.session_state.learning_last_word_index = None
+    if question_type != st.session_state[question_type_key]:
+        st.session_state[question_type_key] = question_type
+        st.session_state[current_key] = None
+        st.session_state[last_key] = None
 
-if "learning_last_answer" not in st.session_state:
-    st.session_state.learning_last_answer = ""
+    current_word = st.session_state.get(current_key)
 
-if "learning_last_correct" not in st.session_state:
-    st.session_state.learning_last_correct = None
+    if current_word is None:
+        current_word = picker(question_type)
+        st.session_state[current_key] = current_word
 
+    if current_word is None:
+        st.info("目前没有可复习的单词。")
+        return
 
-# ============================================================
-# 查看词库排序状态
-# ============================================================
+    left, right = st.columns([1, 1], gap="large")
 
-if "vocab_sort_field" not in st.session_state:
-    st.session_state.vocab_sort_field = None
+    with left:
+        st.markdown("### 上一题")
+        last = st.session_state.get(last_key)
 
-if "vocab_sort_reverse" not in st.session_state:
-    st.session_state.vocab_sort_reverse = False
+        if not last:
+            st.caption("开始答题后显示上一题。")
+        else:
+            previous_word = last["word"]
+            st.markdown(
+                f"""
+                <div class="previous-question">
+                    {html.escape(last["question"])}
+                </div>
+                <div class="answer-text">
+                    你的答案：<b>{html.escape(last["answer"])}</b>
+                </div>
+                <div class="answer-text">
+                    正确答案：<b>{html.escape(last["correct_answer"])}</b>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
 
+            pronunciation_button(
+                previous_word["english"],
+                f"{session_prefix}_last_audio_{previous_word['id']}",
+            )
 
-def set_sort(field):
+            if last["correct"]:
+                st.success("正确", icon="✅")
+            else:
+                st.error("错误", icon="❌")
 
-    if st.session_state.vocab_sort_field == field:
+    with right:
+        st.markdown(f"### {title}")
 
-        st.session_state.vocab_sort_reverse = (
-            not st.session_state.vocab_sort_reverse
+        if question_type == "中译英":
+            question = current_word["chinese"]
+            correct_answer = current_word["english"]
+            note = current_word.get("cn_note", "")
+        else:
+            question = current_word["english"]
+            correct_answer = current_word["chinese"]
+            note = current_word.get("en_note", "")
+
+        note_html = (
+            f"<br><small style='opacity:.8;'>📝 备注：{html.escape(note)}</small>"
+            if note
+            else ""
         )
 
-    else:
+        st.markdown(
+            f"""
+            <div class="question">{html.escape(question)}{note_html}</div>
+            <div class="question-category">
+                {html.escape(current_word.get("category", "noun"))}
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
 
-        st.session_state.vocab_sort_field = field
-        st.session_state.vocab_sort_reverse = False
+        pronunciation_button(
+            current_word["english"],
+            f"{session_prefix}_current_audio_{current_word['id']}",
+        )
 
+        with st.form(f"{session_prefix}_answer_form", clear_on_submit=True):
+            answer = st.text_input(
+                "答案",
+                label_visibility="collapsed",
+                placeholder="输入答案后按 Enter",
+                autocomplete="off",
+            )
+            submitted = st.form_submit_button("提交", use_container_width=True)
 
-# ============================================================
-# 标题
-# ============================================================
+        if submitted:
+            answer = answer.strip()
+
+            if not answer:
+                st.warning("请输入答案后再提交。")
+                st.stop()
+
+            correct = answer_is_correct(current_word, question_type, answer)
+            result_handler(current_word, question_type, correct)
+
+            st.session_state[last_key] = {
+                "word": current_word,
+                "question": question,
+                "answer": answer,
+                "correct_answer": correct_answer,
+                "correct": correct,
+            }
+
+            st.session_state[current_key] = picker(question_type)
+
+            if not saver():
+                st.error("保存失败，请检查 GitHub Token 权限。")
+
+            st.rerun()
+
 
 st.title("📚 English Vocabulary")
 
-
-# ============================================================
-# Sidebar
-# ============================================================
-
 with st.sidebar:
-
     page = st.radio(
         "功能",
         [
             "🎓 学习模式",
             "🎯 练习模式",
             "📚 词库管理",
-            "📖 查看词库"
-        ]
+            "📖 查看词库",
+        ],
     )
 
-
-# ============================================================
-# ============================================================
-# 学习模式
-# ============================================================
-# ============================================================
 
 if page == "🎓 学习模式":
-
     st.header("🎓 学习模式")
-
-    # ========================================================
-    # 添加新词 (表格模式)
-    # ========================================================
-
     st.subheader("➕ 添加新词")
 
-    init_learning_df = pd.DataFrame(
-        [{"english": "", "chinese": "", "category": "noun", "cn_note": "", "en_note": ""}]
-    )
-
-    edited_learning_df = st.data_editor(
-        init_learning_df,
-        num_rows="dynamic",
-        use_container_width=True,
-        column_config={
-            "english": st.column_config.TextColumn("英文", required=True),
-            "chinese": st.column_config.TextColumn("中文", required=True),
-            "category": st.column_config.SelectboxColumn("词性", options=CATEGORIES, default="noun", required=True),
-            "cn_note": st.column_config.TextColumn("中文备注"),
-            "en_note": st.column_config.TextColumn("英文备注"),
-        },
-        key="learning_batch_editor"
-    )
-
-    if st.button("➕ 批量添加新词", use_container_width=True):
-
-        rows_to_add = []
-        for idx, row in edited_learning_df.iterrows():
-            en = str(row.get("english") or "").strip()
-            cn = str(row.get("chinese") or "").strip()
-            cat = str(row.get("category") or "noun").strip()
-            cn_n = "" if pd.isna(row.get("cn_note")) else str(row.get("cn_note")).strip()
-            en_n = "" if pd.isna(row.get("en_note")) else str(row.get("en_note")).strip()
-
-            if cat not in CATEGORIES:
-                cat = "noun"
-
-            if en and cn:
-                rows_to_add.append({
-                    "english": en,
-                    "chinese": cn,
-                    "category": cat,
-                    "cn_note": cn_n,
-                    "en_note": en_n
-                })
-
-        if not rows_to_add:
-            st.warning("表格中没有有效的单词输入，请确保英文和中文非空。")
-        else:
-            added = 0
-            duplicate = 0
-
-            for item in rows_to_add:
-                english = item["english"]
-                chinese = item["chinese"]
-                category = item["category"]
-                cn_note = item["cn_note"]
-                en_note = item["en_note"]
-
-                exists_new = any(
-                    it.get("english", "").strip().lower() == english.lower() and
-                    it.get("chinese", "").strip() == chinese and
-                    it.get("category", "noun") == category
-                    for it in new_words
-                )
-
-                if exists_new:
-                    duplicate += 1
-                    continue
-
-                new_word = {
-                    "english": english,
-                    "chinese": chinese,
-                    "category": category,
-                    "cn_note": cn_note,
-                    "en_note": en_note,
-                    "cn_to_en_weight": 3,
-                    "en_to_cn_weight": 3
-                }
-                new_words.append(new_word)
-
-                exists_vocabulary = any(
-                    it.get("english", "").strip().lower() == english.lower() and
-                    it.get("chinese", "").strip() == chinese and
-                    it.get("category", "noun") == category
-                    for it in words
-                )
-
-                if not exists_vocabulary:
-                    words.append({
-                        "english": english,
-                        "chinese": chinese,
-                        "category": category,
-                        "cn_note": cn_note,
-                        "en_note": en_note,
-                        "cn_to_en_weight": 3,
-                        "en_to_cn_weight": 3,
-                        "cn_to_en_correct": 0,
-                        "cn_to_en_wrong": 0,
-                        "en_to_cn_correct": 0,
-                        "en_to_cn_wrong": 0,
-                        "correct": 0,
-                        "wrong": 0
-                    })
-
-                added += 1
-
-            if added > 0:
-                new_success = save_new_words()
-                vocab_success = save_words()
-
-                if new_success and vocab_success:
-                    st.success(f"成功添加 {added} 个新词，并已同步到正式词库。")
-                    st.rerun()
-                else:
-                    st.error("保存失败，请检查 GitHub Token。")
-
-            if duplicate:
-                st.info(f"{duplicate} 个今天已经存在的新词没有重复添加。")
-
-
-    # ========================================================
-    # 新词数量
-    # ========================================================
-
-    st.divider()
-
-    if not new_words:
-
-        st.info(
-            "今天还没有新词，请先添加新词。"
-        )
-
-    else:
-
-        st.caption(
-            f"今天共有 {len(new_words)} 个新词"
-        )
-
-        # ====================================================
-        # 题型
-        # ====================================================
-
-        learning_question_type = st.radio(
-            "题型",
-            [
-                "中译英",
-                "英译中"
-            ],
-            horizontal=True,
-            key="learning_question_type_radio"
-        )
-
-        if (
-            learning_question_type
-            != st.session_state.learning_question_type
-        ):
-
-            st.session_state.learning_question_type = (
-                learning_question_type
-            )
-
-            st.session_state.learning_word_index = None
-            st.session_state.learning_last_word_index = None
-            st.session_state.learning_last_answer = ""
-            st.session_state.learning_last_correct = None
-
-
-        # ====================================================
-        # 随机选择第一题
-        # ====================================================
-
-        if (
-            st.session_state.learning_word_index is None
-            or
-            st.session_state.learning_word_index >= len(new_words)
-        ):
-
-            selected_new_word = get_random_new_word(learning_question_type)
-
-            if selected_new_word is not None:
-
-                st.session_state.learning_word_index = (
-                    new_words.index(
-                        selected_new_word
-                    )
-                )
-
-
-        learning_current_index = (
-            st.session_state.learning_word_index
-        )
-
-        if learning_current_index is not None:
-
-            learning_word = new_words[
-                learning_current_index
-            ]
-
-            learning_category = learning_word.get(
-                "category",
-                "noun"
-            )
-
-
-            # =================================================
-            # 左右两栏
-            # =================================================
-
-            left, right = st.columns(
-                [1, 1],
-                gap="large"
-            )
-
-
-            # =================================================
-            # 上一题
-            # =================================================
-
-            with left:
-
-                st.markdown("### 上一题")
-
-                last_index = (
-                    st.session_state.learning_last_word_index
-                )
-
-                if last_index is None:
-
-                    st.caption(
-                        "开始答题后显示上一题"
-                    )
-
-                elif last_index >= len(new_words):
-
-                    st.caption(
-                        "上一题不存在"
-                    )
-
-                else:
-
-                    last_word = new_words[last_index]
-
-                    last_category = last_word.get(
-                        "category",
-                        "noun"
-                    )
-
-                    if learning_question_type == "中译英":
-
-                        note_display = f"<br/><small style='opacity:0.8;'>📝 备注：{html.escape(last_word.get('cn_note', ''))}</small>" if last_word.get('cn_note') else ""
-
-                        st.markdown(
-                            f"""
-                            <div class="previous-question">
-                                {html.escape(last_word["chinese"])}
-                                {note_display}
-                            </div>
-
-                            <div class="previous-category">
-                                {html.escape(last_category)}
-                            </div>
-                            """,
-                            unsafe_allow_html=True
-                        )
-
-                        st.markdown(
-                            f"""
-                            <div class="answer-text">
-                                你的答案：
-                                <b>
-                                {html.escape(
-                                    st.session_state.learning_last_answer
-                                )}
-                                </b>
-                            </div>
-                            """,
-                            unsafe_allow_html=True
-                        )
-
-                        st.markdown(
-                            f"""
-                            <div class="answer-text">
-                                正确答案：
-                                <b>
-                                {html.escape(last_word["english"])}
-                                </b>
-                            </div>
-                            """,
-                            unsafe_allow_html=True
-                        )
-
-                        pronunciation_button(
-                            last_word["english"],
-                            "learning_last_cn_en"
-                        )
-
-                    else:
-
-                        note_display = f"<br/><small style='opacity:0.8;'>📝 备注：{html.escape(last_word.get('en_note', ''))}</small>" if last_word.get('en_note') else ""
-
-                        st.markdown(
-                            f"""
-                            <div class="previous-question">
-                                {html.escape(last_word["english"])}
-                                {note_display}
-                            </div>
-
-                            <div class="previous-category">
-                                {html.escape(last_category)}
-                            </div>
-                            """,
-                            unsafe_allow_html=True
-                        )
-
-                        pronunciation_button(
-                            last_word["english"],
-                            "learning_last_en_cn"
-                        )
-
-                        st.markdown(
-                            f"""
-                            <div class="answer-text">
-                                你的答案：
-                                <b>
-                                {html.escape(
-                                    st.session_state.learning_last_answer
-                                )}
-                                </b>
-                            </div>
-                            """,
-                            unsafe_allow_html=True
-                        )
-
-                        st.markdown(
-                            f"""
-                            <div class="answer-text">
-                                正确答案：
-                                <b>
-                                {html.escape(last_word["chinese"])}
-                                </b>
-                            </div>
-                            """,
-                            unsafe_allow_html=True
-                        )
-
-
-                    if st.session_state.learning_last_correct:
-
-                        st.success(
-                            "正确",
-                            icon="✅"
-                        )
-
-                    else:
-
-                        st.error(
-                            "错误",
-                            icon="❌"
-                        )
-
-
-            # =================================================
-            # 下一题
-            # =================================================
-
-            with right:
-
-                st.markdown("### 下一题")
-
-                if learning_question_type == "中译英":
-
-                    note_display = f"<br/><small style='opacity:0.8; font-size:16px;'>📝 备注：{html.escape(learning_word.get('cn_note', ''))}</small>" if learning_word.get('cn_note') else ""
-
-                    st.markdown(
-                        f"""
-                        <div class="question">
-                            {html.escape(
-                                learning_word["chinese"]
-                            )}
-                            {note_display}
-                        </div>
-
-                        <div class="question-category">
-                            {html.escape(
-                                learning_category
-                            )}
-                        </div>
-                        """,
-                        unsafe_allow_html=True
-                    )
-
-                else:
-
-                    note_display = f"<br/><small style='opacity:0.8; font-size:16px;'>📝 备注：{html.escape(learning_word.get('en_note', ''))}</small>" if learning_word.get('en_note') else ""
-
-                    st.markdown(
-                        f"""
-                        <div class="question">
-                            {html.escape(
-                                learning_word["english"]
-                            )}
-                            {note_display}
-                        </div>
-
-                        <div class="question-category">
-                            {html.escape(
-                                learning_category
-                            )}
-                        </div>
-                        """,
-                        unsafe_allow_html=True
-                    )
-
-                    pronunciation_button(
-                        learning_word["english"],
-                        "learning_current_sound"
-                    )
-
-
-                with st.form(
-                    key="learning_answer_form",
-                    clear_on_submit=True
-                ):
-
-                    learning_answer = st.text_input(
-                        "答案",
-                        label_visibility="collapsed",
-                        placeholder="输入答案后按 Enter",
-                        autocomplete="off"
-                    )
-
-                    learning_submitted = (
-                        st.form_submit_button(
-                            "提交",
-                            use_container_width=True
-                        )
-                    )
-
-
-                if learning_submitted:
-
-                    learning_answer = (
-                        learning_answer.strip()
-                    )
-
-                    if not learning_answer:
-
-                        st.warning(
-                            "请输入答案后再提交。"
-                        )
-
-                        st.stop()
-
-
-                    # =========================================
-                    # 判断答案
-                    # =========================================
-
-                    if learning_question_type == "中译英":
-
-                        correct_answer = (
-                            learning_word["english"]
-                            .strip()
-                            .lower()
-                        )
-
-                        user_answer = (
-                            learning_answer
-                            .strip()
-                            .lower()
-                        )
-
-                    else:
-
-                        correct_answer = (
-                            learning_word["chinese"]
-                            .strip()
-                        )
-
-                        user_answer = (
-                            learning_answer
-                            .strip()
-                        )
-
-
-                    is_correct = (
-                        user_answer
-                        ==
-                        correct_answer
-                    )
-
-
-                    # =========================================
-                    # ★ 新词独立概率机制（按题型区分）
-                    # =========================================
-
-                    weight_key = "cn_to_en_weight" if learning_question_type == "中译英" else "en_to_cn_weight"
-
-                    if is_correct:
-
-                        learning_word[weight_key] = max(
-                            1,
-                            int(
-                                learning_word.get(
-                                    weight_key,
-                                    3
-                                )
-                            ) - 1
-                        )
-
-                    else:
-
-                        learning_word[weight_key] = min(
-                            20,
-                            int(
-                                learning_word.get(
-                                    weight_key,
-                                    3
-                                )
-                            ) + 2
-                        )
-
-
-                    # =========================================
-                    # 保存新词
-                    # =========================================
-
-
-
-                    # =========================================
-                    # 显示上一题
-                    # =========================================
-
-                    st.session_state.learning_last_word_index = (
-                        learning_current_index
-                    )
-
-                    st.session_state.learning_last_answer = (
-                        learning_answer
-                    )
-
-                    st.session_state.learning_last_correct = (
-                        is_correct
-                    )
-
-
-                    # =========================================
-                    # 下一题
-                    # =========================================
-
-                    next_new_word = get_random_new_word(learning_question_type)
-
-                    if next_new_word is not None:
-
-                        st.session_state.learning_word_index = (
-                            new_words.index(
-                                next_new_word
-                            )
-                        )
-                    save_success = save_new_words()
-                    if not save_success:
-
-                        st.error(
-                            "⚠️ 新词数据保存失败，请检查 GitHub Token 权限。"
-                        )
-
-                    st.rerun()
-
-
-    # ========================================================
-    # ★ 学习模式最底部：编辑列表
-    # ========================================================
-
-    st.divider()
-
-    st.subheader("✏️ 编辑列表")
-
-    if not new_words:
-
-        st.caption(
-            "今天没有新词可以编辑。"
-        )
-
-    else:
-
-        new_word_search = st.text_input(
-            "🔍 搜索新词",
-            placeholder="输入英文或中文",
-            key="new_word_edit_search"
-        )
-
-        for index, word in enumerate(new_words):
-
-            if new_word_search:
-
-                if (
-                    new_word_search.lower()
-                    not in word["english"].lower()
-
-                    and
-
-                    new_word_search
-                    not in word["chinese"]
-                ):
-
-                    continue
-
-            with st.expander(
-                f"{word['english']} → "
-                f"{word['chinese']} "
-                f"({word.get('category', 'noun')})"
-            ):
-
-                col1, col2 = st.columns(2)
-
-                with col1:
-
-                    edit_new_english = st.text_input(
-                        "英文",
-                        value=word["english"],
-                        key=f"new_edit_en_{index}"
-                    )
-
-                with col2:
-
-                    edit_new_chinese = st.text_input(
-                        "中文",
-                        value=word["chinese"],
-                        key=f"new_edit_cn_{index}"
-                    )
-
-                col_n1, col_n2 = st.columns(2)
-
-                with col_n1:
-                    edit_new_cn_note = st.text_input(
-                        "中文备注",
-                        value=word.get("cn_note", ""),
-                        key=f"new_edit_cn_note_{index}"
-                    )
-
-                with col_n2:
-                    edit_new_en_note = st.text_input(
-                        "英文备注",
-                        value=word.get("en_note", ""),
-                        key=f"new_edit_en_note_{index}"
-                    )
-
-                current_category = word.get(
-                    "category",
-                    "noun"
-                )
-
-                edit_new_category = st.selectbox(
-                    "词性",
-                    CATEGORIES,
-                    index=(
-                        CATEGORIES.index(
-                            current_category
-                        )
-                        if current_category in CATEGORIES
-                        else 0
-                    ),
-                    key=f"new_edit_category_{index}"
-                )
-
-                st.caption(
-                    f"中译英权重：{word.get('cn_to_en_weight', 3)} | 概率：{calculate_new_probability(word, '中译英'):.2f}%"
-                )
-                st.caption(
-                    f"英译中权重：{word.get('en_to_cn_weight', 3)} | 概率：{calculate_new_probability(word, '英译中'):.2f}%"
-                )
-
-                col1, col2 = st.columns(2)
-
-                with col1:
-
-                    if st.button(
-                        "💾 保存",
-                        key=f"new_save_{index}",
-                        use_container_width=True
-                    ):
-
-                        edit_new_english = (
-                            edit_new_english.strip()
-                        )
-
-                        edit_new_chinese = (
-                            edit_new_chinese.strip()
-                        )
-
-                        if not edit_new_english:
-
-                            st.warning(
-                                "英文不能为空。"
-                            )
-
-                        elif not edit_new_chinese:
-
-                            st.warning(
-                                "中文不能为空。"
-                            )
-
-                        else:
-
-                            old_english = word["english"]
-                            old_chinese = word["chinese"]
-                            old_category = word.get("category", "noun")
-
-                            word["english"] = edit_new_english
-                            word["chinese"] = edit_new_chinese
-                            word["category"] = edit_new_category
-                            word["cn_note"] = edit_new_cn_note.strip()
-                            word["en_note"] = edit_new_en_note.strip()
-
-                            # =================================
-                            # 同步修改正式词库中对应词汇
-                            # =================================
-
-                            for vocabulary_word in words:
-
-                                if (
-                                    vocabulary_word.get("english", "").strip().lower() == old_english.strip().lower() and
-                                    vocabulary_word.get("chinese", "").strip() == old_chinese.strip() and
-                                    vocabulary_word.get("category", "noun") == old_category
-                                ):
-
-                                    vocabulary_word["english"] = edit_new_english
-                                    vocabulary_word["chinese"] = edit_new_chinese
-                                    vocabulary_word["category"] = edit_new_category
-                                    vocabulary_word["cn_note"] = edit_new_cn_note.strip()
-                                    vocabulary_word["en_note"] = edit_new_en_note.strip()
-                                    break
-
-                            new_success = save_new_words()
-                            vocab_success = save_words()
-
-                            if new_success and vocab_success:
-
-                                st.success(
-                                    "修改成功，并已同步到正式词库。"
-                                )
-
-                                st.rerun()
-
-                with col2:
-
-                    if st.button(
-                        "🗑️ 删除",
-                        key=f"new_delete_{index}",
-                        use_container_width=True
-                    ):
-
-                        deleted_word = new_words.pop(index)
-
-                        if save_new_words():
-
-                            st.success(
-                                "已从今天的新词列表删除。"
-                            )
-
-                            st.rerun()
-
-
-# ============================================================
-# ============================================================
-# 练习模式
-# ============================================================
-# ============================================================
-
-elif page == "🎯 练习模式":
-
-    st.header("🎯 练习模式")
-
-    if not words:
-
-        st.warning(
-            "词库为空，请先到「词库管理」添加单词。"
-        )
-
-    else:
-
-        question_type = st.radio(
-            "题型",
-            [
-                "中译英",
-                "英译中"
-            ],
-            horizontal=True
-        )
-
-        if (
-            question_type
-            != st.session_state.question_type
-        ):
-
-            st.session_state.question_type = (
-                question_type
-            )
-
-            st.session_state.current_word_index = None
-            st.session_state.last_word_index = None
-            st.session_state.last_answer = ""
-            st.session_state.last_correct = None
-
-
-        if (
-            st.session_state.current_word_index is None
-            or
-            st.session_state.current_word_index >= len(words)
-        ):
-
-            selected_word = get_random_word(question_type)
-
-            if selected_word is not None:
-
-                st.session_state.current_word_index = (
-                    words.index(selected_word)
-                )
-
-
-        current_index = (
-            st.session_state.current_word_index
-        )
-
-        word = words[current_index]
-
-        current_category = word.get(
-            "category",
-            "noun"
-        )
-
-
-        left, right = st.columns(
-            [1, 1],
-            gap="large"
-        )
-
-
-        # ====================================================
-        # 上一题
-        # ====================================================
-
-        with left:
-
-            st.markdown("### 上一题")
-
-            last_index = (
-                st.session_state.last_word_index
-            )
-
-            if last_index is None:
-
-                st.caption(
-                    "开始答题后显示上一题"
-                )
-
-            elif last_index >= len(words):
-
-                st.caption(
-                    "上一题不存在"
-                )
-
-            else:
-
-                last_word = words[last_index]
-
-                last_category = last_word.get(
-                    "category",
-                    "noun"
-                )
-
-
-                if question_type == "中译英":
-
-                    note_display = f"<br/><small style='opacity:0.8;'>📝 备注：{html.escape(last_word.get('cn_note', ''))}</small>" if last_word.get('cn_note') else ""
-
-                    st.markdown(
-                        f"""
-                        <div class="previous-question">
-                            {html.escape(last_word["chinese"])}
-                            {note_display}
-                        </div>
-
-                        <div class="previous-category">
-                            {html.escape(last_category)}
-                        </div>
-                        """,
-                        unsafe_allow_html=True
-                    )
-
-                    st.markdown(
-                        f"""
-                        <div class="answer-text">
-                            你的答案：
-                            <b>
-                            {html.escape(
-                                st.session_state.last_answer
-                            )}
-                            </b>
-                        </div>
-                        """,
-                        unsafe_allow_html=True
-                    )
-
-                    st.markdown(
-                        f"""
-                        <div class="answer-text">
-                            正确答案：
-                            <b>
-                            {html.escape(last_word["english"])}
-                            </b>
-                        </div>
-                        """,
-                        unsafe_allow_html=True
-                    )
-
-                    pronunciation_button(
-                        last_word["english"],
-                        "last_cn_en"
-                    )
-
-                else:
-
-                    note_display = f"<br/><small style='opacity:0.8;'>📝 备注：{html.escape(last_word.get('en_note', ''))}</small>" if last_word.get('en_note') else ""
-
-                    st.markdown(
-                        f"""
-                        <div class="previous-question">
-                            {html.escape(last_word["english"])}
-                            {note_display}
-                        </div>
-
-                        <div class="previous-category">
-                            {html.escape(last_category)}
-                        </div>
-                        """,
-                        unsafe_allow_html=True
-                    )
-
-                    pronunciation_button(
-                        last_word["english"],
-                        "last_en_cn"
-                    )
-
-                    st.markdown(
-                        f"""
-                        <div class="answer-text">
-                            你的答案：
-                            <b>
-                            {html.escape(
-                                st.session_state.last_answer
-                            )}
-                            </b>
-                        </div>
-                        """,
-                        unsafe_allow_html=True
-                    )
-
-                    st.markdown(
-                        f"""
-                        <div class="answer-text">
-                            正确答案：
-                            <b>
-                            {html.escape(last_word["chinese"])}
-                            </b>
-                        </div>
-                        """,
-                        unsafe_allow_html=True
-                    )
-
-
-                if st.session_state.last_correct:
-
-                    st.success(
-                        "正确",
-                        icon="✅"
-                    )
-
-                else:
-
-                    st.error(
-                        "错误",
-                        icon="❌"
-                    )
-
-                    if st.button(
-                        "我的答案也是近义词 ✓",
-                        key="similar_answer",
-                        use_container_width=True
-                    ):
-
-                        if question_type == "中译英":
-
-                            last_word["cn_to_en_wrong"] = max(
-                                0,
-                                int(
-                                    last_word.get(
-                                        "cn_to_en_wrong",
-                                        0
-                                    )
-                                ) - 1
-                            )
-
-                            last_word["cn_to_en_correct"] = (
-                                int(
-                                    last_word.get(
-                                        "cn_to_en_correct",
-                                        0
-                                    )
-                                ) + 1
-                            )
-
-                            last_word["cn_to_en_weight"] = max(
-                                1,
-                                int(last_word.get("cn_to_en_weight", 3)) - 2
-                            )
-
-                        else:
-
-                            last_word["en_to_cn_wrong"] = max(
-                                0,
-                                int(
-                                    last_word.get(
-                                        "en_to_cn_wrong",
-                                        0
-                                    )
-                                ) - 1
-                            )
-
-                            last_word["en_to_cn_correct"] = (
-                                int(
-                                    last_word.get(
-                                        "en_to_cn_correct",
-                                        0
-                                    )
-                                ) + 1
-                            )
-
-                            last_word["en_to_cn_weight"] = max(
-                                1,
-                                int(last_word.get("en_to_cn_weight", 3)) - 2
-                            )
-
-
-                        last_word["correct"] = (
-                            int(
-                                last_word.get(
-                                    "correct",
-                                    0
-                                )
-                            ) + 1
-                        )
-
-                        last_word["wrong"] = max(
-                            0,
-                            int(
-                                last_word.get(
-                                    "wrong",
-                                    0
-                                )
-                            ) - 1
-                        )
-
-
-                        save_words()
-
-
-                        if question_type == "中译英":
-
-                            daily_stats[
-                                "cn_to_en_correct"
-                            ] += 1
-
-                        else:
-
-                            daily_stats[
-                                "en_to_cn_correct"
-                            ] += 1
-
-
-                        save_daily_stats()
-
-                        st.session_state.last_correct = True
-
-                        st.rerun()
-
-
-        # ====================================================
-        # 下一题
-        # ====================================================
-
-        with right:
-
-            st.markdown("### 下一题")
-
-            if question_type == "中译英":
-
-                note_display = f"<br/><small style='opacity:0.8; font-size:16px;'>📝 备注：{html.escape(word.get('cn_note', ''))}</small>" if word.get('cn_note') else ""
-
-                st.markdown(
-                    f"""
-                    <div class="question">
-                        {html.escape(word["chinese"])}
-                        {note_display}
-                    </div>
-
-                    <div class="question-category">
-                        {html.escape(current_category)}
-                    </div>
-                    """,
-                    unsafe_allow_html=True
-                )
-
-            else:
-
-                note_display = f"<br/><small style='opacity:0.8; font-size:16px;'>📝 备注：{html.escape(word.get('en_note', ''))}</small>" if word.get('en_note') else ""
-
-                st.markdown(
-                    f"""
-                    <div class="question">
-                        {html.escape(word["english"])}
-                        {note_display}
-                    </div>
-
-                    <div class="question-category">
-                        {html.escape(current_category)}
-                    </div>
-                    """,
-                    unsafe_allow_html=True
-                )
-
-                pronunciation_button(
-                    word["english"],
-                    "current_sound"
-                )
-
-
-            with st.form(
-                key="answer_form",
-                clear_on_submit=True
-            ):
-
-                answer = st.text_input(
-                    "答案",
-                    label_visibility="collapsed",
-                    placeholder="输入答案后按 Enter",
-                    autocomplete="off"
-                )
-
-                submitted = st.form_submit_button(
-                    "提交",
-                    use_container_width=True
-                )
-
-
-            if submitted:
-
-                answer = answer.strip()
-
-                if not answer:
-
-                    st.warning(
-                        "请输入答案后再提交。"
-                    )
-
-                    st.stop()
-
-
-                if question_type == "中译英":
-
-                    correct_answer = (
-                        word["english"]
-                        .strip()
-                        .lower()
-                    )
-
-                    user_answer = (
-                        answer
-                        .strip()
-                        .lower()
-                    )
-
-                else:
-
-                    correct_answer = (
-                        word["chinese"]
-                        .strip()
-                    )
-
-                    user_answer = (
-                        answer
-                        .strip()
-                    )
-
-
-                if user_answer == correct_answer:
-
-                    if question_type == "中译英":
-
-                        word["cn_to_en_correct"] += 1
-                        word["cn_to_en_weight"] = max(
-                            1,
-                            int(word.get("cn_to_en_weight", 3)) - 1
-                        )
-
-                    else:
-
-                        word["en_to_cn_correct"] += 1
-                        word["en_to_cn_weight"] = max(
-                            1,
-                            int(word.get("en_to_cn_weight", 3)) - 1
-                        )
-
-
-                    word["correct"] = (
-                        int(
-                            word.get(
-                                "correct",
-                                0
-                            )
-                        ) + 1
-                    )
-
-                    is_correct = True
-
-
-                else:
-
-                    if question_type == "中译英":
-
-                        word["cn_to_en_wrong"] += 1
-                        word["cn_to_en_weight"] = min(
-                            20,
-                            int(word.get("cn_to_en_weight", 3)) + 2
-                        )
-
-                    else:
-
-                        word["en_to_cn_wrong"] += 1
-                        word["en_to_cn_weight"] = min(
-                            20,
-                            int(word.get("en_to_cn_weight", 3)) + 2
-                        )
-
-
-                    word["wrong"] = (
-                        int(
-                            word.get(
-                                "wrong",
-                                0
-                            )
-                        ) + 1
-                    )
-
-                    is_correct = False
-
-
-
-
-                today = get_today()
-
-                if daily_stats.get("date") != today:
-
-                    daily_stats = default_daily_stats()
-
-
-                if question_type == "中译英":
-
-                    daily_stats[
-                        "cn_to_en_answered"
-                    ] += 1
-
-                    if is_correct:
-
-                        daily_stats[
-                            "cn_to_en_correct"
-                        ] += 1
-
-                else:
-
-                    daily_stats[
-                        "en_to_cn_answered"
-                    ] += 1
-
-                    if is_correct:
-
-                        daily_stats[
-                            "en_to_cn_correct"
-                        ] += 1
-
-
-                save_daily_stats()
-
-
-                st.session_state.last_word_index = (
-                    current_index
-                )
-
-                st.session_state.last_answer = answer
-
-                st.session_state.last_correct = is_correct
-
-
-                next_word = get_random_word(question_type)
-
-                if next_word is not None:
-
-                    st.session_state.current_word_index = (
-                        words.index(next_word)
-                    )
-
-                save_success = save_words()
-
-
-                if not save_success:
-
-                    st.error(
-                        "⚠️ 数据保存失败，请检查 GitHub Token 权限。"
-                    )
-
-                st.rerun()
-
-
-        # ====================================================
-        # 今日统计
-        # ====================================================
-
-        st.divider()
-
-        cn_answered = int(
-            daily_stats.get(
-                "cn_to_en_answered",
-                0
-            )
-        )
-
-        cn_correct = int(
-            daily_stats.get(
-                "cn_to_en_correct",
-                0
-            )
-        )
-
-        en_answered = int(
-            daily_stats.get(
-                "en_to_cn_answered",
-                0
-            )
-        )
-
-        en_correct = int(
-            daily_stats.get(
-                "en_to_cn_correct",
-                0
-            )
-        )
-
-
-        total_answered = (
-            cn_answered + en_answered
-        )
-
-        total_correct = (
-            cn_correct + en_correct
-        )
-
-
-        st.subheader("📊 今日统计")
-
-
-        col1, col2, col3 = st.columns(3)
-
-
-        col1.metric(
-            "今日总答数",
-            total_answered
-        )
-
-        col2.metric(
-            "中译英",
-            f"{cn_correct} / {cn_answered}"
-        )
-
-        col3.metric(
-            "英译中",
-            f"{en_correct} / {en_answered}"
-        )
-
-
-        if total_answered > 0:
-
-            accuracy = (
-                total_correct
-                /
-                total_answered
-                *
-                100
-            )
-
-            st.caption(
-                f"今日总正确率：{accuracy:.1f}%"
-            )
-
-
-# ============================================================
-# ============================================================
-# 词库管理
-# ============================================================
-# ============================================================
-
-elif page == "📚 词库管理":
-
-    st.header("📚 词库管理")
-
-    st.subheader("➕ 添加单词")
-
-    init_df = pd.DataFrame(
-        [{"english": "", "chinese": "", "category": "noun", "cn_note": "", "en_note": ""}]
+    initial_df = pd.DataFrame(
+        [{
+            "english": "",
+            "chinese": "",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+        }]
     )
 
     edited_df = st.data_editor(
-        init_df,
+        initial_df,
         num_rows="dynamic",
         use_container_width=True,
         column_config={
             "english": st.column_config.TextColumn("英文", required=True),
             "chinese": st.column_config.TextColumn("中文", required=True),
-            "category": st.column_config.SelectboxColumn("词性", options=CATEGORIES, default="noun", required=True),
+            "category": st.column_config.SelectboxColumn(
+                "词性",
+                options=CATEGORIES,
+                default="noun",
+                required=True,
+            ),
             "cn_note": st.column_config.TextColumn("中文备注"),
             "en_note": st.column_config.TextColumn("英文备注"),
         },
-        key="vocab_batch_editor"
+        key="learning_batch_editor",
     )
 
-    if st.button("➕ 批量添加单词", use_container_width=True):
+    if st.button("➕ 批量添加新词", use_container_width=True):
+        added = 0
 
-        rows_to_add = []
-        for idx, row in edited_df.iterrows():
-            en = str(row.get("english") or "").strip()
-            cn = str(row.get("chinese") or "").strip()
-            cat = str(row.get("category") or "noun").strip()
-            cn_n = "" if pd.isna(row.get("cn_note")) else str(row.get("cn_note")).strip()
-            en_n = "" if pd.isna(row.get("en_note")) else str(row.get("en_note")).strip()
+        for _, row in edited_df.iterrows():
+            english = str(row.get("english") or "").strip()
+            chinese = str(row.get("chinese") or "").strip()
 
-            if cat not in CATEGORIES:
-                cat = "noun"
+            if not english or not chinese:
+                continue
 
-            if en and cn:
-                rows_to_add.append({
-                    "english": en,
-                    "chinese": cn,
-                    "category": cat,
-                    "cn_note": cn_n,
-                    "en_note": en_n
-                })
+            category = str(row.get("category") or "noun").strip()
+            if category not in CATEGORIES:
+                category = "noun"
 
-        if not rows_to_add:
-            st.warning("表格中没有有效的单词输入，请确保英文和中文非空。")
+            exists = any(
+                item["english"].strip().lower() == english.lower()
+                and item["chinese"].strip() == chinese
+                and item.get("category") == category
+                for item in new_words
+            )
+
+            if exists:
+                continue
+
+            word = {
+                "id": str(uuid.uuid4()),
+                "english": english,
+                "chinese": chinese,
+                "category": category,
+                "cn_note": "" if pd.isna(row.get("cn_note")) else str(row.get("cn_note")).strip(),
+                "en_note": "" if pd.isna(row.get("en_note")) else str(row.get("en_note")).strip(),
+            }
+            normalize_word(word)
+            new_words.append(word)
+
+            if not any(
+                item["english"].strip().lower() == english.lower()
+                and item["chinese"].strip() == chinese
+                and item.get("category") == category
+                for item in words
+            ):
+                words.append(word.copy())
+
+            added += 1
+
+        if added:
+            if save_new_words() and save_words():
+                st.success(f"成功添加 {added} 个新词，并同步到正式词库。")
+                st.rerun()
         else:
-            added = 0
-            duplicate = 0
-
-            for item in rows_to_add:
-                english = item["english"]
-                chinese = item["chinese"]
-                category = item["category"]
-                cn_note = item["cn_note"]
-                en_note = item["en_note"]
-
-                exists = any(
-                    it.get("english", "").strip().lower() == english.lower() and
-                    it.get("chinese", "").strip() == chinese and
-                    it.get("category", "noun") == category
-                    for it in words
-                )
-
-                if exists:
-                    duplicate += 1
-                else:
-                    words.append({
-                        "english": english,
-                        "chinese": chinese,
-                        "category": category,
-                        "cn_note": cn_note,
-                        "en_note": en_note,
-                        "cn_to_en_weight": 3,
-                        "en_to_cn_weight": 3,
-                        "cn_to_en_correct": 0,
-                        "cn_to_en_wrong": 0,
-                        "en_to_cn_correct": 0,
-                        "en_to_cn_wrong": 0,
-                        "correct": 0,
-                        "wrong": 0
-                    })
-                    added += 1
-
-            if added > 0:
-                if save_words():
-                    st.success(f"成功添加 {added} 个单词，并已同步到 GitHub。")
-                    st.rerun()
-
-            if duplicate:
-                st.info(f"{duplicate} 个完全相同的单词没有重复添加。")
+            st.warning("没有可添加的新词。")
 
     st.divider()
 
-    st.subheader("✏️ 编辑词库")
+    if not new_words:
+        st.info("今天还没有新词，请先添加新词。")
+    else:
+        st.caption(f"今天共有 {len(new_words)} 个新词")
+        st.caption("答对一个词后，该词本轮不再出现；全部答对后自动开始下一轮。")
 
-    search = st.text_input(
-        "🔍 搜索",
-        placeholder="输入英文或中文",
-        key="vocabulary_edit_search"
-    )
+        render_quiz(
+            "下一题",
+            "learning",
+            get_random_new_word,
+            record_new_word_result,
+            save_new_words,
+        )
 
-    for index, word in enumerate(words):
+    st.divider()
+    st.subheader("✏️ 编辑列表")
 
-        if search:
-
-            if (
-                search.lower()
-                not in word["english"].lower()
-
-                and
-
-                search
-                not in word["chinese"]
-            ):
-
-                continue
-
+    for index, word in enumerate(new_words):
         with st.expander(
-            f"{word['english']} → "
-            f"{word['chinese']} "
+            f"{word['english']} → {word['chinese']} "
             f"({word.get('category', 'noun')})"
         ):
+            pronunciation_button(
+                word["english"],
+                f"new_word_list_audio_{word['id']}",
+            )
 
             col1, col2 = st.columns(2)
 
             with col1:
-
-                new_english = st.text_input(
+                english = st.text_input(
                     "英文",
                     value=word["english"],
-                    key=f"edit_en_{index}"
+                    key=f"new_english_{word['id']}",
                 )
 
             with col2:
-
-                new_chinese = st.text_input(
+                chinese = st.text_input(
                     "中文",
                     value=word["chinese"],
-                    key=f"edit_cn_{index}"
+                    key=f"new_chinese_{word['id']}",
                 )
 
-            col_n1, col_n2 = st.columns(2)
-
-            with col_n1:
-                new_cn_note = st.text_input(
-                    "中文备注",
-                    value=word.get("cn_note", ""),
-                    key=f"edit_cn_note_{index}"
-                )
-
-            with col_n2:
-                new_en_note = st.text_input(
-                    "英文备注",
-                    value=word.get("en_note", ""),
-                    key=f"edit_en_note_{index}"
-                )
-
-            current_category = word.get(
-                "category",
-                "noun"
-            )
-
-            new_category = st.selectbox(
+            category = st.selectbox(
                 "词性",
                 CATEGORIES,
-                index=(
-                    CATEGORIES.index(current_category)
-                    if current_category in CATEGORIES
-                    else 0
-                ),
-                key=f"edit_category_{index}"
+                index=CATEGORIES.index(word.get("category", "noun")),
+                key=f"new_category_{word['id']}",
+            )
+
+            cn_note = st.text_input(
+                "中文备注",
+                value=word.get("cn_note", ""),
+                key=f"new_cn_note_{word['id']}",
+            )
+
+            en_note = st.text_input(
+                "英文备注",
+                value=word.get("en_note", ""),
+                key=f"new_en_note_{word['id']}",
             )
 
             st.caption(
-                f"中译英：权重 {calculate_sampling_weight(word, '中译英')} | "
-                f"✓ {word.get('cn_to_en_correct', 0)} / ✗ {word.get('cn_to_en_wrong', 0)} | "
-                f"概率 {calculate_probability(word, '中译英'):.2f}%"
+                f"中译英概率：{probability(word, new_words, '中译英'):.2f}% "
+                f"| 本轮完成：{'是' if word['cn_to_en_round_done'] else '否'}"
             )
-
             st.caption(
-                f"英译中：权重 {calculate_sampling_weight(word, '英译中')} | "
-                f"✓ {word.get('en_to_cn_correct', 0)} / ✗ {word.get('en_to_cn_wrong', 0)} | "
-                f"概率 {calculate_probability(word, '英译中'):.2f}%"
+                f"英译中概率：{probability(word, new_words, '英译中'):.2f}% "
+                f"| 本轮完成：{'是' if word['en_to_cn_round_done'] else '否'}"
             )
 
-            col1, col2 = st.columns(2)
+            save_col, delete_col = st.columns(2)
 
-            with col1:
+            with save_col:
+                if st.button("💾 保存", key=f"new_save_{word['id']}", use_container_width=True):
+                    word["english"] = english.strip()
+                    word["chinese"] = chinese.strip()
+                    word["category"] = category
+                    word["cn_note"] = cn_note.strip()
+                    word["en_note"] = en_note.strip()
 
-                if st.button(
-                    "💾 保存",
-                    key=f"save_{index}",
-                    use_container_width=True
-                ):
+                    for vocabulary_word in words:
+                        if vocabulary_word["id"] == word["id"]:
+                            vocabulary_word.update(word)
+                            break
 
-                    new_english = new_english.strip()
-                    new_chinese = new_chinese.strip()
+                    if save_new_words() and save_words():
+                        st.success("修改成功。")
+                        st.rerun()
 
-                    if not new_english:
+            with delete_col:
+                if st.button("🗑️ 删除", key=f"new_delete_{word['id']}", use_container_width=True):
+                    new_words.pop(index)
 
-                        st.warning("英文不能为空。")
-
-                    elif not new_chinese:
-
-                        st.warning("中文不能为空。")
-
-                    else:
-
-                        word["english"] = new_english
-                        word["chinese"] = new_chinese
-                        word["category"] = new_category
-                        word["cn_note"] = new_cn_note.strip()
-                        word["en_note"] = new_en_note.strip()
-
-                        if save_words():
-
-                            st.success(
-                                "修改成功，并已同步到 GitHub。"
-                            )
-
-                            st.rerun()
-
-            with col2:
-
-                if st.button(
-                    "🗑️ 删除",
-                    key=f"delete_{index}",
-                    use_container_width=True
-                ):
-
-                    words.pop(index)
-
-                    if save_words():
-
-                        st.success(
-                            "删除成功，并已同步到 GitHub。"
-                        )
-
+                    if save_new_words():
+                        st.success("已从今天的新词列表删除。")
                         st.rerun()
 
 
-# ============================================================
-# ============================================================
-# 查看词库
-# ============================================================
-# ============================================================
+elif page == "🎯 练习模式":
+    st.header("🎯 练习模式")
 
-elif page == "📖 查看词库":
+    normal_tab, proficient_tab = st.tabs(["普通", "熟练"])
 
-    st.header("📖 我的词库")
-
-    if not words:
-
-        st.info("目前没有单词。")
-
-    else:
-
-        search = st.text_input(
-            "🔍 搜索词库",
-            placeholder="输入英文或中文",
-            key="view_vocab_search"
+    with normal_tab:
+        normal_count = sum(
+            not item.get("is_proficient", False)
+            for item in words
         )
-
-        category_filter = st.selectbox(
-            "词性筛选",
-            [
-                "全部",
-                "noun",
-                "verb",
-                "adjective",
-                "adverb"
-            ],
-            key="view_category_filter"
-        )
-
-        filtered_words = []
-
-        for word in words:
-
-            if search:
-
-                if (
-                    search.lower()
-                    not in word["english"].lower()
-
-                    and
-
-                    search
-                    not in word["chinese"]
-                ):
-
-                    continue
-
-            if (
-                category_filter != "全部"
-
-                and
-
-                word.get("category", "noun")
-                != category_filter
-            ):
-
-                continue
-
-            filtered_words.append(word)
-
 
         st.caption(
-            f"找到 {len(filtered_words)} 个单词"
+            f"普通词：{normal_count} 个。"
+            "连续答对会降低优先级，第 5 次连续答对后自动进入熟练。"
+        )
+
+        def normal_result_handler(word, question_type, correct):
+            record_normal_review_result(word, correct)
+
+            keys = direction_keys(question_type)
+            if correct:
+                word[keys["correct"]] += 1
+            else:
+                word[keys["wrong"]] += 1
+
+        render_quiz(
+            "下一题",
+            "normal_review",
+            lambda _question_type: get_normal_review_word(),
+            normal_result_handler,
+            save_words,
+        )
+
+    with proficient_tab:
+        proficient_count = sum(
+            item.get("is_proficient", False)
+            for item in words
+        )
+
+        st.caption(
+            f"熟练词：{proficient_count} 个。"
+            "熟练词使用原有概率系统抽取。"
+        )
+
+        def proficient_result_handler(word, question_type, correct):
+            adjust_probability(word, question_type, correct)
+
+            keys = direction_keys(question_type)
+            if correct:
+                word[keys["correct"]] += 1
+            else:
+                word[keys["wrong"]] += 1
+
+        render_quiz(
+            "下一题",
+            "proficient_review",
+            get_proficient_review_word,
+            proficient_result_handler,
+            save_words,
         )
 
 
-        # ====================================================
-        # 排序
-        # ====================================================
+elif page == "📚 词库管理":
+    st.header("📚 词库管理")
 
-        sort_field = st.session_state.vocab_sort_field
-        reverse = st.session_state.vocab_sort_reverse
+    if not words:
+        st.info("词库为空。")
+    else:
+        st.caption("可直接勾选「熟练」；取消勾选会回到普通复习。")
 
-        if sort_field == "english":
+        display_rows = []
 
-            filtered_words.sort(
-                key=lambda x: x.get(
-                    "english",
-                    ""
-                ).lower(),
-                reverse=reverse
-            )
+        for word in words:
+            display_rows.append({
+                "id": word["id"],
+                "english": word["english"],
+                "chinese": word["chinese"],
+                "category": word.get("category", "noun"),
+                "cn_note": word.get("cn_note", ""),
+                "en_note": word.get("en_note", ""),
+                "熟练": word.get("is_proficient", False),
+                "普通优先级": word.get("review_priority", 12),
+                "连续答对": word.get("review_correct_streak", 0),
+                "连续答错": word.get("review_wrong_streak", 0),
+            })
 
-        elif sort_field == "chinese":
-
-            filtered_words.sort(
-                key=lambda x: x.get(
-                    "chinese",
-                    ""
+        editor = st.data_editor(
+            pd.DataFrame(display_rows),
+            use_container_width=True,
+            hide_index=True,
+            column_config={
+                "id": None,
+                "category": st.column_config.SelectboxColumn(
+                    "词性",
+                    options=CATEGORIES,
                 ),
-                reverse=reverse
-            )
-
-        elif sort_field == "category":
-
-            filtered_words.sort(
-                key=lambda x: x.get(
-                    "category",
-                    ""
+                "熟练": st.column_config.CheckboxColumn("熟练"),
+                "普通优先级": st.column_config.NumberColumn(
+                    "普通优先级",
+                    disabled=True,
                 ),
-                reverse=reverse
-            )
-
-        elif sort_field == "cn_weight":
-
-            filtered_words.sort(
-                key=lambda x: int(x.get("cn_to_en_weight", 3)),
-                reverse=reverse
-            )
-
-        elif sort_field == "en_weight":
-
-            filtered_words.sort(
-                key=lambda x: int(x.get("en_to_cn_weight", 3)),
-                reverse=reverse
-            )
-
-        elif sort_field == "cn_prob":
-
-            filtered_words.sort(
-                key=lambda x: calculate_probability(x, "中译英"),
-                reverse=reverse
-            )
-
-        elif sort_field == "en_prob":
-
-            filtered_words.sort(
-                key=lambda x: calculate_probability(x, "英译中"),
-                reverse=reverse
-            )
-
-        elif sort_field == "correct":
-
-            filtered_words.sort(
-                key=lambda x:
-                int(x.get("cn_to_en_correct", 0))
-                +
-                int(x.get("en_to_cn_correct", 0)),
-                reverse=reverse
-            )
-
-        elif sort_field == "wrong":
-
-            filtered_words.sort(
-                key=lambda x:
-                int(x.get("cn_to_en_wrong", 0))
-                +
-                int(x.get("en_to_cn_wrong", 0)),
-                reverse=reverse
-            )
-
-
-        st.markdown(
-            '<div class="mobile-hint">'
-            '📱 手机可以左右滑动查看完整词库；点击表头按钮排序'
-            '</div>',
-            unsafe_allow_html=True
+                "连续答对": st.column_config.NumberColumn(
+                    "连续答对",
+                    disabled=True,
+                ),
+                "连续答错": st.column_config.NumberColumn(
+                    "连续答错",
+                    disabled=True,
+                ),
+            },
+            key="vocabulary_editor",
         )
 
+        if st.button("💾 保存词库修改", use_container_width=True):
+            edited_rows = editor.to_dict("records")
+            lookup = {item["id"]: item for item in words}
 
-        cols = st.columns(
-            [1.2, 1.2, 1.2, 1.9, 1.9, 1.2, 1.2]
-        )
+            for row in edited_rows:
+                word = lookup.get(row["id"])
 
+                if not word:
+                    continue
 
-        def sort_label(field, text):
+                was_proficient = word.get("is_proficient", False)
 
-            if st.session_state.vocab_sort_field != field:
+                word["english"] = str(row["english"]).strip()
+                word["chinese"] = str(row["chinese"]).strip()
+                word["category"] = row["category"]
+                word["cn_note"] = str(row.get("cn_note") or "").strip()
+                word["en_note"] = str(row.get("en_note") or "").strip()
+                word["is_proficient"] = bool(row["熟练"])
 
-                return text
+                if was_proficient and not word["is_proficient"]:
+                    word["review_priority"] = 12
+                    word["review_correct_streak"] = 0
+                    word["review_wrong_streak"] = 0
 
-            if st.session_state.vocab_sort_reverse:
-
-                return text + " ↓"
-
-            return text + " ↑"
-
-
-        with cols[0]:
-
-            if st.button(
-                sort_label("english", "英文"),
-                key="sort_english",
-                use_container_width=True
-            ):
-
-                set_sort("english")
+            if save_words():
+                st.success("词库已保存。")
                 st.rerun()
 
 
-        with cols[1]:
+elif page == "📖 查看词库":
+    st.header("📖 查看词库")
 
-            if st.button(
-                sort_label("chinese", "中文"),
-                key="sort_chinese",
-                use_container_width=True
+    search = st.text_input("🔍 搜索", placeholder="输入英文或中文")
+
+    filtered = words
+
+    if search:
+        search_lower = search.lower()
+        filtered = [
+            item for item in words
+            if search_lower in item["english"].lower()
+            or search in item["chinese"]
+        ]
+
+    if not filtered:
+        st.info("没有符合条件的单词。")
+    else:
+        for word in filtered:
+            status = "✅ 熟练" if word.get("is_proficient") else "📌 普通"
+
+            with st.expander(
+                f"{word['english']} → {word['chinese']} "
+                f"({word.get('category', 'noun')}) · {status}"
             ):
-
-                set_sort("chinese")
-                st.rerun()
-
-
-        with cols[2]:
-
-            if st.button(
-                sort_label("category", "词性"),
-                key="sort_category",
-                use_container_width=True
-            ):
-
-                set_sort("category")
-                st.rerun()
-
-
-        with cols[3]:
-
-            if st.button(
-                sort_label("cn_prob", "中译英概率"),
-                key="sort_cn_prob",
-                use_container_width=True
-            ):
-
-                set_sort("cn_prob")
-                st.rerun()
-
-
-        with cols[4]:
-
-            if st.button(
-                sort_label("en_prob", "英译中概率"),
-                key="sort_en_prob",
-                use_container_width=True
-            ):
-
-                set_sort("en_prob")
-                st.rerun()
-
-
-        with cols[5]:
-
-            if st.button(
-                sort_label("correct", "正确"),
-                key="sort_correct",
-                use_container_width=True
-            ):
-
-                set_sort("correct")
-                st.rerun()
-
-
-        with cols[6]:
-
-            if st.button(
-                sort_label("wrong", "错误"),
-                key="sort_wrong",
-                use_container_width=True
-            ):
-
-                set_sort("wrong")
-                st.rerun()
-
-
-        # ====================================================
-        # HTML 表格
-        # ====================================================
-
-        rows = ""
-
-        for word in filtered_words:
-
-            english = html.escape(str(word.get("english", "")))
-            chinese = html.escape(str(word.get("chinese", "")))
-            category = html.escape(str(word.get("category", "noun")))
-            cn_note = html.escape(str(word.get("cn_note", "")))
-            en_note = html.escape(str(word.get("en_note", "")))
-
-            cn_w = calculate_sampling_weight(word, "中译英")
-            en_w = calculate_sampling_weight(word, "英译中")
-            cn_prob = calculate_probability(word, "中译英")
-            en_prob = calculate_probability(word, "英译中")
-
-            total_correct = (
-                int(word.get("cn_to_en_correct", 0)) +
-                int(word.get("en_to_cn_correct", 0))
-            )
-
-            total_wrong = (
-                int(word.get("cn_to_en_wrong", 0)) +
-                int(word.get("en_to_cn_wrong", 0))
-            )
-
-            cn_note_html = f"<br/><small class='note-text'>中备注: {cn_note}</small>" if cn_note else ""
-            en_note_html = f"<br/><small class='note-text'>英备注: {en_note}</small>" if en_note else ""
-
-            rows += f"""
-            <tr>
-
-                <td class="english">
-                    {english}
-                    {en_note_html}
-                </td>
-
-                <td>
-                    {chinese}
-                    {cn_note_html}
-                </td>
-
-                <td>
-                    {category}
-                </td>
-
-                <td>
-                    {cn_w}
-                </td>
-
-                <td>
-                    {en_w}
-                </td>
-
-                <td class="probability">
-                    {cn_prob:.2f}%
-                </td>
-
-                <td class="probability">
-                    {en_prob:.2f}%
-                </td>
-
-                <td>
-                    {total_correct}
-                </td>
-
-                <td>
-                    {total_wrong}
-                </td>
-
-            </tr>
-            """
-
-
-        table_html = f"""
-        <!DOCTYPE html>
-
-        <html>
-
-        <head>
-
-        <meta charset="UTF-8">
-
-        <meta name="viewport"
-              content="width=device-width,
-                       initial-scale=1.0">
-
-        <style>
-
-        * {{
-            box-sizing: border-box;
-        }}
-
-        html,
-        body {{
-            margin: 0;
-            padding: 0;
-            width: 100%;
-        }}
-
-        body {{
-
-            font-family:
-                -apple-system,
-                BlinkMacSystemFont,
-                "Segoe UI",
-                Arial,
-                sans-serif;
-
-            font-size: 14px;
-
-            background-color: #ffffff;
-
-            color: #1f1f1f;
-
-        }}
-
-        .table-wrapper {{
-
-            width: 100%;
-
-            overflow-x: auto;
-
-            -webkit-overflow-scrolling: touch;
-
-            border: 1px solid #d9d9d9;
-
-            border-radius: 10px;
-
-            background-color: #ffffff;
-
-        }}
-
-        table {{
-
-            width: 100%;
-
-            min-width: 850px;
-
-            border-collapse: collapse;
-
-            background-color: #ffffff;
-
-            color: #1f1f1f;
-
-        }}
-
-        th {{
-
-            padding: 10px 8px;
-
-            text-align: left;
-
-            font-weight: 700;
-
-            color: #1f1f1f;
-
-            background-color: #f3f4f6;
-
-            border-bottom:
-                2px solid
-                #cfcfcf;
-
-            white-space: nowrap;
-
-        }}
-
-        td {{
-
-            padding: 9px 8px;
-
-            color: #1f1f1f;
-
-            background-color: #ffffff;
-
-            border-bottom:
-                1px solid
-                #e5e5e5;
-
-            white-space: nowrap;
-
-        }}
-
-        tr:last-child td {{
-
-            border-bottom: none;
-
-        }}
-
-        tbody tr:hover td {{
-
-            background-color: #f5f5f5;
-
-        }}
-
-        .english {{
-
-            font-weight: 600;
-
-            color: #111111;
-
-        }}
-
-        .probability {{
-
-            font-size: 13px;
-
-            color: #444444;
-
-        }}
-
-        .note-text {{
-
-            font-size: 11px;
-
-            opacity: 0.7;
-
-            font-weight: normal;
-
-        }}
-
-        @media (prefers-color-scheme: dark) {{
-
-            body {{
-
-                background-color: #0e1117;
-
-                color: #f1f1f1;
-
-            }}
-
-            .table-wrapper {{
-
-                background-color: #0e1117;
-
-                border-color: #3a3f47;
-
-            }}
-
-            table {{
-
-                background-color: #0e1117;
-
-                color: #f1f1f1;
-
-            }}
-
-            th {{
-
-                color: #ffffff;
-
-                background-color: #262b33;
-
-                border-bottom-color: #4a5059;
-
-            }}
-
-            td {{
-
-                color: #f1f1f1;
-
-                background-color: #0e1117;
-
-                border-bottom-color: #30353d;
-
-            }}
-
-            tbody tr:hover td {{
-
-                background-color: #1c2128;
-
-            }}
-
-            .english {{
-
-                color: #ffffff;
-
-            }}
-
-            .probability {{
-
-                color: #d0d0d0;
-
-            }}
-
-        }}
-
-        @media (max-width: 700px) {{
-
-            th,
-            td {{
-
-                padding: 8px 7px;
-
-                font-size: 13px;
-
-            }}
-
-        }}
-
-        </style>
-
-        </head>
-
-        <body>
-
-        <div class="table-wrapper">
-
-        <table>
-
-            <thead>
-
-                <tr>
-
-                    <th>英文</th>
-
-                    <th>中文</th>
-
-                    <th>词性</th>
-
-                    <th>中译英权重</th>
-
-                    <th>英译中权重</th>
-
-                    <th>中译英概率</th>
-
-                    <th>英译中概率</th>
-
-                    <th>正确</th>
-
-                    <th>错误</th>
-
-                </tr>
-
-            </thead>
-
-            <tbody>
-
-                {rows}
-
-            </tbody>
-
-        </table>
-
-        </div>
-
-        </body>
-
-        </html>
-        """
-
-
-        st.components.v1.html(
-            table_html,
-            height=max(
-                120,
-                min(
-                    800,
-                    65 + len(filtered_words) * 50
+                pronunciation_button(
+                    word["english"],
+                    f"vocabulary_view_audio_{word['id']}",
                 )
-            ),
-            scrolling=True
-        )
+
+                if word.get("cn_note"):
+                    st.caption(f"中文备注：{word['cn_note']}")
+
+                if word.get("en_note"):
+                    st.caption(f"英文备注：{word['en_note']}")
+
+                if not word.get("is_proficient"):
+                    st.caption(
+                        f"普通优先级：{word.get('review_priority', 12)} "
+                        f"| 连续答对：{word.get('review_correct_streak', 0)} "
+                        f"| 连续答错：{word.get('review_wrong_streak', 0)}"
+                    )
+                else:
+                    st.caption(
+                        f"中译英概率："
+                        f"{probability(word, [x for x in words if x.get('is_proficient')], '中译英'):.2f}%"
+                    )
+                    st.caption(
+                        f"英译中概率："
+                        f"{probability(word, [x for x in words if x.get('is_proficient')], '英译中'):.2f}%"
+                    )
+```
