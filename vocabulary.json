@@ -30,7 +30,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "career",
@@ -63,7 +67,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "experience",
@@ -96,7 +104,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "information",
@@ -129,7 +141,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "receipt",
@@ -162,7 +178,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "salary",
@@ -195,7 +215,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "salt",
@@ -228,7 +252,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "belly",
@@ -261,7 +289,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "adult",
@@ -294,7 +326,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "hundred",
@@ -327,7 +363,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "thousand",
@@ -360,7 +400,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "million",
@@ -393,7 +437,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "minute",
@@ -426,7 +474,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "second",
@@ -459,7 +511,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "choice",
@@ -492,7 +548,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "monday",
@@ -525,7 +585,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "tuesday",
@@ -558,7 +622,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "wednesday",
@@ -591,7 +659,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "thursday",
@@ -624,7 +696,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "friday",
@@ -657,7 +733,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "saturday",
@@ -690,7 +770,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "sunday",
@@ -723,7 +807,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "january",
@@ -756,7 +844,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "february",
@@ -789,7 +881,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "march",
@@ -822,7 +918,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "april",
@@ -855,7 +955,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "may",
@@ -888,7 +992,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "june",
@@ -921,7 +1029,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "july",
@@ -954,7 +1066,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "august",
@@ -987,7 +1103,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "september",
@@ -1020,7 +1140,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "october",
@@ -1053,7 +1177,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "november",
@@ -1086,7 +1214,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "december",
@@ -1119,7 +1251,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "research",
@@ -1152,7 +1288,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "interview",
@@ -1185,7 +1325,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "deadline",
@@ -1218,7 +1362,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "opportunity",
@@ -1251,7 +1399,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "account",
@@ -1284,7 +1436,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "profile",
@@ -1317,7 +1473,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "website",
@@ -1350,7 +1510,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "discount",
@@ -1383,7 +1547,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "travel",
@@ -1416,7 +1584,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "train",
@@ -1449,7 +1621,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "change",
@@ -1482,7 +1658,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "choose",
@@ -1515,7 +1695,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "challenge",
@@ -1548,7 +1732,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "arrive",
@@ -1581,7 +1769,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "exit",
@@ -1614,7 +1806,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "carry",
@@ -1647,7 +1843,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "bring",
@@ -1680,7 +1880,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "receive",
@@ -1713,7 +1917,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "lend",
@@ -1746,7 +1954,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "borrow",
@@ -1779,7 +1991,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "decide",
@@ -1812,7 +2028,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "improve",
@@ -1845,7 +2065,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "practice",
@@ -1878,7 +2102,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "discuss",
@@ -1911,7 +2139,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "solve",
@@ -1944,7 +2176,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "prepare",
@@ -1977,7 +2213,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "complete",
@@ -2010,7 +2250,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "continue",
@@ -2043,7 +2287,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "manage",
@@ -2076,7 +2324,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "return",
@@ -2109,7 +2361,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "interview",
@@ -2142,7 +2398,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "search",
@@ -2175,7 +2435,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "download",
@@ -2208,7 +2472,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "upload",
@@ -2241,7 +2509,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "allow",
@@ -2274,7 +2546,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "accept",
@@ -2307,7 +2583,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "refuse",
@@ -2340,7 +2620,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "avoid",
@@ -2373,7 +2657,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "reach",
@@ -2406,7 +2694,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "difficult",
@@ -2439,7 +2731,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "dirty",
@@ -2472,7 +2768,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "necessary",
@@ -2505,7 +2805,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "ugly",
@@ -2538,7 +2842,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "excited",
@@ -2571,7 +2879,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "tired",
@@ -2604,7 +2916,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "bored",
@@ -2637,7 +2953,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "stressed",
@@ -2670,7 +2990,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "scared",
@@ -2703,7 +3027,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "nervous",
@@ -2736,7 +3064,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "surprised",
@@ -2769,7 +3101,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "confused",
@@ -2802,7 +3138,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "weak",
@@ -2835,7 +3175,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "serious",
@@ -2868,7 +3212,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "honest",
@@ -2901,7 +3249,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "lazy",
@@ -2934,7 +3286,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "polite",
@@ -2967,7 +3323,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "first",
@@ -3000,7 +3360,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "second",
@@ -3033,7 +3397,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "third",
@@ -3066,7 +3434,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "hungry",
@@ -3099,7 +3471,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "thirsty",
@@ -3132,7 +3508,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "sleepy",
@@ -3165,7 +3545,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "sick",
@@ -3198,7 +3582,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "healthy",
@@ -3231,7 +3619,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "dizzy",
@@ -3264,7 +3656,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "painful",
@@ -3297,7 +3693,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "comfortable",
@@ -3330,7 +3730,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "actually",
@@ -3363,7 +3767,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "almost",
@@ -3396,7 +3804,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "currently",
@@ -3429,7 +3841,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "definitely",
@@ -3462,7 +3878,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "especially",
@@ -3495,7 +3915,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "eventually",
@@ -3528,7 +3952,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "fairly",
@@ -3561,7 +3989,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "hardly",
@@ -3594,7 +4026,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "hopefully",
@@ -3627,7 +4063,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "normally",
@@ -3660,7 +4100,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "obviously",
@@ -3693,7 +4137,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "personally",
@@ -3726,7 +4174,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "pretty",
@@ -3759,7 +4211,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "quite",
@@ -3792,7 +4248,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "usually",
@@ -3825,7 +4285,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "always",
@@ -3858,7 +4322,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "often",
@@ -3891,7 +4359,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "never",
@@ -3924,7 +4396,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "already",
@@ -3957,7 +4433,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "yet",
@@ -3990,7 +4470,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "still",
@@ -4023,7 +4507,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "just",
@@ -4056,7 +4544,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "probably",
@@ -4089,7 +4581,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "screenshot",
@@ -4122,7 +4618,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "notification",
@@ -4155,7 +4655,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "invite",
@@ -4188,7 +4692,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "compare",
@@ -4221,7 +4729,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "describe",
@@ -4254,7 +4766,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "explain",
@@ -4287,7 +4803,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "uncomfortable",
@@ -4320,7 +4840,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "active",
@@ -4353,7 +4877,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "careful",
@@ -4386,7 +4914,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "careless",
@@ -4419,7 +4951,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "really",
@@ -4452,7 +4988,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "finally",
@@ -4485,7 +5025,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "suddenly",
@@ -4518,7 +5062,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "circle",
@@ -4551,7 +5099,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "square",
@@ -4584,7 +5136,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "triangle",
@@ -4617,7 +5173,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "rectangle",
@@ -4650,7 +5210,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "translate",
@@ -4683,7 +5247,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "repeat",
@@ -4716,7 +5284,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "mention",
@@ -4749,7 +5321,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "imagine",
@@ -4782,7 +5358,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "smart",
@@ -4815,7 +5395,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "patient",
@@ -4848,7 +5432,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "brave",
@@ -4881,7 +5469,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "calm",
@@ -4914,7 +5506,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "immediately",
@@ -4947,7 +5543,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "oval",
@@ -4980,7 +5580,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "diamond",
@@ -5013,7 +5617,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "flower",
@@ -5046,7 +5654,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "plant",
@@ -5079,7 +5691,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "leaf",
@@ -5112,7 +5728,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "expect",
@@ -5145,7 +5765,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "apply",
@@ -5178,7 +5802,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "attend",
@@ -5211,7 +5839,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "create",
@@ -5244,7 +5876,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "develop",
@@ -5277,7 +5913,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "busy",
@@ -5310,7 +5950,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "ready",
@@ -5343,7 +5987,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "certain",
@@ -5376,7 +6024,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "possible",
@@ -5409,7 +6061,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "impossible",
@@ -5442,7 +6098,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "produce",
@@ -5475,7 +6135,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "provide",
@@ -5508,7 +6172,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "support",
@@ -5541,7 +6209,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "succeed",
@@ -5574,7 +6246,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "communicate",
@@ -5607,7 +6283,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "introduce",
@@ -5640,7 +6320,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "encourage",
@@ -5673,7 +6357,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "respect",
@@ -5706,7 +6394,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "useful",
@@ -5739,7 +6431,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "useless",
@@ -5772,7 +6468,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "important",
@@ -5805,7 +6505,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "modern",
@@ -5838,7 +6542,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "traditional",
@@ -5871,7 +6579,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "seed",
@@ -5904,7 +6616,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "decision",
@@ -5937,7 +6653,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "way",
@@ -5970,7 +6690,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "customer",
@@ -6003,7 +6727,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "factory",
@@ -6036,7 +6764,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "technology",
@@ -6069,7 +6801,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "customs",
@@ -6102,7 +6838,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "trust",
@@ -6135,7 +6875,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "forgive",
@@ -6168,7 +6912,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "celebrate",
@@ -6201,7 +6949,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "recommend",
@@ -6234,7 +6986,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "remind",
@@ -6267,7 +7023,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "popular",
@@ -6300,7 +7060,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "common",
@@ -6333,7 +7097,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "local",
@@ -6366,7 +7134,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "international",
@@ -6399,7 +7171,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "public",
@@ -6432,7 +7208,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "service",
@@ -6465,7 +7245,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "address",
@@ -6498,7 +7282,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "reason",
@@ -6531,7 +7319,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "situation",
@@ -6564,7 +7356,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "message",
@@ -6597,7 +7393,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "colleague",
@@ -6630,7 +7430,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "forget",
@@ -6663,7 +7467,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "remember",
@@ -6696,7 +7504,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "grow",
@@ -6729,7 +7541,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "plant",
@@ -6762,7 +7578,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "serve",
@@ -6795,7 +7615,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "opinion",
@@ -6828,7 +7652,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "private",
@@ -6861,7 +7689,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "simple",
@@ -6894,7 +7726,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "complex",
@@ -6927,7 +7763,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "partner",
@@ -6960,7 +7800,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "guest",
@@ -6993,7 +7837,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "lesson",
@@ -7026,7 +7874,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "employee",
@@ -7059,7 +7911,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "employer",
@@ -7092,7 +7948,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "goal",
@@ -7125,7 +7985,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "apply",
@@ -7158,7 +8022,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "position",
@@ -7188,7 +8056,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "purpose",
@@ -7218,7 +8090,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "kitchen",
@@ -7248,7 +8124,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "ceiling",
@@ -7278,7 +8158,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "medicine",
@@ -7308,7 +8192,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "chair",
@@ -7338,7 +8226,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "offer",
@@ -7368,7 +8260,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "spend",
@@ -7398,7 +8294,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "deliver",
@@ -7428,7 +8328,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "collect",
@@ -7458,7 +8362,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "complain",
@@ -7488,7 +8396,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "advise",
@@ -7518,7 +8430,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "round",
@@ -7548,7 +8464,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "flat",
@@ -7578,7 +8498,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "straight",
@@ -7608,7 +8532,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "curved",
@@ -7638,7 +8566,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "shallow",
@@ -7668,7 +8600,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "soft",
@@ -7698,7 +8634,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "remain",
@@ -7728,7 +8668,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "fail",
@@ -7758,7 +8702,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "believe",
@@ -7788,7 +8736,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "realise",
@@ -7818,7 +8770,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "recognise",
@@ -7848,7 +8804,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "wonder",
@@ -7878,7 +8838,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "keep",
@@ -7908,7 +8872,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "handsome",
@@ -7938,7 +8906,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "wide",
@@ -7968,7 +8940,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "narrow",
@@ -7998,7 +8974,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "thick",
@@ -8028,7 +9008,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "heavy",
@@ -8058,7 +9042,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "light",
@@ -8088,7 +9076,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "creative",
@@ -8118,7 +9110,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "record",
@@ -8148,7 +9144,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "arrange",
@@ -8178,7 +9178,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "organise",
@@ -8208,7 +9212,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "achieve",
@@ -8238,7 +9246,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "catch",
@@ -8268,7 +9280,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "board",
@@ -8298,7 +9314,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "wet",
@@ -8328,7 +9348,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "broken",
@@ -8358,7 +9382,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "disappointed",
@@ -8388,7 +9416,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "satisfied",
@@ -8418,7 +9450,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "embarrassed",
@@ -8448,7 +9484,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "proud",
@@ -8478,7 +9518,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "tooth",
@@ -8508,7 +9552,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "option",
@@ -8538,7 +9586,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "apartment",
@@ -8568,7 +9620,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "bathroom",
@@ -8598,7 +9654,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "pharmacy",
@@ -8628,7 +9688,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "town",
@@ -8658,7 +9722,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "capital",
@@ -8688,7 +9756,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "journey",
@@ -8718,7 +9790,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "surprise",
@@ -8748,7 +9824,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "satisfy",
@@ -8778,7 +9858,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "apologise",
@@ -8808,7 +9892,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "admit",
@@ -8838,7 +9926,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "review",
@@ -8868,7 +9960,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "shower",
@@ -8898,7 +9994,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "lonely",
@@ -8928,7 +10028,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "selfish",
@@ -8958,7 +10062,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "confident",
@@ -8988,7 +10096,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "safe",
@@ -9018,7 +10130,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "thin",
@@ -9048,7 +10164,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "low",
@@ -9078,7 +10198,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "breakfast",
@@ -9108,7 +10232,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "dinner",
@@ -9138,7 +10266,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "lunch",
@@ -9168,7 +10300,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "business",
@@ -9198,7 +10334,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "cost",
@@ -9228,7 +10368,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "bill",
@@ -9258,7 +10402,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "break",
@@ -9288,7 +10436,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "fix",
@@ -9318,7 +10470,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "worry",
@@ -9348,7 +10504,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "fear",
@@ -9378,7 +10538,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "lie",
@@ -9408,7 +10572,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "lie",
@@ -9438,7 +10606,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "short",
@@ -9468,7 +10640,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "near",
@@ -9498,7 +10674,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "far",
@@ -9528,7 +10708,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "noisy",
@@ -9558,7 +10742,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "shy",
@@ -9588,7 +10776,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "rude",
@@ -9618,7 +10810,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "package",
@@ -9648,7 +10844,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "brand",
@@ -9678,7 +10878,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "battery",
@@ -9708,7 +10912,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "software",
@@ -9738,7 +10946,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "picture",
@@ -9768,7 +10980,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "clothes",
@@ -9798,7 +11014,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "disappoint",
@@ -9828,7 +11048,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "wake",
@@ -9858,7 +11082,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "approach",
@@ -9888,7 +11116,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "contact",
@@ -9918,7 +11150,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "argue",
@@ -9948,7 +11184,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "warn",
@@ -9978,7 +11218,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "hardworking",
@@ -10008,7 +11252,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "valuable",
@@ -10038,7 +11286,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "effective",
@@ -10068,7 +11320,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "terrible",
@@ -10098,7 +11354,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "poor",
@@ -10128,7 +11388,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "shirt",
@@ -10158,7 +11422,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "pants",
@@ -10188,7 +11456,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "shorts",
@@ -10218,7 +11490,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "socks",
@@ -10248,7 +11524,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "jacket",
@@ -10278,7 +11558,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "pocket",
@@ -10308,7 +11592,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "convenient",
@@ -10338,7 +11626,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "alone",
@@ -10368,7 +11660,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "mature",
@@ -10398,7 +11694,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "expensive",
@@ -10428,7 +11728,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "rare",
@@ -10458,7 +11762,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "fair",
@@ -10488,7 +11796,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "towel",
@@ -10518,7 +11830,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "pillow",
@@ -10548,7 +11864,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "plate",
@@ -10578,7 +11898,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "spoon",
@@ -10608,7 +11932,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "fork",
@@ -10638,7 +11966,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "fridge",
@@ -10668,7 +12000,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "earn",
@@ -10698,7 +12034,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "suggest",
@@ -10728,7 +12068,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "repair",
@@ -10758,7 +12102,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "envy",
@@ -10788,7 +12136,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "treat",
@@ -10818,7 +12170,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "belong",
@@ -10848,7 +12204,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "willing",
@@ -10878,7 +12238,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "successful",
@@ -10908,7 +12272,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "similar",
@@ -10938,7 +12306,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "modest",
@@ -10968,7 +12340,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "dangerous",
@@ -10998,7 +12374,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "humorous",
@@ -11028,7 +12408,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "weather",
@@ -11058,7 +12442,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "rain",
@@ -11088,7 +12476,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "mountain",
@@ -11118,7 +12510,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "device",
@@ -11148,7 +12544,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "condition",
@@ -11178,7 +12578,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "process",
@@ -11208,7 +12612,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "include",
@@ -11238,7 +12646,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "observe",
@@ -11268,7 +12680,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "observe",
@@ -11298,7 +12714,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "judge",
@@ -11328,7 +12748,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "predict",
@@ -11358,7 +12782,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "estimate",
@@ -11388,7 +12816,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "afraid",
@@ -11418,7 +12850,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "typical",
@@ -11448,7 +12884,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "clear",
@@ -11478,7 +12918,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "beneficial",
@@ -11508,7 +12952,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "harmful",
@@ -11538,7 +12986,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "reasonable",
@@ -11568,7 +13020,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "habit",
@@ -11598,7 +13054,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "machine",
@@ -11628,7 +13088,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "quality",
@@ -11658,7 +13122,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "attitude",
@@ -11688,7 +13156,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "method",
@@ -11718,7 +13190,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "success",
@@ -11748,7 +13224,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "deny",
@@ -11778,7 +13258,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "claim",
@@ -11808,7 +13292,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "emphasise",
@@ -11838,7 +13326,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "reduce",
@@ -11868,7 +13360,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "expand",
@@ -11898,7 +13394,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "prevent",
@@ -11928,7 +13428,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "tight",
@@ -11958,7 +13462,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "loose",
@@ -11988,7 +13496,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "generous",
@@ -12018,7 +13530,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "stubborn",
@@ -12048,7 +13564,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "gentle",
@@ -12078,7 +13598,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "cruel",
@@ -12108,7 +13632,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "risk",
@@ -12138,7 +13666,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "benefit",
@@ -12168,7 +13700,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "drawback",
@@ -12198,7 +13734,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "knowledge",
@@ -12228,7 +13768,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "ability",
@@ -12258,7 +13802,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "talent",
@@ -12288,7 +13836,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "handle",
@@ -12318,7 +13870,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "analyze",
@@ -12348,7 +13904,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "blame",
@@ -12378,7 +13938,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "persuade",
@@ -12408,7 +13972,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "praise",
@@ -12438,7 +14006,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "debate",
@@ -12468,7 +14040,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "immature",
@@ -12498,7 +14074,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "talented",
@@ -12528,7 +14108,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "capable",
@@ -12558,7 +14142,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "unwilling",
@@ -12588,7 +14176,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "logical",
@@ -12618,7 +14210,11 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     },
     {
         "english": "temporary",
@@ -12648,6 +14244,10 @@
         "is_proficient": false,
         "review_priority": 12,
         "review_correct_streak": 0,
-        "review_wrong_streak": 0
+        "review_wrong_streak": 0,
+        "cn_to_en_priority": 12,
+        "en_to_cn_priority": 12,
+        "cn_to_en_streak": 0,
+        "en_to_cn_streak": 0
     }
 ]
