@@ -18,7 +18,7 @@
         "en_to_cn_weight": 2,
         "cn_to_en_not_seen": 211,
         "en_to_cn_not_seen": 213,
-        "proficient": false,
+        "proficient": true,
         "initial_priority": 12,
         "priority": 12,
         "correct_streak": 0,
