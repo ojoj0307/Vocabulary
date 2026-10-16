@@ -980,7 +980,7 @@ def calculate_sampling_weight(word, q_type="中译英"):
 
 
 # ============================================================
-# 正式词库概率计算（熟练单词使用）
+# 正式词库概率计算（已掌握单词使用）
 # ============================================================
 
 def calculate_probability(word, q_type="中译英"):
@@ -1097,7 +1097,7 @@ def get_random_normal_word(q_type="中译英"):
 
 
 # ============================================================
-# 练习模式 - 熟练单词随机抽题（依原概率系统）
+# 练习模式 - 已掌握单词随机抽题（依原概率系统）
 # ============================================================
 
 def get_random_proficient_word(q_type="中译英"):
@@ -1304,13 +1304,13 @@ if page == "🎓 学习模式":
     st.header("🎓 学习模式")
 
     # ========================================================
-    # 添加新词 (表格模式)
+    # 添加新词 (表格模式) - 无是否熟悉栏
     # ========================================================
 
     st.subheader("➕ 添加新词")
 
     init_learning_df = pd.DataFrame(
-        [{"english": "", "chinese": "", "category": "noun", "cn_note": "", "en_note": "", "proficient": False}]
+        [{"english": "", "chinese": "", "category": "noun", "cn_note": "", "en_note": ""}]
     )
 
     edited_learning_df = st.data_editor(
@@ -1323,7 +1323,6 @@ if page == "🎓 学习模式":
             "category": st.column_config.SelectboxColumn("词性", options=CATEGORIES, default="noun", required=True),
             "cn_note": st.column_config.TextColumn("中文备注"),
             "en_note": st.column_config.TextColumn("英文备注"),
-            "proficient": st.column_config.CheckboxColumn("熟练", default=False),
         },
         key="learning_batch_editor"
     )
@@ -1337,7 +1336,6 @@ if page == "🎓 学习模式":
             cat = str(row.get("category") or "noun").strip()
             cn_n = "" if pd.isna(row.get("cn_note")) else str(row.get("cn_note")).strip()
             en_n = "" if pd.isna(row.get("en_note")) else str(row.get("en_note")).strip()
-            prof = bool(row.get("proficient", False))
 
             if cat not in CATEGORIES:
                 cat = "noun"
@@ -1348,8 +1346,7 @@ if page == "🎓 学习模式":
                     "chinese": cn,
                     "category": cat,
                     "cn_note": cn_n,
-                    "en_note": en_n,
-                    "proficient": prof
+                    "en_note": en_n
                 })
 
         if not rows_to_add:
@@ -1364,7 +1361,6 @@ if page == "🎓 学习模式":
                 category = item["category"]
                 cn_note = item["cn_note"]
                 en_note = item["en_note"]
-                prof = item["proficient"]
 
                 exists_new = any(
                     it.get("english", "").strip().lower() == english.lower() and
@@ -1383,7 +1379,7 @@ if page == "🎓 学习模式":
                     "category": category,
                     "cn_note": cn_note,
                     "en_note": en_note,
-                    "proficient": prof,
+                    "proficient": False,
                     "cn_to_en_weight": 3,
                     "en_to_cn_weight": 3,
                     "cn_to_en_round_done": False,
@@ -1405,7 +1401,7 @@ if page == "🎓 学习模式":
                         "category": category,
                         "cn_note": cn_note,
                         "en_note": en_note,
-                        "proficient": prof,
+                        "proficient": False,
                         "cn_to_en_priority": 12,
                         "en_to_cn_priority": 12,
                         "cn_to_en_streak": 0,
@@ -1922,10 +1918,9 @@ if page == "🎓 学习模式":
             with st.expander(
                 f"{word['english']} → "
                 f"{word['chinese']} "
-                f"({word.get('category', 'noun')})"
+                f"（{word.get('category', 'noun')}）"
             ):
                 
-                # 新词列表增加发音功能
                 pronunciation_button(word["english"], f"new_word_pron_{index}")
 
                 col1, col2 = st.columns(2)
@@ -1981,7 +1976,7 @@ if page == "🎓 学习模式":
                 )
 
                 edit_new_proficient = st.checkbox(
-                    "设为熟练",
+                    "已掌握",
                     value=word.get("proficient", False),
                     key=f"new_edit_prof_{index}"
                 )
@@ -2100,10 +2095,9 @@ elif page == "🎯 练习模式":
 
     else:
 
-        # 增加两个子页面：普通的和熟练的
         practice_sub_mode = st.radio(
             "复习分类",
-            ["普通的", "熟练的"],
+            ["普通的", "已掌握的"],
             horizontal=True,
             key="practice_sub_mode_radio"
         )
@@ -2138,14 +2132,13 @@ elif page == "🎯 练习模式":
             st.session_state.last_correct = None
 
 
-        # 抽题逻辑区分普通的和熟练的
         if practice_sub_mode == "普通的":
             if not any(not w.get("proficient", False) for w in words):
-                st.info("🎉 太棒了！所有单词都已进入熟练状态！您可以切换到「熟练的」子页面进行复习。")
+                st.info("🎉 太棒了！所有单词都已进入已掌握状态！您可以切换到「已掌握的」子页面进行复习。")
                 st.stop()
         else:
             if not any(w.get("proficient", False) for w in words):
-                st.info("💡 还没有熟练的单词，请在普通模式中练习答对 5 次或手动勾选熟练。")
+                st.info("💡 还没有已掌握的单词，请在普通模式中练习答对 5 次或手动勾选已掌握。")
                 st.stop()
 
 
@@ -2559,7 +2552,6 @@ elif page == "🎯 练习模式":
                     is_correct = True
 
                     if practice_sub_mode == "普通的":
-                        # 依照答对答错次数出现及优先级计算
                         streak_key = "cn_to_en_streak" if question_type == "中译英" else "en_to_cn_streak"
                         priority_key = "cn_to_en_priority" if question_type == "中译英" else "en_to_cn_priority"
 
@@ -2810,7 +2802,7 @@ elif page == "📚 词库管理":
             "category": st.column_config.SelectboxColumn("词性", options=CATEGORIES, default="noun", required=True),
             "cn_note": st.column_config.TextColumn("中文备注"),
             "en_note": st.column_config.TextColumn("英文备注"),
-            "proficient": st.column_config.CheckboxColumn("熟练", default=False),
+            "proficient": st.column_config.CheckboxColumn("已掌握", default=False),
         },
         key="vocab_batch_editor"
     )
@@ -2919,13 +2911,21 @@ elif page == "📚 词库管理":
 
                 continue
 
+        # 修改格式为 application → 申请 （noun）
         with st.expander(
-            f"{word['english']} → "
-            f"{word['chinese']} "
-            f"({word.get('category', 'noun')}) - {'[熟练]' if word.get('proficient', False) else '[普通]'}"
+            f"{word['english']} → {word['chinese']} （{word.get('category', 'noun')}）"
         ):
 
-            pronunciation_button(word["english"], f"vocab_pron_{index}")
+            # 顶部行：左侧发音，右侧放勾选栏（已掌握 / 还没掌握）
+            top_col1, top_col2 = st.columns([1, 4])
+            with top_col1:
+                pronunciation_button(word["english"], f"vocab_pron_{index}")
+            with top_col2:
+                new_proficient = st.checkbox(
+                    "已掌握（勾选表示已掌握，不勾选表示还没掌握）",
+                    value=word.get("proficient", False),
+                    key=f"edit_prof_{index}"
+                )
 
             col1, col2 = st.columns(2)
 
@@ -2975,12 +2975,6 @@ elif page == "📚 词库管理":
                     else 0
                 ),
                 key=f"edit_category_{index}"
-            )
-
-            new_proficient = st.checkbox(
-                "设为熟练",
-                value=word.get("proficient", False),
-                key=f"edit_prof_{index}"
             )
 
             st.caption(
@@ -3089,7 +3083,7 @@ elif page == "📖 查看词库":
             [
                 "全部",
                 "普通",
-                "熟练"
+                "已掌握"
             ],
             key="view_status_filter"
         )
@@ -3125,7 +3119,7 @@ elif page == "📖 查看词库":
 
             if status_filter == "普通" and word.get("proficient", False):
                 continue
-            if status_filter == "熟练" and not word.get("proficient", False):
+            if status_filter == "已掌握" and not word.get("proficient", False):
                 continue
 
             filtered_words.append(word)
@@ -3176,41 +3170,28 @@ elif page == "📖 查看词库":
         elif sort_field == "cn_priority":
 
             filtered_words.sort(
-                key=lambda x: int(x.get("cn_to_en_priority", 12)),
+                key=lambda x: int(x.get("cn_to_en_priority", 12)) if not x.get("proficient", False) else 999,
                 reverse=reverse
             )
 
         elif sort_field == "en_priority":
 
             filtered_words.sort(
-                key=lambda x: int(x.get("en_to_cn_priority", 12)),
+                key=lambda x: int(x.get("en_to_cn_priority", 12)) if not x.get("proficient", False) else 999,
                 reverse=reverse
             )
 
-        elif sort_field == "proficient":
+        elif sort_field == "cn_prob":
 
             filtered_words.sort(
-                key=lambda x: bool(x.get("proficient", False)),
+                key=lambda x: calculate_probability(x, "中译英") if x.get("proficient", False) else -1,
                 reverse=reverse
             )
 
-        elif sort_field == "correct":
+        elif sort_field == "en_prob":
 
             filtered_words.sort(
-                key=lambda x:
-                int(x.get("cn_to_en_correct", 0))
-                +
-                int(x.get("en_to_cn_correct", 0)),
-                reverse=reverse
-            )
-
-        elif sort_field == "wrong":
-
-            filtered_words.sort(
-                key=lambda x:
-                int(x.get("cn_to_en_wrong", 0))
-                +
-                int(x.get("en_to_cn_wrong", 0)),
+                key=lambda x: calculate_probability(x, "英译中") if x.get("proficient", False) else -1,
                 reverse=reverse
             )
 
@@ -3223,8 +3204,9 @@ elif page == "📖 查看词库":
         )
 
 
+        # 改为要求：英文、中文、词性、中译英优先级、英译中优先级、中译英概率、英译中概率 (共7列)
         cols = st.columns(
-            [1.2, 1.2, 1.0, 1.2, 1.2, 1.0, 1.0, 1.0]
+            [1.5, 1.5, 1.0, 1.3, 1.3, 1.3, 1.3]
         )
 
 
@@ -3280,7 +3262,7 @@ elif page == "📖 查看词库":
         with cols[3]:
 
             if st.button(
-                sort_label("cn_priority", "中优先级"),
+                sort_label("cn_priority", "中译英优先级"),
                 key="sort_cn_priority",
                 use_container_width=True
             ):
@@ -3292,7 +3274,7 @@ elif page == "📖 查看词库":
         with cols[4]:
 
             if st.button(
-                sort_label("en_priority", "英优先级"),
+                sort_label("en_priority", "英译中优先级"),
                 key="sort_en_priority",
                 use_container_width=True
             ):
@@ -3304,36 +3286,24 @@ elif page == "📖 查看词库":
         with cols[5]:
 
             if st.button(
-                sort_label("proficient", "熟练"),
-                key="sort_proficient",
+                sort_label("cn_prob", "中译英概率"),
+                key="sort_cn_prob",
                 use_container_width=True
             ):
 
-                set_sort("proficient")
+                set_sort("cn_prob")
                 st.rerun()
 
 
         with cols[6]:
 
             if st.button(
-                sort_label("correct", "正确"),
-                key="sort_correct",
+                sort_label("en_prob", "英译中概率"),
+                key="sort_en_prob",
                 use_container_width=True
             ):
 
-                set_sort("correct")
-                st.rerun()
-
-
-        with cols[7]:
-
-            if st.button(
-                sort_label("wrong", "错误"),
-                key="sort_wrong",
-                use_container_width=True
-            ):
-
-                set_sort("wrong")
+                set_sort("en_prob")
                 st.rerun()
 
 
@@ -3351,19 +3321,18 @@ elif page == "📖 查看词库":
             cn_note = html.escape(str(word.get("cn_note", "")))
             en_note = html.escape(str(word.get("en_note", "")))
 
-            cn_p = int(word.get("cn_to_en_priority", 12))
-            en_p = int(word.get("en_to_cn_priority", 12))
-            is_prof = "✅ 熟练" if word.get("proficient", False) else "普通"
+            is_prof = word.get("proficient", False)
 
-            total_correct = (
-                int(word.get("cn_to_en_correct", 0)) +
-                int(word.get("en_to_cn_correct", 0))
-            )
-
-            total_wrong = (
-                int(word.get("cn_to_en_wrong", 0)) +
-                int(word.get("en_to_cn_wrong", 0))
-            )
+            if is_prof:
+                cn_p = "-"
+                en_p = "-"
+                cn_prob = f"{calculate_probability(word, '中译英'):.2f}%"
+                en_prob = f"{calculate_probability(word, '英译中'):.2f}%"
+            else:
+                cn_p = str(int(word.get("cn_to_en_priority", 12)))
+                en_p = str(int(word.get("en_to_cn_priority", 12)))
+                cn_prob = "-"
+                en_prob = "-"
 
             cn_note_html = f"<br/><small class='note-text'>中备注: {cn_note}</small>" if cn_note else ""
             en_note_html = f"<br/><small class='note-text'>英备注: {en_note}</small>" if en_note else ""
@@ -3393,16 +3362,12 @@ elif page == "📖 查看词库":
                     {en_p}
                 </td>
 
-                <td>
-                    {is_prof}
+                <td class="probability">
+                    {cn_prob}
                 </td>
 
-                <td>
-                    {total_correct}
-                </td>
-
-                <td>
-                    {total_wrong}
+                <td class="probability">
+                    {en_prob}
                 </td>
 
             </tr>
@@ -3538,6 +3503,14 @@ elif page == "📖 查看词库":
 
         }}
 
+        .probability {{
+
+            font-size: 13px;
+
+            color: #444444;
+
+        }}
+
         .note-text {{
 
             font-size: 11px;
@@ -3606,6 +3579,12 @@ elif page == "📖 查看词库":
 
             }}
 
+            .probability {{
+
+                color: #d0d0d0;
+
+            }}
+
         }}
 
         @media (max-width: 700px) {{
@@ -3641,15 +3620,13 @@ elif page == "📖 查看词库":
 
                     <th>词性</th>
 
-                    <th>中优先级</th>
+                    <th>中译英优先级</th>
 
-                    <th>英优先级</th>
+                    <th>英译中优先级</th>
 
-                    <th>状态</th>
+                    <th>中译英概率</th>
 
-                    <th>正确</th>
-
-                    <th>错误</th>
+                    <th>英译中概率</th>
 
                 </tr>
 
