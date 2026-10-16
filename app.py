@@ -1,6 +1,4 @@
-把原来的 `app.py` 全部覆盖为以下代码即可：
 
-```python
 import base64
 import html
 import json
@@ -1146,4 +1144,3 @@ elif page == "📖 查看词库":
                         f"英译中概率："
                         f"{probability(word, [x for x in words if x.get('is_proficient')], '英译中'):.2f}%"
                     )
-```
