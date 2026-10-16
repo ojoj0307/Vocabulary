@@ -34,7 +34,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": true,
+        "en_to_cn_proficient": true
     },
     {
         "english": "career",
@@ -71,7 +73,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "experience",
@@ -108,7 +112,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "information",
@@ -145,7 +151,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "receipt",
@@ -182,7 +190,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "salary",
@@ -219,7 +229,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "salt",
@@ -256,7 +268,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "belly",
@@ -293,7 +307,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "adult",
@@ -330,7 +346,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "hundred",
@@ -367,7 +385,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "thousand",
@@ -404,7 +424,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "million",
@@ -441,7 +463,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "minute",
@@ -478,7 +502,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "second",
@@ -515,7 +541,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "choice",
@@ -552,7 +580,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "monday",
@@ -589,7 +619,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "tuesday",
@@ -626,7 +658,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "wednesday",
@@ -663,7 +697,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "thursday",
@@ -700,7 +736,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "friday",
@@ -737,7 +775,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "saturday",
@@ -774,7 +814,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "sunday",
@@ -811,7 +853,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "january",
@@ -848,7 +892,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "february",
@@ -885,7 +931,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "march",
@@ -922,7 +970,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "april",
@@ -959,7 +1009,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "may",
@@ -996,7 +1048,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "june",
@@ -1033,7 +1087,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "july",
@@ -1070,7 +1126,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "august",
@@ -1107,7 +1165,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "september",
@@ -1144,7 +1204,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "october",
@@ -1181,7 +1243,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "november",
@@ -1218,7 +1282,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "december",
@@ -1255,7 +1321,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "research",
@@ -1292,7 +1360,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "interview",
@@ -1329,7 +1399,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "deadline",
@@ -1366,7 +1438,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "opportunity",
@@ -1403,7 +1477,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "account",
@@ -1440,7 +1516,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "profile",
@@ -1477,7 +1555,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "website",
@@ -1514,7 +1594,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "discount",
@@ -1551,7 +1633,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "travel",
@@ -1588,7 +1672,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "train",
@@ -1625,7 +1711,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "change",
@@ -1662,7 +1750,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "choose",
@@ -1699,7 +1789,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "challenge",
@@ -1736,7 +1828,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "arrive",
@@ -1773,7 +1867,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "exit",
@@ -1810,7 +1906,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "carry",
@@ -1847,7 +1945,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "bring",
@@ -1884,7 +1984,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "receive",
@@ -1921,7 +2023,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "lend",
@@ -1958,7 +2062,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "borrow",
@@ -1995,7 +2101,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "decide",
@@ -2032,7 +2140,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "improve",
@@ -2069,7 +2179,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "practice",
@@ -2106,7 +2218,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "discuss",
@@ -2143,7 +2257,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "solve",
@@ -2180,7 +2296,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "prepare",
@@ -2217,7 +2335,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "complete",
@@ -2254,7 +2374,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "continue",
@@ -2291,7 +2413,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "manage",
@@ -2328,7 +2452,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "return",
@@ -2365,7 +2491,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "interview",
@@ -2402,7 +2530,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "search",
@@ -2439,7 +2569,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "download",
@@ -2476,7 +2608,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "upload",
@@ -2513,7 +2647,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "allow",
@@ -2550,7 +2686,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "accept",
@@ -2587,7 +2725,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "refuse",
@@ -2624,7 +2764,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "avoid",
@@ -2661,7 +2803,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "reach",
@@ -2698,7 +2842,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "difficult",
@@ -2735,7 +2881,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "dirty",
@@ -2772,7 +2920,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "necessary",
@@ -2809,7 +2959,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "ugly",
@@ -2846,7 +2998,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "excited",
@@ -2883,7 +3037,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "tired",
@@ -2920,7 +3076,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "bored",
@@ -2957,7 +3115,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "stressed",
@@ -2994,7 +3154,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "scared",
@@ -3031,7 +3193,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "nervous",
@@ -3068,7 +3232,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "surprised",
@@ -3105,7 +3271,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "confused",
@@ -3142,7 +3310,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "weak",
@@ -3179,7 +3349,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "serious",
@@ -3216,7 +3388,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "honest",
@@ -3253,7 +3427,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "lazy",
@@ -3290,7 +3466,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "polite",
@@ -3327,7 +3505,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "first",
@@ -3364,7 +3544,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "second",
@@ -3401,7 +3583,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "third",
@@ -3438,7 +3622,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "hungry",
@@ -3475,7 +3661,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "thirsty",
@@ -3512,7 +3700,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "sleepy",
@@ -3549,7 +3739,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "sick",
@@ -3586,7 +3778,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "healthy",
@@ -3623,7 +3817,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "dizzy",
@@ -3660,7 +3856,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "painful",
@@ -3697,7 +3895,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "comfortable",
@@ -3734,7 +3934,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "actually",
@@ -3771,7 +3973,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "almost",
@@ -3808,7 +4012,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "currently",
@@ -3845,7 +4051,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "definitely",
@@ -3882,7 +4090,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "especially",
@@ -3919,7 +4129,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "eventually",
@@ -3956,7 +4168,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "fairly",
@@ -3993,7 +4207,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "hardly",
@@ -4030,7 +4246,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "hopefully",
@@ -4067,7 +4285,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "normally",
@@ -4104,7 +4324,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "obviously",
@@ -4141,7 +4363,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "personally",
@@ -4178,7 +4402,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "pretty",
@@ -4215,7 +4441,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "quite",
@@ -4252,7 +4480,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "usually",
@@ -4289,7 +4519,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "always",
@@ -4326,7 +4558,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "often",
@@ -4363,7 +4597,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "never",
@@ -4400,7 +4636,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "already",
@@ -4437,7 +4675,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "yet",
@@ -4474,7 +4714,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "still",
@@ -4511,7 +4753,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "just",
@@ -4548,7 +4792,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "probably",
@@ -4585,7 +4831,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "screenshot",
@@ -4622,7 +4870,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "notification",
@@ -4659,7 +4909,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "invite",
@@ -4696,7 +4948,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "compare",
@@ -4733,7 +4987,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "describe",
@@ -4770,7 +5026,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "explain",
@@ -4807,7 +5065,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "uncomfortable",
@@ -4844,7 +5104,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "active",
@@ -4881,7 +5143,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "careful",
@@ -4918,7 +5182,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "careless",
@@ -4955,7 +5221,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "really",
@@ -4992,7 +5260,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "finally",
@@ -5029,7 +5299,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "suddenly",
@@ -5066,7 +5338,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "circle",
@@ -5103,7 +5377,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "square",
@@ -5140,7 +5416,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "triangle",
@@ -5177,7 +5455,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "rectangle",
@@ -5214,7 +5494,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "translate",
@@ -5251,7 +5533,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "repeat",
@@ -5288,7 +5572,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "mention",
@@ -5325,7 +5611,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "imagine",
@@ -5362,7 +5650,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "smart",
@@ -5399,7 +5689,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "patient",
@@ -5436,7 +5728,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "brave",
@@ -5473,7 +5767,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "calm",
@@ -5510,7 +5806,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "immediately",
@@ -5547,7 +5845,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "oval",
@@ -5584,7 +5884,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "diamond",
@@ -5621,7 +5923,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "flower",
@@ -5658,7 +5962,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "plant",
@@ -5695,7 +6001,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "leaf",
@@ -5732,7 +6040,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "expect",
@@ -5769,7 +6079,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "apply",
@@ -5806,7 +6118,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "attend",
@@ -5843,7 +6157,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "create",
@@ -5880,7 +6196,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "develop",
@@ -5917,7 +6235,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "busy",
@@ -5954,7 +6274,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "ready",
@@ -5991,7 +6313,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "certain",
@@ -6028,7 +6352,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "possible",
@@ -6065,7 +6391,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "impossible",
@@ -6102,7 +6430,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "produce",
@@ -6139,7 +6469,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "provide",
@@ -6176,7 +6508,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "support",
@@ -6213,7 +6547,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "succeed",
@@ -6250,7 +6586,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "communicate",
@@ -6287,7 +6625,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "introduce",
@@ -6324,7 +6664,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "encourage",
@@ -6361,7 +6703,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "respect",
@@ -6398,7 +6742,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "useful",
@@ -6435,7 +6781,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "useless",
@@ -6472,7 +6820,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "important",
@@ -6509,7 +6859,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "modern",
@@ -6546,7 +6898,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "traditional",
@@ -6583,7 +6937,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "seed",
@@ -6620,7 +6976,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "decision",
@@ -6657,7 +7015,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "way",
@@ -6694,7 +7054,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "customer",
@@ -6731,7 +7093,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "factory",
@@ -6768,7 +7132,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "technology",
@@ -6805,7 +7171,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "customs",
@@ -6842,7 +7210,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "trust",
@@ -6879,7 +7249,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "forgive",
@@ -6916,7 +7288,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "celebrate",
@@ -6953,7 +7327,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "recommend",
@@ -6990,7 +7366,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "remind",
@@ -7027,7 +7405,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "popular",
@@ -7064,7 +7444,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "common",
@@ -7101,7 +7483,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "local",
@@ -7138,7 +7522,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "international",
@@ -7175,7 +7561,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "public",
@@ -7212,7 +7600,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "service",
@@ -7249,7 +7639,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "address",
@@ -7286,7 +7678,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "reason",
@@ -7323,7 +7717,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "situation",
@@ -7360,7 +7756,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "message",
@@ -7397,7 +7795,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "colleague",
@@ -7434,7 +7834,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "forget",
@@ -7471,7 +7873,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "remember",
@@ -7508,7 +7912,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "grow",
@@ -7545,7 +7951,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "plant",
@@ -7582,7 +7990,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "serve",
@@ -7619,7 +8029,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "opinion",
@@ -7656,7 +8068,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "private",
@@ -7693,7 +8107,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "simple",
@@ -7730,7 +8146,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "complex",
@@ -7767,7 +8185,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "partner",
@@ -7804,7 +8224,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "guest",
@@ -7841,7 +8263,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "lesson",
@@ -7878,7 +8302,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "employee",
@@ -7915,7 +8341,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "employer",
@@ -7952,7 +8380,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "goal",
@@ -7989,7 +8419,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "apply",
@@ -8026,7 +8458,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "position",
@@ -8060,7 +8494,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "purpose",
@@ -8094,7 +8530,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "kitchen",
@@ -8128,7 +8566,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "ceiling",
@@ -8162,7 +8602,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "medicine",
@@ -8196,7 +8638,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "chair",
@@ -8230,7 +8674,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "offer",
@@ -8264,7 +8710,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "spend",
@@ -8298,7 +8746,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "deliver",
@@ -8332,7 +8782,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "collect",
@@ -8366,7 +8818,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "complain",
@@ -8400,7 +8854,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "advise",
@@ -8434,7 +8890,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "round",
@@ -8468,7 +8926,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "flat",
@@ -8502,7 +8962,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "straight",
@@ -8536,7 +8998,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "curved",
@@ -8570,7 +9034,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "shallow",
@@ -8604,7 +9070,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "soft",
@@ -8638,7 +9106,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "remain",
@@ -8672,7 +9142,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "fail",
@@ -8706,7 +9178,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "believe",
@@ -8740,7 +9214,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "realise",
@@ -8774,7 +9250,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "recognise",
@@ -8808,7 +9286,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "wonder",
@@ -8842,7 +9322,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "keep",
@@ -8876,7 +9358,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "handsome",
@@ -8910,7 +9394,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "wide",
@@ -8944,7 +9430,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "narrow",
@@ -8978,7 +9466,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "thick",
@@ -9012,7 +9502,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "heavy",
@@ -9046,7 +9538,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "light",
@@ -9080,7 +9574,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "creative",
@@ -9114,7 +9610,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "record",
@@ -9148,7 +9646,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "arrange",
@@ -9182,7 +9682,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "organise",
@@ -9216,7 +9718,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "achieve",
@@ -9250,7 +9754,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "catch",
@@ -9284,7 +9790,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "board",
@@ -9318,7 +9826,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "wet",
@@ -9352,7 +9862,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "broken",
@@ -9386,7 +9898,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "disappointed",
@@ -9420,7 +9934,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "satisfied",
@@ -9454,7 +9970,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "embarrassed",
@@ -9488,7 +10006,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "proud",
@@ -9522,7 +10042,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "tooth",
@@ -9556,7 +10078,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "option",
@@ -9590,7 +10114,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "apartment",
@@ -9624,7 +10150,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "bathroom",
@@ -9658,7 +10186,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "pharmacy",
@@ -9692,7 +10222,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "town",
@@ -9726,7 +10258,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "capital",
@@ -9760,7 +10294,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "journey",
@@ -9794,7 +10330,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "surprise",
@@ -9828,7 +10366,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "satisfy",
@@ -9862,7 +10402,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "apologise",
@@ -9896,7 +10438,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "admit",
@@ -9930,7 +10474,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "review",
@@ -9964,7 +10510,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "shower",
@@ -9998,7 +10546,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "lonely",
@@ -10032,7 +10582,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "selfish",
@@ -10066,7 +10618,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "confident",
@@ -10100,7 +10654,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "safe",
@@ -10134,7 +10690,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "thin",
@@ -10168,7 +10726,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "low",
@@ -10202,7 +10762,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "breakfast",
@@ -10236,7 +10798,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "dinner",
@@ -10270,7 +10834,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "lunch",
@@ -10304,7 +10870,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "business",
@@ -10338,7 +10906,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "cost",
@@ -10372,7 +10942,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "bill",
@@ -10406,7 +10978,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "break",
@@ -10440,7 +11014,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "fix",
@@ -10474,7 +11050,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "worry",
@@ -10508,7 +11086,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "fear",
@@ -10542,7 +11122,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "lie",
@@ -10576,7 +11158,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "lie",
@@ -10610,7 +11194,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "short",
@@ -10644,7 +11230,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "near",
@@ -10678,7 +11266,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "far",
@@ -10712,7 +11302,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "noisy",
@@ -10746,7 +11338,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "shy",
@@ -10780,7 +11374,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "rude",
@@ -10814,7 +11410,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "package",
@@ -10848,7 +11446,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "brand",
@@ -10882,7 +11482,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "battery",
@@ -10916,7 +11518,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "software",
@@ -10950,7 +11554,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "picture",
@@ -10984,7 +11590,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "clothes",
@@ -11018,7 +11626,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "disappoint",
@@ -11052,7 +11662,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "wake",
@@ -11086,7 +11698,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "approach",
@@ -11120,7 +11734,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "contact",
@@ -11154,7 +11770,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "argue",
@@ -11188,7 +11806,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "warn",
@@ -11222,7 +11842,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "hardworking",
@@ -11256,7 +11878,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "valuable",
@@ -11290,7 +11914,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "effective",
@@ -11324,7 +11950,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "terrible",
@@ -11358,7 +11986,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "poor",
@@ -11392,7 +12022,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "shirt",
@@ -11426,7 +12058,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "pants",
@@ -11460,7 +12094,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "shorts",
@@ -11494,7 +12130,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "socks",
@@ -11528,7 +12166,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "jacket",
@@ -11562,7 +12202,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "pocket",
@@ -11596,7 +12238,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "convenient",
@@ -11630,7 +12274,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "alone",
@@ -11664,7 +12310,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "mature",
@@ -11698,7 +12346,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "expensive",
@@ -11732,7 +12382,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "rare",
@@ -11766,7 +12418,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "fair",
@@ -11800,7 +12454,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "towel",
@@ -11834,7 +12490,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "pillow",
@@ -11868,7 +12526,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "plate",
@@ -11902,7 +12562,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "spoon",
@@ -11936,7 +12598,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "fork",
@@ -11970,7 +12634,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "fridge",
@@ -12004,7 +12670,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "earn",
@@ -12038,7 +12706,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "suggest",
@@ -12072,7 +12742,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "repair",
@@ -12106,7 +12778,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "envy",
@@ -12140,7 +12814,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "treat",
@@ -12174,7 +12850,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "belong",
@@ -12208,7 +12886,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "willing",
@@ -12242,7 +12922,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "successful",
@@ -12276,7 +12958,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "similar",
@@ -12310,7 +12994,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "modest",
@@ -12344,7 +13030,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "dangerous",
@@ -12378,7 +13066,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "humorous",
@@ -12412,7 +13102,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "weather",
@@ -12446,7 +13138,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "rain",
@@ -12480,7 +13174,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "mountain",
@@ -12514,7 +13210,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "device",
@@ -12548,7 +13246,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "condition",
@@ -12582,7 +13282,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "process",
@@ -12616,7 +13318,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "include",
@@ -12650,7 +13354,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "observe",
@@ -12684,7 +13390,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "observe",
@@ -12718,7 +13426,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "judge",
@@ -12752,7 +13462,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "predict",
@@ -12786,7 +13498,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "estimate",
@@ -12820,7 +13534,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "afraid",
@@ -12854,7 +13570,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "typical",
@@ -12888,7 +13606,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "clear",
@@ -12922,7 +13642,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "beneficial",
@@ -12956,7 +13678,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "harmful",
@@ -12990,7 +13714,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "reasonable",
@@ -13024,7 +13750,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "habit",
@@ -13058,7 +13786,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "machine",
@@ -13092,7 +13822,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "quality",
@@ -13126,7 +13858,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "attitude",
@@ -13160,7 +13894,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "method",
@@ -13194,7 +13930,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "success",
@@ -13228,7 +13966,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "deny",
@@ -13262,7 +14002,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "claim",
@@ -13296,7 +14038,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "emphasise",
@@ -13330,7 +14074,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "reduce",
@@ -13364,7 +14110,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "expand",
@@ -13398,7 +14146,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "prevent",
@@ -13432,7 +14182,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "tight",
@@ -13466,7 +14218,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "loose",
@@ -13500,7 +14254,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "generous",
@@ -13534,7 +14290,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "stubborn",
@@ -13568,7 +14326,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "gentle",
@@ -13602,7 +14362,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "cruel",
@@ -13636,7 +14398,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "risk",
@@ -13670,7 +14434,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "benefit",
@@ -13704,7 +14470,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "drawback",
@@ -13738,7 +14506,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "knowledge",
@@ -13772,7 +14542,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "ability",
@@ -13806,7 +14578,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "talent",
@@ -13840,7 +14614,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "handle",
@@ -13874,7 +14650,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "analyze",
@@ -13908,7 +14686,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "blame",
@@ -13942,7 +14722,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "persuade",
@@ -13976,7 +14758,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "praise",
@@ -14010,7 +14794,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "debate",
@@ -14044,7 +14830,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "immature",
@@ -14078,7 +14866,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "talented",
@@ -14112,7 +14902,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "capable",
@@ -14146,7 +14938,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "unwilling",
@@ -14180,7 +14974,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "logical",
@@ -14214,7 +15010,9 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     },
     {
         "english": "temporary",
@@ -14248,6 +15046,8 @@
         "cn_to_en_priority": 12,
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
-        "en_to_cn_streak": 0
+        "en_to_cn_streak": 0,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false
     }
 ]
