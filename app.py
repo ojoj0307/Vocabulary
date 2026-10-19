@@ -26,8 +26,9 @@ st.set_page_config(
 # GitHub 设置
 # ============================================================
 
+
 GITHUB_OWNER = "ojoj0307"
-GITHUB_REPO = "english-vocabulary"
+GITHUB_REPO = "Vocabulary"
 
 VOCABULARY_PATH = "vocabulary.json"
 NEW_WORDS_PATH = "new_words.json"
