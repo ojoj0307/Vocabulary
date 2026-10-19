@@ -3076,16 +3076,33 @@ elif page == "📚 词库管理":
                         word["category"] = new_category
                         word["cn_note"] = new_cn_note.strip()
                         word["en_note"] = new_en_note.strip()
-                        word["cn_to_en_proficient"] = new_cn_prof
-                        word["en_to_cn_proficient"] = new_en_prof
 
+                        # 读取两个掌握复选框的当前状态
+                        word["cn_to_en_proficient"] = st.session_state[
+                            f"edit_cn_prof_{index}"
+                        ]
+
+                        word["en_to_cn_proficient"] = st.session_state[
+                            f"edit_en_prof_{index}"
+                        ]
+
+                        # 保存到 GitHub
                         if save_words():
-
                             st.success(
-                                "修改成功，并已同步到 GitHub。"
+                                f"修改成功！中译英已掌握："
+                                f"{word['cn_to_en_proficient']}；"
+                                f"英译中已掌握："
+                                f"{word['en_to_cn_proficient']}。"
+                                "已同步到 GitHub。"
+                            )
+                            st.rerun()
+
+                        else:
+                            st.error(
+                                "保存失败！请检查 GitHub Token、"
+                                "仓库设置及保存错误信息。"
                             )
 
-                            st.rerun()
 
             with col2:
 
