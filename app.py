@@ -636,10 +636,140 @@ def normalize_new_word(word):
 
 
 # ============================================================
+# 将昨天的新词迁移到正式词库
+# ============================================================
+
+new_word_migration_blocked = False
+
+
+def promote_previous_new_words(pending_words):
+
+    global vocabulary_sha
+
+    # 获取 GitHub 上最新的正式词库
+    latest_content, latest_sha = github_get_file(
+        VOCABULARY_PATH
+    )
+
+    if latest_content is None or latest_sha is None:
+        return False
+
+    try:
+        latest_words = json.loads(latest_content)
+
+    except Exception:
+        st.error("正式词库 JSON 格式错误，无法迁移新词。")
+        return False
+
+    if not isinstance(latest_words, list):
+        st.error("正式词库必须是数组，无法迁移新词。")
+        return False
+
+    changed = False
+
+    for new_word in pending_words:
+
+        english = str(
+            new_word.get("english", "")
+        ).strip()
+
+        chinese = str(
+            new_word.get("chinese", "")
+        ).strip()
+
+        category = new_word.get("category", "noun")
+
+        if not english or not chinese:
+            continue
+
+        # 检查正式词库中是否已有相同单词
+        exists = any(
+            str(item.get("english", "")).strip().lower()
+            == english.lower()
+            and str(item.get("chinese", "")).strip()
+            == chinese
+            and item.get("category", "noun") == category
+            for item in latest_words
+        )
+
+        if exists:
+            continue
+
+        # 正式词库只继承单词内容，不继承学习模式记录
+        word = {
+            "english": english,
+            "chinese": chinese,
+            "category": category,
+            "cn_note": new_word.get("cn_note", ""),
+            "en_note": new_word.get("en_note", ""),
+
+            # 两个方向都从未掌握开始
+            "cn_to_en_proficient": False,
+            "en_to_cn_proficient": False,
+
+            # 普通模式的初始优先级
+            "cn_to_en_priority": 12,
+            "en_to_cn_priority": 12,
+
+            # 连续答对次数
+            "cn_to_en_streak": 0,
+            "en_to_cn_streak": 0,
+
+            # 普通模式的初始权重
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+
+            # 普通模式答题统计
+            "cn_to_en_correct": 0,
+            "cn_to_en_wrong": 0,
+            "en_to_cn_correct": 0,
+            "en_to_cn_wrong": 0,
+
+            # 普通模式未出现次数
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0,
+
+            # 兼容现有统计字段
+            "correct": 0,
+            "wrong": 0
+        }
+
+        latest_words.append(word)
+        changed = True
+
+    # 补齐正式词库需要的数据字段
+    normalize_vocabulary(latest_words)
+
+    # 只有新增了单词，才保存正式词库
+    if changed:
+
+        success = github_save_file(
+            VOCABULARY_PATH,
+            latest_words,
+            latest_sha,
+            "Promote yesterday's new words"
+        )
+
+        if not success:
+            return False
+
+        _, vocabulary_sha = github_get_file(
+            VOCABULARY_PATH
+        )
+
+    # 更新当前程序内存中的正式词库
+    words[:] = latest_words
+
+    return True
+
+
+# ============================================================
 # 加载新词
 # ============================================================
 
 def load_new_words():
+
+    global new_word_migration_blocked
 
     content, sha = github_get_file(
         NEW_WORDS_PATH
@@ -706,14 +836,37 @@ def load_new_words():
         data["words"] = []
         changed = True
 
-    today = get_today()
 
-    if data["date"] != today:
+today = get_today()
 
+if data["date"] != today:
+
+    # 先备份昨天的新词
+    previous_words = list(data["words"])
+
+    # 先尝试加入正式词库
+    migration_success = promote_previous_new_words(
+        previous_words
+    )
+
+    if migration_success:
+
+        # 正式词库保存成功后，才开始新的一天
         data["date"] = today
         data["words"] = []
 
         changed = True
+
+    else:
+
+        # 迁移失败，保留昨天的数据等待重试
+        new_word_migration_blocked = True
+
+        st.error(
+            "昨天的新词尚未成功加入正式词库。"
+            "原有新词数据已保留，请检查 GitHub 保存权限后重试。"
+        )
+
 
     for word in data["words"]:
 
@@ -871,12 +1024,17 @@ def save_words():
 # 保存新词
 # ============================================================
 
+
 def save_new_words():
 
     global new_words_sha
 
-    new_words_data["date"] = get_today()
+    # 如果昨天的新词迁移失败，不要提前更新日期
+    if not new_word_migration_blocked:
+        new_words_data["date"] = get_today()
+
     new_words_data["words"] = new_words
+
 
     latest_content, latest_sha = github_get_file(
         NEW_WORDS_PATH
@@ -1409,47 +1567,23 @@ if page == "🎓 学习模式":
                 }
                 new_words.append(new_word)
 
-                exists_vocabulary = any(
-                    it.get("english", "").strip().lower() == english.lower() and
-                    it.get("chinese", "").strip() == chinese and
-                    it.get("category", "noun") == category
-                    for it in words
-                )
-
-                if not exists_vocabulary:
-                    words.append({
-                        "english": english,
-                        "chinese": chinese,
-                        "category": category,
-                        "cn_note": cn_note,
-                        "en_note": en_note,
-                        "cn_to_en_proficient": False,
-                        "en_to_cn_proficient": False,
-                        "cn_to_en_priority": 12,
-                        "en_to_cn_priority": 12,
-                        "cn_to_en_streak": 0,
-                        "en_to_cn_streak": 0,
-                        "cn_to_en_weight": 3,
-                        "en_to_cn_weight": 3,
-                        "cn_to_en_correct": 0,
-                        "cn_to_en_wrong": 0,
-                        "en_to_cn_correct": 0,
-                        "en_to_cn_wrong": 0,
-                        "correct": 0,
-                        "wrong": 0
-                    })
-
                 added += 1
 
-            if added > 0:
-                new_success = save_new_words()
-                vocab_success = save_words()
+           
+                if added > 0:
 
-                if new_success and vocab_success:
-                    st.success(f"成功添加 {added} 个新词，并已同步到正式词库。")
-                    st.rerun()
-                else:
-                    st.error("保存失败，请检查 GitHub Token。")
+                    new_success = save_new_words()
+
+                    if new_success:
+                        st.success(
+                            f"成功添加 {added} 个新词。"
+                            "今天可以练习，明天自动加入正式词库。"
+                        )
+                        st.rerun()
+
+                    else:
+                        st.error("新词保存失败，请检查 GitHub Token。")
+
 
             if duplicate:
                 st.info(f"{duplicate} 个今天已经存在的新词没有重复添加。")
