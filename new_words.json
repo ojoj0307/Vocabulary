@@ -192,7 +192,9 @@
             "cn_to_en_weight": 3,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "meaningful",
@@ -205,7 +207,9 @@
             "cn_to_en_weight": 3,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "permanent",
@@ -218,7 +222,9 @@
             "cn_to_en_weight": 3,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "meaningless",
@@ -231,7 +237,9 @@
             "cn_to_en_weight": 3,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "legal",
@@ -244,7 +252,9 @@
             "cn_to_en_weight": 3,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "stable",
@@ -257,7 +267,9 @@
             "cn_to_en_weight": 3,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         }
     ],
     "rounds": {
