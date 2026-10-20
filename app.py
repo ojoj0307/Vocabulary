@@ -837,41 +837,32 @@ def load_new_words():
         changed = True
 
 
-today = get_today()
+    today = get_today()
 
-if data["date"] != today:
+    if data["date"] != today:
 
-    # 先备份昨天的新词
-    previous_words = list(data["words"])
+        previous_words = list(data["words"])
 
-    # 先尝试加入正式词库
-    migration_success = promote_previous_new_words(
-        previous_words
-    )
-
-    if migration_success:
-
-        # 正式词库保存成功后，才开始新的一天
-        data["date"] = today
-        data["words"] = []
-
-        changed = True
-
-    else:
-
-        # 迁移失败，保留昨天的数据等待重试
-        new_word_migration_blocked = True
-
-        st.error(
-            "昨天的新词尚未成功加入正式词库。"
-            "原有新词数据已保留，请检查 GitHub 保存权限后重试。"
+        migration_success = promote_previous_new_words(
+            previous_words
         )
 
+        if migration_success:
+            data["date"] = today
+            data["words"] = []
+            changed = True
+
+        else:
+            new_word_migration_blocked = True
+
+            st.error(
+                "昨天的新词尚未成功加入正式词库。"
+                "原有新词数据已保留，请检查 GitHub 保存权限后重试。"
+            )
 
     for word in data["words"]:
 
         if normalize_new_word(word):
-
             changed = True
 
     if changed:
@@ -894,7 +885,6 @@ if data["date"] != today:
                 )
 
     return data, sha
-
 
 # ============================================================
 # 每日统计
