@@ -1291,89 +1291,6 @@ def set_sort(field):
 
 
 # ============================================================
-# 学习模式编辑栏：切换前先保存
-# ============================================================
-
-def save_new_word_editor(index):
-    if index is None or not (0 <= index < len(new_words)):
-        return True
-
-    word = new_words[index]
-
-    keys = [
-        f"new_edit_en_{index}",
-        f"new_edit_cn_{index}",
-        f"new_edit_cn_note_{index}",
-        f"new_edit_en_note_{index}",
-        f"new_edit_category_{index}",
-        f"new_edit_cn_prof_{index}",
-        f"new_edit_en_prof_{index}",
-    ]
-
-    # 尚未打开过编辑栏时，无需保存
-    if not all(key in st.session_state for key in keys):
-        return True
-
-    english = st.session_state[f"new_edit_en_{index}"].strip()
-    chinese = st.session_state[f"new_edit_cn_{index}"].strip()
-
-    if not english or not chinese:
-        st.session_state["new_editor_save_warning"] = (
-            "英文和中文不能为空，无法切换单词。"
-        )
-        return False
-
-    old_english = word["english"]
-    old_chinese = word["chinese"]
-    old_category = word.get("category", "noun")
-
-    new_category = st.session_state[f"new_edit_category_{index}"]
-    cn_note = st.session_state[f"new_edit_cn_note_{index}"].strip()
-    en_note = st.session_state[f"new_edit_en_note_{index}"].strip()
-    cn_prof = st.session_state[f"new_edit_cn_prof_{index}"]
-    en_prof = st.session_state[f"new_edit_en_prof_{index}"]
-
-    # 更新今日新词
-    word["english"] = english
-    word["chinese"] = chinese
-    word["category"] = new_category
-    word["cn_note"] = cn_note
-    word["en_note"] = en_note
-    word["cn_to_en_proficient"] = cn_prof
-    word["en_to_cn_proficient"] = en_prof
-
-    # 同步对应的正式词库词条，不修改复习统计
-    for vocab_word in words:
-        if (
-            vocab_word.get("english", "").strip().lower()
-            == old_english.strip().lower()
-            and vocab_word.get("chinese", "").strip() == old_chinese
-            and vocab_word.get("category", "noun") == old_category
-        ):
-            vocab_word["english"] = english
-            vocab_word["chinese"] = chinese
-            vocab_word["category"] = new_category
-            vocab_word["cn_note"] = cn_note
-            vocab_word["en_note"] = en_note
-            vocab_word["cn_to_en_proficient"] = cn_prof
-            vocab_word["en_to_cn_proficient"] = en_prof
-            break
-
-    return save_new_words() and save_words()
-
-
-def switch_new_word_editor(index):
-    old_index = st.session_state.get("active_new_word_editor")
-
-    # 上一个单词保存失败时，不切换
-    if old_index is not None and old_index != index:
-        if not save_new_word_editor(old_index):
-            return
-
-    st.session_state.active_new_word_editor = index
-
-
-# ============================================================
 # 标题
 # ============================================================
 
@@ -1990,10 +1907,7 @@ if page == "🎓 学习模式":
     st.divider()
 
     st.subheader("✏️ 编辑列表")
-    if st.session_state.get("new_editor_save_warning"):
-        st.warning(
-            st.session_state.pop("new_editor_save_warning")
-        )
+
     if not new_words:
 
         st.caption(
@@ -2024,27 +1938,13 @@ if page == "🎓 学习模式":
 
                     continue
 
-
-            is_new_editor_open = (
-                st.session_state.get("active_new_word_editor") == index
-            )
-
-            st.button(
-                f"{'▼' if is_new_editor_open else '▶'} "
-                f"{word['english']} → {word['chinese']} "
-                f"（{word.get('category', 'noun')}）",
-                key=f"new_editor_toggle_{index}",
-                use_container_width=True,
-                on_click=switch_new_word_editor,
-                args=(index,),
-            )
-
-            if is_new_editor_open:
-
+            with st.expander(
+                f"{word['english']} → {word['chinese']} （{word.get('category', 'noun')}）"
+            ):
+                
                 pronunciation_button(word["english"], f"new_word_pron_{index}")
 
                 col1, col2 = st.columns(2)
-
 
                 with col1:
 
