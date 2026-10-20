@@ -933,47 +933,65 @@ def load_daily_stats():
 
     changed = False
 
+
     today = get_today()
 
-    if data.get("date") != today:
+    if data["date"] != today:
 
-        data = default_daily_stats()
-        changed = True
+        # 先备份昨天的新词
+        previous_words = list(data["words"])
 
-    required_fields = [
-        "cn_to_en_answered",
-        "cn_to_en_correct",
-        "en_to_cn_answered",
-        "en_to_cn_correct"
-    ]
-
-    for field in required_fields:
-
-        if field not in data:
-
-            data[field] = 0
-            changed = True
-
-    if changed:
-
-        _, new_sha = github_get_file(
-            DAILY_STATS_PATH
+        # 先尝试加入正式词库
+        migration_success = promote_previous_new_words(
+            previous_words
         )
 
-        if new_sha:
+        if migration_success:
+
+            # 正式词库保存成功后，才开始新的一天
+            data["date"] = today
+            data["words"] = []
+
+            changed = True
+
+        else:
+
+            # 迁移失败，保留昨天的数据等待重试
+            new_word_migration_blocked = True
+
+            st.error(
+                "昨天的新词尚未成功加入正式词库。"
+                "原有新词数据已保留，请检查 GitHub 保存权限后重试。"
+            )
+
+    # 标准化新词数据
+    for word in data["words"]:
+
+        if normalize_new_word(word):
+            changed = True
+
+    # 如果数据有变化，就保存
+    if changed:
+
+        latest_content, latest_sha = github_get_file(
+            NEW_WORDS_PATH
+        )
+
+        if latest_sha:
 
             if github_save_file(
-                DAILY_STATS_PATH,
+                NEW_WORDS_PATH,
                 data,
-                new_sha,
-                "Update daily statistics"
+                latest_sha,
+                "Update daily new words"
             ):
 
                 _, sha = github_get_file(
-                    DAILY_STATS_PATH
+                    NEW_WORDS_PATH
                 )
 
     return data, sha
+
 
 
 # ============================================================
