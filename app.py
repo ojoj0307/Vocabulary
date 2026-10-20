@@ -890,6 +890,7 @@ def load_new_words():
 # 每日统计
 # ============================================================
 
+
 def load_daily_stats():
 
     content, sha = github_get_file(
@@ -900,13 +901,14 @@ def load_daily_stats():
 
         data = default_daily_stats()
 
-        if github_save_file(
+        success = github_save_file(
             DAILY_STATS_PATH,
             data,
             None,
             "Create daily statistics"
-        ):
+        )
 
+        if success:
             _, sha = github_get_file(
                 DAILY_STATS_PATH
             )
@@ -914,73 +916,55 @@ def load_daily_stats():
         return data, sha
 
     try:
-
         data = json.loads(content)
 
     except Exception:
+        data = default_daily_stats()
 
+    # 确保每日统计数据是字典
+    if not isinstance(data, dict):
         data = default_daily_stats()
 
     changed = False
-
-
     today = get_today()
 
-    if data["date"] != today:
+    # 日期改变时，重置当天的统计
+    if data.get("date") != today:
+        data = default_daily_stats()
+        changed = True
 
-        # 先备份昨天的新词
-        previous_words = list(data["words"])
+    else:
+        # 补齐缺失的统计字段
+        defaults = default_daily_stats()
 
-        # 先尝试加入正式词库
-        migration_success = promote_previous_new_words(
-            previous_words
-        )
+        for key, value in defaults.items():
+            if key not in data:
+                data[key] = value
+                changed = True
 
-        if migration_success:
-
-            # 正式词库保存成功后，才开始新的一天
-            data["date"] = today
-            data["words"] = []
-
-            changed = True
-
-        else:
-
-            # 迁移失败，保留昨天的数据等待重试
-            new_word_migration_blocked = True
-
-            st.error(
-                "昨天的新词尚未成功加入正式词库。"
-                "原有新词数据已保留，请检查 GitHub 保存权限后重试。"
-            )
-
-    # 标准化新词数据
-    for word in data["words"]:
-
-        if normalize_new_word(word):
-            changed = True
-
-    # 如果数据有变化，就保存
+    # 保存发生变化的每日统计数据
     if changed:
 
         latest_content, latest_sha = github_get_file(
-            NEW_WORDS_PATH
+            DAILY_STATS_PATH
         )
 
         if latest_sha:
 
-            if github_save_file(
-                NEW_WORDS_PATH,
+            success = github_save_file(
+                DAILY_STATS_PATH,
                 data,
                 latest_sha,
-                "Update daily new words"
-            ):
+                "Update daily statistics"
+            )
 
+            if success:
                 _, sha = github_get_file(
-                    NEW_WORDS_PATH
+                    DAILY_STATS_PATH
                 )
 
     return data, sha
+
 
 
 
