@@ -1628,8 +1628,6 @@ with st.sidebar:
             else:
                 st.error("暂停状态保存失败，请检查 GitHub Token。")
 
-    st.caption("暂停时停止新词练习、间隔复习和新词自动迁移；恢复时复习日期会顺延。")
-
     page = st.radio(
         "功能",
         [
