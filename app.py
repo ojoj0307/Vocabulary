@@ -2303,13 +2303,13 @@ if page == "🎓 学习模式":
                 col_p1, col_p2 = st.columns(2)
                 with col_p1:
                     edit_new_cn_prof = st.checkbox(
-                        "中译英已掌握",
+                        "中译英已熟练",
                         value=word.get("cn_to_en_proficient", False),
                         key=f"new_edit_cn_prof_{index}"
                     )
                 with col_p2:
                     edit_new_en_prof = st.checkbox(
-                        "英译中已掌握",
+                        "英译中已熟练",
                         value=word.get("en_to_cn_proficient", False),
                         key=f"new_edit_en_prof_{index}"
                     )
@@ -2423,7 +2423,7 @@ elif page == "🎯 练习模式":
     st.header("🎯 练习模式")
 
     if review_settings.get("paused", False):
-        st.info("⏸️ 学习计划已暂停。恢复后才能继续间隔复习或已掌握单词复习。")
+        st.info("⏸️ 学习计划已暂停。恢复后才能继续间隔复习或已熟练单词复习。")
         st.stop()
 
     if not words:
@@ -2436,7 +2436,7 @@ elif page == "🎯 练习模式":
 
         practice_sub_mode = st.radio(
             "复习分类",
-            ["未熟练", "已掌握"],
+            ["未熟练", "已熟练"],
             horizontal=True,
             key="practice_sub_mode_radio"
         )
@@ -2474,11 +2474,11 @@ elif page == "🎯 练习模式":
 
         if practice_sub_mode == "未熟练":
             if not any(not w.get(prof_key, False) for w in words):
-                st.info(f"🎉 太棒了！当前【{question_type}】方向所有单词都已进入已掌握状态！您可以切换到「已掌握」子页面进行复习。")
+                st.info(f"🎉 太棒了！当前【{question_type}】方向所有单词都已进入已熟练状态！您可以切换到「已熟练」子页面进行复习。")
                 st.stop()
         else:
             if not any(w.get(prof_key, False) for w in words):
-                st.info(f"💡 当前【{question_type}】方向还没有已掌握的单词，请先在「未熟练」模式中完成间隔复习，或手动勾选已掌握。")
+                st.info(f"💡 当前【{question_type}】方向还没有已熟练的单词，请先在「未熟练」模式中完成间隔复习，或手动勾选已熟练。")
                 st.stop()
 
 
@@ -3217,7 +3217,7 @@ elif page == "📚 词库管理":
 
     st.subheader("✏️ 编辑词库")
 
-    # 编辑页面增加分类与掌握状态筛选功能
+    # 编辑页面增加分类与熟练状态筛选功能
     f_col1, f_col2 = st.columns(2)
     with f_col1:
         edit_cat_filter = st.selectbox(
@@ -3227,8 +3227,8 @@ elif page == "📚 词库管理":
         )
     with f_col2:
         edit_stat_filter = st.selectbox(
-            "掌握状态筛选",
-            ["全部", "中译英未掌握", "中译英已掌握", "英译中未掌握", "英译中已掌握"],
+            "熟练状态筛选",
+            ["全部", "中译英未熟练", "中译英已熟练", "英译中未熟练", "英译中已熟练"],
             key="edit_status_filter_box"
         )
 
@@ -3257,13 +3257,13 @@ elif page == "📚 词库管理":
         if edit_cat_filter != "全部" and word.get("category", "noun") != edit_cat_filter:
             continue
 
-        if edit_stat_filter == "中译英未掌握" and word.get("cn_to_en_proficient", False):
+        if edit_stat_filter == "中译英未熟练" and word.get("cn_to_en_proficient", False):
             continue
-        if edit_stat_filter == "中译英已掌握" and not word.get("cn_to_en_proficient", False):
+        if edit_stat_filter == "中译英已熟练" and not word.get("cn_to_en_proficient", False):
             continue
-        if edit_stat_filter == "英译中未掌握" and word.get("en_to_cn_proficient", False):
+        if edit_stat_filter == "英译中未熟练" and word.get("en_to_cn_proficient", False):
             continue
-        if edit_stat_filter == "英译中已掌握" and not word.get("en_to_cn_proficient", False):
+        if edit_stat_filter == "英译中已熟练" and not word.get("en_to_cn_proficient", False):
             continue
 
         with st.expander(
@@ -3275,13 +3275,13 @@ elif page == "📚 词库管理":
                 pronunciation_button(word["english"], f"vocab_pron_{index}")
             with top_col2:
                 new_cn_prof = st.checkbox(
-                    "中译英已掌握",
+                    "中译英已熟练",
                     value=word.get("cn_to_en_proficient", False),
                     key=f"edit_cn_prof_{index}"
                 )
             with top_col3:
                 new_en_prof = st.checkbox(
-                    "英译中已掌握",
+                    "英译中已熟练",
                     value=word.get("en_to_cn_proficient", False),
                     key=f"edit_en_prof_{index}"
                 )
@@ -3375,7 +3375,7 @@ elif page == "📚 词库管理":
                         word["cn_note"] = new_cn_note.strip()
                         word["en_note"] = new_en_note.strip()
 
-                        # 读取两个掌握复选框的当前状态
+                        # 读取两个熟练复选框的当前状态
                         word["cn_to_en_proficient"] = st.session_state[
                             f"edit_cn_prof_{index}"
                         ]
@@ -3387,9 +3387,9 @@ elif page == "📚 词库管理":
                         # 保存到 GitHub
                         if save_words():
                             st.success(
-                                f"修改成功！中译英已掌握："
+                                f"修改成功！中译英已熟练："
                                 f"{word['cn_to_en_proficient']}；"
-                                f"英译中已掌握："
+                                f"英译中已熟练："
                                 f"{word['en_to_cn_proficient']}。"
                                 "已同步到 GitHub。"
                             )
@@ -3459,10 +3459,10 @@ elif page == "📖 查看词库":
             "状态筛选",
             [
                 "全部",
-                "中译英未掌握",
-                "中译英已掌握",
-                "英译中未掌握",
-                "英译中已掌握"
+                "中译英未熟练",
+                "中译英已熟练",
+                "英译中未熟练",
+                "英译中已熟练"
             ],
             key="view_status_filter"
         )
@@ -3496,13 +3496,13 @@ elif page == "📖 查看词库":
 
                 continue
 
-            if status_filter == "中译英未掌握" and word.get("cn_to_en_proficient", False):
+            if status_filter == "中译英未熟练" and word.get("cn_to_en_proficient", False):
                 continue
-            if status_filter == "中译英已掌握" and not word.get("cn_to_en_proficient", False):
+            if status_filter == "中译英已熟练" and not word.get("cn_to_en_proficient", False):
                 continue
-            if status_filter == "英译中未掌握" and word.get("en_to_cn_proficient", False):
+            if status_filter == "英译中未熟练" and word.get("en_to_cn_proficient", False):
                 continue
-            if status_filter == "英译中已掌握" and not word.get("en_to_cn_proficient", False):
+            if status_filter == "英译中已熟练" and not word.get("en_to_cn_proficient", False):
                 continue
 
             filtered_words.append(word)
