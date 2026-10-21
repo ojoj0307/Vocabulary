@@ -1,6 +1,20 @@
 {
     "date": "2026-10-21",
-    "words": [],
+    "words": [
+        {
+            "english": "storage",
+            "chinese": "储存空间",
+            "category": "noun",
+            "cn_note": "",
+            "en_note": "",
+            "cn_to_en_proficient": false,
+            "en_to_cn_proficient": false,
+            "cn_to_en_weight": 3,
+            "en_to_cn_weight": 3,
+            "cn_to_en_round_done": false,
+            "en_to_cn_round_done": false
+        }
+    ],
     "rounds": {
         "中译英": [],
         "英译中": []
