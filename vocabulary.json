@@ -8939,7 +8939,7 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0,
+        "wrong": 1,
         "cn_to_en_not_seen": 73,
         "en_to_cn_not_seen": 69,
         "cn_to_en_round_done": false,
