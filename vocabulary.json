@@ -7447,7 +7447,7 @@
         "cn_to_en_streak": 0,
         "en_to_cn_streak": 0,
         "cn_to_en_proficient": false,
-        "cn_to_en_proficient": false
+        "en_to_cn_proficient": false
     },
     {
         "english": "rude",
@@ -8297,7 +8297,8 @@
         "cn_to_en_streak": 0,
         "en_to_cn_streak": 0,
         "cn_to_en_proficient": true,
-        "": true
+        "": true,
+        "en_to_cn_proficient": false
     },
     {
         "english": "fork",
@@ -8747,7 +8748,8 @@
         "cn_to_en_streak": 0,
         "en_to_cn_streak": 0,
         "cn_to_en_proficient": true,
-        "": true
+        "": true,
+        "en_to_cn_proficient": false
     },
     {
         "english": "condition",
