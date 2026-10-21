@@ -495,15 +495,18 @@ def save_review_settings():
 # ============================================================
 
 def default_daily_stats():
-
     return {
         "date": get_today(),
 
+        # 原有统计：所有复习模式
         "cn_to_en_answered": 0,
         "cn_to_en_correct": 0,
-
         "en_to_cn_answered": 0,
-        "en_to_cn_correct": 0
+        "en_to_cn_correct": 0,
+
+        # 新增统计：仅未熟练模式
+        "normal_cn_to_en_answered": 0,
+        "normal_en_to_cn_answered": 0,
     }
 
 
@@ -2960,12 +2963,23 @@ elif page == "🎯 练习模式":
                     )
 
 
+
                 today = get_today()
 
                 if daily_stats.get("date") != today:
 
                     daily_stats = default_daily_stats()
 
+                # 仅记录「未熟练」模式的今日答题次数
+                if practice_sub_mode == "未熟练":
+                    if question_type == "中译英":
+                        daily_stats["normal_cn_to_en_answered"] = (
+                            int(daily_stats.get("normal_cn_to_en_answered", 0)) + 1
+                        )
+                    else:
+                        daily_stats["normal_en_to_cn_answered"] = (
+                            int(daily_stats.get("normal_en_to_cn_answered", 0)) + 1
+                        )
 
                 if question_type == "中译英":
 
@@ -2991,8 +3005,8 @@ elif page == "🎯 练习模式":
                             "en_to_cn_correct"
                         ] += 1
 
-
                 save_daily_stats()
+
 
 
                 st.session_state.last_word_index = (
@@ -3026,86 +3040,93 @@ elif page == "🎯 练习模式":
                 st.rerun()
 
 
-        # ====================================================
-        # 今日统计
-        # ====================================================
 
-        st.divider()
+# ====================================================
+# 今日统计
+# ====================================================
 
-        cn_answered = int(
-            daily_stats.get(
-                "cn_to_en_answered",
-                0
-            )
+st.divider()
+st.subheader("📊 今日统计")
+
+if practice_sub_mode == "未熟练":
+    # 当前题型今天已经回答的未熟练题数
+    if question_type == "中译英":
+        answered_today = int(
+            daily_stats.get("normal_cn_to_en_answered", 0)
+        )
+    else:
+        answered_today = int(
+            daily_stats.get("normal_en_to_cn_answered", 0)
         )
 
-        cn_correct = int(
-            daily_stats.get(
-                "cn_to_en_correct",
-                0
-            )
+    # 当前题型仍然到期、尚未完成的任务数
+    remaining_due = len(get_due_normal_words(question_type))
+
+    # 今日所需总答题数 = 已回答 + 尚未完成
+    required_today = answered_today + remaining_due
+
+    col1, col2 = st.columns(2)
+
+    col1.metric(
+        "今日所需答题数",
+        required_today
+    )
+
+    col2.metric(
+        "今日已回答",
+        answered_today
+    )
+
+    st.progress(
+        min(1.0, answered_today / required_today)
+        if required_today > 0 else 1.0
+    )
+
+    if required_today > 0:
+        st.caption(
+            f"完成进度：{answered_today} / {required_today}"
         )
+    else:
+        st.caption("当前没有需要完成的未熟练复习任务。")
 
-        en_answered = int(
-            daily_stats.get(
-                "en_to_cn_answered",
-                0
-            )
-        )
+else:
+    # 已掌握模式：保留原本统计方式
+    cn_answered = int(
+        daily_stats.get("cn_to_en_answered", 0)
+    )
+    cn_correct = int(
+        daily_stats.get("cn_to_en_correct", 0)
+    )
+    en_answered = int(
+        daily_stats.get("en_to_cn_answered", 0)
+    )
+    en_correct = int(
+        daily_stats.get("en_to_cn_correct", 0)
+    )
 
-        en_correct = int(
-            daily_stats.get(
-                "en_to_cn_correct",
-                0
-            )
-        )
+    total_answered = cn_answered + en_answered
+    total_correct = cn_correct + en_correct
 
+    col1, col2, col3 = st.columns(3)
 
-        total_answered = (
-            cn_answered + en_answered
-        )
+    col1.metric(
+        "今日总答数",
+        total_answered
+    )
 
-        total_correct = (
-            cn_correct + en_correct
-        )
+    col2.metric(
+        "中译英",
+        f"{cn_correct} / {cn_answered}"
+    )
 
+    col3.metric(
+        "英译中",
+        f"{en_correct} / {en_answered}"
+    )
 
-        st.subheader("📊 今日统计")
-
-
-        col1, col2, col3 = st.columns(3)
-
-
-        col1.metric(
-            "今日总答数",
-            total_answered
-        )
-
-        col2.metric(
-            "中译英",
-            f"{cn_correct} / {cn_answered}"
-        )
-
-        col3.metric(
-            "英译中",
-            f"{en_correct} / {en_answered}"
-        )
-
-
-        if total_answered > 0:
-
-            accuracy = (
-                total_correct
-                /
-                total_answered
-                *
-                100
-            )
-
-            st.caption(
-                f"今日总正确率：{accuracy:.1f}%"
-            )
-
+    if total_answered > 0:
+        accuracy = total_correct / total_answered * 100
+        st.caption(f"今日总正确率：{accuracy:.1f}%")
 
 # ============================================================
 # ============================================================
