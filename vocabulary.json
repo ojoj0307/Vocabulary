@@ -2546,11 +2546,11 @@
         "chinese": "惊讶的",
         "category": "adjective",
         "correct": 5,
-        "wrong": 1,
+        "wrong": 2,
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 1,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 0,
+        "en_to_cn_wrong": 1,
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
@@ -2569,8 +2569,8 @@
         "cn_to_en_next_review": "2026-10-28",
         "cn_to_en_last_review": "2026-10-25",
         "en_to_cn_stage": 0,
-        "en_to_cn_next_review": "2026-10-21",
-        "en_to_cn_last_review": null
+        "en_to_cn_next_review": "2026-10-26",
+        "en_to_cn_last_review": "2026-10-25"
     },
     {
         "english": "confused",
