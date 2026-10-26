@@ -3537,13 +3537,13 @@ elif page == "📖 查看词库":
             hide_index=True,
             height=min(680, max(180, 38 * (len(table_df) + 1))),
             column_config={
-                "中文": st.column_config.TextColumn("中文", width="medium"),
-                "English": st.column_config.TextColumn("English", width="medium"),
+                "中文": st.column_config.TextColumn("中文", width="small"),
+                "English": st.column_config.TextColumn("English", width="small"),
                 "词性": st.column_config.TextColumn("词性", width="small"),
-                "中译英熟悉状态": st.column_config.NumberColumn("中译英熟悉状态", format="%d", width="medium"),
-                "英译中熟悉状态": st.column_config.NumberColumn("英译中熟悉状态", format="%d", width="medium"),
-                "中译英概率": st.column_config.TextColumn("中译英概率", width="small"),
-                "英译中概率": st.column_config.TextColumn("英译中概率", width="small"),
+                "中译英熟悉状态": st.column_config.NumberColumn("中译英熟悉度", format="%d", width="small"),
+                "英译中熟悉状态": st.column_config.NumberColumn("英译中熟悉度", format="%d", width="small"),
+                "中译英概率": st.column_config.TextColumn("中译英概率", width="medium"),
+                "英译中概率": st.column_config.TextColumn("英译中概率", width="medium"),
             },
         )
         st.caption("熟悉状态为 1–5；概率只对该方向已熟练的单词计算，未熟练单词显示 —。点击表头可排序。")
