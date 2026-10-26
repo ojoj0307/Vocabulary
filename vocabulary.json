@@ -10271,9 +10271,9 @@
         "en_to_cn_weight": 2,
         "cn_to_en_correct": 1,
         "cn_to_en_wrong": 0,
-        "en_to_cn_correct": 1,
+        "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
-        "correct": 2,
+        "correct": 3,
         "wrong": 0,
         "cn_to_en_not_seen": 129,
         "en_to_cn_not_seen": 27,
@@ -10288,9 +10288,9 @@
         "cn_to_en_stage": 1,
         "cn_to_en_next_review": "2026-10-28",
         "cn_to_en_last_review": "2026-10-25",
-        "en_to_cn_stage": 0,
-        "en_to_cn_next_review": "2026-10-21",
-        "en_to_cn_last_review": null
+        "en_to_cn_stage": 1,
+        "en_to_cn_next_review": "2026-10-29",
+        "en_to_cn_last_review": "2026-10-26"
     },
     {
         "english": "earn",
