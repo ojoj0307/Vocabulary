@@ -9402,9 +9402,9 @@
         "en_to_cn_weight": 3,
         "cn_to_en_correct": 0,
         "cn_to_en_wrong": 0,
-        "en_to_cn_correct": 0,
+        "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
-        "correct": 0,
+        "correct": 1,
         "wrong": 0,
         "cn_to_en_not_seen": 198,
         "en_to_cn_not_seen": 162,
@@ -9419,9 +9419,9 @@
         "cn_to_en_stage": 0,
         "cn_to_en_next_review": "2026-10-21",
         "cn_to_en_last_review": null,
-        "en_to_cn_stage": 0,
-        "en_to_cn_next_review": "2026-10-21",
-        "en_to_cn_last_review": null
+        "en_to_cn_stage": 1,
+        "en_to_cn_next_review": "2026-10-29",
+        "en_to_cn_last_review": "2026-10-26"
     },
     {
         "english": "wake",
