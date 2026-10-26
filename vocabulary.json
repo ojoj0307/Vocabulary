@@ -2421,11 +2421,11 @@
         "english": "stressed",
         "chinese": "有压力的",
         "category": "adjective",
-        "correct": 5,
+        "correct": 6,
         "wrong": 0,
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 0,
-        "en_to_cn_correct": 3,
+        "en_to_cn_correct": 4,
         "en_to_cn_wrong": 0,
         "cn_note": "",
         "en_note": "",
@@ -2444,9 +2444,9 @@
         "cn_to_en_stage": 1,
         "cn_to_en_next_review": "2026-10-28",
         "cn_to_en_last_review": "2026-10-25",
-        "en_to_cn_stage": 0,
-        "en_to_cn_next_review": "2026-10-21",
-        "en_to_cn_last_review": null
+        "en_to_cn_stage": 1,
+        "en_to_cn_next_review": "2026-10-29",
+        "en_to_cn_last_review": "2026-10-26"
     },
     {
         "english": "scared",
