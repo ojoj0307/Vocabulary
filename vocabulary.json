@@ -9424,8 +9424,8 @@
         "en_to_cn_last_review": "2026-10-26"
     },
     {
-        "english": "wake",
-        "chinese": "醒",
+        "english": "wake up",
+        "chinese": "醒来",
         "category": "verb",
         "cn_note": "",
         "en_note": "",
@@ -9445,8 +9445,8 @@
         "en_to_cn_priority": 12,
         "cn_to_en_streak": 0,
         "en_to_cn_streak": 0,
-        "cn_to_en_proficient": true,
-        "en_to_cn_proficient": true,
+        "cn_to_en_proficient": false,
+        "en_to_cn_proficient": false,
         "cn_to_en_stage": 0,
         "cn_to_en_next_review": "2026-10-21",
         "cn_to_en_last_review": null,
