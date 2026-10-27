@@ -12,7 +12,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "vehicle",
@@ -25,7 +27,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "destination",
@@ -38,7 +42,9 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "intersection",
@@ -51,7 +57,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "queue",
@@ -64,7 +72,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "refund",
@@ -77,7 +87,9 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "count",
@@ -90,7 +102,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 4,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "calculate",
@@ -103,7 +117,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "lead",
@@ -116,7 +132,9 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "scold",
@@ -129,7 +147,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "hate",
@@ -142,7 +162,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": true,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "admire",
@@ -155,7 +177,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 4,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "familiar",
@@ -168,7 +192,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "loud",
@@ -181,7 +207,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "warm",
@@ -194,7 +222,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "strong",
@@ -207,7 +237,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "full",
@@ -220,7 +252,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "pretty",
@@ -233,7 +267,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         }
     ],
     "rounds": {
