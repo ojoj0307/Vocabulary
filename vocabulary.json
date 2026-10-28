@@ -6143,9 +6143,9 @@
         "category": "noun",
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 2,
-        "en_to_cn_correct": 2,
+        "en_to_cn_correct": 3,
         "en_to_cn_wrong": 0,
-        "correct": 4,
+        "correct": 5,
         "wrong": 2,
         "cn_note": "",
         "en_note": "",
@@ -6164,9 +6164,9 @@
         "cn_to_en_stage": 1,
         "cn_to_en_next_review": "2026-10-31",
         "cn_to_en_last_review": "2026-10-28",
-        "en_to_cn_stage": 1,
-        "en_to_cn_next_review": "2026-10-28",
-        "en_to_cn_last_review": "2026-10-25"
+        "en_to_cn_stage": 2,
+        "en_to_cn_next_review": "2026-11-04",
+        "en_to_cn_last_review": "2026-10-28"
     },
     {
         "english": "forget",
