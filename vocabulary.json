@@ -6705,9 +6705,9 @@
         "en_to_cn_weight": 5,
         "cn_to_en_correct": 4,
         "cn_to_en_wrong": 0,
-        "en_to_cn_correct": 1,
+        "en_to_cn_correct": 2,
         "en_to_cn_wrong": 1,
-        "correct": 6,
+        "correct": 7,
         "wrong": 1,
         "cn_to_en_not_seen": 51,
         "en_to_cn_not_seen": 213,
@@ -6722,9 +6722,9 @@
         "cn_to_en_stage": 2,
         "cn_to_en_next_review": "2026-11-04",
         "cn_to_en_last_review": "2026-10-28",
-        "en_to_cn_stage": 1,
-        "en_to_cn_next_review": "2026-10-28",
-        "en_to_cn_last_review": "2026-10-25"
+        "en_to_cn_stage": 2,
+        "en_to_cn_next_review": "2026-11-05",
+        "en_to_cn_last_review": "2026-10-29"
     },
     {
         "english": "kitchen",
