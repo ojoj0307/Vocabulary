@@ -6484,9 +6484,9 @@
         "category": "noun",
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
-        "en_to_cn_correct": 0,
+        "en_to_cn_correct": 1,
         "en_to_cn_wrong": 0,
-        "correct": 3,
+        "correct": 4,
         "wrong": 0,
         "cn_note": "",
         "en_note": "",
@@ -6505,9 +6505,9 @@
         "cn_to_en_stage": 1,
         "cn_to_en_next_review": "2026-11-01",
         "cn_to_en_last_review": "2026-10-29",
-        "en_to_cn_stage": 0,
-        "en_to_cn_next_review": "2026-10-21",
-        "en_to_cn_last_review": null
+        "en_to_cn_stage": 1,
+        "en_to_cn_next_review": "2026-11-01",
+        "en_to_cn_last_review": "2026-10-29"
     },
     {
         "english": "lesson",
