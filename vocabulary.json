@@ -10581,9 +10581,9 @@
         "en_to_cn_weight": 3,
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
-        "en_to_cn_correct": 1,
+        "en_to_cn_correct": 2,
         "en_to_cn_wrong": 0,
-        "correct": 4,
+        "correct": 5,
         "wrong": 0,
         "cn_to_en_not_seen": 128,
         "en_to_cn_not_seen": 104,
@@ -10598,9 +10598,9 @@
         "cn_to_en_stage": 2,
         "cn_to_en_next_review": "2026-11-04",
         "cn_to_en_last_review": "2026-10-28",
-        "en_to_cn_stage": 1,
-        "en_to_cn_next_review": "2026-10-28",
-        "en_to_cn_last_review": "2026-10-25"
+        "en_to_cn_stage": 2,
+        "en_to_cn_next_review": "2026-11-05",
+        "en_to_cn_last_review": "2026-10-29"
     },
     {
         "english": "dangerous",
