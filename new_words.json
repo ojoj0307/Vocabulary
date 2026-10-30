@@ -11,7 +11,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -26,7 +26,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -39,7 +39,7 @@
             "en_note": "",
             "cn_to_en_proficient": false,
             "en_to_cn_proficient": false,
-            "cn_to_en_weight": 3,
+            "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
@@ -56,7 +56,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -71,7 +71,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -86,7 +86,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -101,7 +101,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -116,7 +116,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -131,7 +131,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -146,7 +146,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -161,7 +161,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -176,7 +176,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -191,7 +191,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -206,7 +206,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 6,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -221,7 +221,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
@@ -236,7 +236,7 @@
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
-            "cn_to_en_round_done": true,
+            "cn_to_en_round_done": false,
             "en_to_cn_round_done": false,
             "cn_to_en_not_seen": 0,
             "en_to_cn_not_seen": 0
