@@ -15200,7 +15200,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "reliable",
@@ -15221,7 +15229,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "wise",
@@ -15242,7 +15258,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "impatient",
@@ -15263,7 +15287,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "sensitive",
@@ -15284,7 +15316,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "appropriate",
@@ -15305,7 +15345,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "sit down",
@@ -15326,7 +15374,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "stand up",
@@ -15347,7 +15403,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "lie down",
@@ -15368,7 +15432,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "hurry up",
@@ -15389,7 +15461,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "slow down",
@@ -15410,7 +15490,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "stay up",
@@ -15431,7 +15519,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "get in",
@@ -15452,7 +15548,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "get out",
@@ -15473,7 +15577,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "accurate",
@@ -15494,7 +15606,15 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     },
     {
         "english": "efficient",
@@ -15515,6 +15635,14 @@
         "en_to_cn_correct": 0,
         "en_to_cn_wrong": 0,
         "correct": 0,
-        "wrong": 0
+        "wrong": 0,
+        "cn_to_en_stage": 0,
+        "cn_to_en_next_review": "2026-10-30",
+        "cn_to_en_last_review": null,
+        "en_to_cn_stage": 0,
+        "en_to_cn_next_review": "2026-10-30",
+        "en_to_cn_last_review": null,
+        "cn_to_en_not_seen": 0,
+        "en_to_cn_not_seen": 0
     }
 ]
