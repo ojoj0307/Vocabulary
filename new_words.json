@@ -12,7 +12,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "appointment",
@@ -25,7 +27,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "relationship",
@@ -38,7 +42,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "environment",
@@ -51,7 +57,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "behavior",
@@ -64,7 +72,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "effort",
@@ -77,7 +87,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "wipe",
@@ -90,7 +102,9 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "sweep",
@@ -103,7 +117,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "mop",
@@ -116,7 +132,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "fold",
@@ -129,7 +147,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "pour",
@@ -142,7 +162,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "spill",
@@ -155,7 +177,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "equal",
@@ -168,7 +192,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "average",
@@ -181,7 +207,9 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "entire",
@@ -194,7 +222,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 4,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "unusual",
@@ -207,7 +237,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "indirect",
@@ -220,7 +252,9 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "direct",
@@ -233,7 +267,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         }
     ],
     "rounds": {
