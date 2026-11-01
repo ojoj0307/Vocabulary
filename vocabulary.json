@@ -9402,9 +9402,9 @@
         "en_to_cn_weight": 1,
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 1,
-        "en_to_cn_correct": 2,
+        "en_to_cn_correct": 3,
         "en_to_cn_wrong": 0,
-        "correct": 4,
+        "correct": 5,
         "wrong": 1,
         "cn_to_en_not_seen": 198,
         "en_to_cn_not_seen": 162,
@@ -9419,9 +9419,9 @@
         "cn_to_en_stage": 2,
         "cn_to_en_next_review": "2026-11-06",
         "cn_to_en_last_review": "2026-10-30",
-        "en_to_cn_stage": 1,
-        "en_to_cn_next_review": "2026-11-01",
-        "en_to_cn_last_review": "2026-10-29"
+        "en_to_cn_stage": 2,
+        "en_to_cn_next_review": "2026-11-08",
+        "en_to_cn_last_review": "2026-11-01"
     },
     {
         "english": "wake up",
