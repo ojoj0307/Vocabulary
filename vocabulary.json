@@ -9426,7 +9426,7 @@
     {
         "english": "wake up",
         "chinese": "醒来",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_weight": 2,
@@ -14575,7 +14575,7 @@
     {
         "english": "get up",
         "chinese": "起床",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -14604,7 +14604,7 @@
     {
         "english": "go out",
         "chinese": "出去",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -14633,7 +14633,7 @@
     {
         "english": "go in",
         "chinese": "进去",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -14662,7 +14662,7 @@
     {
         "english": "go back",
         "chinese": "回去",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -14691,7 +14691,7 @@
     {
         "english": "come out",
         "chinese": "出来",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -14720,7 +14720,7 @@
     {
         "english": "come in",
         "chinese": "进来",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15358,7 +15358,7 @@
     {
         "english": "sit down",
         "chinese": "坐下",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15387,7 +15387,7 @@
     {
         "english": "stand up",
         "chinese": "站起",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15416,7 +15416,7 @@
     {
         "english": "lie down",
         "chinese": "躺下",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15445,7 +15445,7 @@
     {
         "english": "hurry up",
         "chinese": "快点",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15474,7 +15474,7 @@
     {
         "english": "slow down",
         "chinese": "放慢",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15503,7 +15503,7 @@
     {
         "english": "stay up",
         "chinese": "熬夜",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15532,7 +15532,7 @@
     {
         "english": "get in",
         "chinese": "上车",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15561,7 +15561,7 @@
     {
         "english": "get out",
         "chinese": "下车",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15648,7 +15648,7 @@
     {
         "english": "put on",
         "chinese": "穿",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15677,7 +15677,7 @@
     {
         "english": "take off",
         "chinese": "脱",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15706,7 +15706,7 @@
     {
         "english": "find out",
         "chinese": "查明",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15735,7 +15735,7 @@
     {
         "english": "figure out",
         "chinese": "想明白",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15764,7 +15764,7 @@
     {
         "english": "look for",
         "chinese": "寻找",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15793,7 +15793,7 @@
     {
         "english": "look after",
         "chinese": "照顾",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15822,7 +15822,7 @@
     {
         "english": "look at",
         "chinese": "看",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15851,7 +15851,7 @@
     {
         "english": "look up",
         "chinese": "查阅",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15880,7 +15880,7 @@
     {
         "english": "pick up",
         "chinese": "接人",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "to get someone",
         "cn_to_en_proficient": false,
@@ -15909,7 +15909,7 @@
     {
         "english": "pick up",
         "chinese": "拿起",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "to lift someone or something using your hands",
         "cn_to_en_proficient": false,
@@ -15938,7 +15938,7 @@
     {
         "english": "put down",
         "chinese": "放下",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
@@ -15967,7 +15967,7 @@
     {
         "english": "give up",
         "chinese": "放弃",
-        "category": "phrasal verb",
+        "category": "noun",
         "cn_note": "",
         "en_note": "",
         "cn_to_en_proficient": false,
