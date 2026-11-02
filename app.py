@@ -60,6 +60,7 @@ MALAYSIA_TZ = ZoneInfo("Asia/Kuala_Lumpur")
 CATEGORIES = [
     "noun",
     "verb",
+    "phrasal verb",
     "adjective",
     "adverb"
 ]
@@ -331,7 +332,14 @@ def github_save_file(
         )
 
         if response.status_code in [200, 201]:
-
+            # GitHub returns the new SHA in the PUT response. Keep it in the
+            # session so saving does not need another GET request just for SHA.
+            try:
+                saved_sha = response.json().get("content", {}).get("sha")
+                if saved_sha:
+                    st.session_state[f"_github_sha_{path}"] = saved_sha
+            except Exception:
+                pass
             return True
 
         st.error(
@@ -495,15 +503,18 @@ def save_review_settings():
 # ============================================================
 
 def default_daily_stats():
-
     return {
         "date": get_today(),
 
+        # 原有统计：所有复习模式
         "cn_to_en_answered": 0,
         "cn_to_en_correct": 0,
-
         "en_to_cn_answered": 0,
-        "en_to_cn_correct": 0
+        "en_to_cn_correct": 0,
+
+        # 新增统计：仅未熟练模式
+        "normal_cn_to_en_answered": 0,
+        "normal_en_to_cn_answered": 0,
     }
 
 
@@ -1107,14 +1118,42 @@ def load_daily_stats():
 # 加载全部数据
 # ============================================================
 
-review_settings_sha = None
-review_settings = load_review_settings()
-
-words, vocabulary_sha = load_words()
-
-new_words_data, new_words_sha = load_new_words()
-
-daily_stats, daily_stats_sha = load_daily_stats()
+# Keep the loaded data in Streamlit session state. Streamlit reruns the whole
+# script after every interaction; re-downloading all four JSON files on every
+# answer adds avoidable latency. Reload once per session and again after the
+# Malaysia-local date changes (needed for daily stats and new-word migration).
+_app_data_date = get_today()
+if (
+    st.session_state.get("_vocab_app_data_initialized", False)
+    and st.session_state.get("_vocab_app_data_date") == _app_data_date
+):
+    review_settings = st.session_state["_vocab_review_settings"]
+    review_settings_sha = st.session_state.get("_vocab_review_settings_sha")
+    words = st.session_state["_vocab_words"]
+    vocabulary_sha = st.session_state.get("_vocab_vocabulary_sha")
+    new_words_data = st.session_state["_vocab_new_words_data"]
+    new_words_sha = st.session_state.get("_vocab_new_words_sha")
+    daily_stats = st.session_state["_vocab_daily_stats"]
+    daily_stats_sha = st.session_state.get("_vocab_daily_stats_sha")
+    new_word_migration_blocked = st.session_state.get("_vocab_migration_blocked", False)
+else:
+    review_settings_sha = None
+    review_settings = load_review_settings()
+    words, vocabulary_sha = load_words()
+    new_word_migration_blocked = False
+    new_words_data, new_words_sha = load_new_words()
+    daily_stats, daily_stats_sha = load_daily_stats()
+    st.session_state["_vocab_app_data_initialized"] = True
+    st.session_state["_vocab_app_data_date"] = _app_data_date
+    st.session_state["_vocab_review_settings"] = review_settings
+    st.session_state["_vocab_review_settings_sha"] = review_settings_sha
+    st.session_state["_vocab_words"] = words
+    st.session_state["_vocab_vocabulary_sha"] = vocabulary_sha
+    st.session_state["_vocab_new_words_data"] = new_words_data
+    st.session_state["_vocab_new_words_sha"] = new_words_sha
+    st.session_state["_vocab_daily_stats"] = daily_stats
+    st.session_state["_vocab_daily_stats_sha"] = daily_stats_sha
+    st.session_state["_vocab_migration_blocked"] = new_word_migration_blocked
 
 new_words = new_words_data["words"]
 
@@ -1124,29 +1163,24 @@ new_words = new_words_data["words"]
 # ============================================================
 
 def save_words():
-
     global vocabulary_sha
 
-    latest_content, latest_sha = github_get_file(
-        VOCABULARY_PATH
-    )
-
-    if latest_sha is None:
+    # Always obtain the latest SHA before writing. A SHA kept in session state
+    # may become stale after another session or an external GitHub edit.
+    latest_content, latest_sha = github_get_file(VOCABULARY_PATH)
+    if latest_content is None or latest_sha is None:
+        st.error("无法读取 GitHub 最新词库，已取消保存。")
         return False
 
     success = github_save_file(
-        VOCABULARY_PATH,
-        words,
-        latest_sha,
-        "Update vocabulary"
+        VOCABULARY_PATH, words, latest_sha, "Update vocabulary"
     )
-
     if success:
-
-        _, vocabulary_sha = github_get_file(
-            VOCABULARY_PATH
+        vocabulary_sha = st.session_state.get(
+            f"_github_sha_{VOCABULARY_PATH}", latest_sha
         )
-
+        st.session_state["_vocab_vocabulary_sha"] = vocabulary_sha
+        st.session_state["_vocab_words"] = words
     return success
 
 
@@ -1156,36 +1190,27 @@ def save_words():
 
 
 def save_new_words():
-
     global new_words_sha
 
     # 如果昨天的新词迁移失败，不要提前更新日期
     if not new_word_migration_blocked:
         new_words_data["date"] = get_today()
-
     new_words_data["words"] = new_words
 
-
-    latest_content, latest_sha = github_get_file(
-        NEW_WORDS_PATH
-    )
-
-    if latest_sha is None:
+    current_sha = new_words_sha or st.session_state.get(f"_github_sha_{NEW_WORDS_PATH}")
+    if current_sha is None:
+        _, current_sha = github_get_file(NEW_WORDS_PATH)
+    if current_sha is None:
         return False
 
     success = github_save_file(
-        NEW_WORDS_PATH,
-        new_words_data,
-        latest_sha,
-        "Update daily new words"
+        NEW_WORDS_PATH, new_words_data, current_sha, "Update daily new words"
     )
-
     if success:
-
-        _, new_words_sha = github_get_file(
-            NEW_WORDS_PATH
-        )
-
+        new_words_sha = st.session_state.get(f"_github_sha_{NEW_WORDS_PATH}", current_sha)
+        st.session_state["_vocab_new_words_sha"] = new_words_sha
+        st.session_state["_vocab_new_words_data"] = new_words_data
+        st.session_state["_vocab_migration_blocked"] = new_word_migration_blocked
     return success
 
 
@@ -1194,29 +1219,21 @@ def save_new_words():
 # ============================================================
 
 def save_daily_stats():
-
     global daily_stats_sha
 
-    latest_content, latest_sha = github_get_file(
-        DAILY_STATS_PATH
-    )
-
-    if latest_sha is None:
+    current_sha = daily_stats_sha or st.session_state.get(f"_github_sha_{DAILY_STATS_PATH}")
+    if current_sha is None:
+        _, current_sha = github_get_file(DAILY_STATS_PATH)
+    if current_sha is None:
         return False
 
     success = github_save_file(
-        DAILY_STATS_PATH,
-        daily_stats,
-        latest_sha,
-        "Update daily statistics"
+        DAILY_STATS_PATH, daily_stats, current_sha, "Update daily statistics"
     )
-
     if success:
-
-        _, daily_stats_sha = github_get_file(
-            DAILY_STATS_PATH
-        )
-
+        daily_stats_sha = st.session_state.get(f"_github_sha_{DAILY_STATS_PATH}", current_sha)
+        st.session_state["_vocab_daily_stats_sha"] = daily_stats_sha
+        st.session_state["_vocab_daily_stats"] = daily_stats
     return success
 
 
@@ -1628,8 +1645,6 @@ with st.sidebar:
             else:
                 st.error("暂停状态保存失败，请检查 GitHub Token。")
 
-    st.caption("暂停时停止新词练习、间隔复习和新词自动迁移；恢复时复习日期会顺延。")
-
     page = st.radio(
         "功能",
         [
@@ -1639,6 +1654,24 @@ with st.sidebar:
             "📖 查看词库"
         ]
     )
+
+    if st.button("🔄 从 GitHub 刷新数据", use_container_width=True):
+        # Clear only the app's data cache; the next rerun fetches the latest JSON.
+        for cache_key in (
+            "_vocab_app_data_initialized",
+            "_vocab_app_data_date",
+            "_vocab_review_settings",
+            "_vocab_review_settings_sha",
+            "_vocab_words",
+            "_vocab_vocabulary_sha",
+            "_vocab_new_words_data",
+            "_vocab_new_words_sha",
+            "_vocab_daily_stats",
+            "_vocab_daily_stats_sha",
+            "_vocab_migration_blocked",
+        ):
+            st.session_state.pop(cache_key, None)
+        st.rerun()
 
 
 # ============================================================
@@ -1735,24 +1768,22 @@ if page == "🎓 学习模式":
                     "en_to_cn_round_done": False
                 }
                 new_words.append(new_word)
-
                 added += 1
 
-           
-                if added > 0:
-
-                    new_success = save_new_words()
-
-                    if new_success:
-                        st.success(
-                            f"成功添加 {added} 个新词。"
-                            "今天可以练习，明天自动加入正式词库。"
-                        )
-                        st.rerun()
-
-                    else:
-                        st.error("新词保存失败，请检查 GitHub Token。")
-
+            # Save only after all pasted rows have been processed. Saving and
+            # rerunning inside the loop interrupted the loop after row one.
+            if added > 0:
+                new_success = save_new_words()
+                if new_success:
+                    st.success(
+                        f"成功添加 {added} 个新词。"
+                        "今天可以练习，明天自动加入正式词库。"
+                    )
+                    if duplicate:
+                        st.info(f"{duplicate} 个今天已经存在的新词没有重复添加。")
+                    st.rerun()
+                else:
+                    st.error("新词保存失败，请检查 GitHub Token。")
 
             if duplicate:
                 st.info(f"{duplicate} 个今天已经存在的新词没有重复添加。")
@@ -2305,13 +2336,13 @@ if page == "🎓 学习模式":
                 col_p1, col_p2 = st.columns(2)
                 with col_p1:
                     edit_new_cn_prof = st.checkbox(
-                        "中译英已掌握",
+                        "中译英已熟练",
                         value=word.get("cn_to_en_proficient", False),
                         key=f"new_edit_cn_prof_{index}"
                     )
                 with col_p2:
                     edit_new_en_prof = st.checkbox(
-                        "英译中已掌握",
+                        "英译中已熟练",
                         value=word.get("en_to_cn_proficient", False),
                         key=f"new_edit_en_prof_{index}"
                     )
@@ -2425,7 +2456,7 @@ elif page == "🎯 练习模式":
     st.header("🎯 练习模式")
 
     if review_settings.get("paused", False):
-        st.info("⏸️ 学习计划已暂停。恢复后才能继续间隔复习或已掌握单词复习。")
+        st.info("⏸️ 学习计划已暂停。恢复后才能继续间隔复习或已熟练单词复习。")
         st.stop()
 
     if not words:
@@ -2438,7 +2469,7 @@ elif page == "🎯 练习模式":
 
         practice_sub_mode = st.radio(
             "复习分类",
-            ["未熟练", "已掌握"],
+            ["未熟练", "已熟练"],
             horizontal=True,
             key="practice_sub_mode_radio"
         )
@@ -2476,11 +2507,11 @@ elif page == "🎯 练习模式":
 
         if practice_sub_mode == "未熟练":
             if not any(not w.get(prof_key, False) for w in words):
-                st.info(f"🎉 太棒了！当前【{question_type}】方向所有单词都已进入已掌握状态！您可以切换到「已掌握」子页面进行复习。")
+                st.info(f"🎉 太棒了！当前【{question_type}】方向所有单词都已进入已熟练状态！您可以切换到「已熟练」子页面进行复习。")
                 st.stop()
         else:
             if not any(w.get(prof_key, False) for w in words):
-                st.info(f"💡 当前【{question_type}】方向还没有已掌握的单词，请先在「未熟练」模式中完成间隔复习，或手动勾选已掌握。")
+                st.info(f"💡 当前【{question_type}】方向还没有已熟练的单词，请先在「未熟练」模式中完成间隔复习，或手动勾选已熟练。")
                 st.stop()
 
 
@@ -2763,23 +2794,28 @@ elif page == "🎯 练习模式":
                         )
 
 
-                        save_words()
+                        # 将这次被确认的近义词答案视为正确答案。
+                        # 未熟练模式需要同步推进对应方向的间隔复习阶段；
+                        # 今日答题次数已经在原始提交时记录，不在这里重复增加。
+                        if practice_sub_mode == "未熟练":
+                            update_unmastered_review(
+                                last_word,
+                                question_type,
+                                True
+                            )
 
+                        save_success = save_words()
+                        if not save_success:
+                            st.error("⚠️ 词库保存失败，近义词修正尚未成功保存。")
+                            st.stop()
 
-                        if question_type == "中译英":
-
-                            daily_stats[
-                                "cn_to_en_correct"
-                            ] += 1
-
-                        else:
-
-                            daily_stats[
-                                "en_to_cn_correct"
-                            ] += 1
-
-
-                        save_daily_stats()
+                        if practice_sub_mode == "已熟悉":
+                            if question_type == "中译英":
+                                daily_stats["cn_to_en_correct"] = int(daily_stats.get("cn_to_en_correct", 0)) + 1
+                            else:
+                                daily_stats["en_to_cn_correct"] = int(daily_stats.get("en_to_cn_correct", 0)) + 1
+                            st.session_state["_vocab_daily_stats"] = daily_stats
+                            save_daily_stats()
 
                         st.session_state.last_correct = True
 
@@ -2962,40 +2998,35 @@ elif page == "🎯 练习模式":
                     )
 
 
+
                 today = get_today()
 
                 if daily_stats.get("date") != today:
-
                     daily_stats = default_daily_stats()
+                    st.session_state["_vocab_daily_stats"] = daily_stats
 
+                # 仅记录「未熟练」模式的今日答题次数
+                if practice_sub_mode == "未熟练":
+                    if question_type == "中译英":
+                        daily_stats["normal_cn_to_en_answered"] = (
+                            int(daily_stats.get("normal_cn_to_en_answered", 0)) + 1
+                        )
+                    else:
+                        daily_stats["normal_en_to_cn_answered"] = (
+                            int(daily_stats.get("normal_en_to_cn_answered", 0)) + 1
+                        )
 
-                if question_type == "中译英":
-
-                    daily_stats[
-                        "cn_to_en_answered"
-                    ] += 1
-
-                    if is_correct:
-
-                        daily_stats[
-                            "cn_to_en_correct"
-                        ] += 1
-
-                else:
-
-                    daily_stats[
-                        "en_to_cn_answered"
-                    ] += 1
-
-                    if is_correct:
-
-                        daily_stats[
-                            "en_to_cn_correct"
-                        ] += 1
-
-
-                save_daily_stats()
-
+                # These four counters belong exclusively to 已熟悉 mode.
+                # 未熟悉 mode has its own normal_*_answered counters above.
+                if practice_sub_mode == "已熟悉":
+                    if question_type == "中译英":
+                        daily_stats["cn_to_en_answered"] = int(daily_stats.get("cn_to_en_answered", 0)) + 1
+                        if is_correct:
+                            daily_stats["cn_to_en_correct"] = int(daily_stats.get("cn_to_en_correct", 0)) + 1
+                    else:
+                        daily_stats["en_to_cn_answered"] = int(daily_stats.get("en_to_cn_answered", 0)) + 1
+                        if is_correct:
+                            daily_stats["en_to_cn_correct"] = int(daily_stats.get("en_to_cn_correct", 0)) + 1
 
                 st.session_state.last_word_index = (
                     current_index
@@ -3018,14 +3049,22 @@ elif page == "🎯 练习模式":
 
                 save_success = save_words()
 
-
                 if not save_success:
-
                     st.error(
-                        "⚠️ 数据保存失败，请检查 GitHub Token 权限。"
+                        "⚠️ 单词复习状态保存失败，今日答题统计不会提交。"
+                        "请检查 GitHub Token 或刷新 GitHub 数据后重试。"
+                    )
+                    st.stop()
+
+                # 只有词库状态成功保存后，才提交本次答题统计。
+                st.session_state["_vocab_daily_stats"] = daily_stats
+                if not save_daily_stats():
+                    st.error(
+                        "⚠️ 单词复习状态已保存，但今日答题统计保存失败。"
                     )
 
                 st.rerun()
+
 
 
         # ====================================================
@@ -3033,81 +3072,87 @@ elif page == "🎯 练习模式":
         # ====================================================
 
         st.divider()
-
-        cn_answered = int(
-            daily_stats.get(
-                "cn_to_en_answered",
-                0
-            )
-        )
-
-        cn_correct = int(
-            daily_stats.get(
-                "cn_to_en_correct",
-                0
-            )
-        )
-
-        en_answered = int(
-            daily_stats.get(
-                "en_to_cn_answered",
-                0
-            )
-        )
-
-        en_correct = int(
-            daily_stats.get(
-                "en_to_cn_correct",
-                0
-            )
-        )
-
-
-        total_answered = (
-            cn_answered + en_answered
-        )
-
-        total_correct = (
-            cn_correct + en_correct
-        )
-
-
         st.subheader("📊 今日统计")
 
+        if practice_sub_mode == "未熟练":
+            # 当前题型今天已经回答的未熟练题数
+            if question_type == "中译英":
+                answered_today = int(
+                    daily_stats.get("normal_cn_to_en_answered", 0)
+                )
+            else:
+                answered_today = int(
+                    daily_stats.get("normal_en_to_cn_answered", 0)
+                )
 
-        col1, col2, col3 = st.columns(3)
+            # 当前题型仍然到期、尚未完成的任务数
+            remaining_due = len(get_due_normal_words(question_type))
 
+            # 今日所需总答题数 = 已回答 + 尚未完成
+            required_today = answered_today + remaining_due
 
-        col1.metric(
-            "今日总答数",
-            total_answered
-        )
+            col1, col2 = st.columns(2)
 
-        col2.metric(
-            "中译英",
-            f"{cn_correct} / {cn_answered}"
-        )
+            col1.metric(
+                "今日所需答题数",
+                required_today
+            )
 
-        col3.metric(
-            "英译中",
-            f"{en_correct} / {en_answered}"
-        )
+            col2.metric(
+                "今日已回答",
+                answered_today
+            )
 
+            st.progress(
+                min(1.0, answered_today / required_today)
+                if required_today > 0 else 1.0
+            )
 
-        if total_answered > 0:
+            if required_today > 0:
+                st.caption(
+                    f"完成进度：{answered_today} / {required_today}"
+                )
+            else:
+                st.caption("当前没有需要完成的未熟练复习任务。")
 
-            accuracy = (
-                total_correct
-                /
+        else:
+            # 已掌握模式：保留原本统计方式
+            cn_answered = int(
+                daily_stats.get("cn_to_en_answered", 0)
+            )
+            cn_correct = int(
+                daily_stats.get("cn_to_en_correct", 0)
+            )
+            en_answered = int(
+                daily_stats.get("en_to_cn_answered", 0)
+            )
+            en_correct = int(
+                daily_stats.get("en_to_cn_correct", 0)
+            )
+
+            total_answered = cn_answered + en_answered
+            total_correct = cn_correct + en_correct
+
+            col1, col2, col3 = st.columns(3)
+
+            col1.metric(
+                "今日总答数",
                 total_answered
-                *
-                100
             )
 
-            st.caption(
-                f"今日总正确率：{accuracy:.1f}%"
+            col2.metric(
+                "中译英",
+                f"{cn_correct} / {cn_answered}"
             )
 
+            col3.metric(
+                "英译中",
+                f"{en_correct} / {en_answered}"
+            )
+
+            if total_answered > 0:
+                accuracy = total_correct / total_answered * 100
+                st.caption(f"今日总正确率：{accuracy:.1f}%")
 
 # ============================================================
 # ============================================================
@@ -3219,18 +3264,18 @@ elif page == "📚 词库管理":
 
     st.subheader("✏️ 编辑词库")
 
-    # 编辑页面增加分类与掌握状态筛选功能
+    # 编辑页面增加分类与熟练状态筛选功能
     f_col1, f_col2 = st.columns(2)
     with f_col1:
         edit_cat_filter = st.selectbox(
             "词性分类筛选",
-            ["全部", "noun", "verb", "adjective", "adverb"],
+            ["全部"] + CATEGORIES,
             key="edit_category_filter_box"
         )
     with f_col2:
         edit_stat_filter = st.selectbox(
-            "掌握状态筛选",
-            ["全部", "中译英未掌握", "中译英已掌握", "英译中未掌握", "英译中已掌握"],
+            "熟练状态筛选",
+            ["全部", "中译英未熟练", "中译英已熟练", "英译中未熟练", "英译中已熟练"],
             key="edit_status_filter_box"
         )
 
@@ -3259,13 +3304,13 @@ elif page == "📚 词库管理":
         if edit_cat_filter != "全部" and word.get("category", "noun") != edit_cat_filter:
             continue
 
-        if edit_stat_filter == "中译英未掌握" and word.get("cn_to_en_proficient", False):
+        if edit_stat_filter == "中译英未熟练" and word.get("cn_to_en_proficient", False):
             continue
-        if edit_stat_filter == "中译英已掌握" and not word.get("cn_to_en_proficient", False):
+        if edit_stat_filter == "中译英已熟练" and not word.get("cn_to_en_proficient", False):
             continue
-        if edit_stat_filter == "英译中未掌握" and word.get("en_to_cn_proficient", False):
+        if edit_stat_filter == "英译中未熟练" and word.get("en_to_cn_proficient", False):
             continue
-        if edit_stat_filter == "英译中已掌握" and not word.get("en_to_cn_proficient", False):
+        if edit_stat_filter == "英译中已熟练" and not word.get("en_to_cn_proficient", False):
             continue
 
         with st.expander(
@@ -3277,13 +3322,13 @@ elif page == "📚 词库管理":
                 pronunciation_button(word["english"], f"vocab_pron_{index}")
             with top_col2:
                 new_cn_prof = st.checkbox(
-                    "中译英已掌握",
+                    "中译英已熟练",
                     value=word.get("cn_to_en_proficient", False),
                     key=f"edit_cn_prof_{index}"
                 )
             with top_col3:
                 new_en_prof = st.checkbox(
-                    "英译中已掌握",
+                    "英译中已熟练",
                     value=word.get("en_to_cn_proficient", False),
                     key=f"edit_en_prof_{index}"
                 )
@@ -3377,7 +3422,7 @@ elif page == "📚 词库管理":
                         word["cn_note"] = new_cn_note.strip()
                         word["en_note"] = new_en_note.strip()
 
-                        # 读取两个掌握复选框的当前状态
+                        # 读取两个熟练复选框的当前状态
                         word["cn_to_en_proficient"] = st.session_state[
                             f"edit_cn_prof_{index}"
                         ]
@@ -3389,9 +3434,9 @@ elif page == "📚 词库管理":
                         # 保存到 GitHub
                         if save_words():
                             st.success(
-                                f"修改成功！中译英已掌握："
+                                f"修改成功！中译英已熟练："
                                 f"{word['cn_to_en_proficient']}；"
-                                f"英译中已掌握："
+                                f"英译中已熟练："
                                 f"{word['en_to_cn_proficient']}。"
                                 "已同步到 GitHub。"
                             )
@@ -3430,611 +3475,88 @@ elif page == "📚 词库管理":
 # ============================================================
 
 elif page == "📖 查看词库":
-
     st.header("📖 我的词库")
 
     if not words:
-
         st.info("目前没有单词。")
-
     else:
-
-        search = st.text_input(
-            "🔍 搜索词库",
-            placeholder="输入英文或中文",
-            key="view_vocab_search"
-        )
-
-        category_filter = st.selectbox(
-            "词性筛选",
-            [
-                "全部",
-                "noun",
-                "verb",
-                "adjective",
-                "adverb"
-            ],
-            key="view_category_filter"
-        )
+        filter_col1, filter_col2 = st.columns([2, 1])
+        with filter_col1:
+            search = st.text_input(
+                "🔍 搜索词库", placeholder="输入英文或中文", key="view_vocab_search"
+            )
+        with filter_col2:
+            category_filter = st.selectbox(
+                "词性筛选", ["全部"] + CATEGORIES, key="view_category_filter"
+            )
 
         status_filter = st.selectbox(
-            "状态筛选",
-            [
-                "全部",
-                "中译英未掌握",
-                "中译英已掌握",
-                "英译中未掌握",
-                "英译中已掌握"
-            ],
-            key="view_status_filter"
+            "熟悉状态筛选",
+            ["全部", "中译英未熟练", "中译英已熟练", "英译中未熟练", "英译中已熟练"],
+            key="view_status_filter",
         )
 
         filtered_words = []
-
+        search_text = search.strip().casefold()
         for word in words:
-
-            if search:
-
-                if (
-                    search.lower()
-                    not in word["english"].lower()
-
-                    and
-
-                    search
-                    not in word["chinese"]
-                ):
-
-                    continue
-
-            if (
-                category_filter != "全部"
-
-                and
-
-                word.get("category", "noun")
-                != category_filter
-            ):
-
+            english = str(word.get("english", ""))
+            chinese = str(word.get("chinese", ""))
+            if search_text and search_text not in english.casefold() and search_text not in chinese:
                 continue
-
-            if status_filter == "中译英未掌握" and word.get("cn_to_en_proficient", False):
+            if category_filter != "全部" and word.get("category", "noun") != category_filter:
                 continue
-            if status_filter == "中译英已掌握" and not word.get("cn_to_en_proficient", False):
+            cn_prof = bool(word.get("cn_to_en_proficient", False))
+            en_prof = bool(word.get("en_to_cn_proficient", False))
+            if status_filter == "中译英未熟练" and cn_prof:
                 continue
-            if status_filter == "英译中未掌握" and word.get("en_to_cn_proficient", False):
+            if status_filter == "中译英已熟练" and not cn_prof:
                 continue
-            if status_filter == "英译中已掌握" and not word.get("en_to_cn_proficient", False):
+            if status_filter == "英译中未熟练" and en_prof:
                 continue
-
+            if status_filter == "英译中已熟练" and not en_prof:
+                continue
             filtered_words.append(word)
 
+        st.caption(f"找到 {len(filtered_words)} 个单词")
 
-        st.caption(
-            f"找到 {len(filtered_words)} 个单词"
-        )
+        def familiarity_level(word, direction):
+            # Display the raw stage value stored in vocabulary.json (0–4).
+            stage_key = f"{direction}_stage"
+            try:
+                return max(0, min(4, int(word.get(stage_key, 0))))
+            except (TypeError, ValueError):
+                return 0
 
-
-        # ====================================================
-        # 排序
-        # ====================================================
-
-        sort_field = st.session_state.vocab_sort_field
-        reverse = st.session_state.vocab_sort_reverse
-
-        if sort_field == "english":
-
-            filtered_words.sort(
-                key=lambda x: x.get(
-                    "english",
-                    ""
-                ).lower(),
-                reverse=reverse
-            )
-
-        elif sort_field == "chinese":
-
-            filtered_words.sort(
-                key=lambda x: x.get(
-                    "chinese",
-                    ""
-                ),
-                reverse=reverse
-            )
-
-        elif sort_field == "category":
-
-            filtered_words.sort(
-                key=lambda x: x.get(
-                    "category",
-                    ""
-                ),
-                reverse=reverse
-            )
-
-        elif sort_field == "cn_priority":
-
-            filtered_words.sort(
-                key=lambda x: int(x.get("cn_to_en_priority", 12)) if not x.get("cn_to_en_proficient", False) else 999,
-                reverse=reverse
-            )
-
-        elif sort_field == "en_priority":
-
-            filtered_words.sort(
-                key=lambda x: int(x.get("en_to_cn_priority", 12)) if not x.get("en_to_cn_proficient", False) else 999,
-                reverse=reverse
-            )
-
-        elif sort_field == "cn_prob":
-
-            filtered_words.sort(
-                key=lambda x: calculate_probability(x, "中译英") if x.get("cn_to_en_proficient", False) else -1,
-                reverse=reverse
-            )
-
-        elif sort_field == "en_prob":
-
-            filtered_words.sort(
-                key=lambda x: calculate_probability(x, "英译中") if x.get("en_to_cn_proficient", False) else -1,
-                reverse=reverse
-            )
-
-
-        st.markdown(
-            '<div class="mobile-hint">'
-            '📱 手机可以左右滑动查看完整词库；点击表头按钮排序'
-            '</div>',
-            unsafe_allow_html=True
-        )
-
-
-        cols = st.columns(
-            [1, 1, 0.7, 1.2, 1.2, 1, 1]
-        )
-
-
-        def sort_label(field, text):
-
-            if st.session_state.vocab_sort_field != field:
-
-                return text
-
-            if st.session_state.vocab_sort_reverse:
-
-                return text + "↓"
-
-            return text + "↑"
-
-
-        with cols[0]:
-
-            if st.button(
-                sort_label("english", "英文"),
-                key="sort_english",
-                use_container_width=True
-            ):
-
-                set_sort("english")
-                st.rerun()
-
-
-        with cols[1]:
-
-            if st.button(
-                sort_label("chinese", "中文"),
-                key="sort_chinese",
-                use_container_width=True
-            ):
-
-                set_sort("chinese")
-                st.rerun()
-
-
-        with cols[2]:
-
-            if st.button(
-                sort_label("category", "词性"),
-                key="sort_category",
-                use_container_width=True
-            ):
-
-                set_sort("category")
-                st.rerun()
-
-
-        with cols[3]:
-
-            if st.button(
-                sort_label("cn_priority", "中译英优先级"),
-                key="sort_cn_priority",
-                use_container_width=True
-            ):
-
-                set_sort("cn_priority")
-                st.rerun()
-
-
-        with cols[4]:
-
-            if st.button(
-                sort_label("en_priority", "英译中优先级"),
-                key="sort_en_priority",
-                use_container_width=True
-            ):
-
-                set_sort("en_priority")
-                st.rerun()
-
-
-        with cols[5]:
-
-            if st.button(
-                sort_label("cn_prob", "中译英概率"),
-                key="sort_cn_prob",
-                use_container_width=True
-            ):
-
-                set_sort("cn_prob")
-                st.rerun()
-
-
-        with cols[6]:
-
-            if st.button(
-                sort_label("en_prob", "英译中概率"),
-                key="sort_en_prob",
-                use_container_width=True
-            ):
-
-                set_sort("en_prob")
-                st.rerun()
-
-
-        # ====================================================
-        # HTML 表格
-        # ====================================================
-
-        rows = ""
-
+        table_rows = []
         for word in filtered_words:
-
-            english = html.escape(str(word.get("english", "")))
-            chinese = html.escape(str(word.get("chinese", "")))
-            category = html.escape(str(word.get("category", "noun")))
-            cn_note = html.escape(str(word.get("cn_note", "")))
-            en_note = html.escape(str(word.get("en_note", "")))
-
-            is_cn_prof = word.get("cn_to_en_proficient", False)
-            is_en_prof = word.get("en_to_cn_proficient", False)
-
-            cn_p = "-" if is_cn_prof else str(int(word.get("cn_to_en_priority", 12)))
-            en_p = "-" if is_en_prof else str(int(word.get("en_to_cn_priority", 12)))
-            cn_prob = f"{calculate_probability(word, '中译英'):.2f}%" if is_cn_prof else "-"
-            en_prob = f"{calculate_probability(word, '英译中'):.2f}%" if is_en_prof else "-"
-
-            cn_note_html = f"<br/><small class='note-text'>中备注: {cn_note}</small>" if cn_note else ""
-            en_note_html = f"<br/><small class='note-text'>英备注: {en_note}</small>" if en_note else ""
-
-            rows += f"""
-            <tr>
-
-                <td class="english">
-                    {english}
-                    {en_note_html}
-                </td>
-
-                <td>
-                    {chinese}
-                    {cn_note_html}
-                </td>
-
-                <td>
-                    {category}
-                </td>
-
-                <td>
-                    {cn_p}
-                </td>
-
-                <td>
-                    {en_p}
-                </td>
-
-                <td class="probability">
-                    {cn_prob}
-                </td>
-
-                <td class="probability">
-                    {en_prob}
-                </td>
-
-            </tr>
-            """
-
-
-        table_html = f"""
-        <!DOCTYPE html>
-
-        <html>
-
-        <head>
-
-        <meta charset="UTF-8">
-
-        <meta name="viewport"
-              content="width=device-width,
-                       initial-scale=1.0">
-
-        <style>
-
-        * {{
-            box-sizing: border-box;
-        }}
-
-        html,
-        body {{
-            margin: 0;
-            padding: 0;
-            width: 100%;
-        }}
-
-        body {{
-
-            font-family:
-                -apple-system,
-                BlinkMacSystemFont,
-                "Segoe UI",
-                Arial,
-                sans-serif;
-
-            font-size: 14px;
-
-            background-color: #ffffff;
-
-            color: #1f1f1f;
-
-        }}
-
-        .table-wrapper {{
-
-            width: 100%;
-
-            overflow-x: auto;
-
-            -webkit-overflow-scrolling: touch;
-
-            border: 1px solid #d9d9d9;
-
-            border-radius: 10px;
-
-            background-color: #ffffff;
-
-        }}
-
-        table {{
-
-            width: 100%;
-
-            min-width: 850px;
-
-            border-collapse: collapse;
-
-            background-color: #ffffff;
-
-            color: #1f1f1f;
-
-        }}
-
-        th {{
-
-            padding: 10px 8px;
-
-            text-align: left;
-
-            font-weight: 700;
-
-            color: #1f1f1f;
-
-            background-color: #f3f4f6;
-
-            border-bottom:
-                2px solid
-                #cfcfcf;
-
-            white-space: nowrap;
-
-        }}
-
-        td {{
-
-            padding: 9px 8px;
-
-            color: #1f1f1f;
-
-            background-color: #ffffff;
-
-            border-bottom:
-                1px solid
-                #e5e5e5;
-
-            white-space: nowrap;
-
-        }}
-
-        tr:last-child td {{
-
-            border-bottom: none;
-
-        }}
-
-        tbody tr:hover td {{
-
-            background-color: #f5f5f5;
-
-        }}
-
-        .english {{
-
-            font-weight: 600;
-
-            color: #111111;
-
-        }}
-
-        .probability {{
-
-            font-size: 13px;
-
-            color: #444444;
-
-        }}
-
-        .note-text {{
-
-            font-size: 11px;
-
-            opacity: 0.7;
-
-            font-weight: normal;
-
-        }}
-
-        @media (prefers-color-scheme: dark) {{
-
-            body {{
-
-                background-color: #0e1117;
-
-                color: #f1f1f1;
-
-            }}
-
-            .table-wrapper {{
-
-                background-color: #0e1117;
-
-                border-color: #3a3f47;
-
-            }}
-
-            table {{
-
-                background-color: #0e1117;
-
-                color: #f1f1f1;
-
-            }}
-
-            th {{
-
-                color: #ffffff;
-
-                background-color: #262b33;
-
-                border-bottom-color: #4a5059;
-
-            }}
-
-            td {{
-
-                color: #f1f1f1;
-
-                background-color: #0e1117;
-
-                border-bottom-color: #30353d;
-
-            }}
-
-            tbody tr:hover td {{
-
-                background-color: #1c2128;
-
-            }}
-
-            .english {{
-
-                color: #ffffff;
-
-            }}
-
-            .probability {{
-
-                color: #d0d0d0;
-
-            }}
-
-        }}
-
-        @media (max-width: 700px) {{
-
-            th,
-            td {{
-
-                padding: 8px 7px;
-
-                font-size: 13px;
-
-            }}
-
-        }}
-
-        </style>
-
-        </head>
-
-        <body>
-
-        <div class="table-wrapper">
-
-        <table>
-
-            <thead>
-
-                <tr>
-
-                    <th style="width: 15%;">英文</th>
-
-                    <th style="width: 15%;">中文</th>
-
-                    <th style="width: 10%;">词性</th>
-
-                    <th style="width: 15%;">中译英优先级</th>
-
-                    <th style="width: 15%;">英译中优先级</th>
-
-                    <th style="width: 15%;">中译英概率</th>
-
-                    <th style="width: 15%;">英译中概率</th>
-
-                </tr>
-
-            </thead>
-
-            <tbody>
-
-                {rows}
-
-            </tbody>
-
-        </table>
-
-        </div>
-
-        </body>
-
-        </html>
-        """
-
-
-        st.components.v1.html(
-            table_html,
-            height=max(
-                120,
-                min(
-                    800,
-                    65 + len(filtered_words) * 50
-                )
-            ),
-            scrolling=True
+            cn_prof = bool(word.get("cn_to_en_proficient", False))
+            en_prof = bool(word.get("en_to_cn_proficient", False))
+            table_rows.append({
+                "中文": str(word.get("chinese", "")),
+                "English": str(word.get("english", "")),
+                "词性": str(word.get("category", "noun")),
+                "中译英熟悉状态": familiarity_level(word, "cn_to_en"),
+                "英译中熟悉状态": familiarity_level(word, "en_to_cn"),
+                "中译英概率": f"{calculate_probability(word, '中译英'):.2f}%" if cn_prof else "—",
+                "英译中概率": f"{calculate_probability(word, '英译中'):.2f}%" if en_prof else "—",
+            })
+
+        table_df = pd.DataFrame(table_rows, columns=[
+            "中文", "English", "词性", "中译英熟悉状态", "英译中熟悉状态", "中译英概率", "英译中概率"
+        ])
+        st.dataframe(
+            table_df,
+            use_container_width=True,
+            hide_index=True,
+            height=min(680, max(180, 38 * (len(table_df) + 1))),
+            column_config={
+                "中文": st.column_config.TextColumn("中文", width="small"),
+                "English": st.column_config.TextColumn("English", width="small"),
+                "词性": st.column_config.TextColumn("词性", width="small"),
+                "中译英熟悉状态": st.column_config.NumberColumn("中译英熟悉度", format="%d", width="small"),
+                "英译中熟悉状态": st.column_config.NumberColumn("英译中熟悉度", format="%d", width="small"),
+                "中译英概率": st.column_config.TextColumn("中译英概率", width="medium"),
+                "英译中概率": st.column_config.TextColumn("英译中概率", width="medium"),
+            },
         )
+        st.caption("熟悉状态为 1–5；概率只对该方向已熟练的单词计算，未熟练单词显示 —。点击表头可排序。")
