@@ -2545,11 +2545,11 @@
         "english": "confused",
         "chinese": "困惑的",
         "category": "adjective",
-        "correct": 8,
+        "correct": 9,
         "wrong": 1,
         "cn_to_en_correct": 4,
         "cn_to_en_wrong": 1,
-        "en_to_cn_correct": 4,
+        "en_to_cn_correct": 5,
         "en_to_cn_wrong": 0,
         "cn_note": "",
         "en_note": "",
@@ -2568,9 +2568,9 @@
         "cn_to_en_stage": 2,
         "cn_to_en_next_review": "2026-11-05",
         "cn_to_en_last_review": "2026-10-29",
-        "en_to_cn_stage": 2,
-        "en_to_cn_next_review": "2026-11-04",
-        "en_to_cn_last_review": "2026-10-28"
+        "en_to_cn_stage": 3,
+        "en_to_cn_next_review": "2026-11-18",
+        "en_to_cn_last_review": "2026-11-04"
     },
     {
         "english": "weak",
