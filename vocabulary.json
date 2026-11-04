@@ -5585,9 +5585,9 @@
         "category": "noun",
         "cn_to_en_correct": 4,
         "cn_to_en_wrong": 0,
-        "en_to_cn_correct": 2,
+        "en_to_cn_correct": 3,
         "en_to_cn_wrong": 0,
-        "correct": 6,
+        "correct": 7,
         "wrong": 0,
         "cn_note": "",
         "en_note": "",
@@ -5606,9 +5606,9 @@
         "cn_to_en_stage": 3,
         "cn_to_en_next_review": "2026-11-18",
         "cn_to_en_last_review": "2026-11-04",
-        "en_to_cn_stage": 2,
-        "en_to_cn_next_review": "2026-11-04",
-        "en_to_cn_last_review": "2026-10-28"
+        "en_to_cn_stage": 3,
+        "en_to_cn_next_review": "2026-11-18",
+        "en_to_cn_last_review": "2026-11-04"
     },
     {
         "english": "technology",
