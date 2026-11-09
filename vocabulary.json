@@ -7573,9 +7573,9 @@
         "en_to_cn_weight": 1,
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 0,
-        "en_to_cn_correct": 3,
+        "en_to_cn_correct": 4,
         "en_to_cn_wrong": 0,
-        "correct": 6,
+        "correct": 7,
         "wrong": 0,
         "cn_to_en_not_seen": 187,
         "en_to_cn_not_seen": 20,
@@ -7590,9 +7590,9 @@
         "cn_to_en_stage": 2,
         "cn_to_en_next_review": "2026-11-13",
         "cn_to_en_last_review": "2026-11-03",
-        "en_to_cn_stage": 1,
-        "en_to_cn_next_review": "2026-11-08",
-        "en_to_cn_last_review": "2026-11-02"
+        "en_to_cn_stage": 2,
+        "en_to_cn_next_review": "2026-11-16",
+        "en_to_cn_last_review": "2026-11-09"
     },
     {
         "english": "light",
