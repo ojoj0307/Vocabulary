@@ -7357,9 +7357,9 @@
         "cn_to_en_correct": 2,
         "cn_to_en_wrong": 4,
         "en_to_cn_correct": 2,
-        "en_to_cn_wrong": 2,
+        "en_to_cn_wrong": 3,
         "correct": 4,
-        "wrong": 6,
+        "wrong": 7,
         "cn_to_en_not_seen": 165,
         "en_to_cn_not_seen": 62,
         "cn_to_en_round_done": false,
@@ -7374,8 +7374,8 @@
         "cn_to_en_next_review": "2026-11-11",
         "cn_to_en_last_review": "2026-11-01",
         "en_to_cn_stage": 2,
-        "en_to_cn_next_review": "2026-11-09",
-        "en_to_cn_last_review": "2026-10-30"
+        "en_to_cn_next_review": "2026-11-16",
+        "en_to_cn_last_review": "2026-11-09"
     },
     {
         "english": "wonder",
