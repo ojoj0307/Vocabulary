@@ -5771,9 +5771,9 @@
         "category": "verb",
         "cn_to_en_correct": 3,
         "cn_to_en_wrong": 2,
-        "en_to_cn_correct": 2,
+        "en_to_cn_correct": 3,
         "en_to_cn_wrong": 1,
-        "correct": 5,
+        "correct": 6,
         "wrong": 3,
         "cn_note": "",
         "en_note": "",
@@ -5792,9 +5792,9 @@
         "cn_to_en_stage": 3,
         "cn_to_en_next_review": "2026-11-25",
         "cn_to_en_last_review": "2026-11-11",
-        "en_to_cn_stage": 2,
-        "en_to_cn_next_review": "2026-11-11",
-        "en_to_cn_last_review": "2026-11-01"
+        "en_to_cn_stage": 3,
+        "en_to_cn_next_review": "2026-11-25",
+        "en_to_cn_last_review": "2026-11-11"
     },
     {
         "english": "remind",
