@@ -12,7 +12,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "pavement",
@@ -25,7 +25,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "patience",
@@ -38,7 +38,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "courage",
@@ -51,7 +51,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "expectation",
@@ -64,7 +64,7 @@
             "cn_to_en_weight": 1,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "impression",
@@ -77,7 +77,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "dig",
@@ -88,7 +88,7 @@
             "cn_to_en_proficient": false,
             "en_to_cn_proficient": false,
             "cn_to_en_weight": 2,
-            "en_to_cn_weight": 2,
+            "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
             "en_to_cn_round_done": false
         },
@@ -103,7 +103,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "force",
@@ -116,7 +116,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "cost",
@@ -129,7 +129,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "waterproof",
@@ -142,7 +142,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "disposable",
@@ -155,7 +155,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "fashionable",
@@ -168,7 +168,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "sore",
@@ -181,7 +181,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "itchy",
@@ -194,7 +194,7 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         },
         {
             "english": "energetic",
@@ -207,7 +207,7 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 1,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": true
+            "en_to_cn_round_done": false
         }
     ],
     "rounds": {
