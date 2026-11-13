@@ -1,9 +1,9 @@
 {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "cn_to_en_answered": 0,
     "cn_to_en_correct": 0,
     "en_to_cn_answered": 0,
     "en_to_cn_correct": 0,
-    "normal_cn_to_en_answered": 40,
-    "normal_en_to_cn_answered": 34
+    "normal_cn_to_en_answered": 0,
+    "normal_en_to_cn_answered": 0
 }
