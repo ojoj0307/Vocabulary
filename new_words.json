@@ -12,7 +12,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "pork",
@@ -25,7 +27,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "lamb",
@@ -38,7 +42,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "shrimp",
@@ -51,7 +57,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "crab",
@@ -64,7 +72,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "lobster",
@@ -77,7 +87,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "lack",
@@ -90,7 +102,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "concentrate",
@@ -103,7 +117,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "own",
@@ -116,7 +132,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "graduate",
@@ -129,7 +147,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "smell",
@@ -142,7 +162,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "express",
@@ -155,7 +177,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "neat",
@@ -168,7 +192,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "crowded",
@@ -181,7 +207,9 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": true,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "effective",
@@ -194,7 +222,9 @@
             "cn_to_en_weight": 3,
             "en_to_cn_weight": 3,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         }
     ],
     "rounds": {
