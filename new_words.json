@@ -12,7 +12,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "microwave",
@@ -25,7 +27,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "bowl",
@@ -38,7 +42,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "pepper",
@@ -51,7 +57,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "air conditioner",
@@ -64,7 +72,9 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "rubbish bin",
@@ -77,7 +87,9 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "washing machine",
@@ -90,7 +102,9 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "dryer",
@@ -103,7 +117,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "iron",
@@ -116,7 +132,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "ashamed",
@@ -129,7 +147,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "ordinary",
@@ -142,7 +162,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "formal",
@@ -155,7 +177,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "informal",
@@ -168,7 +192,9 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "usual",
@@ -181,7 +207,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "naive",
@@ -194,7 +222,9 @@
             "cn_to_en_weight": 4,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "childish",
@@ -207,7 +237,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "innocent",
@@ -220,7 +252,9 @@
             "cn_to_en_weight": 6,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         },
         {
             "english": "arrogant",
@@ -233,7 +267,9 @@
             "cn_to_en_weight": 2,
             "en_to_cn_weight": 2,
             "cn_to_en_round_done": false,
-            "en_to_cn_round_done": false
+            "en_to_cn_round_done": false,
+            "cn_to_en_not_seen": 0,
+            "en_to_cn_not_seen": 0
         }
     ],
     "rounds": {
